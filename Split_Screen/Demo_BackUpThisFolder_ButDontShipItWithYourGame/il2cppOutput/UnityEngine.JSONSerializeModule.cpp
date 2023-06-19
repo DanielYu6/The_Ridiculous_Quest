@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 template <typename R>
@@ -90,7 +89,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t2F9091E403B25A5364AE8A6B2C249E31D405E3F4 
 {
 };
-struct Il2CppArrayBounds;
 
 // UnityEngine.JsonUtility
 struct JsonUtility_t731013D97E03B7EDAE6186D6D6826A53B85F7197  : public RuntimeObject
@@ -109,12 +107,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -137,25 +129,11 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.IntPtr
 struct IntPtr_t 
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // System.Void
@@ -206,12 +184,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -258,12 +230,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -313,24 +279,6 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
-};
-
 // System.ArgumentException
 struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -352,6 +300,126 @@ struct ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129  : public
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
 };
+
+// <Module>
+
+// <Module>
+
+// UnityEngine.JsonUtility
+
+// UnityEngine.JsonUtility
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Void
+
+// System.Void
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.ScriptableObject
+
+// System.SystemException
+
+// System.SystemException
+
+// System.Type
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Type
+
+// System.ArgumentException
+
+// System.ArgumentException
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// System.ArgumentNullException
+
+// System.ArgumentNullException
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -359,23 +427,23 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 
 
 // System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___obj0, bool ___prettyPrint1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // System.String UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD (RuntimeObject* ___obj0, bool ___prettyPrint1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.ArgumentNullException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___paramName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
 // System.Boolean System.Type::get_IsAbstract()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_get_IsAbstract_m16FA83463867635ED9DECAE1C5F6BE96B4579CE5 (Type_t* __this, const RuntimeMethod* method) ;
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0 (String_t* ___json0, RuntimeObject* ___objectToOverwrite1, Type_t* ___type2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0 (String_t* ___0_json, RuntimeObject* ___1_objectToOverwrite, Type_t* ___2_type, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -390,31 +458,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.String UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD (RuntimeObject* ___obj0, bool ___prettyPrint1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) 
 {
 	typedef String_t* (*JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_ftn) (RuntimeObject*, bool);
 	static JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)");
-	String_t* icallRetVal = _il2cpp_icall_func(___obj0, ___prettyPrint1);
+	String_t* icallRetVal = _il2cpp_icall_func(___0_obj, ___1_prettyPrint);
 	return icallRetVal;
 }
 // System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0 (String_t* ___json0, RuntimeObject* ___objectToOverwrite1, Type_t* ___type2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0 (String_t* ___0_json, RuntimeObject* ___1_objectToOverwrite, Type_t* ___2_type, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_ftn) (String_t*, RuntimeObject*, Type_t*);
 	static JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)");
-	RuntimeObject* icallRetVal = _il2cpp_icall_func(___json0, ___objectToOverwrite1, ___type2);
+	RuntimeObject* icallRetVal = _il2cpp_icall_func(___0_json, ___1_objectToOverwrite, ___2_type);
 	return icallRetVal;
 }
 // System.String UnityEngine.JsonUtility::ToJson(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	{
-		RuntimeObject* L_0 = ___obj0;
+		RuntimeObject* L_0 = ___0_obj;
 		String_t* L_1;
 		L_1 = JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53(L_0, (bool)0, NULL);
 		V_0 = L_1;
@@ -428,7 +496,7 @@ IL_000b:
 	}
 }
 // System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___obj0, bool ___prettyPrint1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -445,7 +513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3
 	int32_t G_B6_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
-		RuntimeObject* L_0 = ___obj0;
+		RuntimeObject* L_0 = ___0_obj;
 		V_0 = (bool)((((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -460,21 +528,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3
 
 IL_0011:
 	{
-		RuntimeObject* L_2 = ___obj0;
+		RuntimeObject* L_2 = ___0_obj;
 		if (!((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)IsInstClass((RuntimeObject*)L_2, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)))
 		{
 			goto IL_0032;
 		}
 	}
 	{
-		RuntimeObject* L_3 = ___obj0;
+		RuntimeObject* L_3 = ___0_obj;
 		if (((MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)IsInstClass((RuntimeObject*)L_3, MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71_il2cpp_TypeInfo_var)))
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		RuntimeObject* L_4 = ___obj0;
+		RuntimeObject* L_4 = ___0_obj;
 		G_B6_0 = ((((int32_t)((!(((RuntimeObject*)(ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A*)((ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A*)IsInstClass((RuntimeObject*)L_4, ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0030;
 	}
@@ -513,8 +581,8 @@ IL_0033:
 
 IL_0042:
 	{
-		RuntimeObject* L_7 = ___obj0;
-		bool L_8 = ___prettyPrint1;
+		RuntimeObject* L_7 = ___0_obj;
+		bool L_8 = ___1_prettyPrint;
 		String_t* L_9;
 		L_9 = JsonUtility_ToJsonInternal_mB893BE1511779B2E36B24BC77D2FB52BF5894CDD(L_7, L_8, NULL);
 		V_1 = L_9;
@@ -528,7 +596,7 @@ IL_004c:
 	}
 }
 // System.Object UnityEngine.JsonUtility::FromJson(System.String,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A (String_t* ___json0, Type_t* ___type1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85BE40F8A96BAFEC189306813ECE30DF44A (String_t* ___0_json, Type_t* ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -543,7 +611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85B
 	bool V_3 = false;
 	int32_t G_B7_0 = 0;
 	{
-		String_t* L_0 = ___json0;
+		String_t* L_0 = ___0_json;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_0 = L_1;
@@ -560,7 +628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_m6DF4F85B
 
 IL_000f:
 	{
-		Type_t* L_3 = ___type1;
+		Type_t* L_3 = ___1_type;
 		V_2 = (bool)((((RuntimeObject*)(Type_t*)L_3) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_4 = V_2;
 		if (!L_4)
@@ -577,7 +645,7 @@ IL_000f:
 
 IL_0022:
 	{
-		Type_t* L_6 = ___type1;
+		Type_t* L_6 = ___1_type;
 		NullCheck(L_6);
 		bool L_7;
 		L_7 = Type_get_IsAbstract_m16FA83463867635ED9DECAE1C5F6BE96B4579CE5(L_6, NULL);
@@ -587,7 +655,7 @@ IL_0022:
 		}
 	}
 	{
-		Type_t* L_8 = ___type1;
+		Type_t* L_8 = ___1_type;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_9 = { reinterpret_cast<intptr_t> (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_10;
@@ -614,7 +682,7 @@ IL_003d:
 		}
 	}
 	{
-		Type_t* L_13 = ___type1;
+		Type_t* L_13 = ___1_type;
 		NullCheck(L_13);
 		String_t* L_14;
 		L_14 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, L_13);
@@ -628,8 +696,8 @@ IL_003d:
 
 IL_005c:
 	{
-		String_t* L_17 = ___json0;
-		Type_t* L_18 = ___type1;
+		String_t* L_17 = ___0_json;
+		Type_t* L_18 = ___1_type;
 		RuntimeObject* L_19;
 		L_19 = JsonUtility_FromJsonInternal_m6C8155071DFF33D870873F945D1E4C965D1FE6C0(L_17, NULL, L_18, NULL);
 		V_1 = L_19;

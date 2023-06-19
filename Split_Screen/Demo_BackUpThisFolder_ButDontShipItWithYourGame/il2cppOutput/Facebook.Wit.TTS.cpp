@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -958,12 +957,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.String>
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 {
@@ -977,19 +970,12 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
 struct ValueCollection_t7E5C565B83017703251B47439DD3D79734904801  : public RuntimeObject
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::_dictionary
 	Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* ____dictionary_0;
 };
-struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -1011,30 +997,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObjec
 	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback_13;
 	// System.Text.DecoderFallback System.Text.Encoding::decoderFallback
 	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
-};
-
-struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
-{
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
-	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
-	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_15;
 };
 
 // System.Security.Cryptography.HashAlgorithm
@@ -1062,12 +1024,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.Text.StringBuilder
@@ -1216,54 +1172,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 	bool ___m_iriParsing_22;
 };
 
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	// System.String System.Uri::UriSchemeFile
-	String_t* ___UriSchemeFile_0;
-	// System.String System.Uri::UriSchemeFtp
-	String_t* ___UriSchemeFtp_1;
-	// System.String System.Uri::UriSchemeGopher
-	String_t* ___UriSchemeGopher_2;
-	// System.String System.Uri::UriSchemeHttp
-	String_t* ___UriSchemeHttp_3;
-	// System.String System.Uri::UriSchemeHttps
-	String_t* ___UriSchemeHttps_4;
-	// System.String System.Uri::UriSchemeWs
-	String_t* ___UriSchemeWs_5;
-	// System.String System.Uri::UriSchemeWss
-	String_t* ___UriSchemeWss_6;
-	// System.String System.Uri::UriSchemeMailto
-	String_t* ___UriSchemeMailto_7;
-	// System.String System.Uri::UriSchemeNews
-	String_t* ___UriSchemeNews_8;
-	// System.String System.Uri::UriSchemeNntp
-	String_t* ___UriSchemeNntp_9;
-	// System.String System.Uri::UriSchemeNetTcp
-	String_t* ___UriSchemeNetTcp_10;
-	// System.String System.Uri::UriSchemeNetPipe
-	String_t* ___UriSchemeNetPipe_11;
-	// System.String System.Uri::SchemeDelimiter
-	String_t* ___SchemeDelimiter_12;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_23;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_24;
-	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_25;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_26;
-	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_27;
-	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_29;
-	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_30;
-	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
-	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
-};
-
 // System.UriBuilder
 struct UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72  : public RuntimeObject
 {
@@ -1321,14 +1229,6 @@ struct VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667  : public Run
 	CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* ____coroutine_8;
 };
 
-struct VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_StaticFields
-{
-	// System.Int32 Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::_requestCount
-	int32_t ____requestCount_1;
-	// System.Int32 Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Timeout
-	int32_t ___Timeout_2;
-};
-
 // Facebook.WitAi.Configuration.WitEndpointConfig
 struct WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0  : public RuntimeObject
 {
@@ -1346,12 +1246,6 @@ struct WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0  : public Run
 	String_t* ___message_6;
 	// System.String Facebook.WitAi.Configuration.WitEndpointConfig::dictation
 	String_t* ___dictation_7;
-};
-
-struct WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0_StaticFields
-{
-	// Facebook.WitAi.Configuration.WitEndpointConfig Facebook.WitAi.Configuration.WitEndpointConfig::defaultEndpointConfig
-	WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* ___defaultEndpointConfig_0;
 };
 
 // UnityEngine.YieldInstruction
@@ -1379,14 +1273,6 @@ struct U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E  : pu
 // Facebook.WitAi.TTS.TTSService/<>c
 struct U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9_StaticFields
-{
-	// Facebook.WitAi.TTS.TTSService/<>c Facebook.WitAi.TTS.TTSService/<>c::<>9
-	U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9* ___U3CU3E9_0;
-	// System.Predicate`1<Facebook.WitAi.TTS.TTSService> Facebook.WitAi.TTS.TTSService/<>c::<>9__1_0
-	Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* ___U3CU3E9__1_0_1;
 };
 
 // Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0
@@ -1498,14 +1384,6 @@ struct U3CPerformUpdateU3Ed__22_t8AF4B45D5E104013EA01D63B3FF643CA7BF21AF5  : pub
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c
 struct U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA_StaticFields
-{
-	// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::<>9
-	U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA* ___U3CU3E9_0;
-	// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri> Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::<>9__4_0
-	Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___U3CU3E9__4_0_1;
 };
 
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass4_0
@@ -1625,14 +1503,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Byte
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
@@ -1650,12 +1520,6 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
-};
-
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
 };
 // Native definition for P/Invoke marshalling of System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
@@ -1690,12 +1554,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // UnityEngine.PropertyAttribute
@@ -1791,16 +1649,6 @@ struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : 
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest
 struct WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB  : public VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667
 {
-};
-
-struct WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_StaticFields
-{
-	// UnityEngine.AudioType Facebook.WitAi.TTS.Utilities.WitUnityRequest::TTSAudioType
-	int32_t ___TTSAudioType_9;
-	// System.Func`2<System.UriBuilder,System.Uri> Facebook.WitAi.TTS.Utilities.WitUnityRequest::OnProvideCustomUri
-	Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___OnProvideCustomUri_13;
-	// System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> Facebook.WitAi.TTS.Utilities.WitUnityRequest::OnProvideCustomHeaders
-	Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___OnProvideCustomHeaders_14;
 };
 
 // UnityEngine.AsyncOperation
@@ -1976,12 +1824,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -2028,12 +1870,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -2193,24 +2029,6 @@ struct Type_t  : public MemberInfo_t
 {
 	// System.RuntimeTypeHandle System.Type::_impl
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
-};
-
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
 // UnityEngine.Networking.UnityWebRequest
@@ -2535,12 +2353,6 @@ struct TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD  : public MonoBehavi
 	SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___CLIP_HASH_9;
 };
 
-struct TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD_StaticFields
-{
-	// Facebook.WitAi.TTS.TTSService Facebook.WitAi.TTS.TTSService::_instance
-	TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* ____instance_4;
-};
-
 // Facebook.WitAi.TTS.Utilities.TTSSpeaker
 struct TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2593,6 +2405,735 @@ struct TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B  : public TTSService_t95
 	// Facebook.WitAi.TTS.Integrations.TTSWitVoiceSettings[] Facebook.WitAi.TTS.Integrations.TTSWit::_presetVoiceSettings
 	TTSWitVoiceSettingsU5BU5D_t8A5984357D11EF11AC448661E008D9AEF32DD8D6* ____presetVoiceSettings_18;
 };
+
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Attribute
+
+// System.Attribute
+
+// System.Text.Encoding
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
+	// System.Object System.Text.Encoding::s_InternalSyncObject
+	RuntimeObject* ___s_InternalSyncObject_15;
+};
+
+// System.Text.Encoding
+
+// System.Security.Cryptography.HashAlgorithm
+
+// System.Security.Cryptography.HashAlgorithm
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.Text.StringBuilder
+
+// System.Text.StringBuilder
+
+// Facebook.WitAi.TTS.Data.TTSClipData
+
+// Facebook.WitAi.TTS.Data.TTSClipData
+
+// Facebook.WitAi.TTS.Data.TTSDiskCacheSettings
+
+// Facebook.WitAi.TTS.Data.TTSDiskCacheSettings
+
+// Facebook.WitAi.TTS.Events.TTSDownloadEvents
+
+// Facebook.WitAi.TTS.Events.TTSDownloadEvents
+
+// Facebook.WitAi.TTS.Events.TTSServiceEvents
+
+// Facebook.WitAi.TTS.Events.TTSServiceEvents
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeakerEvents
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeakerEvents
+
+// Facebook.WitAi.TTS.Events.TTSStreamEvents
+
+// Facebook.WitAi.TTS.Events.TTSStreamEvents
+
+// Facebook.WitAi.TTS.Data.TTSVoiceSettings
+
+// Facebook.WitAi.TTS.Data.TTSVoiceSettings
+
+// UnityEngine.Events.UnityEventBase
+
+// UnityEngine.Events.UnityEventBase
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	// System.String System.Uri::UriSchemeFile
+	String_t* ___UriSchemeFile_0;
+	// System.String System.Uri::UriSchemeFtp
+	String_t* ___UriSchemeFtp_1;
+	// System.String System.Uri::UriSchemeGopher
+	String_t* ___UriSchemeGopher_2;
+	// System.String System.Uri::UriSchemeHttp
+	String_t* ___UriSchemeHttp_3;
+	// System.String System.Uri::UriSchemeHttps
+	String_t* ___UriSchemeHttps_4;
+	// System.String System.Uri::UriSchemeWs
+	String_t* ___UriSchemeWs_5;
+	// System.String System.Uri::UriSchemeWss
+	String_t* ___UriSchemeWss_6;
+	// System.String System.Uri::UriSchemeMailto
+	String_t* ___UriSchemeMailto_7;
+	// System.String System.Uri::UriSchemeNews
+	String_t* ___UriSchemeNews_8;
+	// System.String System.Uri::UriSchemeNntp
+	String_t* ___UriSchemeNntp_9;
+	// System.String System.Uri::UriSchemeNetTcp
+	String_t* ___UriSchemeNetTcp_10;
+	// System.String System.Uri::UriSchemeNetPipe
+	String_t* ___UriSchemeNetPipe_11;
+	// System.String System.Uri::SchemeDelimiter
+	String_t* ___SchemeDelimiter_12;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
+	bool ___s_ConfigInitialized_23;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
+	bool ___s_ConfigInitializing_24;
+	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
+	int32_t ___s_IdnScope_25;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
+	bool ___s_IriParsing_26;
+	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
+	bool ___useDotNetRelativeOrAbsolute_27;
+	// System.Boolean System.Uri::IsWindowsFileSystem
+	bool ___IsWindowsFileSystem_29;
+	// System.Object System.Uri::s_initLock
+	RuntimeObject* ___s_initLock_30;
+	// System.Char[] System.Uri::HexLowerChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
+	// System.Char[] System.Uri::_WSchars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+};
+
+// System.Uri
+
+// System.UriBuilder
+
+// System.UriBuilder
+
+// System.ValueType
+
+// System.ValueType
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest
+struct VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_StaticFields
+{
+	// System.Int32 Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::_requestCount
+	int32_t ____requestCount_1;
+	// System.Int32 Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Timeout
+	int32_t ___Timeout_2;
+};
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest
+
+// Facebook.WitAi.Configuration.WitEndpointConfig
+struct WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0_StaticFields
+{
+	// Facebook.WitAi.Configuration.WitEndpointConfig Facebook.WitAi.Configuration.WitEndpointConfig::defaultEndpointConfig
+	WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* ___defaultEndpointConfig_0;
+};
+
+// Facebook.WitAi.Configuration.WitEndpointConfig
+
+// UnityEngine.YieldInstruction
+
+// UnityEngine.YieldInstruction
+
+// Facebook.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0
+
+// Facebook.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0
+
+// Facebook.WitAi.TTS.TTSService/<>c
+struct U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9_StaticFields
+{
+	// Facebook.WitAi.TTS.TTSService/<>c Facebook.WitAi.TTS.TTSService/<>c::<>9
+	U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9* ___U3CU3E9_0;
+	// System.Predicate`1<Facebook.WitAi.TTS.TTSService> Facebook.WitAi.TTS.TTSService/<>c::<>9__1_0
+	Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* ___U3CU3E9__1_0_1;
+};
+
+// Facebook.WitAi.TTS.TTSService/<>c
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass65_0
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass65_0
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass71_0
+
+// Facebook.WitAi.TTS.TTSService/<>c__DisplayClass71_0
+
+// Facebook.WitAi.TTS.TTSService/<CallAfterAMoment>d__37
+
+// Facebook.WitAi.TTS.TTSService/<CallAfterAMoment>d__37
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeaker/<OnPlaybackWait>d__27
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeaker/<OnPlaybackWait>d__27
+
+// Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0
+
+// Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0
+
+// Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0
+
+// Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass3_0
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass3_0
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass5_0
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass5_0
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<PerformUpdate>d__22
+
+// Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<PerformUpdate>d__22
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c
+struct U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA_StaticFields
+{
+	// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::<>9
+	U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA* ___U3CU3E9_0;
+	// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri> Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::<>9__4_0
+	Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___U3CU3E9__4_0_1;
+};
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass4_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass4_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass5_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass5_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass6_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass6_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass8_0
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass8_0
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Facebook.WitAi.TTS.Data.TTSClipData>
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Utilities.TTSSpeaker,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Utilities.TTSSpeaker,System.String>
+
+// UnityEngine.Events.UnityEvent`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// UnityEngine.Events.UnityEvent`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Byte
+
+// System.Byte
+
+// System.Double
+
+// System.Double
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+
+// System.Enum
+
+// System.Reflection.FieldInfo
+
+// System.Reflection.FieldInfo
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.PropertyAttribute
+
+// UnityEngine.PropertyAttribute
+
+// System.Security.Cryptography.SHA256
+
+// System.Security.Cryptography.SHA256
+
+// UnityEngine.SceneManagement.Scene
+
+// UnityEngine.SceneManagement.Scene
+
+// System.Single
+
+// System.Single
+
+// Facebook.WitAi.TTS.Integrations.TTSWitRequestSettings
+
+// Facebook.WitAi.TTS.Integrations.TTSWitRequestSettings
+
+// Facebook.WitAi.TTS.Integrations.TTSWitVoiceSettings
+
+// Facebook.WitAi.TTS.Integrations.TTSWitVoiceSettings
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.WaitForEndOfFrame
+
+// UnityEngine.WaitForEndOfFrame
+
+// UnityEngine.WaitForSeconds
+
+// UnityEngine.WaitForSeconds
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest
+struct WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_StaticFields
+{
+	// UnityEngine.AudioType Facebook.WitAi.TTS.Utilities.WitUnityRequest::TTSAudioType
+	int32_t ___TTSAudioType_9;
+	// System.Func`2<System.UriBuilder,System.Uri> Facebook.WitAi.TTS.Utilities.WitUnityRequest::OnProvideCustomUri
+	Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___OnProvideCustomUri_13;
+	// System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> Facebook.WitAi.TTS.Utilities.WitUnityRequest::OnProvideCustomHeaders
+	Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___OnProvideCustomHeaders_14;
+};
+
+// Facebook.WitAi.TTS.Utilities.WitUnityRequest
+
+// UnityEngine.AsyncOperation
+
+// UnityEngine.AsyncOperation
+
+// UnityEngine.Networking.CertificateHandler
+
+// UnityEngine.Networking.CertificateHandler
+
+// UnityEngine.Coroutine
+
+// UnityEngine.Coroutine
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Networking.DownloadHandler
+
+// UnityEngine.Networking.DownloadHandler
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.RangeAttribute
+
+// UnityEngine.RangeAttribute
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// Facebook.WitAi.TTS.Events.TTSClipDownloadErrorEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipDownloadErrorEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipDownloadEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipDownloadEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipErrorEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipErrorEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipEvent
+
+// Facebook.WitAi.TTS.Events.TTSClipEvent
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeakerEvent
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeakerEvent
+
+// UnityEngine.Networking.UploadHandler
+
+// UnityEngine.Networking.UploadHandler
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.Networking.DownloadHandlerAudioClip
+
+// UnityEngine.Networking.DownloadHandlerAudioClip
+
+// UnityEngine.Networking.DownloadHandlerFile
+
+// UnityEngine.Networking.DownloadHandlerFile
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.ScriptableObject
+
+// System.SystemException
+
+// System.SystemException
+
+// System.Type
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Type
+
+// UnityEngine.Networking.UnityWebRequest
+
+// UnityEngine.Networking.UnityWebRequest
+
+// UnityEngine.Networking.UnityWebRequestAsyncOperation
+
+// UnityEngine.Networking.UnityWebRequestAsyncOperation
+
+// UnityEngine.Networking.UploadHandlerRaw
+
+// UnityEngine.Networking.UploadHandlerRaw
+
+// System.Action`1<System.Object>
+
+// System.Action`1<System.Object>
+
+// System.Action`1<System.Single>
+
+// System.Action`1<System.Single>
+
+// System.Action`1<System.String>
+
+// System.Action`1<System.String>
+
+// System.Action`1<UnityEngine.Networking.UnityWebRequest>
+
+// System.Action`1<UnityEngine.Networking.UnityWebRequest>
+
+// System.Action`2<UnityEngine.AudioClip,System.String>
+
+// System.Action`2<UnityEngine.AudioClip,System.String>
+
+// System.Action`2<System.Object,System.Int32Enum>
+
+// System.Action`2<System.Object,System.Int32Enum>
+
+// System.Action`2<System.Object,System.Object>
+
+// System.Action`2<System.Object,System.Object>
+
+// System.Action`2<System.Object,System.Single>
+
+// System.Action`2<System.Object,System.Single>
+
+// System.Action`2<System.String,System.Single>
+
+// System.Action`2<System.String,System.Single>
+
+// System.Action`2<System.String,System.String>
+
+// System.Action`2<System.String,System.String>
+
+// System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>
+
+// System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>
+
+// System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState>
+
+// System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState>
+
+// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>
+
+// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>
+
+// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>
+
+// System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>
+
+// System.Action`3<System.Object,System.Object,System.Object>
+
+// System.Action`3<System.Object,System.Object,System.Object>
+
+// System.Action`3<System.String,UnityEngine.AudioClip,System.String>
+
+// System.Action`3<System.String,UnityEngine.AudioClip,System.String>
+
+// System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// System.Func`1<System.Object>
+
+// System.Func`1<System.Object>
+
+// System.Func`2<System.Object,System.Object>
+
+// System.Func`2<System.Object,System.Object>
+
+// System.Func`2<System.UriBuilder,System.Uri>
+
+// System.Func`2<System.UriBuilder,System.Uri>
+
+// System.Predicate`1<Facebook.WitAi.TTS.TTSService>
+
+// System.Predicate`1<Facebook.WitAi.TTS.TTSService>
+
+// System.Predicate`1<Facebook.WitAi.TTS.Data.TTSVoiceSettings>
+
+// System.Predicate`1<Facebook.WitAi.TTS.Data.TTSVoiceSettings>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityAction`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityAction`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityAction`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// UnityEngine.Events.UnityAction`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Action
+
+// System.Action
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// Facebook.WitAi.Data.Configuration.WitConfiguration
+
+// Facebook.WitAi.Data.Configuration.WitConfiguration
+
+// UnityEngine.AudioBehaviour
+
+// UnityEngine.AudioBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.AudioSource
+
+// UnityEngine.AudioSource
+
+// Facebook.WitAi.TTS.Integrations.TTSDiskCache
+
+// Facebook.WitAi.TTS.Integrations.TTSDiskCache
+
+// Facebook.WitAi.TTS.Integrations.TTSRuntimeCache
+
+// Facebook.WitAi.TTS.Integrations.TTSRuntimeCache
+
+// Facebook.WitAi.TTS.TTSService
+struct TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD_StaticFields
+{
+	// Facebook.WitAi.TTS.TTSService Facebook.WitAi.TTS.TTSService::_instance
+	TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* ____instance_4;
+};
+
+// Facebook.WitAi.TTS.TTSService
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeaker
+
+// Facebook.WitAi.TTS.Utilities.TTSSpeaker
+
+// Facebook.WitAi.Utilities.CoroutineUtility/CoroutinePerformer
+
+// Facebook.WitAi.Utilities.CoroutineUtility/CoroutinePerformer
+
+// Facebook.WitAi.TTS.Integrations.TTSWit
+
+// Facebook.WitAi.TTS.Integrations.TTSWit
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2914,27 +3455,27 @@ struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8  : public Runti
 // T[] UnityEngine.Resources::FindObjectsOfTypeAll<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Resources_FindObjectsOfTypeAll_TisRuntimeObject_mD84D8C84477F126072383A3F1E7789DA25B4206B_gshared (const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // T System.Array::Find<System.Object>(T[],System.Predicate`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___match1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___1_match, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared (UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared (UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___0_call, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Keys()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* Dictionary_2_get_Keys_m72D290F90654BFD683FA7AA7C63D9F4F692218B6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::GetEnumerator()
@@ -2944,27 +3485,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEB2A61F3F3F420C1B1DF
 // TKey System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>::get_Current()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline (Enumerator_t65CC956745B1180C04CE6C6910FB27C5F32BB9FF* __this, const RuntimeMethod* method) ;
 // TValue System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Item(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mB5E00F11BCA3AC963F9BA72659FA76B107863F3C_gshared (Enumerator_t65CC956745B1180C04CE6C6910FB27C5F32BB9FF* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Int32Enum>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___arg10, int32_t ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Object>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::Invoke(T0,T1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Object,System.Object,System.Object>::Invoke(T1,T2,T3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::Invoke(T0,T1,T2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, RuntimeObject* ___arg22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, RuntimeObject* ___2_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2__ctor_m36CB65F6682CF6EFB69FE2F1939D331599C453E3_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponentInChildren<System.Object>()
@@ -2972,41 +3513,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChild
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Boolean System.Enum::TryParse<System.Int32Enum>(System.String,System.Boolean,TEnum&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_TryParse_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mFA292137760937B8EA617409A1F7480E1A5C105D_gshared (String_t* ___value0, bool ___ignoreCase1, int32_t* ___result2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_TryParse_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mFA292137760937B8EA617409A1F7480E1A5C105D_gshared (String_t* ___0_value, bool ___1_ignoreCase, int32_t* ___2_result, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Single>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Single>::Invoke(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Single>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___arg10, float ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___0_arg1, float ___1_arg2, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(TKey,TValue)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // TResult System.Func`2<System.Object,System.Object>::Invoke(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) ;
 // TResult System.Func`1<System.Object>::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Single>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m600728814D64949FB42DEE273E5E146A5E015BE1_gshared (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m600728814D64949FB42DEE273E5E146A5E015BE1_gshared (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // TSource[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::get_Count()
@@ -3016,98 +3557,98 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D
 // T UnityEngine.GameObject::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // T System.Reflection.CustomAttributeExtensions::GetCustomAttribute<System.Object>(System.Reflection.MemberInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared (MemberInfo_t* ___element0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared (MemberInfo_t* ___0_element, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3__ctor_m977F48E7B446FA00AE2DB8F68B71E2033313739A_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1__ctor_m8D77F4F05F69D0E52E8A445322811EEC25987525_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T[] UnityEngine.Resources::FindObjectsOfTypeAll<Facebook.WitAi.TTS.TTSService>()
 inline TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140* Resources_FindObjectsOfTypeAll_TisTTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD_mE55BA833CF612A4C41F57049A50BFB632505B612 (const RuntimeMethod* method)
 {
 	return ((  TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140* (*) (const RuntimeMethod*))Resources_FindObjectsOfTypeAll_TisRuntimeObject_mD84D8C84477F126072383A3F1E7789DA25B4206B_gshared)(method);
 }
 // System.Void System.Predicate`1<Facebook.WitAi.TTS.TTSService>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_mA432163F7860ABB231F2D184ECC977434B5A1BF7 (Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_mA432163F7860ABB231F2D184ECC977434B5A1BF7 (Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
 }
 // T System.Array::Find<Facebook.WitAi.TTS.TTSService>(T[],System.Predicate`1<T>)
-inline TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* Array_Find_TisTTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD_m4A939B7613B8B471ACE87A4B667AE1EDEAC04CCE (TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140* ___array0, Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* ___match1, const RuntimeMethod* method)
+inline TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* Array_Find_TisTTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD_m4A939B7613B8B471ACE87A4B667AE1EDEAC04CCE (TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140* ___0_array, Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52* ___1_match, const RuntimeMethod* method)
 {
-	return ((  TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* (*) (TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140*, Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___array0, ___match1, method);
+	return ((  TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* (*) (TTSServiceU5BU5D_t5381633CFF67FAF2576DFE49FB03B6D84A6DF140*, Predicate_1_t14EEEFB61FBE6BA3BF8E16F5C4D1AA87D5E8AC52*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___0_array, ___1_match, method);
 }
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Facebook.WitAi.TTS.Data.TTSClipData>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_m799453A504A1384BA523032A47B14D501BD1150F (UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_m799453A504A1384BA523032A47B14D501BD1150F (UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.TTS.Data.TTSClipData>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_m684B902E2F5D75FBEA85E93AFCC290FAD385FC1D (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_m684B902E2F5D75FBEA85E93AFCC290FAD385FC1D (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_mDF0DE3E79BB80E7A468A9B58A69A418AE90161E5 (UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_mDF0DE3E79BB80E7A468A9B58A69A418AE90161E5 (UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_AddListener_mDAEDF221A598D39C9D907829F37AACE63D9607AA (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_AddListener_mDAEDF221A598D39C9D907829F37AACE63D9607AA (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_3__ctor_m2F341CF594D6A6BD63DE4ADF5C967032EEA9C1DA (UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_3__ctor_m2F341CF594D6A6BD63DE4ADF5C967032EEA9C1DA (UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::AddListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-inline void UnityEvent_3_AddListener_mC98DD737DD6481563C2DFA6EE4E0DF841516F55F (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_3_AddListener_mC98DD737DD6481563C2DFA6EE4E0DF841516F55F (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, const RuntimeMethod*))UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, const RuntimeMethod*))UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.TTS.Data.TTSClipData>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_mEBA310FA17BD5388CE44E8CC6FF5ED3E4D13B7EA (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_mEBA310FA17BD5388CE44E8CC6FF5ED3E4D13B7EA (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, UnityAction_1_tA4388BD7C512BAEF590BB05A8472AC54BD919628*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_RemoveListener_m400539EF61F883413664A0703F2133A08F40D858 (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_RemoveListener_m400539EF61F883413664A0703F2133A08F40D858 (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, UnityAction_2_tDF70DBB24B815B02F4C6227A23B31109C3342AA7*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::RemoveListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-inline void UnityEvent_3_RemoveListener_m90876C834CD955A903DE77E301E22F443406A107 (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_3_RemoveListener_m90876C834CD955A903DE77E301E22F443406A107 (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, const RuntimeMethod*))UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, UnityAction_3_t9C617A628CBDC0D49ACA19A9E9C438DD0549A1B3*, const RuntimeMethod*))UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared)(__this, ___0_call, method);
 }
 // System.Void Facebook.WitAi.TTS.TTSService::UnloadAll()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_UnloadAll_m90B79B7B1D03F27D2950612CB8551921ACDC69DC (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, const RuntimeMethod* method) ;
 // System.Void System.Text.StringBuilder::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88 (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88 (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.Type System.Object::GetType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.String System.Enum::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___values0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Keys()
 inline KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342* Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
 {
@@ -3129,132 +3670,132 @@ inline String_t* Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9
 	return ((  String_t* (*) (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867*, const RuntimeMethod*))Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline)(__this, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Item(TKey)
-inline String_t* Dictionary_2_get_Item_mB13DFB3E7499031847CF544977D4EFB1AC0157AB (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, const RuntimeMethod* method)
+inline String_t* Dictionary_2_get_Item_mB13DFB3E7499031847CF544977D4EFB1AC0157AB (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  String_t* (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.String System.String::ToLower()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD (String_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Replace(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>::MoveNext()
 inline bool Enumerator_MoveNext_mE8FB9EBD177219F5AC0BF48642FB47D3E186C283 (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867*, const RuntimeMethod*))Enumerator_MoveNext_mB5E00F11BCA3AC963F9BA72659FA76B107863F3C_gshared)(__this, method);
 }
 // System.String Facebook.WitAi.TTS.TTSService::GetSha256Hash(System.Security.Cryptography.SHA256,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_mF63CF282ECF724FF6505A3752110FA6D04E23579 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___shaHash0, String_t* ___input1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_mF63CF282ECF724FF6505A3752110FA6D04E23579 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___0_shaHash, String_t* ___1_input, const RuntimeMethod* method) ;
 // System.Text.Encoding System.Text.Encoding::get_UTF8()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
 // System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) ;
 // System.String System.Byte::ToString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_m793A41EEEB7B422F6FE658E99D2F7683F59EE310 (uint8_t* __this, String_t* ___format0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_m793A41EEEB7B422F6FE658E99D2F7683F59EE310 (uint8_t* __this, String_t* ___0_format, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::GetRuntimeCachedClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_GetRuntimeCachedClip_m7BBFA9662907394F5336A3BD9EFBE63F5980B1DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___clipID0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_GetRuntimeCachedClip_m7BBFA9662907394F5336A3BD9EFBE63F5980B1DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_clipID, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Data.TTSClipData::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSClipData__ctor_m7C5F22000ABCAB8F122DB2BF11595A286E393368 (TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState>::Invoke(T1,T2)
-inline void Action_2_Invoke_m04CB138F2E5BFD7E2F7DD47D766DD51BD86FEB5C_inline (Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg10, int32_t ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m04CB138F2E5BFD7E2F7DD47D766DD51BD86FEB5C_inline (Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t, const RuntimeMethod*))Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t, const RuntimeMethod*))Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // Facebook.WitAi.TTS.Data.TTSVoiceSettings Facebook.WitAi.TTS.TTSService::GetPresetVoiceSettings(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___presetVoiceId0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_presetVoiceId, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_mBFF19B113A7013AFCF01E92C83C01FF18ED71352 (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::Invoke(T1,T2)
-inline void Action_2_Invoke_mE7F840CB53F1F6B008B4626F4555B0C20917B4FA_inline (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg10, String_t* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_mE7F840CB53F1F6B008B4626F4555B0C20917B4FA_inline (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg1, String_t* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Facebook.WitAi.TTS.TTSService::CallAfterAMoment(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m03F6421DBD973A75A352F0CE0D810DD1F5788765 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m03F6421DBD973A75A352F0CE0D810DD1F5788765 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_call, const RuntimeMethod* method) ;
 // Facebook.WitAi.Utilities.CoroutineUtility/CoroutinePerformer Facebook.WitAi.Utilities.CoroutineUtility::StartCoroutine(System.Collections.IEnumerator,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* CoroutineUtility_StartCoroutine_m7C524CBD6A1843216B6D8ED2433F7B948323C6C2 (RuntimeObject* ___asyncMethod0, bool ___useUpdate1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* CoroutineUtility_StartCoroutine_m7C524CBD6A1843216B6D8ED2433F7B948323C6C2 (RuntimeObject* ___0_asyncMethod, bool ___1_useUpdate, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnLoadBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_mEF23BE71AAF97F03FDD9466AD35CC930364A9AA5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_mEF23BE71AAF97F03FDD9466AD35CC930364A9AA5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService/<CallAfterAMoment>d__37::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__37__ctor_mE4C40CCA8612B26C4CE0C7E421C75BECF1CD13D5 (U3CCallAfterAMomentU3Ed__37_t8BB7A2BC48F5F6C2611E50E5E0B162F91236A009* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__37__ctor_mE4C40CCA8612B26C4CE0C7E421C75BECF1CD13D5 (U3CCallAfterAMomentU3Ed__37_t8BB7A2BC48F5F6C2611E50E5E0B162F91236A009* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Events.TTSServiceEvents Facebook.WitAi.TTS.TTSService::get_Events()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* TTSService_get_Events_m98892810A0ADE99063C206960F02B517971460B5_inline (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.TTS.Data.TTSClipData>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_t5B5E4691EB2AA6652BAEF9571F18FB5E9DBCBA0A*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamBegin(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamReady(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.String>::Invoke(T)
-inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, String_t* ___obj0, const RuntimeMethod* method)
+inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, String_t* ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, String_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___obj0, method);
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, String_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamCancel(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::Unload(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamError(Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, bool ___fromDisk2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, bool ___2_fromDisk, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_tCC54ED7ECAB39177455C85E65A0F33D0E70150A4*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.Void System.Array::CopyTo(System.Array,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB (RuntimeArray* __this, RuntimeArray* ___array0, int32_t ___index1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB (RuntimeArray* __this, RuntimeArray* ___0_array, int32_t ___1_index, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnUnloadBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.TTS.TTSService::GetDiskCachePath(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m3C99E181DA4B30F07D914D667E970F3AAA8BE650 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m3C99E181DA4B30F07D914D667E970F3AAA8BE650 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___4_onDownloadComplete, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass65_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass65_0__ctor_m090FAC9A96F59AD91AB65A190ED94CDF802254D7 (U3CU3Ec__DisplayClass65_0_t86485B11268FBD09BF3B5A73701C1056FAE57AE6* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Void System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::Invoke(T1,T2,T3)
-inline void Action_3_Invoke_mF256D0A572644A7C694F8A5C9AD0F1295999A8C8_inline (Action_3_t3D676E8D072895C382459BE5575CBA308018765C* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg10, String_t* ___arg21, String_t* ___arg32, const RuntimeMethod* method)
+inline void Action_3_Invoke_mF256D0A572644A7C694F8A5C9AD0F1295999A8C8_inline (Action_3_t3D676E8D072895C382459BE5575CBA308018765C* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg1, String_t* ___1_arg2, String_t* ___2_arg3, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t3D676E8D072895C382459BE5575CBA308018765C*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+	((  void (*) (Action_3_t3D676E8D072895C382459BE5575CBA308018765C*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, method);
 }
 // System.Boolean UnityEngine.Application::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::Invoke(T0,T1,T2)
-inline void UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___arg00, String_t* ___arg11, String_t* ___arg22, const RuntimeMethod* method)
+inline void UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_arg0, String_t* ___1_arg1, String_t* ___2_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared)(__this, ___arg00, ___arg11, ___arg22, method);
+	((  void (*) (UnityEvent_3_tC2B41DE4BE6078E43C0DED0C01DCFA8AA826A52F*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared)(__this, ___0_arg0, ___1_arg1, ___2_arg2, method);
 }
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass71_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass71_0__ctor_m920B6F1AB8F969E41E365F3E3285E68F5D05DE86 (U3CU3Ec__DisplayClass71_0_tE5AB0DA778E15AE0080703ED570FC98ECC1E440B* __this, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<Facebook.WitAi.TTS.Data.TTSVoiceSettings>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_m5203FAABCE77244BD62CD785C1DB8EBFDEB4B859 (Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_m5203FAABCE77244BD62CD785C1DB8EBFDEB4B859 (Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
 }
 // T System.Array::Find<Facebook.WitAi.TTS.Data.TTSVoiceSettings>(T[],System.Predicate`1<T>)
-inline TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* Array_Find_TisTTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104_m9375F80C466E04279BA7167C0E052C5F25104137 (TTSVoiceSettingsU5BU5D_tD5376A79EF5ADF8E6DFBCEA747970C68F275FC91* ___array0, Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC* ___match1, const RuntimeMethod* method)
+inline TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* Array_Find_TisTTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104_m9375F80C466E04279BA7167C0E052C5F25104137 (TTSVoiceSettingsU5BU5D_tD5376A79EF5ADF8E6DFBCEA747970C68F275FC91* ___0_array, Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC* ___1_match, const RuntimeMethod* method)
 {
-	return ((  TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* (*) (TTSVoiceSettingsU5BU5D_tD5376A79EF5ADF8E6DFBCEA747970C68F275FC91*, Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___array0, ___match1, method);
+	return ((  TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* (*) (TTSVoiceSettingsU5BU5D_tD5376A79EF5ADF8E6DFBCEA747970C68F275FC91*, Predicate_1_t1188C524B3424B59A0DDB8ABB6B1800A91DBB3CC*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___0_array, ___1_match, method);
 }
 // System.Void Facebook.WitAi.TTS.Events.TTSServiceEvents::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSServiceEvents__ctor_m3887C7D2504FB73D0E6E2642DDBD9E1EEB3C21D9 (TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* __this, const RuntimeMethod* method) ;
@@ -3273,24 +3814,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B9223183
 // System.Int32 UnityEngine.SceneManagement.Scene::get_rootCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_rootCount_mCEEBE76B883D2FCDC25AB8D2DEE565E696887D6B (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamError(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_mD74BC8852A3641342B1D7887AF51A369957E913D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_mD74BC8852A3641342B1D7887AF51A369957E913D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.TTSService::ShouldCacheToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mF9799C2D67960DD11CA622236A218DDC6E5CAC92 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mF9799C2D67960DD11CA622236A218DDC6E5CAC92 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadBegin(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m58EF6BD457DD964F649E7D55C4F7764266FEA7F6 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m58EF6BD457DD964F649E7D55C4F7764266FEA7F6 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadCancel(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m2BBD36777376BDD4D35F62F889C3094AB993D855 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m2BBD36777376BDD4D35F62F889C3094AB993D855 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_mB034109D046E0717E6F8259573E00DD749AC1268 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_mB034109D046E0717E6F8259573E00DD749AC1268 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamCancel(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_mE6114CA226904393D551C1CEBB1AB66A0252EC6F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_mE6114CA226904393D551C1CEBB1AB66A0252EC6F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_3__ctor_m0D903FD5BC01BE67CB73857563CE2532E8ADDA80 (Action_3_t3D676E8D072895C382459BE5575CBA308018765C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_3__ctor_m0D903FD5BC01BE67CB73857563CE2532E8ADDA80 (Action_3_t3D676E8D072895C382459BE5575CBA308018765C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t3D676E8D072895C382459BE5575CBA308018765C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_3_t3D676E8D072895C382459BE5575CBA308018765C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Boolean System.String::Equals(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForEndOfFrame::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* __this, const RuntimeMethod* method) ;
 // System.Void System.Action::Invoke()
@@ -3298,7 +3839,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String,System.String,System.StringComparison)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___a0, String_t* ___b1, int32_t ___comparisonType2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___0_a, String_t* ___1_b, int32_t ___2_comparisonType, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Utilities.TTSSpeaker,System.String>::.ctor()
 inline void UnityEvent_2__ctor_m5E06ABFB25D8BF888C80BC3E1CACF5EE68899683 (UnityEvent_2_tA8C698AB56B3E74270F3704564F2CBF1ED6B9237* __this, const RuntimeMethod* method)
 {
@@ -3317,9 +3858,9 @@ inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* GameObject_AddComp
 	return ((  AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
 // System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Data.TTSVoiceSettings Facebook.WitAi.TTS.Utilities.TTSSpeaker::get_VoiceSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* TTSSpeaker_get_VoiceSettings_m346C2FB15246AEE6BFE2B511FC44840741FCF6B6 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.Utilities.TTSSpeaker::get_IsSpeaking()
@@ -3329,228 +3870,228 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m318F17F17A147C77FF6E0A
 // Facebook.WitAi.TTS.Utilities.TTSSpeakerEvents Facebook.WitAi.TTS.Utilities.TTSSpeaker::get_Events()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSSpeakerEvents_tD08CD2AFB0C82B37BB8960692419965CA1C21862* TTSSpeaker_get_Events_m1BEE573B52A140339E2D8031027D81398EF6DCC9_inline (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<Facebook.WitAi.TTS.Utilities.TTSSpeaker,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_m1DA2EF457EDA02310578FB853C4C5FC506760627 (UnityEvent_2_tA8C698AB56B3E74270F3704564F2CBF1ED6B9237* __this, TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_m1DA2EF457EDA02310578FB853C4C5FC506760627 (UnityEvent_2_tA8C698AB56B3E74270F3704564F2CBF1ED6B9237* __this, TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_tA8C698AB56B3E74270F3704564F2CBF1ED6B9237*, TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_tA8C698AB56B3E74270F3704564F2CBF1ED6B9237*, TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.Void System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_mCC51F5408B1D4CCA203CAF1B14AB6B5A53A2CB03 (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_mCC51F5408B1D4CCA203CAF1B14AB6B5A53A2CB03 (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker/<OnPlaybackWait>d__27::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPlaybackWaitU3Ed__27__ctor_m14F342CBC8B88A2721AD3E9F1659A57F07566848 (U3COnPlaybackWaitU3Ed__27_t1D05BF7B41DAA81FB69D9C982664E591BE122286* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPlaybackWaitU3Ed__27__ctor_m14F342CBC8B88A2721AD3E9F1659A57F07566848 (U3COnPlaybackWaitU3Ed__27_t1D05BF7B41DAA81FB69D9C982664E591BE122286* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
 // System.Single UnityEngine.AudioClip::get_length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___seconds0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,UnityEngine.AudioType,System.Action`2<System.String,System.Single>,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC (String_t* ___audioUrl0, int32_t ___audioType1, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onAudioClipProgress2, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC (String_t* ___0_audioUrl, int32_t ___1_audioType, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___2_onAudioClipProgress, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___3_onAudioClipReady, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass3_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m79D7E030BCB7C9FDF104764C004965137DE2C480 (U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* __this, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetExtension(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetExtension_m6FEAA9E14451BFD210B9D1AEC2430C813F570FE5 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetExtension_m6FEAA9E14451BFD210B9D1AEC2430C813F570FE5 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Boolean System.Enum::TryParse<UnityEngine.AudioType>(System.String,System.Boolean,TEnum&)
-inline bool Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D (String_t* ___value0, bool ___ignoreCase1, int32_t* ___result2, const RuntimeMethod* method)
+inline bool Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D (String_t* ___0_value, bool ___1_ignoreCase, int32_t* ___2_result, const RuntimeMethod* method)
 {
-	return ((  bool (*) (String_t*, bool, int32_t*, const RuntimeMethod*))Enum_TryParse_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mFA292137760937B8EA617409A1F7480E1A5C105D_gshared)(___value0, ___ignoreCase1, ___result2, method);
+	return ((  bool (*) (String_t*, bool, int32_t*, const RuntimeMethod*))Enum_TryParse_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_mFA292137760937B8EA617409A1F7480E1A5C105D_gshared)(___0_value, ___1_ignoreCase, ___2_result, method);
 }
 // System.Void System.Action`3<System.String,UnityEngine.AudioClip,System.String>::Invoke(T1,T2,T3)
-inline void Action_3_Invoke_mF6530D95C77F956A1746870B7F60069FBE32E836_inline (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* __this, String_t* ___arg10, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___arg21, String_t* ___arg32, const RuntimeMethod* method)
+inline void Action_3_Invoke_mF6530D95C77F956A1746870B7F60069FBE32E836_inline (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* __this, String_t* ___0_arg1, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___1_arg2, String_t* ___2_arg3, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A*, String_t*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+	((  void (*) (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A*, String_t*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, method);
 }
 // System.Boolean System.String::StartsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestMultimedia::GetAudioClip(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (String_t* ___uri0, int32_t ___audioType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (String_t* ___0_uri, int32_t ___1_audioType, const RuntimeMethod* method) ;
 // UnityEngine.Networking.DownloadHandler UnityEngine.Networking.UnityWebRequest::get_downloadHandler()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::set_streamAudio(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Single>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859 (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m770CD2F8BB65F2EDA5128CA2F96D71C35B23E859_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void System.Action`1<UnityEngine.Networking.UnityWebRequest>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m5D35045365FF235FD16A283F02F442BC16AF0D76 (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m5D35045365FF235FD16A283F02F442BC16AF0D76 (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Request(UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_m20D78F8BE397F13CDFF935B88E8672539CCE847F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest0, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress1, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___onComplete2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_m20D78F8BE397F13CDFF935B88E8672539CCE847F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_unityRequest, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___1_onProgress, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___2_onComplete, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestFile(System.String,System.Action`2<System.String,System.Single>,System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m655FA115715768F98F25F924AE0606273CDEA575 (String_t* ___fileUrl0, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onFileProgress1, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___onFileLoaded2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m655FA115715768F98F25F924AE0606273CDEA575 (String_t* ___0_fileUrl, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___1_onFileProgress, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___2_onFileLoaded, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass5_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m60B92686D1E5A7F574F583D11808FE58346476DF (U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* __this, const RuntimeMethod* method) ;
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequest::Get(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86 (String_t* ___uri0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequest_Get_m1A332EE069BB5052368307F254A5A7627BB5FD86 (String_t* ___0_uri, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceUnityRequest__ctor_mD125A64CDCDBE0A904EF4F76F89BDE3EFBA08C51 (VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Networking.UnityWebRequest::get_timeout()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_timeout_mE7983CCB87576C0BF53D22A6BC79AC5191BB4927 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::set_timeout(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_timeout_mE9C8169FA8CF1BE17E3D9FDACDC6E1A9508DF618 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<PerformUpdate>d__22::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPerformUpdateU3Ed__22__ctor_mDD97FB60F924942FC5FBD7C02DC1926F4FC74FD2 (U3CPerformUpdateU3Ed__22_t8AF4B45D5E104013EA01D63B3FF643CA7BF21AF5* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPerformUpdateU3Ed__22__ctor_mDD97FB60F924942FC5FBD7C02DC1926F4FC74FD2 (U3CPerformUpdateU3Ed__22_t8AF4B45D5E104013EA01D63B3FF643CA7BF21AF5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Single>::Invoke(T)
-inline void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method)
+inline void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, float, const RuntimeMethod*))Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline)(__this, ___obj0, method);
+	((  void (*) (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, float, const RuntimeMethod*))Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline)(__this, ___0_obj, method);
 }
 // UnityEngine.Networking.UnityWebRequestAsyncOperation UnityEngine.Networking.UnityWebRequest::SendWebRequest()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* UnityWebRequest_SendWebRequest_mA3CD13983BAA5074A0640EDD661B1E46E6DB6C13 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Networking.UnityWebRequest::get_isDone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityWebRequest_get_isDone_m3079B53A1CAFD8D5B334C635761E7B7E10B14123 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.Networking.UnityWebRequest>::Invoke(T)
-inline void Action_1_Invoke_m2E790BB44663BD4EAAA462F9539D3DCDE112377C_inline (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___obj0, const RuntimeMethod* method)
+inline void Action_1_Invoke_m2E790BB44663BD4EAAA462F9539D3DCDE112377C_inline (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___obj0, method);
+	((  void (*) (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
 // System.Void Facebook.WitAi.Utilities.CoroutineUtility/CoroutinePerformer::CoroutineCancel()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutinePerformer_CoroutineCancel_mA3B5FE5A3595D03B0715C32FF1AE551589708731 (CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_Dispose_m9F43494C0FEA530A97D3F2AF3D425CCC7670753A (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.String,System.Single>::Invoke(T1,T2)
-inline void Action_2_Invoke_m4394ACFFC2C8D7A7D849C0781B4212454875DBC2_inline (Action_2_t2399F3C34C43EB392520F878CA121755E120498E* __this, String_t* ___arg10, float ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m4394ACFFC2C8D7A7D849C0781B4212454875DBC2_inline (Action_2_t2399F3C34C43EB392520F878CA121755E120498E* __this, String_t* ___0_arg1, float ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*, String_t*, float, const RuntimeMethod*))Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*, String_t*, float, const RuntimeMethod*))Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // UnityEngine.Networking.UnityWebRequest/Result UnityEngine.Networking.UnityWebRequest::get_result()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.Networking.UnityWebRequest::get_error()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // UnityEngine.AudioClip UnityEngine.Networking.DownloadHandlerAudioClip::GetContent(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___www0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_www, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetFileNameWithoutExtension(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileNameWithoutExtension_m2D14CCBAB9C60DC8D32C2443CCE3D34644822FAF (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::set_name(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>::Invoke(T1,T2)
-inline void Action_2_Invoke_mFCDFF41277810F0799BD361C2E8E56B310F3B0E7_inline (Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* __this, String_t* ___arg10, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_mFCDFF41277810F0799BD361C2E8E56B310F3B0E7_inline (Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* __this, String_t* ___0_arg1, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79*, String_t*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79*, String_t*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Single UnityEngine.Networking.UnityWebRequest::get_downloadProgress()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnityWebRequest_get_downloadProgress_m28B3DB759530A61929D8AB02A4482AB21D3348B1 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Networking.UnityWebRequest::get_uploadProgress()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnityWebRequest_get_uploadProgress_m3D2DCD424E0435ABAC0F84EE857121E839652F95 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___a0, float ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
 // System.Int32 System.String::get_Length()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass4_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m81A2FD77A34847CA40728300699E3D3F9E953A50 (U3CU3Ec__DisplayClass4_0_t62F0ED25BA993DAB01118F520A24855D9BE6300F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_m7CB7EAF34F1B7120E147C5F9248DAE9C4BF5339E (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_m7CB7EAF34F1B7120E147C5F9248DAE9C4BF5339E (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_m0041464CD160274EAF8E42389935E33A0A71E0D1 (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_m0041464CD160274EAF8E42389935E33A0A71E0D1 (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___0_object, ___1_method, method);
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTS(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>,System.Action`1<System.Single>,System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTS_m4580FC36423ACC39DF78A886E84338C24EA627ED (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___textToSpeak1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data2, Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___onSetup3, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress4, Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* ___onComplete5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTS_m4580FC36423ACC39DF78A886E84338C24EA627ED (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_data, Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___3_onSetup, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___4_onProgress, Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* ___5_onComplete, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass5_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mDFD2BB45CBC11933F6DA571E3DEF790A53F5AA0E (U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* __this, const RuntimeMethod* method) ;
 // System.Boolean System.IO.File::Exists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void System.IO.File::Delete(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass6_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mB8698DFE77DBDAF723823DD09C8D61A6242100A9 (U3CU3Ec__DisplayClass6_0_tCAFBF3E959AFA07043E18FBDA82BC657AF645DE2* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>::Invoke(T1,T2)
-inline void Action_2_Invoke_m6E13A504EA45031706B2163D2D8037AE21241180_inline (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___arg10, String_t* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m6E13A504EA45031706B2163D2D8037AE21241180_inline (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_arg1, String_t* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.String Facebook.WitAi.TTS.Utilities.WitUnityRequest::IsTextValid(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11 (String_t* ___textToSpeak0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11 (String_t* ___0_textToSpeak, const RuntimeMethod* method) ;
 // System.Uri Facebook.WitAi.TTS.Utilities.WitUnityRequest::GetUri(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___path1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___queryParams2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_path, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_queryParams, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Void UnityEngine.Networking.UnityWebRequest::.ctor(System.Uri,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest__ctor_m357B5E7078790E0CEF7259D76512B031F37F2DEA (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, String_t* ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest__ctor_m357B5E7078790E0CEF7259D76512B031F37F2DEA (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, String_t* ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::SetRequestHeader(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___name0, String_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___0_name, String_t* ___1_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UploadHandlerRaw::.ctor(System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadHandlerRaw__ctor_m168C957B67E29CB3072E3542044D37E2F16C42B7 (UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___data0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UploadHandlerRaw__ctor_m168C957B67E29CB3072E3542044D37E2F16C42B7 (UploadHandlerRaw_t0A24CF320CDF16F1BC6C5C086DE71A1908CBB91A* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::set_uploadHandler(UnityEngine.Networking.UploadHandler)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>::Invoke(T1,T2)
-inline void Action_2_Invoke_m675C3FAB041A118F74193C11653C834F7AE67E74_inline (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___arg10, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m675C3FAB041A118F74193C11653C834F7AE67E74_inline (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_arg1, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05*, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestWit(Facebook.WitAi.Data.Configuration.WitConfiguration,UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestWit_mE15DD8A0D7AE9CA09B6D9B5D82D860F6617A2C5E (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest1, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress2, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___onComplete3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestWit_mE15DD8A0D7AE9CA09B6D9B5D82D860F6617A2C5E (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___1_unityRequest, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___2_onProgress, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___3_onComplete, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass8_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m42B743E923F2C6AA186A652360B76E96574E38EE (U3CU3Ec__DisplayClass8_0_tA508ED650A58E25A18495E6C05CAC071F65CD8AA* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.String,System.String>::Invoke(T1,T2)
-inline void Action_2_Invoke_m8FA30194997244EC0072D6B437818A22B65F2854_inline (Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* __this, String_t* ___arg10, String_t* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m8FA30194997244EC0072D6B437818A22B65F2854_inline (Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* __this, String_t* ___0_arg1, String_t* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D*, String_t*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D*, String_t*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequest::Get(System.Uri)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequest_Get_m7FA8B6B3BC1B5ABDC661DFA6D047108FCBB77C11 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequest_Get_m7FA8B6B3BC1B5ABDC661DFA6D047108FCBB77C11 (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder__ctor_m1CBBB001D2542111D5B3334356E2AC65AFB80D27 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, const RuntimeMethod* method) ;
 // Facebook.WitAi.Configuration.WitEndpointConfig Facebook.WitAi.Configuration.WitEndpointConfig::GetEndpointConfig(Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* WitEndpointConfig_GetEndpointConfig_mFF262EC06ADEC27F11E22FAB4FCEF91544EAE3F4 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___witConfig0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* WitEndpointConfig_GetEndpointConfig_mFF262EC06ADEC27F11E22FAB4FCEF91544EAE3F4 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_witConfig, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.Configuration.WitEndpointConfig::get_UriScheme()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitEndpointConfig_get_UriScheme_m86831992A6AD745AC3A5020DEE48643B7E84C793 (WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* __this, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::set_Scheme(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Scheme_m02C71DED53B5BDB8CA03E7484B8B554D0EF4B3BA (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Scheme_m02C71DED53B5BDB8CA03E7484B8B554D0EF4B3BA (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.Configuration.WitEndpointConfig::get_Authority()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitEndpointConfig_get_Authority_mF4F20B3CA37A69AB5D003F2D618BBF6496B7C583 (WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* __this, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::set_Host(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Host_m7CD9C7B0B9CACAF15A57ACFC363C766F19178930 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Host_m7CD9C7B0B9CACAF15A57ACFC363C766F19178930 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Int32 Facebook.WitAi.Configuration.WitEndpointConfig::get_Port()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t WitEndpointConfig_get_Port_m9FCE8AFC43BD2C735DC50D75B70CDDD604437403 (WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* __this, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::set_Port(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Port_mC6C31D266AA5790B8ED038C31489BCC2DE55DE3D (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Port_mC6C31D266AA5790B8ED038C31489BCC2DE55DE3D (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::set_Path(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Path_mD17EF197B4A8A764682938B468B647DAE716E9D0 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Path_mD17EF197B4A8A764682938B468B647DAE716E9D0 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.Configuration.WitEndpointConfig::get_WitApiVersion()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitEndpointConfig_get_WitApiVersion_m63158C60ECC4C89A6B6ED9F87C64394DD19C587C (WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* __this, const RuntimeMethod* method) ;
 // System.Void System.UriBuilder::set_Query(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Query_m1B7AB6F65BBAC94C07681D79F2A8DBDB15E844ED (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UriBuilder_set_Query_m1B7AB6F65BBAC94C07681D79F2A8DBDB15E844ED (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String System.Uri::EscapeDataString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_EscapeDataString_m844D0FB6899488BDEBAF160B23397CD7ED8CA2DF (String_t* ___stringToEscape0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_EscapeDataString_m844D0FB6899488BDEBAF160B23397CD7ED8CA2DF (String_t* ___0_stringToEscape, const RuntimeMethod* method) ;
 // System.String System.UriBuilder::get_Query()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* UriBuilder_get_Query_m905F5864CB1B5D09FD81F29B148541DFB353F78E_inline (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, const RuntimeMethod* method) ;
 // TResult System.Func`2<System.UriBuilder,System.Uri>::Invoke(T)
-inline Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* Func_2_Invoke_mACFAAC0F1C413E05EE9F08167B8A3A89C28905B7_inline (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* __this, UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* ___arg0, const RuntimeMethod* method)
+inline Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* Func_2_Invoke_mACFAAC0F1C413E05EE9F08167B8A3A89C28905B7_inline (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* __this, UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* ___0_arg, const RuntimeMethod* method)
 {
-	return ((  Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* (*) (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28*, UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72*, const RuntimeMethod*))Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline)(__this, ___arg0, method);
+	return ((  Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* (*) (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28*, UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72*, const RuntimeMethod*))Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline)(__this, ___0_arg, method);
 }
 // System.Uri System.UriBuilder::get_Uri()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* UriBuilder_get_Uri_mD0DF3F7DDF7C56CC99E2D29E06C959F80A4171A1 (UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* __this, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.TTS.Utilities.WitUnityRequest::GetAuthorization(Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m17E4A186A64C8A70598AE3D1E6DB921165DE3DB7 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m17E4A186A64C8A70598AE3D1E6DB921165DE3DB7 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.WitRequest::GetUserAgent(Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitRequest_GetUserAgent_m4D34D711A3274BE32DB014CC9ED5801FFE3A0CD4 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitRequest_GetUserAgent_m4D34D711A3274BE32DB014CC9ED5801FFE3A0CD4 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::CeilToInt(System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___f0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) ;
 // TResult System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>>::Invoke()
 inline Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* Func_1_Invoke_m627232433A84B3B05747AAE47C120BEEC8E62720_inline (Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* __this, const RuntimeMethod* method)
 {
@@ -3561,30 +4102,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest__ctor_m2B2AED2013077B86B7E6E81516F404528A62D630 (WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* __this, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::ApplyHeaders(Facebook.WitAi.Data.Configuration.WitConfiguration,UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609E07685C7CAA8174E7EC50DBF8CF29F (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609E07685C7CAA8174E7EC50DBF8CF29F (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___1_unityRequest, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.AudioClip,System.String>::Invoke(T1,T2)
-inline void Action_2_Invoke_mC2EC2468C63DEAE014449CE4E047C35ED364BD57_inline (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___arg10, String_t* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_mC2EC2468C63DEAE014449CE4E047C35ED364BD57_inline (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_arg1, String_t* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m483499969CA0B5034A1AEBF56AF3A4A1F11BE732 (U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::.ctor(System.Uri,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, int32_t ___audioType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, int32_t ___1_audioType, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::set_compressed(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::set_downloadHandler(UnityEngine.Networking.DownloadHandler)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::set_disposeDownloadHandlerOnDispose(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandlerFile::.ctor(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerFile__ctor_m366A8B9559EAFF17D2E33DC0FBE13756C344E0EB (DownloadHandlerFile_tD1342A7B8173C9ECC7B3BB9E1A7631D7AEFBD902* __this, String_t* ___path0, bool ___append1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerFile__ctor_m366A8B9559EAFF17D2E33DC0FBE13756C344E0EB (DownloadHandlerFile_tD1342A7B8173C9ECC7B3BB9E1A7631D7AEFBD902* __this, String_t* ___0_path, bool ___1_append, const RuntimeMethod* method) ;
 // System.Void System.IO.File::Move(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Move_mBC9450111E0144A55D893A720F19E612D658AC37 (String_t* ___sourceFileName0, String_t* ___destFileName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Move_mBC9450111E0144A55D893A720F19E612D658AC37 (String_t* ___0_sourceFileName, String_t* ___1_destFileName, const RuntimeMethod* method) ;
 // System.String UnityEngine.Networking.DownloadHandler::get_text()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSDiskCache::ShouldCacheToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4C325BE6D1DBF2CBAC3029A3C8DA51C72 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4C325BE6D1DBF2CBAC3029A3C8DA51C72 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_persistentDataPath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_temporaryCachePath()
@@ -3594,48 +4135,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath
 // System.String Facebook.WitAi.TTS.Integrations.TTSDiskCache::get_DiskPath()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TTSDiskCache_get_DiskPath_mEC41B5632A4A43EADC79C286CC1B8029B117736B_inline (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, const RuntimeMethod* method) ;
 // System.String System.IO.Path::Combine(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.Utilities.IOUtility::CreateDirectory(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IOUtility_CreateDirectory_m1659FF4A98EBCF6059789F2149E7A9F42C15AD1A (String_t* ___directoryPath0, bool ___recursively1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IOUtility_CreateDirectory_m1659FF4A98EBCF6059789F2149E7A9F42C15AD1A (String_t* ___0_directoryPath, bool ___1_recursively, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.TTS.Integrations.TTSDiskCache::GetDiskCachePath(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD42007E533848636889003ABEC77CA505DB027D6 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD42007E533848636889003ABEC77CA505DB027D6 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m50C08A7EA18A76F72A25F12B56AB03137D2737D8 (U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* __this, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Events.TTSStreamEvents Facebook.WitAi.TTS.Integrations.TTSDiskCache::get_DiskStreamEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* TTSDiskCache_get_DiskStreamEvents_mE9CC2FF9A4D04CD8630636FD58A9F8868A10AAB3_inline (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSDiskCache::IsCachedToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_IsCachedToDisk_mCC3FB9A9857CF0F3C7AD9AE25B390FC63F3B6E74 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_IsCachedToDisk_mCC3FB9A9857CF0F3C7AD9AE25B390FC63F3B6E74 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.String,System.Single>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_m7F62303F36F46A731A6332E89B736901F4B3B48F (Action_2_t2399F3C34C43EB392520F878CA121755E120498E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_m7F62303F36F46A731A6332E89B736901F4B3B48F (Action_2_t2399F3C34C43EB392520F878CA121755E120498E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m600728814D64949FB42DEE273E5E146A5E015BE1_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m600728814D64949FB42DEE273E5E146A5E015BE1_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void System.Action`3<System.String,UnityEngine.AudioClip,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_3__ctor_mCB64C93CACD091692FD0C45E61A2C7C89374FA0E (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_3__ctor_mCB64C93CACD091692FD0C45E61A2C7C89374FA0E (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___0_object, ___1_method, method);
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,System.Action`2<System.String,System.Single>,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m5E9C7F619DABD24C49BE63376B04439ACFD7D7CC (String_t* ___audioUrl0, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onAudioClipProgress1, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m5E9C7F619DABD24C49BE63376B04439ACFD7D7CC (String_t* ___0_audioUrl, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___1_onAudioClipProgress, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___2_onAudioClipReady, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m5F5DBF1769BFE71B4E3FBE4483724642AA36052C (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___key0, VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m5F5DBF1769BFE71B4E3FBE4483724642AA36052C (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___0_key, VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m02EACB0E097F1689D55AC39A6F6B55E5C526E88A (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m02EACB0E097F1689D55AC39A6F6B55E5C526E88A (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>::get_Item(TKey)
-inline VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* Dictionary_2_get_Item_mA4B7C76FE615E7BDD325C2B88382D8D1DED531E7 (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* Dictionary_2_get_Item_mA4B7C76FE615E7BDD325C2B88382D8D1DED531E7 (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.VoiceUnityRequest>::Remove(TKey)
-inline bool Dictionary_2_Remove_mE3947A246EAC6F866335AF3B29E48698291DB027 (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_mE3947A246EAC6F866335AF3B29E48698291DB027 (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // System.Void Facebook.WitAi.TTS.Data.TTSDiskCacheSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCacheSettings__ctor_mAF425C2DFE8E383E562E18689CA6E1229BDFD2D7 (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* __this, const RuntimeMethod* method) ;
@@ -3652,47 +4193,47 @@ inline ValueCollection_t7E5C565B83017703251B47439DD3D79734904801* Dictionary_2_g
 	return ((  ValueCollection_t7E5C565B83017703251B47439DD3D79734904801* (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
 }
 // TSource[] System.Linq.Enumerable::ToArray<Facebook.WitAi.TTS.Data.TTSClipData>(System.Collections.Generic.IEnumerable`1<TSource>)
-inline TTSClipDataU5BU5D_t6836B00DB73A6435DCB0773A276FC2C047095A33* Enumerable_ToArray_TisTTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15_mDDEC03141E93AEF8EF9DB60C1ABB0E55ED6C078C (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline TTSClipDataU5BU5D_t6836B00DB73A6435DCB0773A276FC2C047095A33* Enumerable_ToArray_TisTTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15_mDDEC03141E93AEF8EF9DB60C1ABB0E55ED6C078C (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
-	return ((  TTSClipDataU5BU5D_t6836B00DB73A6435DCB0773A276FC2C047095A33* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___source0, method);
+	return ((  TTSClipDataU5BU5D_t6836B00DB73A6435DCB0773A276FC2C047095A33* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)
-inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___item0, method);
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___0_item, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::Add(T)
-inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>::get_Item(TKey)
-inline TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_mA9A99F5A6C9786D97FE519A60D110EBE65060250 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___key0, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_mA9A99F5A6C9786D97FE519A60D110EBE65060250 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___0_key, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // T System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)
-inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::RemoveClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mD300393D693EB9C1C2C9F282C4F68FD0C6E1A80F (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___clipID0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mD300393D693EB9C1C2C9F282C4F68FD0C6E1A80F (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___0_clipID, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::IsCacheFull()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSRuntimeCache_IsCacheFull_m93B46E7F407BA7C88F5A60AD8DDECB1FF0016A0A (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
@@ -3713,9 +4254,9 @@ inline int32_t KeyCollection_get_Count_m2863447F5A8669ECCFB939B72BB8C1DB928D954B
 // Facebook.WitAi.TTS.Events.TTSClipEvent Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::get_OnClipAdded()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* TTSRuntimeCache_get_OnClipAdded_m72DD3BD5194AD0CB1D8040A7E14486742CC08B58_inline (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Data.TTSClipData>::Remove(TKey)
-inline bool Dictionary_2_Remove_mD6E9F3B1C7D9B46F2CA85BAFB2FC72147CDE4232 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_mD6E9F3B1C7D9B46F2CA85BAFB2FC72147CDE4232 (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // Facebook.WitAi.TTS.Events.TTSClipEvent Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::get_OnClipRemoved()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* TTSRuntimeCache_get_OnClipRemoved_mF538BEEF98ED44EE07C8FE9BA0AD79D275329DCF_inline (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, const RuntimeMethod* method) ;
@@ -3737,7 +4278,7 @@ inline String_t* Enumerator_get_Current_m58D05EAD9953F5A5DDEFD0F7BD37CEF18462B87
 	return ((  String_t* (*) (Enumerator_t17A07BCF7B360063D7401626B45E176230AC62BB*, const RuntimeMethod*))Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline)(__this, method);
 }
 // System.Int64 Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::GetClipBytes(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C71FB2438E7595D1CF63F26CD6E4BF561F (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C71FB2438E7595D1CF63F26CD6E4BF561F (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Facebook.WitAi.TTS.Data.TTSClipData>::MoveNext()
 inline bool Enumerator_MoveNext_mC1B365E009BA9697D6E1A96A88BFE8AA24366112 (Enumerator_t17A07BCF7B360063D7401626B45E176230AC62BB* __this, const RuntimeMethod* method)
 {
@@ -3778,44 +4319,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m1FAD6C4
 // Facebook.WitAi.TTS.Events.TTSStreamEvents Facebook.WitAi.TTS.Integrations.TTSWit::get_WebStreamEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* TTSWit_get_WebStreamEvents_mADA2CBF7F85798C0FE926BA07EB9A7E0C3BFF5C6_inline (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.TTS.Integrations.TTSWit::IsRequestValid(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m5C392FBD420452C712323611FA20792845EAD384 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m5C392FBD420452C712323611FA20792845EAD384 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___1_configuration, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m5444ADA3EE0CC22E02C33B9CBFB73FB48D047D4B (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m5444ADA3EE0CC22E02C33B9CBFB73FB48D047D4B (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSWit::CancelWebStream(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_mFA70C7368E3CB6505EBB7B03946A369DCA891118 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_mFA70C7368E3CB6505EBB7B03946A369DCA891118 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.AudioClip,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_mF733309DE658768D4F1A71EEBAEBF2B0F9A06592 (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_mF733309DE658768D4F1A71EEBAEBF2B0F9A06592 (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___0_object, ___1_method, method);
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTSStream(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`1<System.Single>,System.Action`2<UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSStream_m391D589C27BF67D91983E7FC2C21D85006094D3A (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___textToSpeak1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data2, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress3, Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* ___onClipReady4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSStream_m391D589C27BF67D91983E7FC2C21D85006094D3A (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_data, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___3_onProgress, Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* ___4_onClipReady, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m9510A2F93792DC0E4CDC85D7D79E11C7EA449B02 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___key0, WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m9510A2F93792DC0E4CDC85D7D79E11C7EA449B02 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___0_key, WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>::get_Item(TKey)
-inline WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___key0, const RuntimeMethod* method)
+inline WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>::Remove(TKey)
-inline bool Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_m87AB19A35ADCA2586AE6414DDB927966D871AC2A (U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* __this, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Events.TTSDownloadEvents Facebook.WitAi.TTS.Integrations.TTSWit::get_WebDownloadEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSDownloadEvents_tD7E9F83376F5BED441EC0454F45E2291D397F651* TTSWit_get_WebDownloadEvents_mEB2A3740BD4EEB2BF7E02C2028687912BE491908_inline (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSWit::CancelWebDownload(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m401641275F17DFB2A26CE3AAC417F2A05D5BA8E6 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m401641275F17DFB2A26CE3AAC417F2A05D5BA8E6 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTSDownload(System.String,Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`1<System.Single>,System.Action`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSDownload_m5E66D72C2BFE0117524D974A5EFF890E501161E6 (String_t* ___downloadPath0, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration1, String_t* ___textToSpeak2, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data3, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress4, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___onDownloadComplete5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSDownload_m5E66D72C2BFE0117524D974A5EFF890E501161E6 (String_t* ___0_downloadPath, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___1_configuration, String_t* ___2_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___3_data, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___4_onProgress, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___5_onDownloadComplete, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWitVoiceSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWitVoiceSettings__ctor_mBF6418094FCA593E90521488C962A68D78170AF9 (TTSWitVoiceSettings_tD16F3E5CDE4E44A8926A0D01329A4D974A91C923* __this, const RuntimeMethod* method) ;
 // Facebook.WitAi.TTS.Data.TTSVoiceSettings[] Facebook.WitAi.TTS.Integrations.TTSWit::get_PresetVoiceSettings()
@@ -3828,20 +4369,20 @@ inline void Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052 (Dictio
 // System.Reflection.FieldInfo[] System.Type::GetFields()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* Type_GetFields_mC0570FF1986A6D93FA7976303B44B2FF8D0BC77F (Type_t* __this, const RuntimeMethod* method) ;
 // T System.Reflection.CustomAttributeExtensions::GetCustomAttribute<UnityEngine.RangeAttribute>(System.Reflection.MemberInfo)
-inline RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* CustomAttributeExtensions_GetCustomAttribute_TisRangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557_m7CA94D1DCD70C1E86CA6DDB2AC741C7627F4F2ED (MemberInfo_t* ___element0, const RuntimeMethod* method)
+inline RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* CustomAttributeExtensions_GetCustomAttribute_TisRangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557_m7CA94D1DCD70C1E86CA6DDB2AC741C7627F4F2ED (MemberInfo_t* ___0_element, const RuntimeMethod* method)
 {
-	return ((  RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* (*) (MemberInfo_t*, const RuntimeMethod*))CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared)(___element0, method);
+	return ((  RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* (*) (MemberInfo_t*, const RuntimeMethod*))CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared)(___0_element, method);
 }
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 // System.Boolean System.Type::op_Equality(System.Type,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.String>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m17345EA05D3F26087F953F6793B2401AA6EE7B0F (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m17345EA05D3F26087F953F6793B2401AA6EE7B0F (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Facebook.WitAi.TTS.Utilities.WitUnityRequest>::.ctor()
 inline void Dictionary_2__ctor_m079E10ADC88D5DC4937F9058085116DB81100072 (Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* __this, const RuntimeMethod* method)
@@ -4657,7 +5198,7 @@ IL_0013:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_LogClip_mA4984C550D7CBFAC2BF1CCA6E8C75D85951E41E9 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___logMessage0, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData1, int32_t ___logType2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_LogClip_mA4984C550D7CBFAC2BF1CCA6E8C75D85951E41E9 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_logMessage, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___1_clipData, int32_t ___2_logType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4690,12 +5231,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_LogClip_mA4984C550D7CBFAC2BF1
 		V_0 = L_0;
 		// builder.AppendLine(logMessage);
 		StringBuilder_t* L_1 = V_0;
-		String_t* L_2 = ___logMessage0;
+		String_t* L_2 = ___0_logMessage;
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_1, L_2, NULL);
 		// if (clipData != null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___1_clipData;
 		if (!L_4)
 		{
 			goto IL_00ae;
@@ -4704,7 +5245,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_LogClip_mA4984C550D7CBFAC2BF1
 	{
 		// builder.AppendLine($"Voice: {(clipData.voiceSettings == null ? "Default" : clipData.voiceSettings.settingsID)}");
 		StringBuilder_t* L_5 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___1_clipData;
 		NullCheck(L_6);
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_7 = L_6->___voiceSettings_3;
 		G_B2_0 = _stringLiteral62BA94CF7D398C28008971803552F390CCE00C8B;
@@ -4717,7 +5258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_LogClip_mA4984C550D7CBFAC2BF1
 		}
 	}
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___1_clipData;
 		NullCheck(L_8);
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_9 = L_8->___voiceSettings_3;
 		NullCheck(L_9);
@@ -4744,7 +5285,7 @@ IL_0034:
 		L_12 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(G_B4_2, L_11, NULL);
 		// builder.AppendLine($"Text: {clipData.textToSpeak}");
 		StringBuilder_t* L_13 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___1_clipData;
 		NullCheck(L_14);
 		String_t* L_15 = L_14->___textToSpeak_0;
 		String_t* L_16;
@@ -4754,7 +5295,7 @@ IL_0034:
 		L_17 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_13, L_16, NULL);
 		// builder.AppendLine($"ID: {clipData.clipID}");
 		StringBuilder_t* L_18 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_19 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_19 = ___1_clipData;
 		NullCheck(L_19);
 		String_t* L_20 = L_19->___clipID_1;
 		String_t* L_21;
@@ -4774,7 +5315,7 @@ IL_0034:
 	}
 	{
 		// TTSDiskCacheSettings settings = clipData.diskCacheSettings;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_24 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_24 = ___1_clipData;
 		NullCheck(L_24);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_25 = L_24->___diskCacheSettings_4;
 		V_2 = L_25;
@@ -4833,14 +5374,14 @@ IL_00ae:
 		NullCheck(L_38);
 		String_t* L_39;
 		L_39 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_38);
-		int32_t L_40 = ___logType2;
+		int32_t L_40 = ___2_logType;
 		VirtualActionInvoker2< String_t*, int32_t >::Invoke(16 /* System.Void Facebook.WitAi.TTS.TTSService::Log(System.String,Facebook.WitAi.TTS.TTSLogType) */, __this, L_39, L_40);
 		// }
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::Log(System.String,Facebook.WitAi.TTS.TTSLogType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Log_m30F98C6A350FDD6479F7D581C89994F3DFCC9251 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___logMessage0, int32_t ___logType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Log_m30F98C6A350FDD6479F7D581C89994F3DFCC9251 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_logMessage, int32_t ___1_logType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4863,7 +5404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Log_m30F98C6A350FDD6479F7D581
 	}
 	{
 		int32_t L_1 = __this->___LogLevel_5;
-		int32_t L_2 = ___logType1;
+		int32_t L_2 = ___1_logType;
 		if ((((int32_t)L_1) <= ((int32_t)L_2)))
 		{
 			goto IL_0013;
@@ -4894,7 +5435,7 @@ IL_0013:
 		ArrayElementTypeCheck (L_7, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
-		Il2CppFakeBox<int32_t> L_9(TTSLogType_t84ED4022CC919F8F9CB2A2AF5BEDD56E0CB6B310_il2cpp_TypeInfo_var, (&___logType1));
+		Il2CppFakeBox<int32_t> L_9(TTSLogType_t84ED4022CC919F8F9CB2A2AF5BEDD56E0CB6B310_il2cpp_TypeInfo_var, (&___1_logType));
 		String_t* L_10;
 		L_10 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_9), NULL);
 		NullCheck(L_8);
@@ -4905,7 +5446,7 @@ IL_0013:
 		ArrayElementTypeCheck (L_11, _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = L_11;
-		String_t* L_13 = ___logMessage0;
+		String_t* L_13 = ___0_logMessage;
 		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_13);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_13);
@@ -4913,7 +5454,7 @@ IL_0013:
 		L_14 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_12, NULL);
 		V_0 = L_14;
 		// if (logType == TTSLogType.Error)
-		int32_t L_15 = ___logType1;
+		int32_t L_15 = ___1_logType;
 		if ((!(((uint32_t)L_15) == ((uint32_t)2))))
 		{
 			goto IL_005c;
@@ -4930,7 +5471,7 @@ IL_0013:
 IL_005c:
 	{
 		// else if (logType == TTSLogType.Warning)
-		int32_t L_17 = ___logType1;
+		int32_t L_17 = ___1_logType;
 		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
 		{
 			goto IL_0067;
@@ -4955,7 +5496,7 @@ IL_0067:
 	}
 }
 // System.String Facebook.WitAi.TTS.TTSService::GetClipID(System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m6F5C20ED9A9161703FD6EFF9BE14551CBCFD0C1D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m6F5C20ED9A9161703FD6EFF9BE14551CBCFD0C1D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___1_voiceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4996,7 +5537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m6F5C20ED9A916
 		// Dictionary<string, string> data = VoiceProvider.EncodeVoiceSettings(voiceSettings);
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(7 /* Facebook.WitAi.TTS.Interfaces.ITTSVoiceProvider Facebook.WitAi.TTS.TTSService::get_VoiceProvider() */, __this);
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_3 = ___voiceSettings1;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_3 = ___1_voiceSettings;
 		NullCheck(L_2);
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_4;
 		L_4 = InterfaceFuncInvoker1< Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* >::Invoke(2 /* System.Collections.Generic.Dictionary`2<System.String,System.String> Facebook.WitAi.TTS.Interfaces.ITTSVoiceProvider::EncodeVoiceSettings(Facebook.WitAi.TTS.Data.TTSVoiceSettings) */, ITTSVoiceProvider_t9DFD1292E5864DED26C99606CB335554574F1299_il2cpp_TypeInfo_var, L_2, L_3);
@@ -5083,7 +5624,7 @@ IL_007c:
 	{
 		// uniqueID.Append(textToSpeak.ToLower());
 		StringBuilder_t* L_20 = V_0;
-		String_t* L_21 = ___textToSpeak0;
+		String_t* L_21 = ___0_textToSpeak;
 		NullCheck(L_21);
 		String_t* L_22;
 		L_22 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_21, NULL);
@@ -5102,7 +5643,7 @@ IL_007c:
 	}
 }
 // System.String Facebook.WitAi.TTS.TTSService::GetSha256Hash(System.Security.Cryptography.SHA256,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_mF63CF282ECF724FF6505A3752110FA6D04E23579 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___shaHash0, String_t* ___input1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_mF63CF282ECF724FF6505A3752110FA6D04E23579 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___0_shaHash, String_t* ___1_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5116,10 +5657,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_mF63CF282E
 	int32_t V_2 = 0;
 	{
 		// byte[] data = shaHash.ComputeHash(Encoding.UTF8.GetBytes(input));
-		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0 = ___shaHash0;
+		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0 = ___0_shaHash;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
 		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
-		String_t* L_2 = ___input1;
+		String_t* L_2 = ___1_input;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
 		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
@@ -5175,7 +5716,7 @@ IL_0038:
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_CreateClipData_mCC5A088994F7A8527C5F4735989E0C813CEAB0C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_CreateClipData_mCC5A088994F7A8527C5F4735989E0C813CEAB0C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5197,7 +5738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 	TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* G_B13_2 = NULL;
 	{
 		// if (voiceSettings == null && VoiceProvider != null)
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_0 = ___voiceSettings2;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_0 = ___2_voiceSettings;
 		if (L_0)
 		{
 			goto IL_0018;
@@ -5218,13 +5759,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 		NullCheck(L_2);
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_3;
 		L_3 = InterfaceFuncInvoker0< TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* >::Invoke(0 /* Facebook.WitAi.TTS.Data.TTSVoiceSettings Facebook.WitAi.TTS.Interfaces.ITTSVoiceProvider::get_VoiceDefaultSettings() */, ITTSVoiceProvider_t9DFD1292E5864DED26C99606CB335554574F1299_il2cpp_TypeInfo_var, L_2);
-		___voiceSettings2 = L_3;
+		___2_voiceSettings = L_3;
 	}
 
 IL_0018:
 	{
 		// if (diskCacheSettings == null && DiskCacheHandler != null)
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_4 = ___diskCacheSettings3;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_4 = ___3_diskCacheSettings;
 		if (L_4)
 		{
 			goto IL_0031;
@@ -5245,13 +5786,13 @@ IL_0018:
 		NullCheck(L_6);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_7;
 		L_7 = InterfaceFuncInvoker0< TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(2 /* Facebook.WitAi.TTS.Data.TTSDiskCacheSettings Facebook.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::get_DiskCacheDefaultSettings() */, ITTSDiskCacheHandler_t3675C58E5026AC3B28C1316716FBAF3678BF04B1_il2cpp_TypeInfo_var, L_6);
-		___diskCacheSettings3 = L_7;
+		___3_diskCacheSettings = L_7;
 	}
 
 IL_0031:
 	{
 		// if (string.IsNullOrEmpty(clipID))
-		String_t* L_8 = ___clipID1;
+		String_t* L_8 = ___1_clipID;
 		bool L_9;
 		L_9 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_8, NULL);
 		if (!L_9)
@@ -5261,17 +5802,17 @@ IL_0031:
 	}
 	{
 		// clipID = GetClipID(textToSpeak, voiceSettings);
-		String_t* L_10 = ___textToSpeak0;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_11 = ___voiceSettings2;
+		String_t* L_10 = ___0_textToSpeak;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_11 = ___2_voiceSettings;
 		String_t* L_12;
 		L_12 = VirtualFuncInvoker2< String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* >::Invoke(17 /* System.String Facebook.WitAi.TTS.TTSService::GetClipID(System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings) */, __this, L_10, L_11);
-		___clipID1 = L_12;
+		___1_clipID = L_12;
 	}
 
 IL_0043:
 	{
 		// TTSClipData clipData = GetRuntimeCachedClip(clipID);
-		String_t* L_13 = ___clipID1;
+		String_t* L_13 = ___1_clipID;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14;
 		L_14 = TTSService_GetRuntimeCachedClip_m7BBFA9662907394F5336A3BD9EFBE63F5980B1DA(__this, L_13, NULL);
 		V_0 = L_14;
@@ -5304,22 +5845,22 @@ IL_0050:
 		NullCheck(L_17);
 		TTSClipData__ctor_m7C5F22000ABCAB8F122DB2BF11595A286E393368(L_17, NULL);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = L_17;
-		String_t* L_19 = ___clipID1;
+		String_t* L_19 = ___1_clipID;
 		NullCheck(L_18);
 		L_18->___clipID_1 = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&L_18->___clipID_1), (void*)L_19);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_20 = L_18;
-		String_t* L_21 = ___textToSpeak0;
+		String_t* L_21 = ___0_textToSpeak;
 		NullCheck(L_20);
 		L_20->___textToSpeak_0 = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&L_20->___textToSpeak_0), (void*)L_21);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_22 = L_20;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_23 = ___voiceSettings2;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_23 = ___2_voiceSettings;
 		NullCheck(L_22);
 		L_22->___voiceSettings_3 = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___voiceSettings_3), (void*)L_23);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_24 = L_22;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_25 = ___diskCacheSettings3;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_25 = ___3_diskCacheSettings;
 		NullCheck(L_24);
 		L_24->___diskCacheSettings_4 = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___diskCacheSettings_4), (void*)L_25);
@@ -5353,7 +5894,7 @@ IL_0050:
 
 IL_0092:
 	{
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_31 = ___voiceSettings2;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_31 = ___2_voiceSettings;
 		NullCheck(G_B12_0);
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_32;
 		L_32 = InterfaceFuncInvoker1< Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* >::Invoke(2 /* System.Collections.Generic.Dictionary`2<System.String,System.String> Facebook.WitAi.TTS.Interfaces.ITTSVoiceProvider::EncodeVoiceSettings(Facebook.WitAi.TTS.Data.TTSVoiceSettings) */, ITTSVoiceProvider_t9DFD1292E5864DED26C99606CB335554574F1299_il2cpp_TypeInfo_var, G_B12_0, L_31);
@@ -5374,18 +5915,18 @@ IL_0098:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m20B26313E37F3B7F2BB52EF4654356A6F1DFCE8E (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, int32_t ___loadState1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m20B26313E37F3B7F2BB52EF4654356A6F1DFCE8E (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, int32_t ___1_loadState, const RuntimeMethod* method) 
 {
 	Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* G_B2_0 = NULL;
 	Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* G_B1_0 = NULL;
 	{
 		// clipData.loadState = loadState;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
-		int32_t L_1 = ___loadState1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
+		int32_t L_1 = ___1_loadState;
 		NullCheck(L_0);
 		L_0->___loadState_7 = L_1;
 		// clipData.onStateChange?.Invoke(clipData, clipData.loadState);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_2);
 		Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* L_3 = L_2->___onStateChange_9;
 		Action_2_tAA1C06C8D23E06C5329910C9A69D830DE24FDD74* L_4 = L_3;
@@ -5402,8 +5943,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m20B26313E37
 
 IL_0012:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___loadState_7;
 		NullCheck(G_B2_0);
@@ -5413,64 +5954,64 @@ IL_0012:
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m519A35EB0B2F42126BD053FECA2E298B78BDD526 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___onStreamReady1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m519A35EB0B2F42126BD053FECA2E298B78BDD526 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___1_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, null, null, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_1 = ___onStreamReady1;
+		String_t* L_0 = ___0_textToSpeak;
+		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_1 = ___1_onStreamReady;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2;
 		L_2 = VirtualFuncInvoker5< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* >::Invoke(20 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, (TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*)NULL, (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*)NULL, L_1);
 		return L_2;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_mDEB1145354AD6E8C5526474A766EFD43CCF136FA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___onStreamReady2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_mDEB1145354AD6E8C5526474A766EFD43CCF136FA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___2_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, string presetVoiceId, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), null, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455(__this, L_1, NULL);
-		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_3 = ___onStreamReady2;
+		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_3 = ___2_onStreamReady;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4;
 		L_4 = VirtualFuncInvoker5< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* >::Invoke(20 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_2, (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*)NULL, L_3);
 		return L_4;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m8FE2F54C9B9F05A7DC08CF80ECA61559EBC67437 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings2, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___onStreamReady3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m8FE2F54C9B9F05A7DC08CF80ECA61559EBC67437 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___2_diskCacheSettings, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___3_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, string presetVoiceId, TTSDiskCacheSettings diskCacheSettings, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), diskCacheSettings, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455(__this, L_1, NULL);
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___diskCacheSettings2;
-		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_4 = ___onStreamReady3;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___2_diskCacheSettings;
+		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_4 = ___3_onStreamReady;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5;
 		L_5 = VirtualFuncInvoker5< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* >::Invoke(20 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_2, L_3, L_4);
 		return L_5;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m47732298D0610E4C73982EB0107BE736AE57DF8A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings1, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings2, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___onStreamReady3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m47732298D0610E4C73982EB0107BE736AE57DF8A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___1_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___2_diskCacheSettings, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___3_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, TTSVoiceSettings voiceSettings, TTSDiskCacheSettings diskCacheSettings, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, voiceSettings, diskCacheSettings, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___voiceSettings1;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_2 = ___diskCacheSettings2;
-		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_3 = ___onStreamReady3;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___1_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_2 = ___2_diskCacheSettings;
+		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_3 = ___3_onStreamReady;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4;
 		L_4 = VirtualFuncInvoker5< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* >::Invoke(20 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_1, L_2, L_3);
 		return L_4;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::Load(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Facebook.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m8D096F80DA50A1198943DBC8A1A921C564A363BA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___onStreamReady4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_Load_m8D096F80DA50A1198943DBC8A1A921C564A363BA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* ___4_onStreamReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5495,7 +6036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 		U3CU3Ec__DisplayClass36_0__ctor_mBFF19B113A7013AFCF01E92C83C01FF18ED71352(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* L_1 = V_0;
-		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_2 = ___onStreamReady4;
+		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_2 = ___4_onStreamReady;
 		NullCheck(L_1);
 		L_1->___onStreamReady_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onStreamReady_0), (void*)L_2);
@@ -5507,10 +6048,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 		VirtualActionInvoker0::Invoke(12 /* System.Void Facebook.WitAi.TTS.TTSService::AddDelegates() */, __this);
 		// TTSClipData clipData = CreateClipData(textToSpeak, clipID, voiceSettings, diskCacheSettings);
 		U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* L_4 = V_0;
-		String_t* L_5 = ___textToSpeak0;
-		String_t* L_6 = ___clipID1;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_7 = ___voiceSettings2;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_8 = ___diskCacheSettings3;
+		String_t* L_5 = ___0_textToSpeak;
+		String_t* L_6 = ___1_clipID;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_7 = ___2_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_8 = ___3_diskCacheSettings;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9;
 		L_9 = VirtualFuncInvoker4< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(18 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_5, L_6, L_7, L_8);
 		NullCheck(L_4);
@@ -5764,7 +6305,7 @@ IL_00f1:
 	}
 }
 // System.Collections.IEnumerator Facebook.WitAi.TTS.TTSService::CallAfterAMoment(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m03F6421DBD973A75A352F0CE0D810DD1F5788765 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___call0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m03F6421DBD973A75A352F0CE0D810DD1F5788765 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_call, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5777,7 +6318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m0
 		NullCheck(L_0);
 		U3CCallAfterAMomentU3Ed__37__ctor_mE4C40CCA8612B26C4CE0C7E421C75BECF1CD13D5(L_0, 0, NULL);
 		U3CCallAfterAMomentU3Ed__37_t8BB7A2BC48F5F6C2611E50E5E0B162F91236A009* L_1 = L_0;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___call0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = ___0_call;
 		NullCheck(L_1);
 		L_1->___call_2 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___call_2), (void*)L_2);
@@ -5785,7 +6326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m0
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnLoadBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_mEF23BE71AAF97F03FDD9466AD35CC930364A9AA5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_mEF23BE71AAF97F03FDD9466AD35CC930364A9AA5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5800,10 +6341,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_mEF23BE71AAF97F03
 	TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* G_B3_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Preparing);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(19 /* System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 1);
 		// LogClip($"Load Clip", clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, _stringLiteralCA9358198FA5A964D3DC5881BE887E15DF1BA117, L_1, 0);
 		// Events?.OnClipCreated?.Invoke(clipData);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_2;
@@ -5838,7 +6379,7 @@ IL_0020:
 
 IL_002a:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___0_clipData;
 		NullCheck(G_B4_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B4_0, L_6, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -5846,27 +6387,27 @@ IL_002a:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnDiskStreamBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamBegin_m0F72BA1CB1E085E21764EF778988BB14F11F6385 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamBegin_m0F72BA1CB1E085E21764EF778988BB14F11F6385 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamBegin(TTSClipData clipData) => OnStreamBegin(clipData, true);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_mB034109D046E0717E6F8259573E00DD749AC1268 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_mB034109D046E0717E6F8259573E00DD749AC1268 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamBegin(TTSClipData clipData) => OnStreamBegin(clipData, false);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamBegin(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_m2FA4A6714C77A6350FDEFE222A46F86D018A9630 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5889,7 +6430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_m2FA4A6714C77A6
 	TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* G_B8_0 = NULL;
 	{
 		// LogClip($"{(fromDisk ? "Disk" : "Web")} Stream Begin", clipData);
-		bool L_0 = ___fromDisk1;
+		bool L_0 = ___1_fromDisk;
 		G_B1_0 = __this;
 		if (L_0)
 		{
@@ -5913,7 +6454,7 @@ IL_0010:
 	{
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B3_0, _stringLiteral3B239D70EE737C35BAC85C846FE74371E570623B, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(G_B3_1);
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, G_B3_1, L_1, L_2, 0);
 		// Events?.Stream?.OnStreamBegin?.Invoke(clipData);
@@ -5965,7 +6506,7 @@ IL_0036:
 
 IL_0040:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(G_B9_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B9_0, L_9, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -5973,27 +6514,27 @@ IL_0040:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnDiskStreamReady(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamReady_mBD9BADE3481ED6182217220E0865B346063968DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamReady_mBD9BADE3481ED6182217220E0865B346063968DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamReady(TTSClipData clipData) => OnStreamReady(clipData, true);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamReady(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamReady_m427CFD05C37F97ECB308BB1C6D7586CE07D71B48 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamReady_m427CFD05C37F97ECB308BB1C6D7586CE07D71B48 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamReady(TTSClipData clipData) => OnStreamReady(clipData, false);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamReady(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mE8179F78A0EF73F0CAD99A051E94A161CA98C666 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6038,7 +6579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mE8179F78A0EF73
 
 IL_000c:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(G_B2_0);
 		InterfaceActionInvoker1< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* >::Invoke(6 /* System.Void Facebook.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler::AddClip(Facebook.WitAi.TTS.Data.TTSClipData) */, ITTSRuntimeCacheHandler_t7C323625239BA331C75B466065FA581F7473CA2B_il2cpp_TypeInfo_var, G_B2_0, L_2);
 	}
@@ -6046,10 +6587,10 @@ IL_000c:
 IL_0012:
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Loaded);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(19 /* System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_3, 2);
 		// clipData.onPlaybackReady?.Invoke(string.Empty);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_5 = L_4->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_6 = L_5;
@@ -6074,12 +6615,12 @@ IL_0026:
 IL_0030:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___0_clipData;
 		NullCheck(L_8);
 		L_8->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"{(fromDisk ? "Disk" : "Web")} Stream Ready", clipData);
-		bool L_9 = ___fromDisk1;
+		bool L_9 = ___1_fromDisk;
 		G_B7_0 = __this;
 		if (L_9)
 		{
@@ -6103,7 +6644,7 @@ IL_0047:
 	{
 		String_t* L_10;
 		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B9_0, _stringLiteral31DD2603A7665647F84816E084AE8BC54C9F801B, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___0_clipData;
 		NullCheck(G_B9_1);
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, G_B9_1, L_10, L_11, 0);
 		// Events?.Stream?.OnStreamReady?.Invoke(clipData);
@@ -6155,7 +6696,7 @@ IL_006d:
 
 IL_0077:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___0_clipData;
 		NullCheck(G_B15_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B15_0, L_18, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -6163,27 +6704,27 @@ IL_0077:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnDiskStreamCancel(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamCancel_m890D6D96308198CDB9E751F2F483F6FAADF71C24 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamCancel_m890D6D96308198CDB9E751F2F483F6FAADF71C24 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamCancel(TTSClipData clipData) => OnStreamCancel(clipData, true);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamCancel(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_mE6114CA226904393D551C1CEBB1AB66A0252EC6F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_mE6114CA226904393D551C1CEBB1AB66A0252EC6F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamCancel(TTSClipData clipData) => OnStreamCancel(clipData, false);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamCancel(Facebook.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m0BA986779E377C58705BA74A0CED42C72CA494AF (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6209,10 +6750,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m0BA986779E377
 	TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* G_B11_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Error);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(19 /* System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 3);
 		// clipData.onPlaybackReady?.Invoke(CANCEL_WARNING);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_3 = L_2;
@@ -6236,12 +6777,12 @@ IL_0014:
 IL_001e:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"{(fromDisk ? "Disk" : "Web")} Stream Canceled", clipData);
-		bool L_5 = ___fromDisk1;
+		bool L_5 = ___1_fromDisk;
 		G_B4_0 = __this;
 		if (L_5)
 		{
@@ -6265,7 +6806,7 @@ IL_0035:
 	{
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B6_0, _stringLiteral0F266AC6431F19C7C4152990880D58E403B792E9, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___0_clipData;
 		NullCheck(G_B6_1);
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, G_B6_1, L_6, L_7, 0);
 		// Events?.Stream?.OnStreamCancel?.Invoke(clipData);
@@ -6317,7 +6858,7 @@ IL_005d:
 
 IL_0068:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___0_clipData;
 		NullCheck(G_B12_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B12_0, L_14, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 	}
@@ -6325,36 +6866,36 @@ IL_0068:
 IL_006e:
 	{
 		// Unload(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_15 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_15 = ___0_clipData;
 		TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A(__this, L_15, NULL);
 		// }
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnDiskStreamError(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamError_mABE1088C2B6EB9510A61127EBC50BCF7497BF3E1 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamError_mABE1088C2B6EB9510A61127EBC50BCF7497BF3E1 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamError(TTSClipData clipData, string error) => OnStreamError(clipData, error, true);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
-		String_t* L_1 = ___error1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
+		String_t* L_1 = ___1_error;
 		TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5(__this, L_0, L_1, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebStreamError(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_mD74BC8852A3641342B1D7887AF51A369957E913D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_mD74BC8852A3641342B1D7887AF51A369957E913D (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamError(TTSClipData clipData, string error) => OnStreamError(clipData, error, false);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
-		String_t* L_1 = ___error1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
+		String_t* L_1 = ___1_error;
 		TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5(__this, L_0, L_1, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnStreamError(Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, bool ___fromDisk2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039CBAF2EF775410928FA1DE4029D5 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, bool ___2_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6379,10 +6920,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039C
 	TTSClipErrorEvent_t1F678B87FC5E2F3857B7C788AC2E21C08E859ADD* G_B11_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Error);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(19 /* System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 3);
 		// clipData.onPlaybackReady?.Invoke(error);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_3 = L_2;
@@ -6399,7 +6940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m8E6425704C039C
 
 IL_0014:
 	{
-		String_t* L_4 = ___error1;
+		String_t* L_4 = ___1_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_4, NULL);
 	}
@@ -6407,12 +6948,12 @@ IL_0014:
 IL_001a:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		L_5->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"{(fromDisk ? "Disk" : "Web")} Stream Error\nError: {error}", clipData, TTSLogType.Error);
-		bool L_6 = ___fromDisk2;
+		bool L_6 = ___2_fromDisk;
 		G_B4_0 = __this;
 		if (L_6)
 		{
@@ -6434,10 +6975,10 @@ IL_002c:
 
 IL_0031:
 	{
-		String_t* L_7 = ___error1;
+		String_t* L_7 = ___1_error;
 		String_t* L_8;
 		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B6_0, _stringLiteral42B8862F535F26D1DB28B62E3329CD7CBDFE8AAD, L_7, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(G_B6_1);
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, G_B6_1, L_8, L_9, 2);
 		// Events?.Stream?.OnStreamError?.Invoke(clipData, error);
@@ -6489,8 +7030,8 @@ IL_005a:
 
 IL_0065:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_16 = ___clipData0;
-		String_t* L_17 = ___error1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_16 = ___0_clipData;
+		String_t* L_17 = ___1_error;
 		NullCheck(G_B12_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B12_0, L_16, L_17, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 	}
@@ -6498,7 +7039,7 @@ IL_0065:
 IL_006c:
 	{
 		// Unload(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___0_clipData;
 		TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A(__this, L_18, NULL);
 		// }
 		return;
@@ -6614,7 +7155,7 @@ IL_003f:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::Unload(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268F9CC471DC747F92993A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6635,7 +7176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268
 		// RuntimeCacheHandler.RemoveClip(clipData.clipID);
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(4 /* Facebook.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler Facebook.WitAi.TTS.TTSService::get_RuntimeCacheHandler() */, __this);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_2);
 		String_t* L_3 = L_2->___clipID_1;
 		NullCheck(L_1);
@@ -6646,14 +7187,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_m788AE39AD5F1CC97D9268
 IL_001a:
 	{
 		// OnUnloadBegin(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3(__this, L_4, NULL);
 		// }
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnUnloadBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6677,7 +7218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7C
 	TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* G_B15_0 = NULL;
 	{
 		// if (clipData.loadState == TTSClipLoadState.Preparing)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___loadState_7;
 		if ((!(((uint32_t)L_1) == ((uint32_t)1))))
@@ -6703,7 +7244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m295A418029FB7C
 
 IL_0015:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(G_B3_0);
 		bool L_5;
 		L_5 = InterfaceFuncInvoker1< bool, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* >::Invoke(4 /* System.Boolean Facebook.WitAi.TTS.Interfaces.ITTSWebHandler::CancelWebStream(Facebook.WitAi.TTS.Data.TTSClipData) */, ITTSWebHandler_tEDD3335B6EE482C173262A68A9D7877FC51A813C_il2cpp_TypeInfo_var, G_B3_0, L_4);
@@ -6728,17 +7269,17 @@ IL_001c:
 
 IL_0028:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___clipData0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_8 = ___0_clipData;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___textToSpeak_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___0_clipData;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___clipID_1;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___0_clipData;
 		NullCheck(L_13);
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_14 = L_13->___voiceSettings_3;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_15 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_15 = ___0_clipData;
 		NullCheck(L_15);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_16 = L_15->___diskCacheSettings_4;
 		String_t* L_17;
@@ -6767,7 +7308,7 @@ IL_004d:
 
 IL_0059:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_21 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_21 = ___0_clipData;
 		NullCheck(G_B9_0);
 		InterfaceActionInvoker1< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* >::Invoke(7 /* System.Void Facebook.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::CancelDiskCacheStream(Facebook.WitAi.TTS.Data.TTSClipData) */, ITTSDiskCacheHandler_t3675C58E5026AC3B28C1316716FBAF3678BF04B1_il2cpp_TypeInfo_var, G_B9_0, L_21);
 		goto IL_007a;
@@ -6776,7 +7317,7 @@ IL_0059:
 IL_0061:
 	{
 		// else if (clipData.clip != null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_22 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_22 = ___0_clipData;
 		NullCheck(L_22);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_23 = L_22->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6789,7 +7330,7 @@ IL_0061:
 	}
 	{
 		// MonoBehaviour.DestroyImmediate(clipData.clip);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_25 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_25 = ___0_clipData;
 		NullCheck(L_25);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_26 = L_25->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6799,10 +7340,10 @@ IL_0061:
 IL_007a:
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Unloaded);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_27 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_27 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(19 /* System.Void Facebook.WitAi.TTS.TTSService::SetClipLoadState(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_27, 0);
 		// LogClip($"Unload Clip", clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_28 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_28 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, _stringLiteralAEC0BE82137004DC2AEBEF4D61180AC524907B84, L_28, 0);
 		// Events?.OnClipUnloaded?.Invoke(clipData);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_29;
@@ -6837,7 +7378,7 @@ IL_009a:
 
 IL_00a4:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_33 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_33 = ___0_clipData;
 		NullCheck(G_B16_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B16_0, L_33, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -6845,7 +7386,7 @@ IL_00a4:
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::GetRuntimeCachedClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_GetRuntimeCachedClip_m7BBFA9662907394F5336A3BD9EFBE63F5980B1DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_GetRuntimeCachedClip_m7BBFA9662907394F5336A3BD9EFBE63F5980B1DA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6873,7 +7414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 
 IL_000c:
 	{
-		String_t* L_2 = ___clipID0;
+		String_t* L_2 = ___0_clipID;
 		NullCheck(G_B2_0);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3;
 		L_3 = InterfaceFuncInvoker1< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t* >::Invoke(5 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler::GetClip(System.String) */, ITTSRuntimeCacheHandler_t7C323625239BA331C75B466065FA581F7473CA2B_il2cpp_TypeInfo_var, G_B2_0, L_2);
@@ -6916,27 +7457,27 @@ IL_000c:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnRuntimeClipAdded(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipAdded_mD4A2D7A62DEDEB8661DDD3EE2C9204F69466C07A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipAdded_mD4A2D7A62DEDEB8661DDD3EE2C9204F69466C07A (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// protected virtual void OnRuntimeClipAdded(TTSClipData clipData) => OnLoadBegin(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnLoadBegin_mEF23BE71AAF97F03FDD9466AD35CC930364A9AA5(__this, L_0, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnRuntimeClipRemoved(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipRemoved_m53E1C2A92257E3F61C26B346F66B1C10BA46572F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipRemoved_m53E1C2A92257E3F61C26B346F66B1C10BA46572F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// protected virtual void OnRuntimeClipRemoved(TTSClipData clipData) => OnUnloadBegin(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSService_OnUnloadBegin_m295A418029FB7CE4A7B250C7B0D65C6F012524C3(__this, L_0, NULL);
 		return;
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.TTSService::ShouldCacheToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mF9799C2D67960DD11CA622236A218DDC6E5CAC92 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mF9799C2D67960DD11CA622236A218DDC6E5CAC92 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6956,7 +7497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mF9799C2D67
 	{
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5 /* Facebook.WitAi.TTS.Interfaces.ITTSDiskCacheHandler Facebook.WitAi.TTS.TTSService::get_DiskCacheHandler() */, __this);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker1< bool, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* >::Invoke(4 /* System.Boolean Facebook.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::ShouldCacheToDisk(Facebook.WitAi.TTS.Data.TTSClipData) */, ITTSDiskCacheHandler_t3675C58E5026AC3B28C1316716FBAF3678BF04B1_il2cpp_TypeInfo_var, L_1, L_2);
@@ -6969,7 +7510,7 @@ IL_0015:
 	}
 }
 // System.String Facebook.WitAi.TTS.TTSService::GetDiskCachePath(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m3C99E181DA4B30F07D914D667E970F3AAA8BE650 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m3C99E181DA4B30F07D914D667E970F3AAA8BE650 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6997,10 +7538,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m3C99E1
 
 IL_000c:
 	{
-		String_t* L_2 = ___textToSpeak0;
-		String_t* L_3 = ___clipID1;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_4 = ___voiceSettings2;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_5 = ___diskCacheSettings3;
+		String_t* L_2 = ___0_textToSpeak;
+		String_t* L_3 = ___1_clipID;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_4 = ___2_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_5 = ___3_diskCacheSettings;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6;
 		L_6 = VirtualFuncInvoker4< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(18 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_2, L_3, L_4, L_5);
 		NullCheck(G_B2_0);
@@ -7010,80 +7551,80 @@ IL_000c:
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m175F1086B953B650CEF58C4850DCC8C02ACCD6EC (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m175F1086B953B650CEF58C4850DCC8C02ACCD6EC (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___1_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, null, null, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_1 = ___onDownloadComplete1;
+		String_t* L_0 = ___0_textToSpeak;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_1 = ___1_onDownloadComplete;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2;
 		L_2 = TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989(__this, L_0, (String_t*)NULL, (TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*)NULL, (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*)NULL, L_1, NULL);
 		return L_2;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m3BB2BCCFFF371BDF8EA3F971C09C511D96E19EEA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m3BB2BCCFFF371BDF8EA3F971C09C511D96E19EEA (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___2_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// Action<TTSClipData, string, string> onDownloadComplete = null) => DownloadToDiskCache(textToSpeak, null,
 		// GetPresetVoiceSettings(presetVoiceId), null, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455(__this, L_1, NULL);
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_3 = ___onDownloadComplete2;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_3 = ___2_onDownloadComplete;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4;
 		L_4 = TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989(__this, L_0, (String_t*)NULL, L_2, (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*)NULL, L_3, NULL);
 		return L_4;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mF715502FF33D024BF26BB26E706EE97FC2DE2296 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings2, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mF715502FF33D024BF26BB26E706EE97FC2DE2296 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___2_diskCacheSettings, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___3_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), diskCacheSettings,
 		//     onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455(__this, L_1, NULL);
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___diskCacheSettings2;
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_4 = ___onDownloadComplete3;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___2_diskCacheSettings;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_4 = ___3_onDownloadComplete;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5;
 		L_5 = TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989(__this, L_0, (String_t*)NULL, L_2, L_3, L_4, NULL);
 		return L_5;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m6A32D42E53118A32040E3A4041C8D34B4B6E4C5E (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings1, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings2, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_m6A32D42E53118A32040E3A4041C8D34B4B6E4C5E (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___1_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___2_diskCacheSettings, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___3_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, voiceSettings, diskCacheSettings, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___voiceSettings1;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_2 = ___diskCacheSettings2;
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_3 = ___onDownloadComplete3;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___1_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_2 = ___2_diskCacheSettings;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_3 = ___3_onDownloadComplete;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4;
 		L_4 = TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989(__this, L_0, (String_t*)NULL, L_1, L_2, L_3, NULL);
 		return L_4;
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSService_DownloadToDiskCache_mB3FBB6A68F11059719CA0CBD9999ABD195827989 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___4_onDownloadComplete, const RuntimeMethod* method) 
 {
 	TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* V_0 = NULL;
 	{
 		// TTSClipData clipData = CreateClipData(textToSpeak, clipID, voiceSettings, diskCacheSettings);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___clipID1;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2 = ___voiceSettings2;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___diskCacheSettings3;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_clipID;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2 = ___2_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_3 = ___3_diskCacheSettings;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4;
 		L_4 = VirtualFuncInvoker4< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(18 /* Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_0, L_1, L_2, L_3);
 		V_0 = L_4;
 		// DownloadToDiskCache(clipData, onDownloadComplete);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = V_0;
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_6 = ___onDownloadComplete4;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_6 = ___4_onDownloadComplete;
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* >::Invoke(23 /* System.Void Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(Facebook.WitAi.TTS.Data.TTSClipData,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>) */, __this, L_5, L_6);
 		// return clipData;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = V_0;
@@ -7091,7 +7632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::DownloadToDiskCache(Facebook.WitAi.TTS.Data.TTSClipData,System.Action`3<Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_m1C504BC3C21FEA3B1CCA01607F7071BB451BDE44 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___onDownloadComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_m1C504BC3C21FEA3B1CCA01607F7071BB451BDE44 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, Action_3_t3D676E8D072895C382459BE5575CBA308018765C* ___1_onDownloadComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7128,12 +7669,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_m1C504BC3
 		U3CU3Ec__DisplayClass65_0__ctor_m090FAC9A96F59AD91AB65A190ED94CDF802254D7(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass65_0_t86485B11268FBD09BF3B5A73701C1056FAE57AE6* L_1 = V_0;
-		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_2 = ___onDownloadComplete1;
+		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_2 = ___1_onDownloadComplete;
 		NullCheck(L_1);
 		L_1->___onDownloadComplete_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onDownloadComplete_0), (void*)L_2);
 		U3CU3Ec__DisplayClass65_0_t86485B11268FBD09BF3B5A73701C1056FAE57AE6* L_3 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_3);
 		L_3->___clipData_1 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___clipData_1), (void*)L_4);
@@ -7326,7 +7867,7 @@ IL_00d5:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadBegin(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m58EF6BD457DD964F649E7D55C4F7764266FEA7F6 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m58EF6BD457DD964F649E7D55C4F7764266FEA7F6 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7343,10 +7884,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m58EF6BD45
 	TTSClipDownloadEvent_t6D60F8720410424E8B3BD0414B111A4DE4B8C9FF* G_B5_0 = NULL;
 	{
 		// LogClip($"Download Clip - Begin\nPath: {downloadPath}", clipData);
-		String_t* L_0 = ___downloadPath1;
+		String_t* L_0 = ___1_downloadPath;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral105B80D12DB6276478E269600E49F476237FA089, L_0, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, L_1, L_2, 0);
 		// Events?.Download?.OnDownloadBegin?.Invoke(clipData, downloadPath);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_3;
@@ -7397,8 +7938,8 @@ IL_0028:
 
 IL_0032:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
-		String_t* L_10 = ___downloadPath1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
+		String_t* L_10 = ___1_downloadPath;
 		NullCheck(G_B6_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B6_0, L_9, L_10, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 		// }
@@ -7406,7 +7947,7 @@ IL_0032:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadSuccess(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_m924957A95BB1E5286384B1F30EAE7D3C04736D1F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_m924957A95BB1E5286384B1F30EAE7D3C04736D1F (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7426,7 +7967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_m924957A
 	TTSClipDownloadEvent_t6D60F8720410424E8B3BD0414B111A4DE4B8C9FF* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(string.Empty);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7451,15 +7992,15 @@ IL_000c:
 IL_0016:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"Download Clip - Success\nPath: {downloadPath}", clipData);
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral064247AE52C426F897058C5DFDB095F0590FDEB9, L_5, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, L_6, L_7, 0);
 		// Events?.Download?.OnDownloadSuccess?.Invoke(clipData, downloadPath);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_8;
@@ -7510,8 +8051,8 @@ IL_0045:
 
 IL_004f:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___clipData0;
-		String_t* L_15 = ___downloadPath1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___0_clipData;
+		String_t* L_15 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B9_0, L_14, L_15, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 		// }
@@ -7519,7 +8060,7 @@ IL_004f:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadCancel(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m2BBD36777376BDD4D35F62F889C3094AB993D855 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m2BBD36777376BDD4D35F62F889C3094AB993D855 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7539,7 +8080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m2BBD3677
 	TTSClipDownloadEvent_t6D60F8720410424E8B3BD0414B111A4DE4B8C9FF* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(CANCEL_WARNING);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7563,15 +8104,15 @@ IL_000c:
 IL_0016:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___0_clipData;
 		NullCheck(L_3);
 		L_3->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"Download Clip - Canceled\nPath: {downloadPath}", clipData);
-		String_t* L_4 = ___downloadPath1;
+		String_t* L_4 = ___1_downloadPath;
 		String_t* L_5;
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral3DA4796A2E5EA8D2E1B1CE0B2085976BC1779BD1, L_4, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_6 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, L_5, L_6, 0);
 		// Events?.Download?.OnDownloadCancel?.Invoke(clipData, downloadPath);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_7;
@@ -7622,8 +8163,8 @@ IL_0045:
 
 IL_004f:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___clipData0;
-		String_t* L_14 = ___downloadPath1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___0_clipData;
+		String_t* L_14 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B9_0, L_13, L_14, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 		// }
@@ -7631,7 +8172,7 @@ IL_004f:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService::OnWebDownloadError(Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_m38D3B9F9312B9CFBC958610CD30FDC492BBFE695 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, String_t* ___error2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_m38D3B9F9312B9CFBC958610CD30FDC492BBFE695 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, String_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7650,7 +8191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_m38D3B9F93
 	TTSClipDownloadErrorEvent_tAD4E808AE69E47F93993A084DE8AD05D8707CB6A* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(error);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7667,7 +8208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_m38D3B9F93
 
 IL_000c:
 	{
-		String_t* L_3 = ___error2;
+		String_t* L_3 = ___2_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_3, NULL);
 	}
@@ -7675,15 +8216,15 @@ IL_000c:
 IL_0012:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// LogClip($"Download Clip - Failed\nPath: {downloadPath}", clipData, TTSLogType.Error);
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral92CEAA79C19FD21E860FD68E7D930D555B066F91, L_5, NULL);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_7 = ___0_clipData;
 		VirtualActionInvoker3< String_t*, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, int32_t >::Invoke(15 /* System.Void Facebook.WitAi.TTS.TTSService::LogClip(System.String,Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.TTS.TTSLogType) */, __this, L_6, L_7, 2);
 		// Events?.Download?.OnDownloadError?.Invoke(clipData, downloadPath, error);
 		TTSServiceEvents_tF0569B77D502A5989A86FDCC803D8514413312CB* L_8;
@@ -7734,9 +8275,9 @@ IL_0041:
 
 IL_004b:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___clipData0;
-		String_t* L_15 = ___downloadPath1;
-		String_t* L_16 = ___error2;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___0_clipData;
+		String_t* L_15 = ___1_downloadPath;
+		String_t* L_16 = ___2_error;
 		NullCheck(G_B9_0);
 		UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B(G_B9_0, L_14, L_15, L_16, UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B_RuntimeMethod_var);
 		// }
@@ -7779,7 +8320,7 @@ IL_000c:
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSVoiceSettings Facebook.WitAi.TTS.TTSService::GetPresetVoiceSettings(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___presetVoiceId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* TTSService_GetPresetVoiceSettings_mEA8C55D9E98E091455788019372988F225405455 (TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* __this, String_t* ___0_presetVoiceId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7798,7 +8339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB145
 		U3CU3Ec__DisplayClass71_0__ctor_m920B6F1AB8F969E41E365F3E3285E68F5D05DE86(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass71_0_tE5AB0DA778E15AE0080703ED570FC98ECC1E440B* L_1 = V_0;
-		String_t* L_2 = ___presetVoiceId0;
+		String_t* L_2 = ___0_presetVoiceId;
 		NullCheck(L_1);
 		L_1->___presetVoiceId_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___presetVoiceId_0), (void*)L_2);
@@ -7907,13 +8448,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m40F969DADEDDA6C67D4A594A4
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.TTSService/<>c::<get_Instance>b__1_0(Facebook.WitAi.TTS.TTSService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3Cget_InstanceU3Eb__1_0_mFBAD312C057DCD8CBE56B07A0A2D2D5EC05F9158 (U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9* __this, TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* ___o0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3Cget_InstanceU3Eb__1_0_mFBAD312C057DCD8CBE56B07A0A2D2D5EC05F9158 (U3CU3Ec_tD7E6838F5F8C3D5446B4CA375457E7949F8ACAE9* __this, TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* ___0_o, const RuntimeMethod* method) 
 {
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		// _instance = Array.Find(services, (o) => o.gameObject.scene.rootCount != 0);
-		TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* L_0 = ___o0;
+		TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* L_0 = ___0_o;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
@@ -7943,13 +8484,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0__ctor_mBFF19B1
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0::<Load>b__2(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__2_m4486E63AD1BC348DB1EEC1C9C8ED3268C3035C3C (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, String_t* ___e0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__2_m4486E63AD1BC348DB1EEC1C9C8ED3268C3035C3C (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, String_t* ___0_e, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onPlaybackReady += (e) => onStreamReady(clipData, e);
 		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_0 = __this->___onStreamReady_0;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->___clipData_1;
-		String_t* L_2 = ___e0;
+		String_t* L_2 = ___0_e;
 		NullCheck(L_0);
 		Action_2_Invoke_mE7F840CB53F1F6B008B4626F4555B0C20917B4FA_inline(L_0, L_1, L_2, NULL);
 		return;
@@ -8012,13 +8553,13 @@ IL_0026:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0::<Load>b__3(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__3_m2B78D1677433B61C6EF7FDD0EE06BB018A726425 (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, String_t* ___error0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__3_m2B78D1677433B61C6EF7FDD0EE06BB018A726425 (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onPlaybackReady += (error) => onStreamReady(clipData, error);
 		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_0 = __this->___onStreamReady_0;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->___clipData_1;
-		String_t* L_2 = ___error0;
+		String_t* L_2 = ___0_error;
 		NullCheck(L_0);
 		Action_2_Invoke_mE7F840CB53F1F6B008B4626F4555B0C20917B4FA_inline(L_0, L_1, L_2, NULL);
 		return;
@@ -8254,7 +8795,7 @@ IL_012b:
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass36_0::<Load>b__4(Facebook.WitAi.TTS.Data.TTSClipData,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__4_m48CB33648422D84D6A32DCE74940B26D94CEC364 (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData20, String_t* ___downloadPath1, String_t* ___error2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__4_m48CB33648422D84D6A32DCE74940B26D94CEC364 (U3CU3Ec__DisplayClass36_0_tE2251A30B48074E52DB82195539D5115C1D73F83* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData2, String_t* ___1_downloadPath, String_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8270,7 +8811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__4
 	RuntimeObject* G_B7_0 = NULL;
 	{
 		// if (string.Equals(error, CANCEL_WARNING))
-		String_t* L_0 = ___error2;
+		String_t* L_0 = ___2_error;
 		bool L_1;
 		L_1 = String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D(L_0, _stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459, NULL);
 		if (!L_1)
@@ -8296,7 +8837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass36_0_U3CLoadU3Eb__4
 IL_0030:
 	{
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_6 = ___error2;
+		String_t* L_6 = ___2_error;
 		bool L_7;
 		L_7 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_6, NULL);
 		if (!L_7)
@@ -8367,11 +8908,11 @@ IL_0064:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Facebook.WitAi.TTS.TTSService/<CallAfterAMoment>d__37::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__37__ctor_mE4C40CCA8612B26C4CE0C7E421C75BECF1CD13D5 (U3CCallAfterAMomentU3Ed__37_t8BB7A2BC48F5F6C2611E50E5E0B162F91236A009* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__37__ctor_mE4C40CCA8612B26C4CE0C7E421C75BECF1CD13D5 (U3CCallAfterAMomentU3Ed__37_t8BB7A2BC48F5F6C2611E50E5E0B162F91236A009* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -8512,14 +9053,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass65_0__ctor_m090FAC9
 	}
 }
 // System.Void Facebook.WitAi.TTS.TTSService/<>c__DisplayClass65_0::<DownloadToDiskCache>b__0(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass65_0_U3CDownloadToDiskCacheU3Eb__0_m501F9CBF3558F33BE03D69E1E0EA134EED8D7B68 (U3CU3Ec__DisplayClass65_0_t86485B11268FBD09BF3B5A73701C1056FAE57AE6* __this, String_t* ___error0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass65_0_U3CDownloadToDiskCacheU3Eb__0_m501F9CBF3558F33BE03D69E1E0EA134EED8D7B68 (U3CU3Ec__DisplayClass65_0_t86485B11268FBD09BF3B5A73701C1056FAE57AE6* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onDownloadComplete += (error) => onDownloadComplete(clipData, downloadPath, error);
 		Action_3_t3D676E8D072895C382459BE5575CBA308018765C* L_0 = __this->___onDownloadComplete_0;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->___clipData_1;
 		String_t* L_2 = __this->___downloadPath_2;
-		String_t* L_3 = ___error0;
+		String_t* L_3 = ___0_error;
 		NullCheck(L_0);
 		Action_3_Invoke_mF256D0A572644A7C694F8A5C9AD0F1295999A8C8_inline(L_0, L_1, L_2, L_3, NULL);
 		return;
@@ -8542,11 +9083,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass71_0__ctor_m920B6F1
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.TTSService/<>c__DisplayClass71_0::<GetPresetVoiceSettings>b__0(Facebook.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass71_0_U3CGetPresetVoiceSettingsU3Eb__0_m3717CBF702904B6D3B2FED43DA5E6F5A92D54763 (U3CU3Ec__DisplayClass71_0_tE5AB0DA778E15AE0080703ED570FC98ECC1E440B* __this, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___v0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass71_0_U3CGetPresetVoiceSettingsU3Eb__0_m3717CBF702904B6D3B2FED43DA5E6F5A92D54763 (U3CU3Ec__DisplayClass71_0_tE5AB0DA778E15AE0080703ED570FC98ECC1E440B* __this, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___0_v, const RuntimeMethod* method) 
 {
 	{
 		// return Array.Find(VoiceProvider.PresetVoiceSettings, (v) => string.Equals(v.settingsID, presetVoiceId, StringComparison.CurrentCultureIgnoreCase));
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_0 = ___v0;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_0 = ___0_v;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___settingsID_1;
 		String_t* L_2 = __this->___presetVoiceId_0;
@@ -8749,11 +9290,11 @@ IL_0034:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnClipUnload(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m26A50E94E3C0FB030EBE8367481BDC9705FBE099 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m26A50E94E3C0FB030EBE8367481BDC9705FBE099 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// if (clipData == _loadingClip)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->____loadingClip_8;
 		if ((!(((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_0) == ((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_1))))
 		{
@@ -8769,7 +9310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m26A50E94E3C0FB0
 IL_0010:
 	{
 		// else if (clipData == _lastClip)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = __this->____lastClip_10;
 		if ((!(((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_2) == ((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_3))))
 		{
@@ -8791,11 +9332,11 @@ IL_0026:
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.Utilities.TTSSpeaker::IsClipSame(System.String,Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSSpeaker_IsClipSame_m68837EC8F50AF084000F96314D5F63262317B6AC (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___clipID0, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSSpeaker_IsClipSame_m68837EC8F50AF084000F96314D5F63262317B6AC (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___0_clipID, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___1_clipData, const RuntimeMethod* method) 
 {
 	{
 		// if (clipData == null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___1_clipData;
 		if (L_0)
 		{
 			goto IL_0005;
@@ -8809,8 +9350,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSSpeaker_IsClipSame_m68837EC8F50AF0840
 IL_0005:
 	{
 		// if (!string.Equals(clipID, clipData.clipID, StringComparison.CurrentCultureIgnoreCase))
-		String_t* L_1 = ___clipID0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData1;
+		String_t* L_1 = ___0_clipID;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___1_clipData;
 		NullCheck(L_2);
 		String_t* L_3 = L_2->___clipID_1;
 		bool L_4;
@@ -8841,7 +9382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSSpeaker_get_IsSpeaking_mB0A07FD6722A9
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mDB24D315CE4E7026AEB71BE9F2968E1D11C44A03 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___format0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mDB24D315CE4E7026AEB71BE9F2968E1D11C44A03 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___0_format, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_textsToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8852,7 +9393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mDB24D315CE4E7026AEB71B
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	{
 		// if (textsToSpeak == null)
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___1_textsToSpeak;
 		if (L_0)
 		{
 			goto IL_0004;
@@ -8866,17 +9407,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mDB24D315CE4E7026AEB71B
 IL_0004:
 	{
 		// object[] objects = new object[textsToSpeak.Length];
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_textsToSpeak;
 		NullCheck(L_1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_1)->max_length)));
 		V_0 = L_2;
 		// textsToSpeak.CopyTo(objects, 0);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___1_textsToSpeak;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
 		NullCheck((RuntimeArray*)L_3);
 		Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB((RuntimeArray*)L_3, (RuntimeArray*)L_4, 0, NULL);
 		// Speak(string.Format(format, objects));
-		String_t* L_5 = ___format0;
+		String_t* L_5 = ___0_format;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		String_t* L_7;
 		L_7 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_5, L_6, NULL);
@@ -8886,17 +9427,17 @@ IL_0004:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m177FC3CD12387224300812B1DB08234709304BB1 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m177FC3CD12387224300812B1DB08234709304BB1 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	{
 		// public virtual void Speak(string textToSpeak) => Speak(textToSpeak, (TTSDiskCacheSettings)null);
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		VirtualActionInvoker2< String_t*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(10 /* System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_0, (TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65*)NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m80B79228528678DCC73E4A8185E5102F2A369780 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m80B79228528678DCC73E4A8185E5102F2A369780 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___1_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8934,7 +9475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m80B79228528678DCC73E4A
 IL_0020:
 	{
 		// if (string.IsNullOrEmpty(textToSpeak))
-		String_t* L_4 = ___textToSpeak0;
+		String_t* L_4 = ___0_textToSpeak;
 		bool L_5;
 		L_5 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_4, NULL);
 		if (!L_5)
@@ -8955,7 +9496,7 @@ IL_0033:
 		// string newClipID = TTSService.Instance.GetClipID(textToSpeak, voiceSettings);
 		TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* L_6;
 		L_6 = TTSService_get_Instance_mD8FE567EE20713065D6A8B0EF7A6F098F45A34DE(NULL);
-		String_t* L_7 = ___textToSpeak0;
+		String_t* L_7 = ___0_textToSpeak;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_8 = V_0;
 		NullCheck(L_6);
 		String_t* L_9;
@@ -9031,10 +9572,10 @@ IL_0074:
 IL_00a6:
 	{
 		// OnLoadBegin(textToSpeak, newClipID, voiceSettings, diskCacheSettings);
-		String_t* L_26 = ___textToSpeak0;
+		String_t* L_26 = ___0_textToSpeak;
 		String_t* L_27 = V_1;
 		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_28 = V_0;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_29 = ___diskCacheSettings1;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_29 = ___1_diskCacheSettings;
 		VirtualActionInvoker4< String_t*, String_t*, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104*, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* >::Invoke(12 /* System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnLoadBegin(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_26, L_27, L_28, L_29);
 		// }
 		return;
@@ -9107,7 +9648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSSpeaker_get_IsLoading_m03DFCD1DC786DC
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnLoadBegin(System.String,System.String,Facebook.WitAi.TTS.Data.TTSVoiceSettings,Facebook.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m16A62A44F8328EAD20FEC9A80D120565240CA025 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings2, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___diskCacheSettings3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m16A62A44F8328EAD20FEC9A80D120565240CA025 (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___2_voiceSettings, TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* ___3_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9154,7 +9695,7 @@ IL_000c:
 
 IL_0017:
 	{
-		String_t* L_4 = ___textToSpeak0;
+		String_t* L_4 = ___0_textToSpeak;
 		NullCheck(G_B4_0);
 		UnityEvent_2_Invoke_m1DA2EF457EDA02310578FB853C4C5FC506760627(G_B4_0, __this, L_4, UnityEvent_2_Invoke_m1DA2EF457EDA02310578FB853C4C5FC506760627_RuntimeMethod_var);
 	}
@@ -9164,10 +9705,10 @@ IL_001e:
 		// _loadingClip = TTSService.Instance.Load(textToSpeak, clipID, voiceSettings, diskCacheSettings, OnLoadComplete);
 		TTSService_t95F3B85E7005C6D10BE5A8C288A69C2A368393FD* L_5;
 		L_5 = TTSService_get_Instance_mD8FE567EE20713065D6A8B0EF7A6F098F45A34DE(NULL);
-		String_t* L_6 = ___textToSpeak0;
-		String_t* L_7 = ___clipID1;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_8 = ___voiceSettings2;
-		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_9 = ___diskCacheSettings3;
+		String_t* L_6 = ___0_textToSpeak;
+		String_t* L_7 = ___1_clipID;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_8 = ___2_voiceSettings;
+		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_9 = ___3_diskCacheSettings;
 		Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7* L_10 = (Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7*)il2cpp_codegen_object_new(Action_2_tF56816C741F0999A39A6C5D18F41288D9974F9F7_il2cpp_TypeInfo_var);
 		NullCheck(L_10);
 		Action_2__ctor_mCC51F5408B1D4CCA203CAF1B14AB6B5A53A2CB03(L_10, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 13)), NULL);
@@ -9181,7 +9722,7 @@ IL_001e:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnLoadComplete(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadComplete_mA4D1D137B4182C24F00B0DE5A1655A628D98FBEE (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadComplete_mA4D1D137B4182C24F00B0DE5A1655A628D98FBEE (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9202,7 +9743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadComplete_mA4D1D137B4182
 	TTSSpeakerEvent_tEB8DB818E814F3091A82D372A8795E824044D852* G_B11_0 = NULL;
 	{
 		// if (clipData != _loadingClip)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->____loadingClip_8;
 		if ((((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_0) == ((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_1)))
 		{
@@ -9220,7 +9761,7 @@ IL_000a:
 		__this->____loadingClip_8 = (TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____loadingClip_8), (void*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)NULL);
 		// if (clipData.clip == null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_2);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = L_2->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -9233,7 +9774,7 @@ IL_000a:
 	}
 	{
 		// Debug.LogError($"TTS Speaker - Load Clip - Failed\n{error}");
-		String_t* L_5 = ___error1;
+		String_t* L_5 = ___1_error;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA6787538D1C9FAA88FB3ABB09CE5F79558A47E50, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -9271,7 +9812,7 @@ IL_003a:
 
 IL_0044:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___0_clipData;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___textToSpeak_0;
 		NullCheck(G_B7_0);
@@ -9315,7 +9856,7 @@ IL_005d:
 
 IL_0068:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___0_clipData;
 		NullCheck(L_17);
 		String_t* L_18 = L_17->___textToSpeak_0;
 		NullCheck(G_B12_0);
@@ -9325,7 +9866,7 @@ IL_0068:
 IL_0074:
 	{
 		// OnPlaybackBegin(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_19 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_19 = ___0_clipData;
 		VirtualActionInvoker1< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* >::Invoke(15 /* System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackBegin(Facebook.WitAi.TTS.Data.TTSClipData) */, __this, L_19);
 		// }
 		return;
@@ -9407,7 +9948,7 @@ IL_0037:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackBegin(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackBegin_m982E8268BE102254817003F26F2FEF6AAC91CD5C (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackBegin_m982E8268BE102254817003F26F2FEF6AAC91CD5C (TTSSpeaker_t2A8C099DEA26115D3C5CD3946D92F2E8FC3E13FB* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9426,7 +9967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackBegin_m982E8268BE10
 		// OnPlaybackCancel();
 		VirtualActionInvoker0::Invoke(18 /* System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackCancel() */, __this);
 		// if (clipData != _lastClip && _lastClip != null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = __this->____lastClip_10;
 		if ((((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_0) == ((RuntimeObject*)(TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*)L_1)))
 		{
@@ -9449,7 +9990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackBegin_m982E8268BE10
 IL_001e:
 	{
 		// _lastClip = clipData;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___0_clipData;
 		__this->____lastClip_10 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____lastClip_10), (void*)L_3);
 		// if (_lastClip == null || _lastClip.clip == null)
@@ -9771,11 +10312,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker__ctor_mA343AEA24A07CD29DFE9BE
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Facebook.WitAi.TTS.Utilities.TTSSpeaker/<OnPlaybackWait>d__27::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPlaybackWaitU3Ed__27__ctor_m14F342CBC8B88A2721AD3E9F1659A57F07566848 (U3COnPlaybackWaitU3Ed__27_t1D05BF7B41DAA81FB69D9C982664E591BE122286* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3COnPlaybackWaitU3Ed__27__ctor_m14F342CBC8B88A2721AD3E9F1659A57F07566848 (U3COnPlaybackWaitU3Ed__27_t1D05BF7B41DAA81FB69D9C982664E591BE122286* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -9887,7 +10428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3COnPlaybackWaitU3Ed__27_Syst
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m322153B83BA39E32C1D3643B7AAEB2F78B62FAEE (String_t* ___audioUrl0, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m322153B83BA39E32C1D3643B7AAEB2F78B62FAEE (String_t* ___0_audioUrl, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___1_onAudioClipReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9897,8 +10438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 	{
 		// RequestAudioClip(audioUrl, AudioType.UNKNOWN, null, onAudioClipReady);
-		String_t* L_0 = ___audioUrl0;
-		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_1 = ___onAudioClipReady1;
+		String_t* L_0 = ___0_audioUrl;
+		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_1 = ___1_onAudioClipReady;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_2;
 		L_2 = VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC(L_0, 0, (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*)NULL, L_1, NULL);
@@ -9906,7 +10447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,System.Action`2<System.String,System.Single>,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m5E9C7F619DABD24C49BE63376B04439ACFD7D7CC (String_t* ___audioUrl0, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onAudioClipProgress1, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m5E9C7F619DABD24C49BE63376B04439ACFD7D7CC (String_t* ___0_audioUrl, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___1_onAudioClipProgress, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___2_onAudioClipReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9917,9 +10458,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	{
 		// Action<string, AudioClip, string> onAudioClipReady) => RequestAudioClip(audioUrl, AudioType.UNKNOWN,
 		// onAudioClipProgress, onAudioClipReady);
-		String_t* L_0 = ___audioUrl0;
-		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_1 = ___onAudioClipProgress1;
-		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_2 = ___onAudioClipReady2;
+		String_t* L_0 = ___0_audioUrl;
+		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_1 = ___1_onAudioClipProgress;
+		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_2 = ___2_onAudioClipReady;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_3;
 		L_3 = VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC(L_0, 0, L_1, L_2, NULL);
@@ -9927,7 +10468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,UnityEngine.AudioType,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m3072B0A1C3D40C5B65A1D28B6EC3556C4C9BA96D (String_t* ___audioUrl0, int32_t ___audioType1, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_m3072B0A1C3D40C5B65A1D28B6EC3556C4C9BA96D (String_t* ___0_audioUrl, int32_t ___1_audioType, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___2_onAudioClipReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9937,9 +10478,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 	{
 		// RequestAudioClip(audioUrl, audioType, null, onAudioClipReady);
-		String_t* L_0 = ___audioUrl0;
-		int32_t L_1 = ___audioType1;
-		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_2 = ___onAudioClipReady2;
+		String_t* L_0 = ___0_audioUrl;
+		int32_t L_1 = ___1_audioType;
+		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_2 = ___2_onAudioClipReady;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_3;
 		L_3 = VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC(L_0, L_1, (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*)NULL, L_2, NULL);
@@ -9947,7 +10488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestAudioClip(System.String,UnityEngine.AudioType,System.Action`2<System.String,System.Single>,System.Action`3<System.String,UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC (String_t* ___audioUrl0, int32_t ___audioType1, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onAudioClipProgress2, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___onAudioClipReady3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestAudioClip_mB45F60E5CA8F4DD3087531809DCFC80D872549BC (String_t* ___0_audioUrl, int32_t ___1_audioType, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___2_onAudioClipProgress, Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* ___3_onAudioClipReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9981,22 +10522,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 		U3CU3Ec__DisplayClass3_0__ctor_m79D7E030BCB7C9FDF104764C004965137DE2C480(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* L_1 = V_0;
-		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_2 = ___onAudioClipProgress2;
+		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_2 = ___2_onAudioClipProgress;
 		NullCheck(L_1);
 		L_1->___onAudioClipProgress_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onAudioClipProgress_0), (void*)L_2);
 		U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* L_3 = V_0;
-		String_t* L_4 = ___audioUrl0;
+		String_t* L_4 = ___0_audioUrl;
 		NullCheck(L_3);
 		L_3->___audioUrl_1 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___audioUrl_1), (void*)L_4);
 		U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* L_5 = V_0;
-		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_6 = ___onAudioClipReady3;
+		Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* L_6 = ___3_onAudioClipReady;
 		NullCheck(L_5);
 		L_5->___onAudioClipReady_2 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___onAudioClipReady_2), (void*)L_6);
 		// if (audioType == AudioType.UNKNOWN)
-		int32_t L_7 = ___audioType1;
+		int32_t L_7 = ___1_audioType;
 		if (L_7)
 		{
 			goto IL_0069;
@@ -10018,7 +10559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 		String_t* L_12 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_il2cpp_TypeInfo_var);
 		bool L_13;
-		L_13 = Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D(L_12, (bool)1, (&___audioType1), Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D_RuntimeMethod_var);
+		L_13 = Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D(L_12, (bool)1, (&___1_audioType), Enum_TryParse_TisAudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_m390A9E19AE2DEA0E4F07CF527F437E6BBBAC765D_RuntimeMethod_var);
 		if (L_13)
 		{
 			goto IL_0069;
@@ -10116,7 +10657,7 @@ IL_00b7:
 	{
 		// UnityWebRequest request = UnityWebRequestMultimedia.GetAudioClip(finalUrl, audioType);
 		String_t* L_35 = V_1;
-		int32_t L_36 = ___audioType1;
+		int32_t L_36 = ___1_audioType;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_37;
 		L_37 = UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B(L_35, L_36, NULL);
 		// ((DownloadHandlerAudioClip)request.downloadHandler).streamAudio = true;
@@ -10179,7 +10720,7 @@ IL_00b7:
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestFile(System.String,System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m9F76BEC32A5562119331A462450F3BC6F24315BE (String_t* ___fileUrl0, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___onFileLoaded1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m9F76BEC32A5562119331A462450F3BC6F24315BE (String_t* ___0_fileUrl, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___1_onFileLoaded, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10189,8 +10730,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 	{
 		// public static VoiceUnityRequest RequestFile(string fileUrl, Action<string, UnityWebRequest> onFileLoaded) => RequestFile(fileUrl, null, onFileLoaded);
-		String_t* L_0 = ___fileUrl0;
-		Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* L_1 = ___onFileLoaded1;
+		String_t* L_0 = ___0_fileUrl;
+		Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* L_1 = ___1_onFileLoaded;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_2;
 		L_2 = VoiceUnityRequest_RequestFile_m655FA115715768F98F25F924AE0606273CDEA575(L_0, (Action_2_t2399F3C34C43EB392520F878CA121755E120498E*)NULL, L_1, NULL);
@@ -10198,7 +10739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::RequestFile(System.String,System.Action`2<System.String,System.Single>,System.Action`2<System.String,UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m655FA115715768F98F25F924AE0606273CDEA575 (String_t* ___fileUrl0, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___onFileProgress1, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___onFileLoaded2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_RequestFile_m655FA115715768F98F25F924AE0606273CDEA575 (String_t* ___0_fileUrl, Action_2_t2399F3C34C43EB392520F878CA121755E120498E* ___1_onFileProgress, Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* ___2_onFileLoaded, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10218,17 +10759,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 		U3CU3Ec__DisplayClass5_0__ctor_m60B92686D1E5A7F574F583D11808FE58346476DF(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* L_1 = V_0;
-		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_2 = ___onFileProgress1;
+		Action_2_t2399F3C34C43EB392520F878CA121755E120498E* L_2 = ___1_onFileProgress;
 		NullCheck(L_1);
 		L_1->___onFileProgress_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onFileProgress_0), (void*)L_2);
 		U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* L_3 = V_0;
-		String_t* L_4 = ___fileUrl0;
+		String_t* L_4 = ___0_fileUrl;
 		NullCheck(L_3);
 		L_3->___fileUrl_1 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___fileUrl_1), (void*)L_4);
 		U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* L_5 = V_0;
-		Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* L_6 = ___onFileLoaded2;
+		Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* L_6 = ___2_onFileLoaded;
 		NullCheck(L_5);
 		L_5->___onFileLoaded_2 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___onFileLoaded_2), (void*)L_6);
@@ -10254,7 +10795,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Request(UnityEngine.Networking.UnityWebRequest,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_mE5903DEBAA48EF56F3883CC7B5F194188ED172B6 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___request0, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___onComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_mE5903DEBAA48EF56F3883CC7B5F194188ED172B6 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_request, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___1_onComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10264,8 +10805,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 	{
 		// public static VoiceUnityRequest Request(UnityWebRequest request, Action<UnityWebRequest> onComplete) => Request(request, null, onComplete);
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___request0;
-		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_1 = ___onComplete1;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___0_request;
+		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_1 = ___1_onComplete;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_2;
 		L_2 = VoiceUnityRequest_Request_m20D78F8BE397F13CDFF935B88E8672539CCE847F(L_0, (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*)NULL, L_1, NULL);
@@ -10273,7 +10814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 	}
 }
 // Facebook.WitAi.TTS.Utilities.VoiceUnityRequest Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Request(UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_m20D78F8BE397F13CDFF935B88E8672539CCE847F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest0, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress1, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___onComplete2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* VoiceUnityRequest_Request_m20D78F8BE397F13CDFF935B88E8672539CCE847F (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_unityRequest, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___1_onProgress, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___2_onComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10288,9 +10829,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B
 		VoiceUnityRequest__ctor_mD125A64CDCDBE0A904EF4F76F89BDE3EFBA08C51(L_0, NULL);
 		// request.Setup(unityRequest, onProgress, onComplete);
 		VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* L_1 = L_0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___unityRequest0;
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___onProgress1;
-		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_4 = ___onComplete2;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___0_unityRequest;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_3 = ___1_onProgress;
+		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_4 = ___2_onComplete;
 		NullCheck(L_1);
 		VirtualActionInvoker3< UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* >::Invoke(4 /* System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Setup(UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>) */, L_1, L_2, L_3, L_4);
 		// return request;
@@ -10316,7 +10857,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float VoiceUnityRequest_get_Progress_m7E973B4
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Setup(UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceUnityRequest_Setup_mEA68DCDF5F99D206370655AD9BEBEB2D339E0611 (VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___newRequest0, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___newProgress1, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___newComplete2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceUnityRequest_Setup_mEA68DCDF5F99D206370655AD9BEBEB2D339E0611 (VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_newRequest, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___1_newProgress, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___2_newComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10340,15 +10881,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceUnityRequest_Setup_mEA68DCDF5F99D20
 IL_0009:
 	{
 		// _request = newRequest;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1 = ___newRequest0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_1 = ___0_newRequest;
 		__this->____request_5 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____request_5), (void*)L_1);
 		// _onProgress = newProgress;
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = ___newProgress1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_2 = ___1_newProgress;
 		__this->____onProgress_6 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____onProgress_6), (void*)L_2);
 		// _onComplete = newComplete;
-		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_3 = ___newComplete2;
+		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_3 = ___2_newComplete;
 		__this->____onComplete_7 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____onComplete_7), (void*)L_3);
 		// _transmitting = false;
@@ -10356,7 +10897,7 @@ IL_0009:
 		// _progress = 0f;
 		__this->____progress_4 = (0.0f);
 		// if (newRequest.timeout <= 0)
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___newRequest0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___0_newRequest;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = UnityWebRequest_get_timeout_mE7983CCB87576C0BF53D22A6BC79AC5191BB4927(L_4, NULL);
@@ -10367,7 +10908,7 @@ IL_0009:
 	}
 	{
 		// newRequest.timeout = Timeout;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = ___newRequest0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = ___0_newRequest;
 		il2cpp_codegen_runtime_class_init_inline(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var);
 		int32_t L_7 = ((VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_StaticFields*)il2cpp_codegen_static_fields_for(VoiceUnityRequest_t3DF45C52C20B393D59A2AFE57B3B66AD4A207667_il2cpp_TypeInfo_var))->___Timeout_2;
 		NullCheck(L_6);
@@ -10655,7 +11196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m79D7E030
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass3_0::<RequestAudioClip>b__0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudioClipU3Eb__0_mC435D5480BD53CB91D2759A391C4DFBA47E7EB4A (U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* __this, float ___p0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudioClipU3Eb__0_mC435D5480BD53CB91D2759A391C4DFBA47E7EB4A (U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* __this, float ___0_p, const RuntimeMethod* method) 
 {
 	Action_2_t2399F3C34C43EB392520F878CA121755E120498E* G_B2_0 = NULL;
 	Action_2_t2399F3C34C43EB392520F878CA121755E120498E* G_B1_0 = NULL;
@@ -10677,14 +11218,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudio
 IL_000b:
 	{
 		String_t* L_2 = __this->___audioUrl_1;
-		float L_3 = ___p0;
+		float L_3 = ___0_p;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m4394ACFFC2C8D7A7D849C0781B4212454875DBC2_inline(G_B2_0, L_2, L_3, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass3_0::<RequestAudioClip>b__1(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudioClipU3Eb__1_m5ACBF517A24D607405CDC2321AB4313FCF633D3D (U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___r0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudioClipU3Eb__1_m5ACBF517A24D607405CDC2321AB4313FCF633D3D (U3CU3Ec__DisplayClass3_0_t035C337CCC28127E6FC1B907A19DE57A9C7AEDAD* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10708,7 +11249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudio
 	Action_3_tC05340C461C32EDEB7FAB6978DB3F0CAEB59889A* G_B15_0 = NULL;
 	{
 		// if (r.result != UnityWebRequest.Result.Success)
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___0_r;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = UnityWebRequest_get_result_mEF83848C5FCFB5E307CE4B57E42BF02FC9AED449(L_0, NULL);
@@ -10735,7 +11276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0_U3CRequestAudio
 IL_0014:
 	{
 		String_t* L_4 = __this->___audioUrl_1;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___0_r;
 		NullCheck(L_5);
 		String_t* L_6;
 		L_6 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_5, NULL);
@@ -10752,7 +11293,7 @@ IL_0027:
 	try
 	{// begin try (depth: 1)
 		// clip = DownloadHandlerAudioClip.GetContent(r);
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7 = ___0_r;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_8;
 		L_8 = DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9(L_7, NULL);
 		V_0 = L_8;
@@ -10900,7 +11441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m60B92686
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass5_0::<RequestFile>b__0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU3Eb__0_m8523DD5F1001134BBA3C589FB70EC4C407D5F4C3 (U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* __this, float ___p0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU3Eb__0_m8523DD5F1001134BBA3C589FB70EC4C407D5F4C3 (U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* __this, float ___0_p, const RuntimeMethod* method) 
 {
 	Action_2_t2399F3C34C43EB392520F878CA121755E120498E* G_B2_0 = NULL;
 	Action_2_t2399F3C34C43EB392520F878CA121755E120498E* G_B1_0 = NULL;
@@ -10922,14 +11463,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU
 IL_000b:
 	{
 		String_t* L_2 = __this->___fileUrl_1;
-		float L_3 = ___p0;
+		float L_3 = ___0_p;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m4394ACFFC2C8D7A7D849C0781B4212454875DBC2_inline(G_B2_0, L_2, L_3, NULL);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<>c__DisplayClass5_0::<RequestFile>b__1(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU3Eb__1_m54917A423CDDB6E0C183C43F87AA692CA91CE1E0 (U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___r0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU3Eb__1_m54917A423CDDB6E0C183C43F87AA692CA91CE1E0 (U3CU3Ec__DisplayClass5_0_t428A544D2BB57826DC563D9B7BD56DB4DFEE8586* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_r, const RuntimeMethod* method) 
 {
 	Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* G_B2_0 = NULL;
 	Action_2_t6D44B605F825F1EC3D360F12EB725042462A0D79* G_B1_0 = NULL;
@@ -10951,7 +11492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestFileU
 IL_000b:
 	{
 		String_t* L_2 = __this->___fileUrl_1;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___0_r;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_mFCDFF41277810F0799BD361C2E8E56B310F3B0E7_inline(G_B2_0, L_2, L_3, NULL);
 		return;
@@ -10966,11 +11507,11 @@ IL_000b:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest/<PerformUpdate>d__22::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPerformUpdateU3Ed__22__ctor_mDD97FB60F924942FC5FBD7C02DC1926F4FC74FD2 (U3CPerformUpdateU3Ed__22_t8AF4B45D5E104013EA01D63B3FF643CA7BF21AF5* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CPerformUpdateU3Ed__22__ctor_mDD97FB60F924942FC5FBD7C02DC1926F4FC74FD2 (U3CPerformUpdateU3Ed__22_t8AF4B45D5E104013EA01D63B3FF643CA7BF21AF5* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -11194,7 +11735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPerformUpdateU3Ed__22_Syste
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.String Facebook.WitAi.TTS.Utilities.WitUnityRequest::IsTextValid(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11 (String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11 (String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11207,7 +11748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC
 	}
 	{
 		// if (string.IsNullOrEmpty(textToSpeak))
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (!L_1)
@@ -11223,7 +11764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_IsTextValid_m360EAC
 IL_000e:
 	{
 		// if (textToSpeak.Length > WitUnityRequest.TTS_MAX_SIZE)
-		String_t* L_2 = ___textToSpeak0;
+		String_t* L_2 = ___0_textToSpeak;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_2, NULL);
@@ -11249,7 +11790,7 @@ IL_0030:
 	}
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTSStream(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`1<System.Single>,System.Action`2<UnityEngine.AudioClip,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSStream_m391D589C27BF67D91983E7FC2C21D85006094D3A (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___textToSpeak1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data2, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress3, Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* ___onClipReady4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSStream_m391D589C27BF67D91983E7FC2C21D85006094D3A (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_data, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___3_onProgress, Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* ___4_onClipReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11278,7 +11819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		U3CU3Ec__DisplayClass4_0__ctor_m81A2FD77A34847CA40728300699E3D3F9E953A50(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass4_0_t62F0ED25BA993DAB01118F520A24855D9BE6300F* L_1 = V_0;
-		Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* L_2 = ___onClipReady4;
+		Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* L_2 = ___4_onClipReady;
 		NullCheck(L_1);
 		L_1->___onClipReady_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onClipReady_0), (void*)L_2);
@@ -11325,9 +11866,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		//         }
 		//     }
 		// });
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___configuration0;
-		String_t* L_4 = ___textToSpeak1;
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_5 = ___data2;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___0_configuration;
+		String_t* L_4 = ___1_textToSpeak;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_5 = ___2_data;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA_il2cpp_TypeInfo_var);
 		Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* L_6 = ((U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA_il2cpp_TypeInfo_var))->___U3CU3E9__4_0_1;
 		Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* L_7 = L_6;
@@ -11361,7 +11902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 
 IL_0030:
 	{
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_11 = ___onProgress3;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_11 = ___3_onProgress;
 		U3CU3Ec__DisplayClass4_0_t62F0ED25BA993DAB01118F520A24855D9BE6300F* L_12 = V_0;
 		Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* L_13 = (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*)il2cpp_codegen_object_new(Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
@@ -11373,7 +11914,7 @@ IL_0030:
 	}
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTSDownload(System.String,Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`1<System.Single>,System.Action`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSDownload_m5E66D72C2BFE0117524D974A5EFF890E501161E6 (String_t* ___downloadPath0, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration1, String_t* ___textToSpeak2, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data3, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress4, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___onDownloadComplete5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSDownload_m5E66D72C2BFE0117524D974A5EFF890E501161E6 (String_t* ___0_downloadPath, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___1_configuration, String_t* ___2_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___3_data, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___4_onProgress, Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___5_onDownloadComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11396,12 +11937,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		U3CU3Ec__DisplayClass5_0__ctor_mDFD2BB45CBC11933F6DA571E3DEF790A53F5AA0E(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* L_1 = V_0;
-		String_t* L_2 = ___downloadPath0;
+		String_t* L_2 = ___0_downloadPath;
 		NullCheck(L_1);
 		L_1->___downloadPath_1 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___downloadPath_1), (void*)L_2);
 		U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* L_3 = V_0;
-		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_4 = ___onDownloadComplete5;
+		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_4 = ___5_onDownloadComplete;
 		NullCheck(L_3);
 		L_3->___onDownloadComplete_2 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___onDownloadComplete_2), (void*)L_4);
@@ -11505,14 +12046,14 @@ IL_005e:
 		//     }
 		//     onDownloadComplete?.Invoke(error);
 		// });
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_18 = ___configuration1;
-		String_t* L_19 = ___textToSpeak2;
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = ___data3;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_18 = ___1_configuration;
+		String_t* L_19 = ___2_textToSpeak;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = ___3_data;
 		U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* L_21 = V_0;
 		Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* L_22 = (Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05*)il2cpp_codegen_object_new(Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05_il2cpp_TypeInfo_var);
 		NullCheck(L_22);
 		Action_2__ctor_m7CB7EAF34F1B7120E147C5F9248DAE9C4BF5339E(L_22, L_21, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3CRequestTTSDownloadU3Eb__0_m598B490F306521B90EB7031390DF738874B95984_RuntimeMethod_var), NULL);
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_23 = ___onProgress4;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_23 = ___4_onProgress;
 		U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* L_24 = V_0;
 		Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* L_25 = (Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225*)il2cpp_codegen_object_new(Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225_il2cpp_TypeInfo_var);
 		NullCheck(L_25);
@@ -11524,7 +12065,7 @@ IL_005e:
 	}
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTS(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,System.Action`2<UnityEngine.Networking.UnityWebRequest,System.Uri>,System.Action`1<System.Single>,System.Action`2<UnityEngine.Networking.UnityWebRequest,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTS_m4580FC36423ACC39DF78A886E84338C24EA627ED (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___textToSpeak1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___data2, Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___onSetup3, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress4, Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* ___onComplete5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTS_m4580FC36423ACC39DF78A886E84338C24EA627ED (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_data, Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* ___3_onSetup, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___4_onProgress, Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* ___5_onComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11582,12 +12123,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		U3CU3Ec__DisplayClass6_0__ctor_mB8698DFE77DBDAF723823DD09C8D61A6242100A9(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass6_0_tCAFBF3E959AFA07043E18FBDA82BC657AF645DE2* L_1 = V_0;
-		Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* L_2 = ___onComplete5;
+		Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* L_2 = ___5_onComplete;
 		NullCheck(L_1);
 		L_1->___onComplete_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onComplete_0), (void*)L_2);
 		// if (configuration == null)
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -11628,7 +12169,7 @@ IL_002e:
 IL_0030:
 	{
 		// string textError = IsTextValid(textToSpeak);
-		String_t* L_8 = ___textToSpeak1;
+		String_t* L_8 = ___1_textToSpeak;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		String_t* L_9;
 		L_9 = WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11(L_8, NULL);
@@ -11677,21 +12218,21 @@ IL_005c:
 IL_005e:
 	{
 		// Uri ttsUri = GetUri(configuration, WIT_ENDPOINT_TTS, null);
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_17 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_17 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_18;
 		L_18 = WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061(L_17, _stringLiteralAB4F3A484ED3991575D8B729EC5A620357A4A41B, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
 		V_2 = L_18;
 		// data["q"] = textToSpeak;
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_19 = ___data2;
-		String_t* L_20 = ___textToSpeak1;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_19 = ___2_data;
+		String_t* L_20 = ___1_textToSpeak;
 		NullCheck(L_19);
 		Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2(L_19, _stringLiteral430E518F836082E0683698AB9E3F79D39C7F5140, L_20, Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var);
 		// string ttsJson = string.Empty;
 		String_t* L_21 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(String_t_il2cpp_TypeInfo_var))->___Empty_6;
 		V_3 = L_21;
 		// foreach (var key in data.Keys)
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_22 = ___data2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_22 = ___2_data;
 		NullCheck(L_22);
 		KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342* L_23;
 		L_23 = Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9(L_22, Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9_RuntimeMethod_var);
@@ -11762,7 +12303,7 @@ IL_00a9_1:
 				ArrayElementTypeCheck (L_36, _stringLiteralE1FA7984F63F6132B83FB4302371499FCEE3AAE0);
 				(L_36)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralE1FA7984F63F6132B83FB4302371499FCEE3AAE0);
 				StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_37 = L_36;
-				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_38 = ___data2;
+				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_38 = ___2_data;
 				String_t* L_39 = V_7;
 				NullCheck(L_38);
 				String_t* L_40;
@@ -11849,7 +12390,7 @@ IL_0109:
 		NullCheck(L_58);
 		UnityWebRequest_set_uploadHandler_m68F346550136DE178C79238944985892196027FE(L_58, L_60, NULL);
 		// onSetup(request, ttsUri);
-		Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* L_61 = ___onSetup3;
+		Action_2_tF05BAC4D9A7C89F75F50FBEA8F0DD25A51041A05* L_61 = ___3_onSetup;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_62 = V_5;
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_63 = V_2;
 		NullCheck(L_61);
@@ -11867,9 +12408,9 @@ IL_0109:
 		//         onComplete.Invoke(r, r.error);
 		//     }
 		// });
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_64 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_64 = ___0_configuration;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_65 = V_5;
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_66 = ___onProgress4;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_66 = ___4_onProgress;
 		U3CU3Ec__DisplayClass6_0_tCAFBF3E959AFA07043E18FBDA82BC657AF645DE2* L_67 = V_0;
 		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_68 = (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*)il2cpp_codegen_object_new(Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70_il2cpp_TypeInfo_var);
 		NullCheck(L_68);
@@ -11880,7 +12421,7 @@ IL_0109:
 	}
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestTTSVoices(Facebook.WitAi.Data.Configuration.WitConfiguration,System.Action`1<System.Single>,System.Action`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSVoices_mB9A669E47CEAD23E646EE8D0AC95F67B3EDFD3DF (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress1, Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* ___onComplete2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestTTSVoices_mB9A669E47CEAD23E646EE8D0AC95F67B3EDFD3DF (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___1_onProgress, Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* ___2_onComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11906,12 +12447,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		U3CU3Ec__DisplayClass8_0__ctor_m42B743E923F2C6AA186A652360B76E96574E38EE(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass8_0_tA508ED650A58E25A18495E6C05CAC071F65CD8AA* L_1 = V_0;
-		Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* L_2 = ___onComplete2;
+		Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* L_2 = ___2_onComplete;
 		NullCheck(L_1);
 		L_1->___onComplete_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onComplete_0), (void*)L_2);
 		// if (configuration == null)
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_3 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
 		L_4 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -11952,7 +12493,7 @@ IL_002d:
 IL_002f:
 	{
 		// Uri ttsUri = GetUri(configuration, WIT_ENDPOINT_TTS_VOICES, null);
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_8 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_8 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_9;
 		L_9 = WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061(L_8, _stringLiteralD6A78E48BD288467843E179246A4E0BBB2D2ED9D, (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*)NULL, NULL);
@@ -11977,9 +12518,9 @@ IL_002f:
 		//         onComplete.Invoke(r.downloadHandler.text, r.error);
 		//     }
 		// });
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_12 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_12 = ___0_configuration;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_13 = V_1;
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_14 = ___onProgress1;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_14 = ___1_onProgress;
 		U3CU3Ec__DisplayClass8_0_tA508ED650A58E25A18495E6C05CAC071F65CD8AA* L_15 = V_0;
 		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_16 = (Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70*)il2cpp_codegen_object_new(Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70_il2cpp_TypeInfo_var);
 		NullCheck(L_16);
@@ -11990,7 +12531,7 @@ IL_002f:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::add_OnProvideCustomUri(System.Func`2<System.UriBuilder,System.Uri>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_add_OnProvideCustomUri_mC6CB15EC750EBB004CE1E830F87002A424112A04 (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_add_OnProvideCustomUri_mC6CB15EC750EBB004CE1E830F87002A424112A04 (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12013,7 +12554,7 @@ IL_0006:
 		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_1 = V_0;
 		V_1 = L_1;
 		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_2 = V_1;
-		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_3 = ___value0;
+		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28*)Castclass((RuntimeObject*)L_4, Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28_il2cpp_TypeInfo_var));
@@ -12035,7 +12576,7 @@ IL_0006:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::remove_OnProvideCustomUri(System.Func`2<System.UriBuilder,System.Uri>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_remove_OnProvideCustomUri_mB0E423DFB5E69B7A599CBD7823D959941CD7CD63 (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_remove_OnProvideCustomUri_mB0E423DFB5E69B7A599CBD7823D959941CD7CD63 (Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12058,7 +12599,7 @@ IL_0006:
 		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_1 = V_0;
 		V_1 = L_1;
 		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_2 = V_1;
-		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_3 = ___value0;
+		Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28*)Castclass((RuntimeObject*)L_4, Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28_il2cpp_TypeInfo_var));
@@ -12080,7 +12621,7 @@ IL_0006:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::add_OnProvideCustomHeaders(System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_add_OnProvideCustomHeaders_m7509EB235E982415ACC028DEED6151F200B84078 (Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_add_OnProvideCustomHeaders_m7509EB235E982415ACC028DEED6151F200B84078 (Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12103,7 +12644,7 @@ IL_0006:
 		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_1 = V_0;
 		V_1 = L_1;
 		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_2 = V_1;
-		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_3 = ___value0;
+		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627*)Castclass((RuntimeObject*)L_4, Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627_il2cpp_TypeInfo_var));
@@ -12125,7 +12666,7 @@ IL_0006:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::remove_OnProvideCustomHeaders(System.Func`1<System.Collections.Generic.Dictionary`2<System.String,System.String>>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_remove_OnProvideCustomHeaders_m9938DDCFA6D6D8C73AB1575CF2B8ADFD6F14B3DD (Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_remove_OnProvideCustomHeaders_m9938DDCFA6D6D8C73AB1575CF2B8ADFD6F14B3DD (Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12148,7 +12689,7 @@ IL_0006:
 		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_1 = V_0;
 		V_1 = L_1;
 		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_2 = V_1;
-		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_3 = ___value0;
+		Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627*)Castclass((RuntimeObject*)L_4, Func_1_tDF56F0FBA686CAC5C4C234A701F97D1FCBB2C627_il2cpp_TypeInfo_var));
@@ -12170,7 +12711,7 @@ IL_0006:
 	}
 }
 // System.Uri Facebook.WitAi.TTS.Utilities.WitUnityRequest::GetUri(Facebook.WitAi.Data.Configuration.WitConfiguration,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, String_t* ___path1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___queryParams2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* WitUnityRequest_GetUri_mA3EA849A4541E51F544CCC32B16F37AA101E0061 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, String_t* ___1_path, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_queryParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12205,7 +12746,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E
 		UriBuilder__ctor_m1CBBB001D2542111D5B3334356E2AC65AFB80D27(L_0, NULL);
 		V_0 = L_0;
 		// var endpointConfig = WitEndpointConfig.GetEndpointConfig(configuration);
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0_il2cpp_TypeInfo_var);
 		WitEndpointConfig_t736B6D17F8267F55239E85D5423598671E17E9B0* L_2;
 		L_2 = WitEndpointConfig_GetEndpointConfig_mFF262EC06ADEC27F11E22FAB4FCEF91544EAE3F4(L_1, NULL);
@@ -12251,7 +12792,7 @@ IL_003a:
 	{
 		// uriBuilder.Path = path;
 		UriBuilder_t7931690A4195FCF7400D95D3107C3FB1D55A1C72* L_14 = V_0;
-		String_t* L_15 = ___path1;
+		String_t* L_15 = ___1_path;
 		NullCheck(L_14);
 		UriBuilder_set_Path_mD17EF197B4A8A764682938B468B647DAE716E9D0(L_14, L_15, NULL);
 		// uriBuilder.Query = $"v={endpointConfig.WitApiVersion}";
@@ -12265,7 +12806,7 @@ IL_003a:
 		NullCheck(L_16);
 		UriBuilder_set_Query_m1B7AB6F65BBAC94C07681D79F2A8DBDB15E844ED(L_16, L_19, NULL);
 		// if (queryParams != null)
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = ___queryParams2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_20 = ___2_queryParams;
 		if (!L_20)
 		{
 			goto IL_00cf;
@@ -12273,7 +12814,7 @@ IL_003a:
 	}
 	{
 		// foreach (string key in queryParams.Keys)
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_21 = ___queryParams2;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_21 = ___2_queryParams;
 		NullCheck(L_21);
 		KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342* L_22;
 		L_22 = Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9(L_21, Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9_RuntimeMethod_var);
@@ -12305,7 +12846,7 @@ IL_0068_1:
 				L_24 = Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9E_inline((&V_2), Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9E_RuntimeMethod_var);
 				V_3 = L_24;
 				// string val = Uri.EscapeDataString(queryParams[key]);
-				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_25 = ___queryParams2;
+				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_25 = ___2_queryParams;
 				String_t* L_26 = V_3;
 				NullCheck(L_25);
 				String_t* L_27;
@@ -12403,7 +12944,7 @@ IL_00e2:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest::ApplyHeaders(Facebook.WitAi.Data.Configuration.WitConfiguration,UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609E07685C7CAA8174E7EC50DBF8CF29F (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609E07685C7CAA8174E7EC50DBF8CF29F (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___1_unityRequest, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12433,23 +12974,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* G_B3_1 = NULL;
 	{
 		// unityRequest.SetRequestHeader("Authorization", GetAuthorization(configuration));
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___unityRequest1;
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___configuration0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___1_unityRequest;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		String_t* L_2;
 		L_2 = WitUnityRequest_GetAuthorization_m17E4A186A64C8A70598AE3D1E6DB921165DE3DB7(L_1, NULL);
 		NullCheck(L_0);
 		UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5(L_0, _stringLiteral9D5A3AE3D2B0B5E5AF5AB489000D9B88FA11E907, L_2, NULL);
 		// unityRequest.SetRequestHeader("User-Agent", WitRequest.GetUserAgent(configuration));
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___unityRequest1;
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_4 = ___configuration0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_3 = ___1_unityRequest;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_4 = ___0_configuration;
 		String_t* L_5;
 		L_5 = WitRequest_GetUserAgent_m4D34D711A3274BE32DB014CC9ED5801FFE3A0CD4(L_4, NULL);
 		NullCheck(L_3);
 		UnityWebRequest_SetRequestHeader_m099734EB787B7269B62AB2236A5A4F7D35AF8BC5(L_3, _stringLiteral48C75149E263D08DBE3F3CB86DF011FA96C010AF, L_5, NULL);
 		// unityRequest.timeout = configuration ? Mathf.CeilToInt(configuration.timeoutMS / 1000f) : 10;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = ___unityRequest1;
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_7 = ___configuration0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = ___1_unityRequest;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_7 = ___0_configuration;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
 		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
@@ -12468,7 +13009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitUnityRequest_ApplyHeaders_m9062E87609
 
 IL_002f:
 	{
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_9 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_9 = ___0_configuration;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___timeoutMS_7;
 		int32_t L_11;
@@ -12555,7 +13096,7 @@ IL_007b_1:
 				L_24 = Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9E_inline((&V_3), Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9E_RuntimeMethod_var);
 				V_4 = L_24;
 				// unityRequest.SetRequestHeader(key, customHeaders[key]);
-				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_25 = ___unityRequest1;
+				UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_25 = ___1_unityRequest;
 				String_t* L_26 = V_4;
 				Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_27 = V_2;
 				String_t* L_28 = V_4;
@@ -12611,7 +13152,7 @@ IL_00b7:
 	}
 }
 // System.String Facebook.WitAi.TTS.Utilities.WitUnityRequest::GetAuthorization(Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m17E4A186A64C8A70598AE3D1E6DB921165DE3DB7 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m17E4A186A64C8A70598AE3D1E6DB921165DE3DB7 (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12621,7 +13162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m1
 	}
 	{
 		// return $"Bearer {configuration.clientAccessToken.Trim()}";
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_0 = ___configuration0;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_0 = ___0_configuration;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___clientAccessToken_6;
 		NullCheck(L_1);
@@ -12633,7 +13174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitUnityRequest_GetAuthorization_m1
 	}
 }
 // Facebook.WitAi.TTS.Utilities.WitUnityRequest Facebook.WitAi.TTS.Utilities.WitUnityRequest::RequestWit(Facebook.WitAi.Data.Configuration.WitConfiguration,UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestWit_mE15DD8A0D7AE9CA09B6D9B5D82D860F6617A2C5E (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration0, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___unityRequest1, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___onProgress2, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___onComplete3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* WitUnityRequest_RequestWit_mE15DD8A0D7AE9CA09B6D9B5D82D860F6617A2C5E (WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___0_configuration, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___1_unityRequest, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* ___2_onProgress, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* ___3_onComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12647,15 +13188,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitUnityRequest_t040B0FFC28A096A5F91C425A5BAE
 		NullCheck(L_0);
 		WitUnityRequest__ctor_m2B2AED2013077B86B7E6E81516F404528A62D630(L_0, NULL);
 		// ApplyHeaders(configuration, unityRequest);
-		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___configuration0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___unityRequest1;
+		WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* L_1 = ___0_configuration;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___1_unityRequest;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		WitUnityRequest_ApplyHeaders_m9062E87609E07685C7CAA8174E7EC50DBF8CF29F(L_1, L_2, NULL);
 		// request.Setup(unityRequest, onProgress, onComplete);
 		WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB* L_3 = L_0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___unityRequest1;
-		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_5 = ___onProgress2;
-		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_6 = ___onComplete3;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___1_unityRequest;
+		Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* L_5 = ___2_onProgress;
+		Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* L_6 = ___3_onComplete;
 		NullCheck(L_3);
 		VirtualActionInvoker3< UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A*, Action_1_t0E95DC34940318AD8F881CDBC38CCA5FDF0E5C70* >::Invoke(4 /* System.Void Facebook.WitAi.TTS.Utilities.VoiceUnityRequest::Setup(UnityEngine.Networking.UnityWebRequest,System.Action`1<System.Single>,System.Action`1<UnityEngine.Networking.UnityWebRequest>) */, L_3, L_4, L_5, L_6);
 		// return request;
@@ -12709,7 +13250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0__ctor_m81A2FD77
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass4_0::<RequestTTSStream>b__1(UnityEngine.Networking.UnityWebRequest,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CRequestTTSStreamU3Eb__1_m860C1F2277E461A604D4535F77C72A69A79C0F98 (U3CU3Ec__DisplayClass4_0_t62F0ED25BA993DAB01118F520A24855D9BE6300F* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___response0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CRequestTTSStreamU3Eb__1_m860C1F2277E461A604D4535F77C72A69A79C0F98 (U3CU3Ec__DisplayClass4_0_t62F0ED25BA993DAB01118F520A24855D9BE6300F* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_response, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12733,7 +13274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CRequestTTSSt
 	Action_2_t8047B0DE55BAFAB827BDFF9D13CC898D96A972BA* G_B15_0 = NULL;
 	{
 		// if (!string.IsNullOrEmpty(error))
-		String_t* L_0 = ___error1;
+		String_t* L_0 = ___1_error;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (L_1)
@@ -12758,7 +13299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass4_0_U3CRequestTTSSt
 
 IL_0013:
 	{
-		String_t* L_4 = ___error1;
+		String_t* L_4 = ___1_error;
 		NullCheck(G_B3_0);
 		Action_2_Invoke_mC2EC2468C63DEAE014449CE4E047C35ED364BD57_inline(G_B3_0, (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)NULL, L_4, NULL);
 		return;
@@ -12772,7 +13313,7 @@ IL_001b:
 	try
 	{// begin try (depth: 1)
 		// clip = DownloadHandlerAudioClip.GetContent(response);
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___response0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___0_response;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6;
 		L_6 = DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9(L_5, NULL);
 		V_0 = L_6;
@@ -12931,7 +13472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m483499969CA0B5034A1AEBF56
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c::<RequestTTSStream>b__4_0(UnityEngine.Networking.UnityWebRequest,System.Uri)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRequestTTSStreamU3Eb__4_0_mF7877CE783FCFE0BE2F182B84F542003B1E15366 (U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___response0, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRequestTTSStreamU3Eb__4_0_mF7877CE783FCFE0BE2F182B84F542003B1E15366 (U3CU3Ec_tF5B0D3478E7059E4E18B1DC584822E030D2BB6EA* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_response, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___1_uri, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12943,7 +13484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRequestTTSStreamU3Eb__4_0_mF7
 	DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* V_0 = NULL;
 	{
 		// DownloadHandlerAudioClip streamHandler = new DownloadHandlerAudioClip(uri, TTSAudioType);
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___uri1;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___1_uri;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		int32_t L_1 = ((WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_StaticFields*)il2cpp_codegen_static_fields_for(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var))->___TTSAudioType_9;
 		DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* L_2 = (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC*)il2cpp_codegen_object_new(DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_il2cpp_TypeInfo_var);
@@ -12959,12 +13500,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CRequestTTSStreamU3Eb__4_0_mF7
 		NullCheck(L_4);
 		DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30(L_4, (bool)1, NULL);
 		// response.downloadHandler = streamHandler;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___response0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___0_response;
 		DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* L_6 = V_0;
 		NullCheck(L_5);
 		UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F(L_5, L_6, NULL);
 		// response.disposeDownloadHandlerOnDispose = true;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7 = ___response0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_7 = ___0_response;
 		NullCheck(L_7);
 		UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline(L_7, (bool)1, NULL);
 		// }, onProgress, (response, error) =>
@@ -12988,7 +13529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_mDFD2BB45
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass5_0::<RequestTTSDownload>b__0(UnityEngine.Networking.UnityWebRequest,System.Uri)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDownloadU3Eb__0_m598B490F306521B90EB7031390DF738874B95984 (U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___response0, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDownloadU3Eb__0_m598B490F306521B90EB7031390DF738874B95984 (U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_response, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___1_uri, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13005,12 +13546,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDo
 		DownloadHandlerFile__ctor_m366A8B9559EAFF17D2E33DC0FBE13756C344E0EB(L_1, L_0, (bool)1, NULL);
 		V_0 = L_1;
 		// response.downloadHandler = fileHandler;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___response0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_2 = ___0_response;
 		DownloadHandlerFile_tD1342A7B8173C9ECC7B3BB9E1A7631D7AEFBD902* L_3 = V_0;
 		NullCheck(L_2);
 		UnityWebRequest_set_downloadHandler_m6CB94492012097DFC44E5773D1A627753788292F(L_2, L_3, NULL);
 		// response.disposeDownloadHandlerOnDispose = true;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___response0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_4 = ___0_response;
 		NullCheck(L_4);
 		UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline(L_4, (bool)1, NULL);
 		// }, onProgress, (response, error) =>
@@ -13018,7 +13559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDo
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass5_0::<RequestTTSDownload>b__1(UnityEngine.Networking.UnityWebRequest,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDownloadU3Eb__1_mF36CDE53CE312407BB5A292BF34260704437CCED (U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___response0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDownloadU3Eb__1_mF36CDE53CE312407BB5A292BF34260704437CCED (U3CU3Ec__DisplayClass5_0_t884D6ED6F2F12CCD6E0C9ABC94A04BEE2BA4A5D1* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_response, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* G_B8_0 = NULL;
@@ -13037,7 +13578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0_U3CRequestTTSDo
 		}
 		{
 			// if (!string.IsNullOrEmpty(error))
-			String_t* L_2 = ___error1;
+			String_t* L_2 = ___1_error;
 			bool L_3;
 			L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
 			if (L_3)
@@ -13082,7 +13623,7 @@ CATCH_0035:
 		NullCheck(((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*)));
 		String_t* L_7;
 		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*)));
-		___error1 = L_7;
+		___1_error = L_7;
 		// Debug.LogError($"Moving File Failed\nFrom: {tempDownloadPath}\nTo: {downloadPath}\nError: {error}");
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var)), (uint32_t)6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
@@ -13108,7 +13649,7 @@ CATCH_0035:
 		ArrayElementTypeCheck (L_15, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9402668AFBCCB673B987A7E172AC2F7FD66F9636)));
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9402668AFBCCB673B987A7E172AC2F7FD66F9636)));
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = L_15;
-		String_t* L_17 = ___error1;
+		String_t* L_17 = ___1_error;
 		NullCheck(L_16);
 		ArrayElementTypeCheck (L_16, L_17);
 		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)L_17);
@@ -13139,7 +13680,7 @@ IL_007c:
 
 IL_0087:
 	{
-		String_t* L_21 = ___error1;
+		String_t* L_21 = ___1_error;
 		NullCheck(G_B8_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B8_0, L_21, NULL);
 		// });
@@ -13163,13 +13704,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0__ctor_mB8698DFE
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass6_0::<RequestTTS>b__0(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CRequestTTSU3Eb__0_mAEF2B87F9AA1E3A11E5A6E499F78C14D320209B6 (U3CU3Ec__DisplayClass6_0_tCAFBF3E959AFA07043E18FBDA82BC657AF645DE2* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___r0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CRequestTTSU3Eb__0_mAEF2B87F9AA1E3A11E5A6E499F78C14D320209B6 (U3CU3Ec__DisplayClass6_0_tCAFBF3E959AFA07043E18FBDA82BC657AF645DE2* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_r, const RuntimeMethod* method) 
 {
 	Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* G_B3_0 = NULL;
 	Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* G_B2_0 = NULL;
 	{
 		// if (!string.IsNullOrEmpty(r.error))
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___0_r;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_0, NULL);
@@ -13197,7 +13738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass6_0_U3CRequestTTSU3
 
 IL_0018:
 	{
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___0_r;
 		NullCheck(L_5);
 		String_t* L_6;
 		L_6 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_5, NULL);
@@ -13210,8 +13751,8 @@ IL_0025:
 	{
 		// onComplete.Invoke(r, r.error);
 		Action_2_t61D5FB717E1180DC61ED95B7FFB34D6807D59225* L_7 = __this->___onComplete_0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = ___r0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_9 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = ___0_r;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_9 = ___0_r;
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_9, NULL);
@@ -13238,13 +13779,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0__ctor_m42B743E9
 	}
 }
 // System.Void Facebook.WitAi.TTS.Utilities.WitUnityRequest/<>c__DisplayClass8_0::<RequestTTSVoices>b__0(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CRequestTTSVoicesU3Eb__0_m0D2CD5062DB115A45909FEA9DD165B278D5889E0 (U3CU3Ec__DisplayClass8_0_tA508ED650A58E25A18495E6C05CAC071F65CD8AA* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___r0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CRequestTTSVoicesU3Eb__0_m0D2CD5062DB115A45909FEA9DD165B278D5889E0 (U3CU3Ec__DisplayClass8_0_tA508ED650A58E25A18495E6C05CAC071F65CD8AA* __this, UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_r, const RuntimeMethod* method) 
 {
 	Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* G_B3_0 = NULL;
 	Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* G_B2_0 = NULL;
 	{
 		// if (!string.IsNullOrEmpty(r.error))
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___0_r;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_0, NULL);
@@ -13272,7 +13813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass8_0_U3CRequestTTSVo
 
 IL_0018:
 	{
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5 = ___0_r;
 		NullCheck(L_5);
 		String_t* L_6;
 		L_6 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_5, NULL);
@@ -13285,14 +13826,14 @@ IL_0025:
 	{
 		// onComplete.Invoke(r.downloadHandler.text, r.error);
 		Action_2_t3EDD987DFCD31953576008A0D7D4F44D8C984B1D* L_7 = __this->___onComplete_0;
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = ___0_r;
 		NullCheck(L_8);
 		DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* L_9;
 		L_9 = UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5(L_8, NULL);
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = DownloadHandler_get_text_mA6DE5CB2647A21E577B963708DC3D0DA4DBFE7D8(L_9, NULL);
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_11 = ___r0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_11 = ___0_r;
 		NullCheck(L_11);
 		String_t* L_12;
 		L_12 = UnityWebRequest_get_error_m20A5D813ED59118B7AA1D1E2EB5250178B1F5B6F(L_11, NULL);
@@ -13338,11 +13879,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache::set_DiskStreamEvents(Facebook.WitAi.TTS.Events.TTSStreamEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_mF0D680F629A274123FEEFB612F1EBBC6A171510A (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_mF0D680F629A274123FEEFB612F1EBBC6A171510A (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set { _events = value; }
-		TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* L_0 = ___value0;
+		TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* L_0 = ___0_value;
 		__this->____events_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____events_6), (void*)L_0);
 		// set { _events = value; }
@@ -13350,7 +13891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_mF0D68
 	}
 }
 // System.String Facebook.WitAi.TTS.Integrations.TTSDiskCache::GetDiskCachePath(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD42007E533848636889003ABEC77CA505DB027D6 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD42007E533848636889003ABEC77CA505DB027D6 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13368,7 +13909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD420
 	String_t* V_1 = NULL;
 	{
 		// if (!ShouldCacheToDisk(clipData))
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		bool L_1;
 		L_1 = TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4C325BE6D1DBF2CBAC3029A3C8DA51C72(__this, L_0, NULL);
 		if (L_1)
@@ -13385,7 +13926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mD420
 IL_000f:
 	{
 		// TTSDiskCacheLocation location = clipData.diskCacheSettings.DiskCacheLocation;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = ___0_clipData;
 		NullCheck(L_3);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_4 = L_3->___diskCacheSettings_4;
 		NullCheck(L_4);
@@ -13516,10 +14057,10 @@ IL_0098:
 	{
 		// return Path.Combine(directory, clipData.clipID + "." + clipData.audioType.ToString().ToLower());
 		String_t* L_27 = V_1;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_28 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_28 = ___0_clipData;
 		NullCheck(L_28);
 		String_t* L_29 = L_28->___clipID_1;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_30 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_30 = ___0_clipData;
 		NullCheck(L_30);
 		int32_t* L_31 = (&L_30->___audioType_2);
 		Il2CppFakeBox<int32_t> L_32(AudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_il2cpp_TypeInfo_var, L_31);
@@ -13537,18 +14078,18 @@ IL_0098:
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSDiskCache::ShouldCacheToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4C325BE6D1DBF2CBAC3029A3C8DA51C72 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4C325BE6D1DBF2CBAC3029A3C8DA51C72 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// return clipData != null && clipData.diskCacheSettings.DiskCacheLocation != TTSDiskCacheLocation.Stream && !string.IsNullOrEmpty(clipData.clipID);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		if (!L_0)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_2 = L_1->___diskCacheSettings_4;
 		NullCheck(L_2);
@@ -13559,7 +14100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_mE0A8A5B4
 		}
 	}
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		String_t* L_5 = L_4->___clipID_1;
 		bool L_6;
@@ -13573,12 +14114,12 @@ IL_001f:
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSDiskCache::IsCachedToDisk(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_IsCachedToDisk_mCC3FB9A9857CF0F3C7AD9AE25B390FC63F3B6E74 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_IsCachedToDisk_mCC3FB9A9857CF0F3C7AD9AE25B390FC63F3B6E74 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	String_t* V_0 = NULL;
 	{
 		// string cachePath = GetDiskCachePath(clipData);
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		String_t* L_1;
 		L_1 = TTSDiskCache_GetDiskCachePath_mD42007E533848636889003ABEC77CA505DB027D6(__this, L_0, NULL);
 		V_0 = L_1;
@@ -13599,7 +14140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_IsCachedToDisk_mCC3FB9A9857
 IL_0012:
 	{
 		// if (clipData.diskCacheSettings.DiskCacheLocation == TTSDiskCacheLocation.Preload && Application.isPlaying)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		TTSDiskCacheSettings_t86D87C4E19B0732ACB766A7BAB355CBEBBB6CE65* L_5 = L_4->___diskCacheSettings_4;
 		NullCheck(L_5);
@@ -13632,7 +14173,7 @@ IL_0029:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache::StreamFromDiskCache(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_m9F55A64C40402CE8B3FBD960BB88A1099358DCD2 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_m9F55A64C40402CE8B3FBD960BB88A1099358DCD2 (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13661,7 +14202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_m9F55A6
 		U3CU3Ec__DisplayClass14_0__ctor_m50C08A7EA18A76F72A25F12B56AB03137D2737D8(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* L_1 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		L_1->___clipData_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___clipData_0), (void*)L_2);
@@ -13779,7 +14320,7 @@ IL_006b:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache::CancelDiskCacheStream(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mBBF88DD7B027ED453BD90A23C58FCE2C56BA32CB (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mBBF88DD7B027ED453BD90A23C58FCE2C56BA32CB (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13798,7 +14339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mBBF8
 	{
 		// if (!_streamRequests.ContainsKey(clipData.clipID))
 		Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* L_0 = __this->____streamRequests_7;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -13818,7 +14359,7 @@ IL_0014:
 	{
 		// VoiceUnityRequest request = _streamRequests[clipData.clipID];
 		Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* L_4 = __this->____streamRequests_7;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___clipID_1;
 		NullCheck(L_4);
@@ -13827,7 +14368,7 @@ IL_0014:
 		V_0 = L_7;
 		// _streamRequests.Remove(clipData.clipID);
 		Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* L_8 = __this->____streamRequests_7;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___clipID_1;
 		NullCheck(L_8);
@@ -13882,7 +14423,7 @@ IL_004c:
 
 IL_0056:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_18 = ___0_clipData;
 		NullCheck(G_B8_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B8_0, L_18, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -13890,7 +14431,7 @@ IL_0056:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache::OnStreamComplete(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_m060E4EB1C969D2744C58ECBBD2A47C49C09D86EE (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_m060E4EB1C969D2744C58ECBBD2A47C49C09D86EE (TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13912,7 +14453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_m060E4EB1C
 	{
 		// if (!_streamRequests.ContainsKey(clipData.clipID))
 		Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* L_0 = __this->____streamRequests_7;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -13932,14 +14473,14 @@ IL_0014:
 	{
 		// _streamRequests.Remove(clipData.clipID);
 		Dictionary_2_tE20F3CB1D1CE66D66DE6D557A25B524AC039525E* L_4 = __this->____streamRequests_7;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___clipID_1;
 		NullCheck(L_4);
 		bool L_7;
 		L_7 = Dictionary_2_Remove_mE3947A246EAC6F866335AF3B29E48698291DB027(L_4, L_6, Dictionary_2_Remove_mE3947A246EAC6F866335AF3B29E48698291DB027_RuntimeMethod_var);
 		// if (!string.IsNullOrEmpty(error))
-		String_t* L_8 = ___error1;
+		String_t* L_8 = ___1_error;
 		bool L_9;
 		L_9 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_8, NULL);
 		if (L_9)
@@ -13981,8 +14522,8 @@ IL_0039:
 
 IL_0043:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___clipData0;
-		String_t* L_15 = ___error1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_14 = ___0_clipData;
+		String_t* L_15 = ___1_error;
 		NullCheck(G_B7_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B7_0, L_14, L_15, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 		return;
@@ -14023,7 +14564,7 @@ IL_0056:
 
 IL_0060:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_20 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_20 = ___0_clipData;
 		NullCheck(G_B12_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B12_0, L_20, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 		// }
@@ -14086,31 +14627,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m50C08A7
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::<StreamFromDiskCache>b__0(System.String,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__0_m3A3F3525E74CC8ACBDB7CEC9A628D8B71C038FD6 (U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* __this, String_t* ___path0, float ___progress1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__0_m3A3F3525E74CC8ACBDB7CEC9A628D8B71C038FD6 (U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* __this, String_t* ___0_path, float ___1_progress, const RuntimeMethod* method) 
 {
 	{
 		// _streamRequests[clipData.clipID] = VoiceUnityRequest.RequestAudioClip(filePath, (path, progress) => clipData.loadProgress = progress, (path, clip, error) =>
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = __this->___clipData_0;
-		float L_1 = ___progress1;
+		float L_1 = ___1_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::<StreamFromDiskCache>b__1(System.String,UnityEngine.AudioClip,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__1_m7FDEBA08B24FD40C5FAA73AE1BF245DE9404D0D7 (U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* __this, String_t* ___path0, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip1, String_t* ___error2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__1_m7FDEBA08B24FD40C5FAA73AE1BF245DE9404D0D7 (U3CU3Ec__DisplayClass14_0_t7260869463BE181EB8F4712A2A969C0A082A166E* __this, String_t* ___0_path, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___1_clip, String_t* ___2_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.clip = clip;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = __this->___clipData_0;
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___clip1;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___1_clip;
 		NullCheck(L_0);
 		L_0->___clip_6 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___clip_6), (void*)L_1);
 		// OnStreamComplete(clipData, error);
 		TTSDiskCache_tA643131D15EFA604E185780B90A2034C582CA2F6* L_2 = __this->___U3CU3E4__this_1;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_3 = __this->___clipData_0;
-		String_t* L_4 = ___error2;
+		String_t* L_4 = ___2_error;
 		NullCheck(L_2);
 		VirtualActionInvoker2< TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15*, String_t* >::Invoke(12 /* System.Void Facebook.WitAi.TTS.Integrations.TTSDiskCache::OnStreamComplete(Facebook.WitAi.TTS.Data.TTSClipData,System.String) */, L_2, L_3, L_4);
 		// });
@@ -14135,11 +14676,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::set_OnClipAdded(Facebook.WitAi.TTS.Events.TTSClipEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipAdded_m8BFB679ABB5CC2CFA82AC0E08C267EB7373DB1C1 (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipAdded_m8BFB679ABB5CC2CFA82AC0E08C267EB7373DB1C1 (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipEvent OnClipAdded { get; set; } = new TTSClipEvent();
-		TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* L_0 = ___value0;
+		TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* L_0 = ___0_value;
 		__this->___U3COnClipAddedU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COnClipAddedU3Ek__BackingField_8), (void*)L_0);
 		return;
@@ -14155,11 +14696,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::set_OnClipRemoved(Facebook.WitAi.TTS.Events.TTSClipEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipRemoved_mB5863AA9C1258E372AF7E6BCFA76E7034441075C (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipRemoved_mB5863AA9C1258E372AF7E6BCFA76E7034441075C (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipEvent OnClipRemoved { get; set; } = new TTSClipEvent();
-		TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* L_0 = ___value0;
+		TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* L_0 = ___0_value;
 		__this->___U3COnClipRemovedU3Ek__BackingField_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COnClipRemovedU3Ek__BackingField_9), (void*)L_0);
 		return;
@@ -14187,7 +14728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipDataU5BU5D_t6836B00DB73A6435DCB0773A27
 	}
 }
 // Facebook.WitAi.TTS.Data.TTSClipData Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::GetClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSRuntimeCache_GetClip_m9BE0549C1DD833C3A7376B112785923220886A66 (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* TTSRuntimeCache_GetClip_m9BE0549C1DD833C3A7376B112785923220886A66 (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14203,7 +14744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F
 	{
 		// if (!_clips.ContainsKey(clipID))
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_0 = __this->____clips_10;
-		String_t* L_1 = ___clipID0;
+		String_t* L_1 = ___0_clipID;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B(L_0, L_1, Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B_RuntimeMethod_var);
@@ -14221,7 +14762,7 @@ IL_0010:
 	{
 		// int clipIndex = _clipOrder.IndexOf(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = __this->____clipOrder_11;
-		String_t* L_4 = ___clipID0;
+		String_t* L_4 = ___0_clipID;
 		NullCheck(L_3);
 		int32_t L_5;
 		L_5 = List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4(L_3, L_4, List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4_RuntimeMethod_var);
@@ -14233,12 +14774,12 @@ IL_0010:
 		List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D(L_6, L_7, List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
 		// _clipOrder.Add(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = __this->____clipOrder_11;
-		String_t* L_9 = ___clipID0;
+		String_t* L_9 = ___0_clipID;
 		NullCheck(L_8);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_8, L_9, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		// return _clips[clipID];
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_10 = __this->____clips_10;
-		String_t* L_11 = ___clipID0;
+		String_t* L_11 = ___0_clipID;
 		NullCheck(L_10);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_12;
 		L_12 = Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38(L_10, L_11, Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38_RuntimeMethod_var);
@@ -14246,7 +14787,7 @@ IL_0010:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::AddClip(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_AddClip_m7B02AE411112F44EC41B6F763C1B9AC88572A42B (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_AddClip_m7B02AE411112F44EC41B6F763C1B9AC88572A42B (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14268,7 +14809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_AddClip_m7B02AE411112F44
 	TTSClipEvent_tAFC07C961D5C469E592F3AD3CE61C10216BCE945* G_B11_0 = NULL;
 	{
 		// if (clipData == null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = ___0_clipData;
 		if (L_0)
 		{
 			goto IL_0004;
@@ -14285,7 +14826,7 @@ IL_0004:
 		V_0 = (bool)1;
 		// int clipIndex = _clipOrder.IndexOf(clipData.clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_1 = __this->____clipOrder_11;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_2);
 		String_t* L_3 = L_2->___clipID_1;
 		NullCheck(L_1);
@@ -14313,15 +14854,15 @@ IL_002a:
 	{
 		// _clips[clipData.clipID] = clipData;
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_8 = __this->____clips_10;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___clipID_1;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_11 = ___0_clipData;
 		NullCheck(L_8);
 		Dictionary_2_set_Item_mA9A99F5A6C9786D97FE519A60D110EBE65060250(L_8, L_10, L_11, Dictionary_2_set_Item_mA9A99F5A6C9786D97FE519A60D110EBE65060250_RuntimeMethod_var);
 		// _clipOrder.Add(clipData.clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_12 = __this->____clipOrder_11;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_13 = ___0_clipData;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___clipID_1;
 		NullCheck(L_12);
@@ -14400,7 +14941,7 @@ IL_0077:
 
 IL_0098:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_26 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_26 = ___0_clipData;
 		NullCheck(G_B12_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B12_0, L_26, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 	}
@@ -14412,7 +14953,7 @@ IL_009e:
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::RemoveClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mD300393D693EB9C1C2C9F282C4F68FD0C6E1A80F (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mD300393D693EB9C1C2C9F282C4F68FD0C6E1A80F (TTSRuntimeCache_tC6E3A8AA7A1883F46D504F1587FE7A7ABA1913FF* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14432,7 +14973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mD300393D693E
 	{
 		// if (!_clips.ContainsKey(clipID))
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_0 = __this->____clips_10;
-		String_t* L_1 = ___clipID0;
+		String_t* L_1 = ___0_clipID;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B(L_0, L_1, Dictionary_2_ContainsKey_m0776511FEAEE2FF6AA7EF601D125D37D6D44ED1B_RuntimeMethod_var);
@@ -14450,20 +14991,20 @@ IL_000f:
 	{
 		// TTSClipData clipData = _clips[clipID];
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_3 = __this->____clips_10;
-		String_t* L_4 = ___clipID0;
+		String_t* L_4 = ___0_clipID;
 		NullCheck(L_3);
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5;
 		L_5 = Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38(L_3, L_4, Dictionary_2_get_Item_m4BB9AD7A7C2A9BC5894027D80713A5B4030EAC38_RuntimeMethod_var);
 		V_0 = L_5;
 		// _clips.Remove(clipID);
 		Dictionary_2_t990D03CABDAD684BC4582D5C7EAEA22924A4609E* L_6 = __this->____clips_10;
-		String_t* L_7 = ___clipID0;
+		String_t* L_7 = ___0_clipID;
 		NullCheck(L_6);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_mD6E9F3B1C7D9B46F2CA85BAFB2FC72147CDE4232(L_6, L_7, Dictionary_2_Remove_mD6E9F3B1C7D9B46F2CA85BAFB2FC72147CDE4232_RuntimeMethod_var);
 		// int clipIndex = _clipOrder.IndexOf(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->____clipOrder_11;
-		String_t* L_10 = ___clipID0;
+		String_t* L_10 = ___0_clipID;
 		NullCheck(L_9);
 		int32_t L_11;
 		L_11 = List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4(L_9, L_10, List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4_RuntimeMethod_var);
@@ -14654,7 +15195,7 @@ IL_0050:
 	}
 }
 // System.Int64 Facebook.WitAi.TTS.Integrations.TTSRuntimeCache::GetClipBytes(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C71FB2438E7595D1CF63F26CD6E4BF561F (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C71FB2438E7595D1CF63F26CD6E4BF561F (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14664,7 +15205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C
 	}
 	{
 		// if (clip == null)
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -14681,11 +15222,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDBC443C
 IL_000c:
 	{
 		// return ((clip.samples * clip.channels) * 2);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = ___0_clip;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_2, NULL);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_4 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_4 = ___0_clip;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_4, NULL);
@@ -14919,11 +15460,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit::set_WebStreamEvents(Facebook.WitAi.TTS.Events.TTSStreamEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebStreamEvents_m4856A3499A376ADEB1E5F0D03F00586CA5A3CD21 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebStreamEvents_m4856A3499A376ADEB1E5F0D03F00586CA5A3CD21 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSStreamEvents WebStreamEvents { get; set; } = new TTSStreamEvents();
-		TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* L_0 = ___value0;
+		TTSStreamEvents_tAE6509A4B7B25E2EF374CEC43CEB8BD41D953D31* L_0 = ___0_value;
 		__this->___U3CWebStreamEventsU3Ek__BackingField_14 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWebStreamEventsU3Ek__BackingField_14), (void*)L_0);
 		return;
@@ -15007,7 +15548,7 @@ IL_0047:
 	}
 }
 // System.String Facebook.WitAi.TTS.Integrations.TTSWit::IsTextValid(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mEAAE361E95FB1E00E2216735F6FBA87AFB474FF1 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mEAAE361E95FB1E00E2216735F6FBA87AFB474FF1 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15017,7 +15558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mEAAE361E95FB1E0
 	}
 	{
 		// public string IsTextValid(string textToSpeak) => WitUnityRequest.IsTextValid(textToSpeak);
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		il2cpp_codegen_runtime_class_init_inline(WitUnityRequest_t040B0FFC28A096A5F91C425A5BAEE4D344550BBB_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = WitUnityRequest_IsTextValid_m360EAC90727F859402E3836B66D9B941DCDFAB11(L_0, NULL);
@@ -15025,7 +15566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mEAAE361E95FB1E0
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit::RequestStreamFromWeb(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m6E37BF38D9AF4536E481F419719E145DB42CA3AC (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m6E37BF38D9AF4536E481F419719E145DB42CA3AC (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15058,7 +15599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m6E37BF38D9A
 		U3CU3Ec__DisplayClass18_0__ctor_m1FAD6C425C98C8BD6A55521CA7A28B40383B76C2(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass18_0_t0C5C53A9B482BCF5C0A182F57D43016FAA76C961* L_1 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		L_1->___clipData_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___clipData_0), (void*)L_2);
@@ -15250,7 +15791,7 @@ IL_009d:
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSWit::CancelWebStream(Facebook.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_mFA70C7368E3CB6505EBB7B03946A369DCA891118 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_mFA70C7368E3CB6505EBB7B03946A369DCA891118 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15270,7 +15811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_mFA70C7368E3CB650
 	{
 		// if (!_webStreams.ContainsKey(clipData.clipID))
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_0 = __this->____webStreams_15;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -15290,7 +15831,7 @@ IL_0015:
 	{
 		// WitUnityRequest request = _webStreams[clipData.clipID];
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_4 = __this->____webStreams_15;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___clipID_1;
 		NullCheck(L_4);
@@ -15298,7 +15839,7 @@ IL_0015:
 		L_7 = Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0(L_4, L_6, Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0_RuntimeMethod_var);
 		// _webStreams.Remove(clipData.clipID);
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_8 = __this->____webStreams_15;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___clipID_1;
 		NullCheck(L_8);
@@ -15358,7 +15899,7 @@ IL_004f:
 
 IL_005a:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___0_clipData;
 		NullCheck(G_B9_0);
 		UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F(G_B9_0, L_17, UnityEvent_1_Invoke_mD90A6021A328509247240B4E5DB48C34499C296F_RuntimeMethod_var);
 	}
@@ -15379,18 +15920,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSDownloadEvents_tD7E9F83376F5BED441EC0454F4
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit::set_WebDownloadEvents(Facebook.WitAi.TTS.Events.TTSDownloadEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebDownloadEvents_mBA7BC57249FFA8D1EFAC942ECB986124C7727F6A (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSDownloadEvents_tD7E9F83376F5BED441EC0454F45E2291D397F651* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebDownloadEvents_mBA7BC57249FFA8D1EFAC942ECB986124C7727F6A (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSDownloadEvents_tD7E9F83376F5BED441EC0454F45E2291D397F651* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSDownloadEvents WebDownloadEvents { get; set; } = new TTSDownloadEvents();
-		TTSDownloadEvents_tD7E9F83376F5BED441EC0454F45E2291D397F651* L_0 = ___value0;
+		TTSDownloadEvents_tD7E9F83376F5BED441EC0454F45E2291D397F651* L_0 = ___0_value;
 		__this->___U3CWebDownloadEventsU3Ek__BackingField_16 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWebDownloadEventsU3Ek__BackingField_16), (void*)L_0);
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit::RequestDownloadFromWeb(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m3C646204F5813F91E6B01062BB29F3547CEC5D9F (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m3C646204F5813F91E6B01062BB29F3547CEC5D9F (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15423,7 +15964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m3C646204F
 		U3CU3Ec__DisplayClass25_0__ctor_m87AB19A35ADCA2586AE6414DDB927966D871AC2A(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* L_1 = V_0;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		L_1->___clipData_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___clipData_0), (void*)L_2);
@@ -15432,7 +15973,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m3C646204F
 		L_3->___U3CU3E4__this_1 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___U3CU3E4__this_1), (void*)__this);
 		U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* L_4 = V_0;
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		NullCheck(L_4);
 		L_4->___downloadPath_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___downloadPath_2), (void*)L_5);
@@ -15631,7 +16172,7 @@ IL_00b6:
 	}
 }
 // System.Boolean Facebook.WitAi.TTS.Integrations.TTSWit::CancelWebDownload(Facebook.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m401641275F17DFB2A26CE3AAC417F2A05D5BA8E6 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m401641275F17DFB2A26CE3AAC417F2A05D5BA8E6 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15651,7 +16192,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m401641275F17DF
 	{
 		// if (!_webDownloads.ContainsKey(clipData.clipID))
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_0 = __this->____webDownloads_17;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -15671,7 +16212,7 @@ IL_0015:
 	{
 		// WitUnityRequest request = _webDownloads[clipData.clipID];
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_4 = __this->____webDownloads_17;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___clipID_1;
 		NullCheck(L_4);
@@ -15679,7 +16220,7 @@ IL_0015:
 		L_7 = Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0(L_4, L_6, Dictionary_2_get_Item_m8C896BDF8106F9A0442AD7E2B8242DBD59BA60E0_RuntimeMethod_var);
 		// _webDownloads.Remove(clipData.clipID);
 		Dictionary_2_t59E9859D2FE74804BF1FCB732BF397448AA890DD* L_8 = __this->____webDownloads_17;
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_9 = ___0_clipData;
 		NullCheck(L_9);
 		String_t* L_10 = L_9->___clipID_1;
 		NullCheck(L_8);
@@ -15739,8 +16280,8 @@ IL_004f:
 
 IL_005a:
 	{
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___clipData0;
-		String_t* L_18 = ___downloadPath1;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_17 = ___0_clipData;
+		String_t* L_18 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B9_0, L_17, L_18, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 	}
@@ -15826,7 +16367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tDDB57D2B757AFE51188759CB145
 	}
 }
 // System.Collections.Generic.Dictionary`2<System.String,System.String> Facebook.WitAi.TTS.Integrations.TTSWit::EncodeVoiceSettings(Facebook.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* TTSWit_EncodeVoiceSettings_mF701754895CE3CF13F57C4332581466A8F402C2B (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___voiceSettings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* TTSWit_EncodeVoiceSettings_mF701754895CE3CF13F57C4332581466A8F402C2B (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* ___0_voiceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15861,7 +16402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		V_0 = L_0;
 		// if (voiceSettings != null)
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___voiceSettings0;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_1 = ___0_voiceSettings;
 		if (!L_1)
 		{
 			goto IL_010c;
@@ -15869,7 +16410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 	}
 	{
 		// foreach (FieldInfo field in voiceSettings.GetType().GetFields())
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2 = ___voiceSettings0;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_2 = ___0_voiceSettings;
 		NullCheck(L_2);
 		Type_t* L_3;
 		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
@@ -15905,7 +16446,7 @@ IL_001f:
 	{
 		// object fieldVal = field.GetValue(voiceSettings);
 		FieldInfo_t* L_12 = V_3;
-		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_13 = ___voiceSettings0;
+		TTSVoiceSettings_tDDB57D2B757AFE51188759CB14536163C2AF3104* L_13 = ___0_voiceSettings;
 		NullCheck(L_12);
 		RuntimeObject* L_14;
 		L_14 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_12, L_13);
@@ -16073,7 +16614,7 @@ IL_010c:
 	}
 }
 // System.String Facebook.WitAi.TTS.Integrations.TTSWit::IsRequestValid(Facebook.WitAi.TTS.Data.TTSClipData,Facebook.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m5C392FBD420452C712323611FA20792845EAD384 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___clipData0, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___configuration1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m5C392FBD420452C712323611FA20792845EAD384 (TTSWit_t785F9500F7B7E1D2E87B38C9256A50AF8E86C08B* __this, TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* ___0_clipData, WitConfiguration_t3D1E7D46065A2742877307705778E1CBC33530DD* ___1_configuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16106,7 +16647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m5C392FBD4204
 IL_0011:
 	{
 		// if (clipData == null)
-		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___clipData0;
+		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_4 = ___0_clipData;
 		if (L_4)
 		{
 			goto IL_001a;
@@ -16182,19 +16723,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m1FAD6C4
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0::<RequestStreamFromWeb>b__0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__0_mABBFBCC5E36FEEBC915B4A95986F6F448A50E40C (U3CU3Ec__DisplayClass18_0_t0C5C53A9B482BCF5C0A182F57D43016FAA76C961* __this, float ___progress0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__0_mABBFBCC5E36FEEBC915B4A95986F6F448A50E40C (U3CU3Ec__DisplayClass18_0_t0C5C53A9B482BCF5C0A182F57D43016FAA76C961* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
 		// (progress) => clipData.loadProgress = progress,
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = __this->___clipData_0;
-		float L_1 = ___progress0;
+		float L_1 = ___0_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0::<RequestStreamFromWeb>b__1(UnityEngine.AudioClip,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__1_mEE65F1B2511B0CFC5685D1D8AA6AC4B9D41D16A1 (U3CU3Ec__DisplayClass18_0_t0C5C53A9B482BCF5C0A182F57D43016FAA76C961* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__1_mEE65F1B2511B0CFC5685D1D8AA6AC4B9D41D16A1 (U3CU3Ec__DisplayClass18_0_t0C5C53A9B482BCF5C0A182F57D43016FAA76C961* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16225,12 +16766,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStre
 		L_4 = Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380(L_1, L_3, Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380_RuntimeMethod_var);
 		// clipData.clip = clip;
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_5 = __this->___clipData_0;
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = ___0_clip;
 		NullCheck(L_5);
 		L_5->___clip_6 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___clip_6), (void*)L_6);
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_7 = ___error1;
+		String_t* L_7 = ___1_error;
 		bool L_8;
 		L_8 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_7, NULL);
 		if (!L_8)
@@ -16318,7 +16859,7 @@ IL_0066:
 IL_0070:
 	{
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_20 = __this->___clipData_0;
-		String_t* L_21 = ___error1;
+		String_t* L_21 = ___1_error;
 		NullCheck(G_B10_0);
 		UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C(G_B10_0, L_20, L_21, UnityEvent_2_Invoke_mAAED6276E43EFA4050BD22E8CB37FBC70357F10C_RuntimeMethod_var);
 		// });
@@ -16342,19 +16883,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_m87AB19A
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::<RequestDownloadFromWeb>b__0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__0_m81CA877CE5F59809D9CDCF95125CAD9CD8CEE827 (U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* __this, float ___progress0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__0_m81CA877CE5F59809D9CDCF95125CAD9CD8CEE827 (U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
 		// (progress) => clipData.loadProgress = progress,
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_0 = __this->___clipData_0;
-		float L_1 = ___progress0;
+		float L_1 = ___0_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
 	}
 }
 // System.Void Facebook.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::<RequestDownloadFromWeb>b__1(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__1_m6E8A1B8A19B1E69668B96F749CDA35138F8305B1 (U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* __this, String_t* ___error0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__1_m6E8A1B8A19B1E69668B96F749CDA35138F8305B1 (U3CU3Ec__DisplayClass25_0_t59793E4A99EDF155A2F689D93E53FF6C82AD9394* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16384,7 +16925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDown
 		bool L_4;
 		L_4 = Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380(L_1, L_3, Dictionary_2_Remove_mD0B475F712D911BBA9FE1307C8762C8A4BDCC380_RuntimeMethod_var);
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_5 = ___error0;
+		String_t* L_5 = ___0_error;
 		bool L_6;
 		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
 		if (!L_6)
@@ -16474,7 +17015,7 @@ IL_006a:
 	{
 		TTSClipData_tB4B9D63544628BE855EE0A8DE00FB24F96ABFC15* L_19 = __this->___clipData_0;
 		String_t* L_20 = __this->___downloadPath_2;
-		String_t* L_21 = ___error0;
+		String_t* L_21 = ___0_error;
 		NullCheck(G_B10_0);
 		UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B(G_B10_0, L_19, L_20, L_21, UnityEvent_3_Invoke_m39B65AA5B3BC9CAAC39B7AB275B35D3D8FF0486B_RuntimeMethod_var);
 		// });
@@ -16802,27 +17343,27 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSSpeakerEvents_tD08CD2AFB0C82B3
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___a0, float ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float G_B3_0 = 0.0f;
 	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
 		if ((((float)L_0) > ((float)L_1)))
 		{
 			goto IL_0008;
 		}
 	}
 	{
-		float L_2 = ___b1;
+		float L_2 = ___1_b;
 		G_B3_0 = L_2;
 		goto IL_0009;
 	}
 
 IL_0008:
 	{
-		float L_3 = ___a0;
+		float L_3 = ___0_a;
 		G_B3_0 = L_3;
 	}
 
@@ -16852,7 +17393,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* UriBuilder_get_Query_m9
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___f0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16862,7 +17403,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F42
 	}
 	int32_t V_0 = 0;
 	{
-		float L_0 = ___f0;
+		float L_0 = ___0_f;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = ceil(((double)L_0));
@@ -16876,10 +17417,10 @@ IL_000c:
 		return L_2;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void UnityWebRequest_set_disposeDownloadHandlerOnDispose_m1BF640E233D231F8C0333864C0FE5D9E1DC2E7C6_inline (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12 = L_0;
 		return;
 	}
@@ -16932,14 +17473,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSDownloadEvents_tD7E9F83376F5BE
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	{
-		int32_t L_0 = ___value0;
-		int32_t L_1 = ___min1;
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
 		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -16948,15 +17489,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5
 		}
 	}
 	{
-		int32_t L_3 = ___min1;
-		___value0 = L_3;
+		int32_t L_3 = ___1_min;
+		___0_value = L_3;
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
-		int32_t L_4 = ___value0;
-		int32_t L_5 = ___max2;
+		int32_t L_4 = ___0_value;
+		int32_t L_5 = ___2_max;
 		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
 		bool L_6 = V_1;
 		if (!L_6)
@@ -16965,13 +17506,13 @@ IL_000e:
 		}
 	}
 	{
-		int32_t L_7 = ___max2;
-		___value0 = L_7;
+		int32_t L_7 = ___2_max;
+		___0_value = L_7;
 	}
 
 IL_0019:
 	{
-		int32_t L_8 = ___value0;
+		int32_t L_8 = ___0_value;
 		V_2 = L_8;
 		goto IL_001d;
 	}
@@ -16989,47 +17530,47 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___arg10, int32_t ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___obj0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA8F89FB04FEA0F48A4F22EC84B5F9ADB2914341F_gshared_inline (Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A* __this, float ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, float, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___arg10, float ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mAFC1A6B82DBD3B488FF63EE80C4D280D6979260F_gshared_inline (Action_2_t4A5313D1C1FEF099C0E5969104BDE957CD82CF22* __this, RuntimeObject* ___0_arg1, float ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, float, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___arg0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared_inline (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Func_1_Invoke_m1412272198DFA4066C83206E5B43353AF10A2EEE_gshared_inline (Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* __this, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -17053,7 +17594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
-		RuntimeObject* L_8 = ___item0;
+		RuntimeObject* L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
@@ -17061,7 +17602,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 
 IL_0034:
 	{
-		RuntimeObject* L_9 = ___item0;
+		RuntimeObject* L_9 = ___0_item;
 		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}

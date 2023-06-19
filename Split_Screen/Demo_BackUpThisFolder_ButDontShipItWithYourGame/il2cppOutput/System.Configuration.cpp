@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -81,7 +80,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_tDA285F13E9413BF3B79A99D6E310BE9AF3444EEB 
 {
 };
-struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -117,12 +115,6 @@ struct String_t  : public RuntimeObject
 	Il2CppChar ____firstChar_5;
 };
 
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
-};
-
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -141,29 +133,11 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD  : public RuntimeObje
 {
 };
 
-struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
-{
-	// System.UInt32 System.Xml.XmlReader::IsTextualNodeBitmap
-	uint32_t ___IsTextualNodeBitmap_0;
-	// System.UInt32 System.Xml.XmlReader::CanReadContentAsBitmap
-	uint32_t ___CanReadContentAsBitmap_1;
-	// System.UInt32 System.Xml.XmlReader::HasValueBitmap
-	uint32_t ___HasValueBitmap_2;
-};
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_0;
-};
-
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
 };
 
 // System.Configuration.ConfigurationCollectionAttribute
@@ -186,12 +160,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // System.Void
@@ -241,12 +209,6 @@ struct Exception_t  : public RuntimeObject
 	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
-};
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
 };
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
@@ -313,24 +275,6 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
-};
-
 // System.InvalidOperationException
 struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -357,6 +301,154 @@ struct PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A  
 struct ThrowStub_t9161280E38728A40D9B1A975AEE62E89C379E400  : public ObjectDisposedException_tC5FB29E8E980E2010A2F6A5B9B791089419F89EB
 {
 };
+
+// <Module>
+
+// <Module>
+
+// System.Attribute
+
+// System.Attribute
+
+// System.Configuration.ConfigurationElement
+
+// System.Configuration.ConfigurationElement
+
+// System.Configuration.ConfigurationPropertyCollection
+
+// System.Configuration.ConfigurationPropertyCollection
+
+// System.Configuration.ConfigurationSectionGroup
+
+// System.Configuration.ConfigurationSectionGroup
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Xml.XmlReader
+struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
+{
+	// System.UInt32 System.Xml.XmlReader::IsTextualNodeBitmap
+	uint32_t ___IsTextualNodeBitmap_0;
+	// System.UInt32 System.Xml.XmlReader::CanReadContentAsBitmap
+	uint32_t ___CanReadContentAsBitmap_1;
+	// System.UInt32 System.Xml.XmlReader::HasValueBitmap
+	uint32_t ___HasValueBitmap_2;
+};
+
+// System.Xml.XmlReader
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Configuration.ConfigurationCollectionAttribute
+
+// System.Configuration.ConfigurationCollectionAttribute
+
+// System.Configuration.ConfigurationElementCollection
+
+// System.Configuration.ConfigurationElementCollection
+
+// System.Configuration.ConfigurationSection
+
+// System.Configuration.ConfigurationSection
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Void
+
+// System.Void
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// System.Configuration.IgnoreSection
+
+// System.Configuration.IgnoreSection
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// System.SystemException
+
+// System.SystemException
+
+// System.Type
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Type
+
+// System.InvalidOperationException
+
+// System.InvalidOperationException
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// System.ObjectDisposedException
+
+// System.ObjectDisposedException
+
+// System.PlatformNotSupportedException
+
+// System.PlatformNotSupportedException
+
+// Unity.ThrowStub
+
+// Unity.ThrowStub
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -410,7 +502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConfigurationElement_IsModified_m0357012
 	}
 }
 // System.Void System.Configuration.ConfigurationElement::Reset(System.Configuration.ConfigurationElement)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationElement_Reset_mA1EA05A353D2606B81CF9B50BDBC9D5F9B6DF8AF (ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___parentElement0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationElement_Reset_mA1EA05A353D2606B81CF9B50BDBC9D5F9B6DF8AF (ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___0_parentElement, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -446,7 +538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationElement_ResetModified_m1CCB
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Configuration.ConfigurationSection::DeserializeSection(System.Xml.XmlReader)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationSection_DeserializeSection_m337F6D10C212ACA2900FCEFC8098393D7776A0CD (ConfigurationSection_t0BC609F0151B160A4FAB8226679B62AF22539C3E* __this, XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* ___reader0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationSection_DeserializeSection_m337F6D10C212ACA2900FCEFC8098393D7776A0CD (ConfigurationSection_t0BC609F0151B160A4FAB8226679B62AF22539C3E* __this, XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* ___0_reader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -491,7 +583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationSection_ResetModified_m3A4E
 	}
 }
 // System.String System.Configuration.ConfigurationSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConfigurationSection_SerializeSection_m4526B82EBA81F4B2A049AA668905A27C58A07540 (ConfigurationSection_t0BC609F0151B160A4FAB8226679B62AF22539C3E* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___parentElement0, String_t* ___name1, int32_t ___saveMode2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConfigurationSection_SerializeSection_m4526B82EBA81F4B2A049AA668905A27C58A07540 (ConfigurationSection_t0BC609F0151B160A4FAB8226679B62AF22539C3E* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___0_parentElement, String_t* ___1_name, int32_t ___2_saveMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -529,7 +621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConfigurationSection_SerializeSecti
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void System.Configuration.ConfigurationCollectionAttribute::.ctor(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationCollectionAttribute__ctor_m1C1204D379E75BB9D1AC794CAD78B0C95FDEDB8D (ConfigurationCollectionAttribute_t1D7DBAAB4908B6B8F26EA1C66106A67BDE949558* __this, Type_t* ___itemType0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConfigurationCollectionAttribute__ctor_m1C1204D379E75BB9D1AC794CAD78B0C95FDEDB8D (ConfigurationCollectionAttribute_t1D7DBAAB4908B6B8F26EA1C66106A67BDE949558* __this, Type_t* ___0_itemType, const RuntimeMethod* method) 
 {
 	{
 		return;
@@ -580,7 +672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConfigurationPropertyCollection_t1DEB95D3283B
 	}
 }
 // System.Void System.Configuration.IgnoreSection::DeserializeSection(System.Xml.XmlReader)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreSection_DeserializeSection_m622C6FAE1160DCC952A4E36FC9E2DCB9DCC34CEC (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* ___xmlReader0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreSection_DeserializeSection_m622C6FAE1160DCC952A4E36FC9E2DCB9DCC34CEC (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* ___0_xmlReader, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -611,7 +703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IgnoreSection_IsModified_mB1D57799DA9AE0
 	}
 }
 // System.Void System.Configuration.IgnoreSection::Reset(System.Configuration.ConfigurationElement)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreSection_Reset_m8A41B00CEC8C72D608FEE005D438864B5638B84E (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___parentSection0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreSection_Reset_m8A41B00CEC8C72D608FEE005D438864B5638B84E (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___0_parentSection, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -639,7 +731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IgnoreSection_ResetModified_m13E416D3841
 	}
 }
 // System.String System.Configuration.IgnoreSection::SerializeSection(System.Configuration.ConfigurationElement,System.String,System.Configuration.ConfigurationSaveMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IgnoreSection_SerializeSection_m12BD59834DBCACE13758DA83BD3DEF2B8A6F3DBE (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___parentSection0, String_t* ___name1, int32_t ___saveMode2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IgnoreSection_SerializeSection_m12BD59834DBCACE13758DA83BD3DEF2B8A6F3DBE (IgnoreSection_t43A7C33C0083D18639AA3CC3D75DD93FCF1C5D97* __this, ConfigurationElement_tAE3EE71C256825472831FFBB7F491275DFAF089E* ___0_parentSection, String_t* ___1_name, int32_t ___2_saveMode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

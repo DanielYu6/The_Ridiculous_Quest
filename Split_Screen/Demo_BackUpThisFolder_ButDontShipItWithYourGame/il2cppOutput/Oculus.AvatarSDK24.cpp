@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -80,7 +79,6 @@ IL2CPP_EXTERN_C_END
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-struct Il2CppArrayBounds;
 
 // Oculus.Avatar2.Experimental.CAPI
 struct CAPI_tF9F525191951C2938B0429DAC92AEF79B9BD640B  : public RuntimeObject
@@ -94,12 +92,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -122,14 +114,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Int32
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -144,12 +128,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // UnityEngine.Quaternion
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
 {
@@ -161,12 +139,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___z_2;
 	// System.Single UnityEngine.Quaternion::w
 	float ___w_3;
-};
-
-struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
-{
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
 };
 
 // System.Single
@@ -194,30 +166,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___z_4;
 };
 
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
-};
-
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
@@ -231,7 +179,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
-#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D12_tCC81D9B2888E9743EF0D33B828DD2904A40A5F0A 
 {
 	union
@@ -245,10 +192,8 @@ struct __StaticArrayInitTypeSizeU3D12_tCC81D9B2888E9743EF0D33B828DD2904A40A5F0A
 		uint8_t __StaticArrayInitTypeSizeU3D12_tCC81D9B2888E9743EF0D33B828DD2904A40A5F0A__padding[12];
 	};
 };
-#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
-#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D24_tF1E017B7B664772E9D68693E683EF0AE1D114CAF 
 {
 	union
@@ -262,7 +207,6 @@ struct __StaticArrayInitTypeSizeU3D24_tF1E017B7B664772E9D68693E683EF0AE1D114CAF
 		uint8_t __StaticArrayInitTypeSizeU3D24_tF1E017B7B664772E9D68693E683EF0AE1D114CAF__padding[24];
 	};
 };
-#pragma pack(pop, tp)
 
 // Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationVisemeFilterSettings
 struct ovrAvatar2AnimationVisemeFilterSettings_t10BFEFDA19B64440A8B1D80A22B7D355B91A1A43 
@@ -280,14 +224,6 @@ struct U3CPrivateImplementationDetailsU3E_tB9E7E0E5D86DB243A9D48B73C4A79E213D21A
 {
 };
 
-struct U3CPrivateImplementationDetailsU3E_tB9E7E0E5D86DB243A9D48B73C4A79E213D21A2CA_StaticFields
-{
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::876901240603D7894A91EB9AB428B25FD4C7560284370B7D493ABF5F70631A31
-	__StaticArrayInitTypeSizeU3D12_tCC81D9B2888E9743EF0D33B828DD2904A40A5F0A ___876901240603D7894A91EB9AB428B25FD4C7560284370B7D493ABF5F70631A31_0;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 <PrivateImplementationDetails>::FFB9BE2F852AC7050329CFE833CDC6652A4F0D1F304F4DF6434C82F617E1AD5E
-	__StaticArrayInitTypeSizeU3D24_tF1E017B7B664772E9D68693E683EF0AE1D114CAF ___FFB9BE2F852AC7050329CFE833CDC6652A4F0D1F304F4DF6434C82F617E1AD5E_1;
-};
-
 // UnityEngine.Bounds
 struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
 {
@@ -302,12 +238,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -531,16 +461,6 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t019
 {
 };
 
-struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
-{
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
-};
-
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
@@ -557,16 +477,6 @@ struct OvrSingletonBehaviour_1_t650143973447507BE29E298FF233B7496610D6AB  : publ
 	bool ____hasShutdown_10;
 };
 
-struct OvrSingletonBehaviour_1_t650143973447507BE29E298FF233B7496610D6AB_StaticFields
-{
-	// T Oculus.Avatar2.OvrSingletonBehaviour`1::<Instance>k__BackingField
-	AvatarLODManager_t8F788404A7A9EF2BF8AA363E82A82F8B3C40C3BF* ___U3CInstanceU3Ek__BackingField_5;
-	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::<shuttingDown>k__BackingField
-	bool ___U3CshuttingDownU3Ek__BackingField_6;
-	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::initializing
-	bool ___initializing_7;
-};
-
 // Oculus.Avatar2.OvrSingletonBehaviour`1<System.Object>
 struct OvrSingletonBehaviour_1_t695BED25EBC2F47A10CEF7576D1B1EBBE6C0F6B5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -576,16 +486,6 @@ struct OvrSingletonBehaviour_1_t695BED25EBC2F47A10CEF7576D1B1EBBE6C0F6B5  : publ
 	bool ____willShutdown_9;
 	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::_hasShutdown
 	bool ____hasShutdown_10;
-};
-
-struct OvrSingletonBehaviour_1_t695BED25EBC2F47A10CEF7576D1B1EBBE6C0F6B5_StaticFields
-{
-	// T Oculus.Avatar2.OvrSingletonBehaviour`1::<Instance>k__BackingField
-	RuntimeObject* ___U3CInstanceU3Ek__BackingField_5;
-	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::<shuttingDown>k__BackingField
-	bool ___U3CshuttingDownU3Ek__BackingField_6;
-	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::initializing
-	bool ___initializing_7;
 };
 
 // Oculus.Avatar2.Utils.AvatarLODLookat
@@ -704,11 +604,226 @@ struct AvatarLODManager_t8F788404A7A9EF2BF8AA363E82A82F8B3C40C3BF  : public OvrS
 	int32_t ___cyclingFunction__61;
 };
 
+// Oculus.Avatar2.Experimental.CAPI
+
+// Oculus.Avatar2.Experimental.CAPI
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+};
+
+// UnityEngine.Quaternion
+
+// System.Single
+
+// System.Single
+
+// System.UInt32
+
+// System.UInt32
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// System.Void
+
+// System.Void
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationVisemeFilterSettings
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationVisemeFilterSettings
+
+// <PrivateImplementationDetails>
+struct U3CPrivateImplementationDetailsU3E_tB9E7E0E5D86DB243A9D48B73C4A79E213D21A2CA_StaticFields
+{
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::876901240603D7894A91EB9AB428B25FD4C7560284370B7D493ABF5F70631A31
+	__StaticArrayInitTypeSizeU3D12_tCC81D9B2888E9743EF0D33B828DD2904A40A5F0A ___876901240603D7894A91EB9AB428B25FD4C7560284370B7D493ABF5F70631A31_0;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=24 <PrivateImplementationDetails>::FFB9BE2F852AC7050329CFE833CDC6652A4F0D1F304F4DF6434C82F617E1AD5E
+	__StaticArrayInitTypeSizeU3D24_tF1E017B7B664772E9D68693E683EF0AE1D114CAF ___FFB9BE2F852AC7050329CFE833CDC6652A4F0D1F304F4DF6434C82F617E1AD5E_1;
+};
+
+// <PrivateImplementationDetails>
+
+// UnityEngine.Bounds
+
+// UnityEngine.Bounds
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// Oculus.Avatar2.Experimental.CAPI/OvrAvatarAnimationLimbConfig
+
+// Oculus.Avatar2.Experimental.CAPI/OvrAvatarAnimationLimbConfig
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimClipAsset
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimClipAsset
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimHierarchyAsset
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimHierarchyAsset
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimVisemeLayerParams
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimVisemeLayerParams
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2SampleAnimationClipParams
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2SampleAnimationClipParams
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationIkLayerParams
+
+// Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationIkLayerParams
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Transform
+
+// UnityEngine.Transform
+
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
+};
+
+// UnityEngine.Camera
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// Oculus.Avatar2.OvrSingletonBehaviour`1<Oculus.Avatar2.AvatarLODManager>
+struct OvrSingletonBehaviour_1_t650143973447507BE29E298FF233B7496610D6AB_StaticFields
+{
+	// T Oculus.Avatar2.OvrSingletonBehaviour`1::<Instance>k__BackingField
+	AvatarLODManager_t8F788404A7A9EF2BF8AA363E82A82F8B3C40C3BF* ___U3CInstanceU3Ek__BackingField_5;
+	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::<shuttingDown>k__BackingField
+	bool ___U3CshuttingDownU3Ek__BackingField_6;
+	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::initializing
+	bool ___initializing_7;
+};
+
+// Oculus.Avatar2.OvrSingletonBehaviour`1<Oculus.Avatar2.AvatarLODManager>
+
+// Oculus.Avatar2.OvrSingletonBehaviour`1<System.Object>
+struct OvrSingletonBehaviour_1_t695BED25EBC2F47A10CEF7576D1B1EBBE6C0F6B5_StaticFields
+{
+	// T Oculus.Avatar2.OvrSingletonBehaviour`1::<Instance>k__BackingField
+	RuntimeObject* ___U3CInstanceU3Ek__BackingField_5;
+	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::<shuttingDown>k__BackingField
+	bool ___U3CshuttingDownU3Ek__BackingField_6;
+	// System.Boolean Oculus.Avatar2.OvrSingletonBehaviour`1::initializing
+	bool ___initializing_7;
+};
+
+// Oculus.Avatar2.OvrSingletonBehaviour`1<System.Object>
+
+// Oculus.Avatar2.Utils.AvatarLODLookat
+
+// Oculus.Avatar2.Utils.AvatarLODLookat
+
+// Oculus.Avatar2.AvatarLODManager
 struct AvatarLODManager_t8F788404A7A9EF2BF8AA363E82A82F8B3C40C3BF_StaticFields
 {
 	// UnityEngine.Color[] Oculus.Avatar2.AvatarLODManager::_lodColorsCache
 	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ____lodColorsCache_13;
 };
+
+// Oculus.Avatar2.AvatarLODManager
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -756,7 +871,7 @@ IL2CPP_EXTERN_C void ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* OvrSingletonBehaviour_1_get_Instance_mA14DDC196D96469E10501B39B513A282283FEC75_gshared_inline (const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // T Oculus.Avatar2.OvrSingletonBehaviour`1<Oculus.Avatar2.AvatarLODManager>::get_Instance()
@@ -769,11 +884,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::LookRotation(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forward0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upwards1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
@@ -781,9 +896,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 // UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___point1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_up()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
@@ -791,7 +906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL ovrAvatar2Asset_LoadAnimHierarchy(intptr_t, uint32_t, int32_t*);
 #endif
@@ -1137,7 +1252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AvatarLODLookat__ctor_m890E9751E882B2BA6
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_LoadAnimHierarchy(System.IntPtr,System.UInt32,Oculus.Avatar2.CAPI/ovrAvatar2Id&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimHierarchy_m2EE4D307300A61807FFC66585DF2DDCB5C99EC56 (intptr_t ___data0, uint32_t ___size1, int32_t* ___assetId2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimHierarchy_m2EE4D307300A61807FFC66585DF2DDCB5C99EC56 (intptr_t ___0_data, uint32_t ___1_size, int32_t* ___2_assetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint32_t, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1152,15 +1267,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimHierarch
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_LoadAnimHierarchy)(___data0, ___size1, ___assetId2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_LoadAnimHierarchy)(___0_data, ___1_size, ___2_assetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___data0, ___size1, ___assetId2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_data, ___1_size, ___2_assetId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_UnloadAnimHierarchy(Oculus.Avatar2.CAPI/ovrAvatar2Id)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimHierarchy_m41971CEDBA3654EC53B9BB61BC9C1ECC4390AD7D (int32_t ___assetId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimHierarchy_m41971CEDBA3654EC53B9BB61BC9C1ECC4390AD7D (int32_t ___0_assetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1175,15 +1290,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimHierar
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_UnloadAnimHierarchy)(___assetId0);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_UnloadAnimHierarchy)(___0_assetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___assetId0);
+	int32_t returnValue = il2cppPInvokeFunc(___0_assetId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_GetAnimHierarchy(Oculus.Avatar2.CAPI/ovrAvatar2Id,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimHierarchy_mE2AD78C2AD46BB5711020B46F67D9569541B1B49 (int32_t ___assetId0, intptr_t ___hierarchyAsset1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimHierarchy_mE2AD78C2AD46BB5711020B46F67D9569541B1B49 (int32_t ___0_assetId, intptr_t ___1_hierarchyAsset, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, intptr_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1198,15 +1313,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimHierarchy
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_GetAnimHierarchy)(___assetId0, ___hierarchyAsset1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_GetAnimHierarchy)(___0_assetId, ___1_hierarchyAsset);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___assetId0, ___hierarchyAsset1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_assetId, ___1_hierarchyAsset);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_LoadAnimClip(System.IntPtr,System.UInt32,Oculus.Avatar2.CAPI/ovrAvatar2Id&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimClip_mB8BD20779D2500E495605EB81A53D0AC8D99E6BE (intptr_t ___data0, uint32_t ___size1, int32_t* ___assetId2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimClip_mB8BD20779D2500E495605EB81A53D0AC8D99E6BE (intptr_t ___0_data, uint32_t ___1_size, int32_t* ___2_assetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint32_t, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1221,15 +1336,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_LoadAnimClip_mB8
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_LoadAnimClip)(___data0, ___size1, ___assetId2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_LoadAnimClip)(___0_data, ___1_size, ___2_assetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___data0, ___size1, ___assetId2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_data, ___1_size, ___2_assetId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_UnloadAnimClip(Oculus.Avatar2.CAPI/ovrAvatar2Id)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimClip_m393A81CA28BEBBABBD55E3860595A7F7F6BE976D (int32_t ___assetId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimClip_m393A81CA28BEBBABBD55E3860595A7F7F6BE976D (int32_t ___0_assetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1244,15 +1359,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_UnloadAnimClip_m
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_UnloadAnimClip)(___assetId0);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_UnloadAnimClip)(___0_assetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___assetId0);
+	int32_t returnValue = il2cppPInvokeFunc(___0_assetId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Asset_GetAnimClip(Oculus.Avatar2.CAPI/ovrAvatar2Id,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimClipAsset&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimClip_m2CBBA51885EBE8589A2BD7D729C99FAB8C7770BF (int32_t ___assetId0, ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D* ___outClipAsset1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimClip_m2CBBA51885EBE8589A2BD7D729C99FAB8C7770BF (int32_t ___0_assetId, ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D* ___1_outClipAsset, const RuntimeMethod* method) 
 {
 
 
@@ -1267,30 +1382,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Asset_GetAnimClip_m2CB
 	}
 	#endif
 
-	// Marshaling of parameter '___outClipAsset1' to native representation
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshaled_pinvoke* ____outClipAsset1_marshaled = NULL;
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshaled_pinvoke ____outClipAsset1_marshaled_dereferenced = {};
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke(*___outClipAsset1, ____outClipAsset1_marshaled_dereferenced);
-	____outClipAsset1_marshaled = &____outClipAsset1_marshaled_dereferenced;
+	// Marshaling of parameter '___1_outClipAsset' to native representation
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshaled_pinvoke* ____1_outClipAsset_marshaled = NULL;
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshaled_pinvoke ____1_outClipAsset_marshaled_dereferenced = {};
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke(*___1_outClipAsset, ____1_outClipAsset_marshaled_dereferenced);
+	____1_outClipAsset_marshaled = &____1_outClipAsset_marshaled_dereferenced;
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_GetAnimClip)(___assetId0, ____outClipAsset1_marshaled);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Asset_GetAnimClip)(___0_assetId, ____1_outClipAsset_marshaled);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___assetId0, ____outClipAsset1_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(___0_assetId, ____1_outClipAsset_marshaled);
 	#endif
 
-	// Marshaling of parameter '___outClipAsset1' back from native representation
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D _____outClipAsset1_marshaled_unmarshaled_dereferenced;
-	memset((&_____outClipAsset1_marshaled_unmarshaled_dereferenced), 0, sizeof(_____outClipAsset1_marshaled_unmarshaled_dereferenced));
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke_back(*____outClipAsset1_marshaled, _____outClipAsset1_marshaled_unmarshaled_dereferenced);
-	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke_cleanup(*____outClipAsset1_marshaled);
-	*___outClipAsset1 = _____outClipAsset1_marshaled_unmarshaled_dereferenced;
+	// Marshaling of parameter '___1_outClipAsset' back from native representation
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D _____1_outClipAsset_marshaled_unmarshaled_dereferenced;
+	memset((&_____1_outClipAsset_marshaled_unmarshaled_dereferenced), 0, sizeof(_____1_outClipAsset_marshaled_unmarshaled_dereferenced));
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke_back(*____1_outClipAsset_marshaled, _____1_outClipAsset_marshaled_unmarshaled_dereferenced);
+	ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7F0124D_marshal_pinvoke_cleanup(*____1_outClipAsset_marshaled);
+	*___1_outClipAsset = _____1_outClipAsset_marshaled_unmarshaled_dereferenced;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_SampleAnimationClip(Oculus.Avatar2.CAPI/ovrAvatar2Id,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2SampleAnimationClipParams)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SampleAnimationClip_mF89DBDAE835FD13C3F9B696C4AF22767F1C82938 (int32_t ___clipAssetId0, ovrAvatar2SampleAnimationClipParams_t042E74ABB6FE3A482725002A7106F24DA375BBE0 ___sampleParams1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SampleAnimationClip_mF89DBDAE835FD13C3F9B696C4AF22767F1C82938 (int32_t ___0_clipAssetId, ovrAvatar2SampleAnimationClipParams_t042E74ABB6FE3A482725002A7106F24DA375BBE0 ___1_sampleParams, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, ovrAvatar2SampleAnimationClipParams_t042E74ABB6FE3A482725002A7106F24DA375BBE0);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1305,15 +1420,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SampleAnimat
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SampleAnimationClip)(___clipAssetId0, ___sampleParams1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SampleAnimationClip)(___0_clipAssetId, ___1_sampleParams);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___clipAssetId0, ___sampleParams1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_clipAssetId, ___1_sampleParams);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_SetMood(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2Mood)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetMood_mE9F39F3FE54D8AD51175465738F27B5A93DAD7BA (int32_t ___entityId0, int32_t ___desiredMood1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetMood_mE9F39F3FE54D8AD51175465738F27B5A93DAD7BA (int32_t ___0_entityId, int32_t ___1_desiredMood, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1328,15 +1443,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetMood_mE9F
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SetMood)(___entityId0, ___desiredMood1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SetMood)(___0_entityId, ___1_desiredMood);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___desiredMood1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_desiredMood);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_GetMood(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2Mood&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetMood_mC270D0DC8AB4FFAC31E7E34A9277336379EF9D3D (int32_t ___entityId0, int32_t* ___currentMood1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetMood_mC270D0DC8AB4FFAC31E7E34A9277336379EF9D3D (int32_t ___0_entityId, int32_t* ___1_currentMood, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1351,15 +1466,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetMood_mC27
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetMood)(___entityId0, ___currentMood1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetMood)(___0_entityId, ___1_currentMood);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___currentMood1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_currentMood);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_LoadAnimStateMachineDefinitionFromJson(System.String,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationStateMachineDefinitionId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_LoadAnimStateMachineDefinitionFromJson_mEF84777F713B61E43DD9A2D08C1B2AA4D1062876 (String_t* ___json0, int32_t* ___outAssetId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_LoadAnimStateMachineDefinitionFromJson_mEF84777F713B61E43DD9A2D08C1B2AA4D1062876 (String_t* ___0_json, int32_t* ___1_outAssetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (char*, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1372,25 +1487,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_LoadAnimStat
 	}
 	#endif
 
-	// Marshaling of parameter '___json0' to native representation
-	char* ____json0_marshaled = NULL;
-	____json0_marshaled = il2cpp_codegen_marshal_string(___json0);
+	// Marshaling of parameter '___0_json' to native representation
+	char* ____0_json_marshaled = NULL;
+	____0_json_marshaled = il2cpp_codegen_marshal_string(___0_json);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_LoadAnimStateMachineDefinitionFromJson)(____json0_marshaled, ___outAssetId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_LoadAnimStateMachineDefinitionFromJson)(____0_json_marshaled, ___1_outAssetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____json0_marshaled, ___outAssetId1);
+	int32_t returnValue = il2cppPInvokeFunc(____0_json_marshaled, ___1_outAssetId);
 	#endif
 
-	// Marshaling cleanup of parameter '___json0' native representation
-	il2cpp_codegen_marshal_free(____json0_marshaled);
-	____json0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_json' native representation
+	il2cpp_codegen_marshal_free(____0_json_marshaled);
+	____0_json_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_GetHierarchyId(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationHierarchyId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetHierarchyId_m85BB8E547B77B33234FF68670951122366C4CBB6 (int32_t ___entityId0, uint64_t* ___outHierarchyId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetHierarchyId_m85BB8E547B77B33234FF68670951122366C4CBB6 (int32_t ___0_entityId, uint64_t* ___1_outHierarchyId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, uint64_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1405,15 +1520,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetHierarchy
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetHierarchyId)(___entityId0, ___outHierarchyId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetHierarchyId)(___0_entityId, ___1_outHierarchyId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___outHierarchyId1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_outHierarchyId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_CreateMask(Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationId,System.String,System.String[],System.Int32,System.String[],System.Int32,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationMaskId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateMask_m01B0088F327C00475ED028F1A51E3FF13CA3622E (uint64_t ___hierarchyAssetId0, String_t* ___name1, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___includedJoints2, int32_t ___numJoints3, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___includedFloats4, int32_t ___numFloats5, int32_t* ___outAssetId6, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateMask_m01B0088F327C00475ED028F1A51E3FF13CA3622E (uint64_t ___0_hierarchyAssetId, String_t* ___1_name, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___2_includedJoints, int32_t ___3_numJoints, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___4_includedFloats, int32_t ___5_numFloats, int32_t* ___6_outAssetId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (uint64_t, char*, char**, int32_t, char**, int32_t, int32_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1426,85 +1541,85 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateMask_m
 	}
 	#endif
 
-	// Marshaling of parameter '___name1' to native representation
-	char* ____name1_marshaled = NULL;
-	____name1_marshaled = il2cpp_codegen_marshal_string(___name1);
+	// Marshaling of parameter '___1_name' to native representation
+	char* ____1_name_marshaled = NULL;
+	____1_name_marshaled = il2cpp_codegen_marshal_string(___1_name);
 
-	// Marshaling of parameter '___includedJoints2' to native representation
-	char** ____includedJoints2_marshaled = NULL;
-	if (___includedJoints2 != NULL)
+	// Marshaling of parameter '___2_includedJoints' to native representation
+	char** ____2_includedJoints_marshaled = NULL;
+	if (___2_includedJoints != NULL)
 	{
-		il2cpp_array_size_t ____includedJoints2_Length = (___includedJoints2)->max_length;
-		____includedJoints2_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____includedJoints2_Length + 1);
-		(____includedJoints2_marshaled)[____includedJoints2_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____includedJoints2_Length); i++)
+		il2cpp_array_size_t ____2_includedJoints_Length = (___2_includedJoints)->max_length;
+		____2_includedJoints_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____2_includedJoints_Length + 1);
+		(____2_includedJoints_marshaled)[____2_includedJoints_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____2_includedJoints_Length); i++)
 		{
-			(____includedJoints2_marshaled)[i] = il2cpp_codegen_marshal_string((___includedJoints2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+			(____2_includedJoints_marshaled)[i] = il2cpp_codegen_marshal_string((___2_includedJoints)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
 		}
 	}
 	else
 	{
-		____includedJoints2_marshaled = NULL;
+		____2_includedJoints_marshaled = NULL;
 	}
 
-	// Marshaling of parameter '___includedFloats4' to native representation
-	char** ____includedFloats4_marshaled = NULL;
-	if (___includedFloats4 != NULL)
+	// Marshaling of parameter '___4_includedFloats' to native representation
+	char** ____4_includedFloats_marshaled = NULL;
+	if (___4_includedFloats != NULL)
 	{
-		il2cpp_array_size_t ____includedFloats4_Length = (___includedFloats4)->max_length;
-		____includedFloats4_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____includedFloats4_Length + 1);
-		(____includedFloats4_marshaled)[____includedFloats4_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____includedFloats4_Length); i++)
+		il2cpp_array_size_t ____4_includedFloats_Length = (___4_includedFloats)->max_length;
+		____4_includedFloats_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____4_includedFloats_Length + 1);
+		(____4_includedFloats_marshaled)[____4_includedFloats_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____4_includedFloats_Length); i++)
 		{
-			(____includedFloats4_marshaled)[i] = il2cpp_codegen_marshal_string((___includedFloats4)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+			(____4_includedFloats_marshaled)[i] = il2cpp_codegen_marshal_string((___4_includedFloats)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
 		}
 	}
 	else
 	{
-		____includedFloats4_marshaled = NULL;
+		____4_includedFloats_marshaled = NULL;
 	}
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateMask)(___hierarchyAssetId0, ____name1_marshaled, ____includedJoints2_marshaled, ___numJoints3, ____includedFloats4_marshaled, ___numFloats5, ___outAssetId6);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateMask)(___0_hierarchyAssetId, ____1_name_marshaled, ____2_includedJoints_marshaled, ___3_numJoints, ____4_includedFloats_marshaled, ___5_numFloats, ___6_outAssetId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___hierarchyAssetId0, ____name1_marshaled, ____includedJoints2_marshaled, ___numJoints3, ____includedFloats4_marshaled, ___numFloats5, ___outAssetId6);
+	int32_t returnValue = il2cppPInvokeFunc(___0_hierarchyAssetId, ____1_name_marshaled, ____2_includedJoints_marshaled, ___3_numJoints, ____4_includedFloats_marshaled, ___5_numFloats, ___6_outAssetId);
 	#endif
 
-	// Marshaling cleanup of parameter '___name1' native representation
-	il2cpp_codegen_marshal_free(____name1_marshaled);
-	____name1_marshaled = NULL;
+	// Marshaling cleanup of parameter '___1_name' native representation
+	il2cpp_codegen_marshal_free(____1_name_marshaled);
+	____1_name_marshaled = NULL;
 
-	// Marshaling cleanup of parameter '___includedJoints2' native representation
-	if (____includedJoints2_marshaled != NULL)
+	// Marshaling cleanup of parameter '___2_includedJoints' native representation
+	if (____2_includedJoints_marshaled != NULL)
 	{
-		const il2cpp_array_size_t ____includedJoints2_marshaled_CleanupLoopCount = (___includedJoints2 != NULL) ? (___includedJoints2)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____includedJoints2_marshaled_CleanupLoopCount); i++)
+		const il2cpp_array_size_t ____2_includedJoints_marshaled_CleanupLoopCount = (___2_includedJoints != NULL) ? (___2_includedJoints)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____2_includedJoints_marshaled_CleanupLoopCount); i++)
 		{
-			il2cpp_codegen_marshal_free((____includedJoints2_marshaled)[i]);
-			(____includedJoints2_marshaled)[i] = NULL;
+			il2cpp_codegen_marshal_free((____2_includedJoints_marshaled)[i]);
+			(____2_includedJoints_marshaled)[i] = NULL;
 		}
-		il2cpp_codegen_marshal_free(____includedJoints2_marshaled);
-		____includedJoints2_marshaled = NULL;
+		il2cpp_codegen_marshal_free(____2_includedJoints_marshaled);
+		____2_includedJoints_marshaled = NULL;
 	}
 
-	// Marshaling cleanup of parameter '___includedFloats4' native representation
-	if (____includedFloats4_marshaled != NULL)
+	// Marshaling cleanup of parameter '___4_includedFloats' native representation
+	if (____4_includedFloats_marshaled != NULL)
 	{
-		const il2cpp_array_size_t ____includedFloats4_marshaled_CleanupLoopCount = (___includedFloats4 != NULL) ? (___includedFloats4)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____includedFloats4_marshaled_CleanupLoopCount); i++)
+		const il2cpp_array_size_t ____4_includedFloats_marshaled_CleanupLoopCount = (___4_includedFloats != NULL) ? (___4_includedFloats)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____4_includedFloats_marshaled_CleanupLoopCount); i++)
 		{
-			il2cpp_codegen_marshal_free((____includedFloats4_marshaled)[i]);
-			(____includedFloats4_marshaled)[i] = NULL;
+			il2cpp_codegen_marshal_free((____4_includedFloats_marshaled)[i]);
+			(____4_includedFloats_marshaled)[i] = NULL;
 		}
-		il2cpp_codegen_marshal_free(____includedFloats4_marshaled);
-		____includedFloats4_marshaled = NULL;
+		il2cpp_codegen_marshal_free(____4_includedFloats_marshaled);
+		____4_includedFloats_marshaled = NULL;
 	}
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_SetLayerWeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetLayerWeight_m709E34B56B659E31B718027FABB5DFFC8B5169A4 (intptr_t ___mixerLayer0, float ___weight1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetLayerWeight_m709E34B56B659E31B718027FABB5DFFC8B5169A4 (intptr_t ___0_mixerLayer, float ___1_weight, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1519,15 +1634,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_SetLayerWeig
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SetLayerWeight)(___mixerLayer0, ___weight1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_SetLayerWeight)(___0_mixerLayer, ___1_weight);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___weight1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_weight);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_DestroyLayer(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_DestroyLayer_m4BCC5718C2437811CD45EDBE2F8CEF65A63F329B (intptr_t ___mixerLayer0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_DestroyLayer_m4BCC5718C2437811CD45EDBE2F8CEF65A63F329B (intptr_t ___0_mixerLayer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1542,15 +1657,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_DestroyLayer
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_DestroyLayer)(___mixerLayer0);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_DestroyLayer)(___0_mixerLayer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_GetParameterId(System.String,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationParameterId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetParameterId_m68A393F1C885BEE22F9D851C794FF3C98EEA414C (String_t* ___paramName0, uint64_t* ___paramId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetParameterId_m68A393F1C885BEE22F9D851C794FF3C98EEA414C (String_t* ___0_paramName, uint64_t* ___1_paramId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (char*, uint64_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1563,25 +1678,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetParameter
 	}
 	#endif
 
-	// Marshaling of parameter '___paramName0' to native representation
-	char* ____paramName0_marshaled = NULL;
-	____paramName0_marshaled = il2cpp_codegen_marshal_string(___paramName0);
+	// Marshaling of parameter '___0_paramName' to native representation
+	char* ____0_paramName_marshaled = NULL;
+	____0_paramName_marshaled = il2cpp_codegen_marshal_string(___0_paramName);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetParameterId)(____paramName0_marshaled, ___paramId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetParameterId)(____0_paramName_marshaled, ___1_paramId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____paramName0_marshaled, ___paramId1);
+	int32_t returnValue = il2cppPInvokeFunc(____0_paramName_marshaled, ___1_paramId);
 	#endif
 
-	// Marshaling cleanup of parameter '___paramName0' native representation
-	il2cpp_codegen_marshal_free(____paramName0_marshaled);
-	____paramName0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_paramName' native representation
+	il2cpp_codegen_marshal_free(____0_paramName_marshaled);
+	____0_paramName_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_GetStateId(System.String,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationStateId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetStateId_m1C5248B9FB8E8F8EBA33B72C4880087062E107C3 (String_t* ___stateName0, uint64_t* ___paramId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetStateId_m1C5248B9FB8E8F8EBA33B72C4880087062E107C3 (String_t* ___0_stateName, uint64_t* ___1_paramId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (char*, uint64_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1594,25 +1709,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetStateId_m
 	}
 	#endif
 
-	// Marshaling of parameter '___stateName0' to native representation
-	char* ____stateName0_marshaled = NULL;
-	____stateName0_marshaled = il2cpp_codegen_marshal_string(___stateName0);
+	// Marshaling of parameter '___0_stateName' to native representation
+	char* ____0_stateName_marshaled = NULL;
+	____0_stateName_marshaled = il2cpp_codegen_marshal_string(___0_stateName);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetStateId)(____stateName0_marshaled, ___paramId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetStateId)(____0_stateName_marshaled, ___1_paramId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____stateName0_marshaled, ___paramId1);
+	int32_t returnValue = il2cppPInvokeFunc(____0_stateName_marshaled, ___1_paramId);
 	#endif
 
-	// Marshaling cleanup of parameter '___stateName0' native representation
-	il2cpp_codegen_marshal_free(____stateName0_marshaled);
-	____stateName0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_stateName' native representation
+	il2cpp_codegen_marshal_free(____0_stateName_marshaled);
+	____0_stateName_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_GetTransitionId(System.String,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationTransitionId&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetTransitionId_m6B16AC8FC6AA7BA0272217E2D47E896229F309AF (String_t* ___transitionName0, uint64_t* ___paramId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetTransitionId_m6B16AC8FC6AA7BA0272217E2D47E896229F309AF (String_t* ___0_transitionName, uint64_t* ___1_paramId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (char*, uint64_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1625,25 +1740,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_GetTransitio
 	}
 	#endif
 
-	// Marshaling of parameter '___transitionName0' to native representation
-	char* ____transitionName0_marshaled = NULL;
-	____transitionName0_marshaled = il2cpp_codegen_marshal_string(___transitionName0);
+	// Marshaling of parameter '___0_transitionName' to native representation
+	char* ____0_transitionName_marshaled = NULL;
+	____0_transitionName_marshaled = il2cpp_codegen_marshal_string(___0_transitionName);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetTransitionId)(____transitionName0_marshaled, ___paramId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_GetTransitionId)(____0_transitionName_marshaled, ___1_paramId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____transitionName0_marshaled, ___paramId1);
+	int32_t returnValue = il2cppPInvokeFunc(____0_transitionName_marshaled, ___1_paramId);
 	#endif
 
-	// Marshaling cleanup of parameter '___transitionName0' native representation
-	il2cpp_codegen_marshal_free(____transitionName0_marshaled);
-	____transitionName0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_transitionName' native representation
+	il2cpp_codegen_marshal_free(____0_transitionName_marshaled);
+	____0_transitionName_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_CreateStateLayer(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationStateMachineDefinitionId,System.Int32,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationBlendMode,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateStateLayer_m13342B8718219551623A0EC657E8AD96EC1809E6 (int32_t ___entityId0, int32_t ___stateMachineId1, int32_t ___priority2, int32_t ___blendMode3, intptr_t* ___layer4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateStateLayer_m13342B8718219551623A0EC657E8AD96EC1809E6 (int32_t ___0_entityId, int32_t ___1_stateMachineId, int32_t ___2_priority, int32_t ___3_blendMode, intptr_t* ___4_layer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t, int32_t, int32_t, intptr_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1658,15 +1773,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateStateL
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateStateLayer)(___entityId0, ___stateMachineId1, ___priority2, ___blendMode3, ___layer4);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateStateLayer)(___0_entityId, ___1_stateMachineId, ___2_priority, ___3_blendMode, ___4_layer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___stateMachineId1, ___priority2, ___blendMode3, ___layer4);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_stateMachineId, ___2_priority, ___3_blendMode, ___4_layer);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerSetFloatParameter(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationParameterId,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetFloatParameter_m7159A1EFB1C1F9BE7D5BADCD1497E78E66C46CCD (intptr_t ___mixerLayer0, uint64_t ___param1, float ___value2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetFloatParameter_m7159A1EFB1C1F9BE7D5BADCD1497E78E66C46CCD (intptr_t ___0_mixerLayer, uint64_t ___1_param, float ___2_value, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint64_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1681,15 +1796,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSe
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetFloatParameter)(___mixerLayer0, ___param1, ___value2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetFloatParameter)(___0_mixerLayer, ___1_param, ___2_value);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___param1, ___value2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_param, ___2_value);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerSetFloatParameters(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetFloatParameters_m8531EEDC2F5A2B95BE519CF475AA378C1EC6EB55 (intptr_t ___mixerLayer0, int32_t ___numParams1, intptr_t ___paramIds2, intptr_t ___values3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetFloatParameters_m8531EEDC2F5A2B95BE519CF475AA378C1EC6EB55 (intptr_t ___0_mixerLayer, int32_t ___1_numParams, intptr_t ___2_paramIds, intptr_t ___3_values, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, intptr_t, intptr_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1704,15 +1819,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSe
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetFloatParameters)(___mixerLayer0, ___numParams1, ___paramIds2, ___values3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetFloatParameters)(___0_mixerLayer, ___1_numParams, ___2_paramIds, ___3_values);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___numParams1, ___paramIds2, ___values3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_numParams, ___2_paramIds, ___3_values);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerSetNameParameter(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationParameterId,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetNameParameter_m9F3E4F1592F0E42F940F63AACF5C4CFE1F903B60 (intptr_t ___mixerLayer0, uint64_t ___param1, String_t* ___name2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetNameParameter_m9F3E4F1592F0E42F940F63AACF5C4CFE1F903B60 (intptr_t ___0_mixerLayer, uint64_t ___1_param, String_t* ___2_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint64_t, char*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1725,25 +1840,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSe
 	}
 	#endif
 
-	// Marshaling of parameter '___name2' to native representation
-	char* ____name2_marshaled = NULL;
-	____name2_marshaled = il2cpp_codegen_marshal_string(___name2);
+	// Marshaling of parameter '___2_name' to native representation
+	char* ____2_name_marshaled = NULL;
+	____2_name_marshaled = il2cpp_codegen_marshal_string(___2_name);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetNameParameter)(___mixerLayer0, ___param1, ____name2_marshaled);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetNameParameter)(___0_mixerLayer, ___1_param, ____2_name_marshaled);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___param1, ____name2_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_param, ____2_name_marshaled);
 	#endif
 
-	// Marshaling cleanup of parameter '___name2' native representation
-	il2cpp_codegen_marshal_free(____name2_marshaled);
-	____name2_marshaled = NULL;
+	// Marshaling cleanup of parameter '___2_name' native representation
+	il2cpp_codegen_marshal_free(____2_name_marshaled);
+	____2_name_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerSetNameParameters(System.IntPtr,System.Int32,System.IntPtr,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetNameParameters_mEFEFC5F8ED8E38095F56764159AA2DD74A597452 (intptr_t ___mixerLayer0, int32_t ___numParams1, intptr_t ___paramIds2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___names3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSetNameParameters_mEFEFC5F8ED8E38095F56764159AA2DD74A597452 (intptr_t ___0_mixerLayer, int32_t ___1_numParams, intptr_t ___2_paramIds, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_names, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, intptr_t, char**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1756,47 +1871,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerSe
 	}
 	#endif
 
-	// Marshaling of parameter '___names3' to native representation
-	char** ____names3_marshaled = NULL;
-	if (___names3 != NULL)
+	// Marshaling of parameter '___3_names' to native representation
+	char** ____3_names_marshaled = NULL;
+	if (___3_names != NULL)
 	{
-		il2cpp_array_size_t ____names3_Length = (___names3)->max_length;
-		____names3_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____names3_Length + 1);
-		(____names3_marshaled)[____names3_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____names3_Length); i++)
+		il2cpp_array_size_t ____3_names_Length = (___3_names)->max_length;
+		____3_names_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____3_names_Length + 1);
+		(____3_names_marshaled)[____3_names_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____3_names_Length); i++)
 		{
-			(____names3_marshaled)[i] = il2cpp_codegen_marshal_string((___names3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+			(____3_names_marshaled)[i] = il2cpp_codegen_marshal_string((___3_names)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
 		}
 	}
 	else
 	{
-		____names3_marshaled = NULL;
+		____3_names_marshaled = NULL;
 	}
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetNameParameters)(___mixerLayer0, ___numParams1, ___paramIds2, ____names3_marshaled);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerSetNameParameters)(___0_mixerLayer, ___1_numParams, ___2_paramIds, ____3_names_marshaled);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___numParams1, ___paramIds2, ____names3_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_numParams, ___2_paramIds, ____3_names_marshaled);
 	#endif
 
-	// Marshaling cleanup of parameter '___names3' native representation
-	if (____names3_marshaled != NULL)
+	// Marshaling cleanup of parameter '___3_names' native representation
+	if (____3_names_marshaled != NULL)
 	{
-		const il2cpp_array_size_t ____names3_marshaled_CleanupLoopCount = (___names3 != NULL) ? (___names3)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____names3_marshaled_CleanupLoopCount); i++)
+		const il2cpp_array_size_t ____3_names_marshaled_CleanupLoopCount = (___3_names != NULL) ? (___3_names)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____3_names_marshaled_CleanupLoopCount); i++)
 		{
-			il2cpp_codegen_marshal_free((____names3_marshaled)[i]);
-			(____names3_marshaled)[i] = NULL;
+			il2cpp_codegen_marshal_free((____3_names_marshaled)[i]);
+			(____3_names_marshaled)[i] = NULL;
 		}
-		il2cpp_codegen_marshal_free(____names3_marshaled);
-		____names3_marshaled = NULL;
+		il2cpp_codegen_marshal_free(____3_names_marshaled);
+		____3_names_marshaled = NULL;
 	}
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerRequestTransition(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationTransitionId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRequestTransition_mC038D0C7C1B3B7ECC988EF5FFAF3F327A818F492 (intptr_t ___mixerLayer0, uint64_t ___transitionId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRequestTransition_mC038D0C7C1B3B7ECC988EF5FFAF3F327A818F492 (intptr_t ___0_mixerLayer, uint64_t ___1_transitionId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint64_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1811,15 +1926,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRe
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerRequestTransition)(___mixerLayer0, ___transitionId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerRequestTransition)(___0_mixerLayer, ___1_transitionId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___transitionId1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_transitionId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_StateLayerRequestFadeToState(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationStateId,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRequestFadeToState_m87013B4CB83E74ED5E648641D19C5AF2D6F39758 (intptr_t ___mixerLayer0, uint64_t ___transitionId1, float ___transitionTimeSec2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRequestFadeToState_m87013B4CB83E74ED5E648641D19C5AF2D6F39758 (intptr_t ___0_mixerLayer, uint64_t ___1_transitionId, float ___2_transitionTimeSec, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, uint64_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1834,15 +1949,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_StateLayerRe
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerRequestFadeToState)(___mixerLayer0, ___transitionId1, ___transitionTimeSec2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_StateLayerRequestFadeToState)(___0_mixerLayer, ___1_transitionId, ___2_transitionTimeSec);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___transitionId1, ___transitionTimeSec2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_transitionId, ___2_transitionTimeSec);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_ClipLayerCreate(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerCreate_mC8C97F0F8F07BFE00ADC7F420502F21F3A6729A5 (int32_t ___entityId0, int32_t ___priority1, intptr_t* ___newLayer2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerCreate_mC8C97F0F8F07BFE00ADC7F420502F21F3A6729A5 (int32_t ___0_entityId, int32_t ___1_priority, intptr_t* ___2_newLayer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t, intptr_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1857,15 +1972,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerCre
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerCreate)(___entityId0, ___priority1, ___newLayer2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerCreate)(___0_entityId, ___1_priority, ___2_newLayer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___priority1, ___newLayer2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_priority, ___2_newLayer);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_ClipLayerSetClipByName(System.IntPtr,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetClipByName_m55BB49953E42CB34ACF1906E9A7F824D489A64D1 (intptr_t ___mixerLayer0, String_t* ___animName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetClipByName_m55BB49953E42CB34ACF1906E9A7F824D489A64D1 (intptr_t ___0_mixerLayer, String_t* ___1_animName, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, char*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1878,25 +1993,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSet
 	}
 	#endif
 
-	// Marshaling of parameter '___animName1' to native representation
-	char* ____animName1_marshaled = NULL;
-	____animName1_marshaled = il2cpp_codegen_marshal_string(___animName1);
+	// Marshaling of parameter '___1_animName' to native representation
+	char* ____1_animName_marshaled = NULL;
+	____1_animName_marshaled = il2cpp_codegen_marshal_string(___1_animName);
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetClipByName)(___mixerLayer0, ____animName1_marshaled);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetClipByName)(___0_mixerLayer, ____1_animName_marshaled);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ____animName1_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ____1_animName_marshaled);
 	#endif
 
-	// Marshaling cleanup of parameter '___animName1' native representation
-	il2cpp_codegen_marshal_free(____animName1_marshaled);
-	____animName1_marshaled = NULL;
+	// Marshaling cleanup of parameter '___1_animName' native representation
+	il2cpp_codegen_marshal_free(____1_animName_marshaled);
+	____1_animName_marshaled = NULL;
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_ClipLayerSetClipById(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationClipId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetClipById_m24D648DD77EB57344FE64A8F91839A4B2BD148F5 (intptr_t ___mixerLayer0, int32_t ___animId1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetClipById_m24D648DD77EB57344FE64A8F91839A4B2BD148F5 (intptr_t ___0_mixerLayer, int32_t ___1_animId, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1911,15 +2026,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSet
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetClipById)(___mixerLayer0, ___animId1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetClipById)(___0_mixerLayer, ___1_animId);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___animId1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_animId);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_ClipLayerSetRate(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetRate_mCD5CF56E3941C4C1AAA4AC8320368B30777643CE (intptr_t ___mixerLayer0, float ___rate1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetRate_mCD5CF56E3941C4C1AAA4AC8320368B30777643CE (intptr_t ___0_mixerLayer, float ___1_rate, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1934,15 +2049,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSet
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetRate)(___mixerLayer0, ___rate1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetRate)(___0_mixerLayer, ___1_rate);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___rate1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_rate);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_ClipLayerSetPhase(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetPhase_m78780EE59A207E10DD8847A7D206825027AD3F9E (intptr_t ___mixerLayer0, float ___phase1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSetPhase_m78780EE59A207E10DD8847A7D206825027AD3F9E (intptr_t ___0_mixerLayer, float ___1_phase, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1957,15 +2072,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_ClipLayerSet
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetPhase)(___mixerLayer0, ___phase1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_ClipLayerSetPhase)(___0_mixerLayer, ___1_phase);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mixerLayer0, ___phase1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mixerLayer, ___1_phase);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_CreateVisemeLayer(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimVisemeLayerParams&,System.Int32,System.String[],System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateVisemeLayer_mD8C2A58CF5C2C397A31CE42888A44682E2954767 (int32_t ___entityId0, ovrAvatar2AnimVisemeLayerParams_tF48B3257F4BE42E98E7E683514D1293809D61C49* ___visemeParams1, int32_t ___numVisemeAnims2, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___visemeAnimNames3, intptr_t* ___layer4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateVisemeLayer_mD8C2A58CF5C2C397A31CE42888A44682E2954767 (int32_t ___0_entityId, ovrAvatar2AnimVisemeLayerParams_tF48B3257F4BE42E98E7E683514D1293809D61C49* ___1_visemeParams, int32_t ___2_numVisemeAnims, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___3_visemeAnimNames, intptr_t* ___4_layer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, ovrAvatar2AnimVisemeLayerParams_tF48B3257F4BE42E98E7E683514D1293809D61C49*, int32_t, char**, intptr_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -1978,47 +2093,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateViseme
 	}
 	#endif
 
-	// Marshaling of parameter '___visemeAnimNames3' to native representation
-	char** ____visemeAnimNames3_marshaled = NULL;
-	if (___visemeAnimNames3 != NULL)
+	// Marshaling of parameter '___3_visemeAnimNames' to native representation
+	char** ____3_visemeAnimNames_marshaled = NULL;
+	if (___3_visemeAnimNames != NULL)
 	{
-		il2cpp_array_size_t ____visemeAnimNames3_Length = (___visemeAnimNames3)->max_length;
-		____visemeAnimNames3_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____visemeAnimNames3_Length + 1);
-		(____visemeAnimNames3_marshaled)[____visemeAnimNames3_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____visemeAnimNames3_Length); i++)
+		il2cpp_array_size_t ____3_visemeAnimNames_Length = (___3_visemeAnimNames)->max_length;
+		____3_visemeAnimNames_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____3_visemeAnimNames_Length + 1);
+		(____3_visemeAnimNames_marshaled)[____3_visemeAnimNames_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____3_visemeAnimNames_Length); i++)
 		{
-			(____visemeAnimNames3_marshaled)[i] = il2cpp_codegen_marshal_string((___visemeAnimNames3)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+			(____3_visemeAnimNames_marshaled)[i] = il2cpp_codegen_marshal_string((___3_visemeAnimNames)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
 		}
 	}
 	else
 	{
-		____visemeAnimNames3_marshaled = NULL;
+		____3_visemeAnimNames_marshaled = NULL;
 	}
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateVisemeLayer)(___entityId0, ___visemeParams1, ___numVisemeAnims2, ____visemeAnimNames3_marshaled, ___layer4);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateVisemeLayer)(___0_entityId, ___1_visemeParams, ___2_numVisemeAnims, ____3_visemeAnimNames_marshaled, ___4_layer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___visemeParams1, ___numVisemeAnims2, ____visemeAnimNames3_marshaled, ___layer4);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_visemeParams, ___2_numVisemeAnims, ____3_visemeAnimNames_marshaled, ___4_layer);
 	#endif
 
-	// Marshaling cleanup of parameter '___visemeAnimNames3' native representation
-	if (____visemeAnimNames3_marshaled != NULL)
+	// Marshaling cleanup of parameter '___3_visemeAnimNames' native representation
+	if (____3_visemeAnimNames_marshaled != NULL)
 	{
-		const il2cpp_array_size_t ____visemeAnimNames3_marshaled_CleanupLoopCount = (___visemeAnimNames3 != NULL) ? (___visemeAnimNames3)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____visemeAnimNames3_marshaled_CleanupLoopCount); i++)
+		const il2cpp_array_size_t ____3_visemeAnimNames_marshaled_CleanupLoopCount = (___3_visemeAnimNames != NULL) ? (___3_visemeAnimNames)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____3_visemeAnimNames_marshaled_CleanupLoopCount); i++)
 		{
-			il2cpp_codegen_marshal_free((____visemeAnimNames3_marshaled)[i]);
-			(____visemeAnimNames3_marshaled)[i] = NULL;
+			il2cpp_codegen_marshal_free((____3_visemeAnimNames_marshaled)[i]);
+			(____3_visemeAnimNames_marshaled)[i] = NULL;
 		}
-		il2cpp_codegen_marshal_free(____visemeAnimNames3_marshaled);
-		____visemeAnimNames3_marshaled = NULL;
+		il2cpp_codegen_marshal_free(____3_visemeAnimNames_marshaled);
+		____3_visemeAnimNames_marshaled = NULL;
 	}
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_CreateIkLayer(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,System.Int32,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLayer_m23E77C782D43AD798924DA947888B4AA8DB03B65 (int32_t ___entityId0, int32_t ___priority1, intptr_t* ___layer2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLayer_m23E77C782D43AD798924DA947888B4AA8DB03B65 (int32_t ___0_entityId, int32_t ___1_priority, intptr_t* ___2_layer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t, intptr_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -2033,15 +2148,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLaye
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateIkLayer)(___entityId0, ___priority1, ___layer2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateIkLayer)(___0_entityId, ___1_priority, ___2_layer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___priority1, ___layer2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_priority, ___2_layer);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_CreateIkLayerFromParams(Oculus.Avatar2.CAPI/ovrAvatar2EntityId,System.Int32,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationIkLayerParams&,System.IntPtr&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLayerFromParams_m474D5DA854D7D6D5148540E77DD3BA5363AE4CAE (int32_t ___entityId0, int32_t ___priority1, ovrAvatar2AnimationIkLayerParams_t12EC3C4815A69B95D4F448AB10E763C531FD97F4* ___parameters2, intptr_t* ___layer3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLayerFromParams_m474D5DA854D7D6D5148540E77DD3BA5363AE4CAE (int32_t ___0_entityId, int32_t ___1_priority, ovrAvatar2AnimationIkLayerParams_t12EC3C4815A69B95D4F448AB10E763C531FD97F4* ___2_parameters, intptr_t* ___3_layer, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (int32_t, int32_t, ovrAvatar2AnimationIkLayerParams_t12EC3C4815A69B95D4F448AB10E763C531FD97F4*, intptr_t*);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -2056,15 +2171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_CreateIkLaye
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateIkLayerFromParams)(___entityId0, ___priority1, ___parameters2, ___layer3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_CreateIkLayerFromParams)(___0_entityId, ___1_priority, ___2_parameters, ___3_layer);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___entityId0, ___priority1, ___parameters2, ___layer3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_entityId, ___1_priority, ___2_parameters, ___3_layer);
 	#endif
 
 	return returnValue;
 }
 // Oculus.Avatar2.CAPI/ovrAvatar2Result Oculus.Avatar2.Experimental.CAPI::ovrAvatar2Animation_IkLayerSetTargetWeight(System.IntPtr,Oculus.Avatar2.Experimental.CAPI/ovrAvatar2AnimationIkTarget,System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_IkLayerSetTargetWeight_mEF239685C904DEBDC8BF6BF681DF05227AAFEF10 (intptr_t ___layer0, int32_t ___target1, float ___weight2, float ___timeSec3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_IkLayerSetTargetWeight_mEF239685C904DEBDC8BF6BF681DF05227AAFEF10 (intptr_t ___0_layer, int32_t ___1_target, float ___2_weight, float ___3_timeSec, const RuntimeMethod* method) 
 {
 	typedef int32_t (CDECL *PInvokeFunc) (intptr_t, int32_t, float, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ovravatar2_INTERNAL
@@ -2079,9 +2194,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CAPI_ovrAvatar2Animation_IkLayerSetTa
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ovravatar2_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_IkLayerSetTargetWeight)(___layer0, ___target1, ___weight2, ___timeSec3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(ovrAvatar2Animation_IkLayerSetTargetWeight)(___0_layer, ___1_target, ___2_weight, ___3_timeSec);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___layer0, ___target1, ___weight2, ___timeSec3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_layer, ___1_target, ___2_weight, ___3_timeSec);
 	#endif
 
 	return returnValue;
@@ -2387,22 +2502,22 @@ IL2CPP_EXTERN_C void ovrAvatar2AnimClipAsset_t8FF1D52F83EC4B2F83326918EAD235ACB7
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
 		float L_3 = L_2.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
 		float L_5 = L_4.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
 		float L_7 = L_6.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
 		float L_9 = L_8.___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
@@ -2447,14 +2562,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* OvrSingletonBehavi
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_2 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_3 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_4 = L_2;
 		return;
 	}

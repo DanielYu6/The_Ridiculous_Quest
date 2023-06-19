@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct InterfaceActionInvoker0
@@ -138,12 +137,6 @@ struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeO
 {
 };
 
-struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
-{
-	// T[] System.EmptyArray`1::Value
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
-};
-
 // UnityEngine.AndroidJavaObject
 struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
 {
@@ -151,12 +144,6 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public Run
 	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject_1;
 	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jclass
 	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
-};
-
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
-	bool ___enableDebugPrints_0;
 };
 
 // Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection
@@ -169,7 +156,6 @@ struct AndroidServiceConnection_t41C34BBF24CE0E2DFB04DB1E9412B64D36E134FB  : pub
 	// System.String Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection::serviceGetter
 	String_t* ___serviceGetter_2;
 };
-struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -197,12 +183,6 @@ struct String_t  : public RuntimeObject
 	Il2CppChar ____firstChar_5;
 };
 
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
-};
-
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -227,12 +207,6 @@ struct VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B  : pu
 	bool ___U3CShouldLogToConsoleU3Ek__BackingField_2;
 };
 
-struct VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields
-{
-	// System.String Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::TAG
-	String_t* ___TAG_3;
-};
-
 // UnityEngine.AndroidJavaClass
 struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
 {
@@ -245,33 +219,11 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.DateTime
 struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
 {
 	// System.UInt64 System.DateTime::_dateData
 	uint64_t ____dateData_46;
-};
-
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
 };
 
 // System.Int64
@@ -322,6 +274,126 @@ struct ArrayElementTitleAttribute_t95859242D0591D1454C3778E09A76713CB83BDA0  : p
 	// System.String Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute::fallbackName
 	String_t* ___fallbackName_1;
 };
+
+// <Module>
+
+// <Module>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	// T[] System.EmptyArray`1::Value
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
+};
+
+// System.EmptyArray`1<System.Object>
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+};
+
+// UnityEngine.AndroidJavaObject
+
+// Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection
+
+// Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection
+
+// System.Attribute
+
+// System.Attribute
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Oculus.Voice.Core.Utilities.DateTimeUtility
+
+// Oculus.Voice.Core.Utilities.DateTimeUtility
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl
+struct VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields
+{
+	// System.String Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::TAG
+	String_t* ___TAG_3;
+};
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl
+
+// UnityEngine.AndroidJavaClass
+
+// UnityEngine.AndroidJavaClass
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Int64
+
+// System.Int64
+
+// UnityEngine.PropertyAttribute
+
+// UnityEngine.PropertyAttribute
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// System.Void
+
+// System.Void
+
+// Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute
+
+// Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -398,19 +470,19 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeA
 
 
 // FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Object>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Object>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___className0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_className, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___version0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_version, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Disconnect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, const RuntimeMethod* method) ;
 
@@ -425,18 +497,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTime_get_Ticks_mC2CF04ED0EAB425C7
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJNIHelper::set_debug(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNIHelper_set_debug_m66E40D20DC9DC69BD7B139DA5C367BA1185FCA3F (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJNIHelper_set_debug_m66E40D20DC9DC69BD7B139DA5C367BA1185FCA3F (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___className0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___0_className, const RuntimeMethod* method) ;
 // FieldType UnityEngine.AndroidJavaObject::GetStatic<UnityEngine.AndroidJavaObject>(System.String)
-inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method)
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method)
 {
-	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___fieldName0, method);
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___0_fieldName, method);
 }
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<UnityEngine.AndroidJavaObject>(System.String,System.Object[])
-inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // T[] System.Array::Empty<System.Object>()
 inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
@@ -444,18 +516,18 @@ inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRu
 	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Call(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<UnityEngine.AndroidJavaObject>(System.String,System.Object[])
-inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mA5AF1A9E0463CE91F0ACB6AC2FE0C1922B579EF7_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Boolean Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::get_ShouldLogToConsole()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VoiceSDKConsoleLoggerImpl_get_ShouldLogToConsole_m4D45C67EF5CD56C8BC8F06C6C7FB31AEE960B463_inline (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Int64 Oculus.Voice.Core.Utilities.DateTimeUtility::get_ElapsedMilliseconds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t DateTimeUtility_get_ElapsedMilliseconds_mFCCD79CB27652B45BB76D679824C381809226602 (const RuntimeMethod* method) ;
 // System.String System.Int64::ToString()
@@ -465,29 +537,29 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceSDKConsoleLoggerIm
 // System.String UnityEngine.Application::get_identifier()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_identifier_mEA3314E50D44FB3CE2C2E78B336ACF4AD97BA056 (const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___values0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseServiceBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::set_ShouldLogToConsole(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726_inline (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726_inline (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl__ctor_m23702E026CC9965257C14E48CC5A22084EBA6A6D (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>::.ctor(System.String)
-inline void BaseAndroidConnectionImpl_1__ctor_m7F5AA719AC1A6BFC8FF24C4F66B1D674B6694D54 (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09* __this, String_t* ___className0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1__ctor_m7F5AA719AC1A6BFC8FF24C4F66B1D674B6694D54 (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09* __this, String_t* ___0_className, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___className0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___0_className, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>::Connect(System.String)
-inline void BaseAndroidConnectionImpl_1_Connect_m82BA1BB4C5B25E261A8BEB09C465A02320B53EF7 (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09* __this, String_t* ___version0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1_Connect_m82BA1BB4C5B25E261A8BEB09C465A02320B53EF7 (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09* __this, String_t* ___0_version, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___version0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___0_version, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::Connect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_Connect_m8E3EBF537CDAA7B87345B44994D51B1EDF166009 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, const RuntimeMethod* method) ;
@@ -497,33 +569,33 @@ inline void BaseAndroidConnectionImpl_1_Disconnect_m32B8ECF740808F748A973416E9B4
 	((  void (*) (BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared)(__this, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionStart(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionStart_m26108DBD0704DE28B70DA663566069CF1297B50D (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___requestId0, String_t* ___witApi1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionStart_m26108DBD0704DE28B70DA663566069CF1297B50D (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_requestId, String_t* ___1_witApi, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionStart(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStart_m644168734AD3E9C5167D85AB69A569544A2851F5 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___requestId0, String_t* ___startTime1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStart_m644168734AD3E9C5167D85AB69A569544A2851F5 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_requestId, String_t* ___1_startTime, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::get_IsUsingPlatformIntegration()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool VoiceSDKPlatformLoggerImpl_get_IsUsingPlatformIntegration_m0466CB43678C0193D189DD18F19FAB598E8FC9EB_inline (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, const RuntimeMethod* method) ;
 // System.String System.Boolean::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63 (bool* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) ;
 // System.String Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::get_WitApplication()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceSDKPlatformLoggerImpl_get_WitApplication_m25B26B83D68539706D5E5F10A1F2E70581FABA59_inline (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionEndSuccess()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionEndSuccess_mDF65FD2FC716D13F935943891AE899145D1A1361 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionEndSuccess(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndSuccess_m260A40D66E795A24917FDFFE7657DB86181BD76A (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___endTime0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndSuccess_m260A40D66E795A24917FDFFE7657DB86181BD76A (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_endTime, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionEndFailure(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionEndFailure_mBF0953BD4D37F241EE5EF3B6F957BB8C7C624283 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___errorMessage0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionEndFailure_mBF0953BD4D37F241EE5EF3B6F957BB8C7C624283 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_errorMessage, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionEndFailure(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndFailure_m78BD1AA57102DEC964B9B62BB81DBB689B452105 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___endTime0, String_t* ___errorMessage1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndFailure_m78BD1AA57102DEC964B9B62BB81DBB689B452105 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_endTime, String_t* ___1_errorMessage, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionPoint(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___interactionPoint0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_interactionPoint, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionPoint(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoint_m985D32FFD45C1E718216D16DC10E293F7C86A8BD (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___interactionPoint0, String_t* ___time1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoint_m985D32FFD45C1E718216D16DC10E293F7C86A8BD (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_interactionPoint, String_t* ___1_time, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92543C05D4F520B53A848DC51FEE6AA139E8722 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92543C05D4F520B53A848DC51FEE6AA139E8722 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -538,17 +610,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Core.Utilities.ArrayElementTitleAttribute::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayElementTitleAttribute__ctor_m7990542BCC882B8960A3B61CCAAD6D3024438B52 (ArrayElementTitleAttribute_t95859242D0591D1454C3778E09A76713CB83BDA0* __this, String_t* ___elementTitleVar0, String_t* ___fallbackName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayElementTitleAttribute__ctor_m7990542BCC882B8960A3B61CCAAD6D3024438B52 (ArrayElementTitleAttribute_t95859242D0591D1454C3778E09A76713CB83BDA0* __this, String_t* ___0_elementTitleVar, String_t* ___1_fallbackName, const RuntimeMethod* method) 
 {
 	{
 		// public ArrayElementTitleAttribute(string elementTitleVar = null, string fallbackName = null)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// varname = elementTitleVar;
-		String_t* L_0 = ___elementTitleVar0;
+		String_t* L_0 = ___0_elementTitleVar;
 		__this->___varname_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___varname_0), (void*)L_0);
 		// this.fallbackName = fallbackName;
-		String_t* L_1 = ___fallbackName1;
+		String_t* L_1 = ___1_fallbackName;
 		__this->___fallbackName_1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fallbackName_1), (void*)L_1);
 		// }
@@ -630,17 +702,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidServiceConnection__ctor_m5A0B7A0B00C1B3958A6E6456813F4DC174F87183 (AndroidServiceConnection_t41C34BBF24CE0E2DFB04DB1E9412B64D36E134FB* __this, String_t* ___serviceFragmentClassName0, String_t* ___serviceGetterMethodName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidServiceConnection__ctor_m5A0B7A0B00C1B3958A6E6456813F4DC174F87183 (AndroidServiceConnection_t41C34BBF24CE0E2DFB04DB1E9412B64D36E134FB* __this, String_t* ___0_serviceFragmentClassName, String_t* ___1_serviceGetterMethodName, const RuntimeMethod* method) 
 {
 	{
 		// public AndroidServiceConnection(string serviceFragmentClassName, string serviceGetterMethodName)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// serviceFragmentClass = serviceFragmentClassName;
-		String_t* L_0 = ___serviceFragmentClassName0;
+		String_t* L_0 = ___0_serviceFragmentClassName;
 		__this->___serviceFragmentClass_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___serviceFragmentClass_1), (void*)L_0);
 		// serviceGetter = serviceGetterMethodName;
-		String_t* L_1 = ___serviceGetterMethodName1;
+		String_t* L_1 = ___1_serviceGetterMethodName;
 		__this->___serviceGetter_2 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___serviceGetter_2), (void*)L_1);
 		// }
@@ -648,7 +720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidServiceConnection__ctor_m5A0B7A0B
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.AndroidServiceConnection::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidServiceConnection_Connect_m72A36FAF67CE01E6B4579F4CF6174497D7149449 (AndroidServiceConnection_t41C34BBF24CE0E2DFB04DB1E9412B64D36E134FB* __this, String_t* ___version0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidServiceConnection_Connect_m72A36FAF67CE01E6B4579F4CF6174497D7149449 (AndroidServiceConnection_t41C34BBF24CE0E2DFB04DB1E9412B64D36E134FB* __this, String_t* ___0_version, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -729,7 +801,7 @@ IL_0059:
 			ArrayElementTypeCheck (L_9, L_10);
 			(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_10);
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
-			String_t* L_12 = ___version0;
+			String_t* L_12 = ___0_version;
 			NullCheck(L_11);
 			ArrayElementTypeCheck (L_11, L_12);
 			(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
@@ -805,13 +877,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseServiceBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) 
 {
 	{
 		// protected BaseServiceBinding(AndroidJavaObject sdkInstance)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// binding = sdkInstance;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___sdkInstance0;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_sdkInstance;
 		__this->___binding_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___binding_0), (void*)L_0);
 		// }
@@ -857,11 +929,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKConsoleLoggerImpl_get_IsUsingPla
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::set_IsUsingPlatformIntegration(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_IsUsingPlatformIntegration_m876AF05667EBCFCC3D9F5CF4AF25AE6ABCF41E97 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_IsUsingPlatformIntegration_m876AF05667EBCFCC3D9F5CF4AF25AE6ABCF41E97 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsUsingPlatformIntegration { get; set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsUsingPlatformIntegrationU3Ek__BackingField_0 = L_0;
 		return;
 	}
@@ -876,11 +948,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceSDKConsoleLoggerImpl_get_WitAp
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::set_WitApplication(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_WitApplication_m90F2C396FE8F236EB9DACB3AAB1A421C0EE0C6F1 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_WitApplication_m90F2C396FE8F236EB9DACB3AAB1A421C0EE0C6F1 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public string WitApplication { get; set; }
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CWitApplicationU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWitApplicationU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -896,17 +968,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKConsoleLoggerImpl_get_ShouldLogT
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::set_ShouldLogToConsole(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool ShouldLogToConsole { get; set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CShouldLogToConsoleU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionStart(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionStart_m26108DBD0704DE28B70DA663566069CF1297B50D (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___requestId0, String_t* ___witApi1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionStart_m26108DBD0704DE28B70DA663566069CF1297B50D (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_requestId, String_t* ___1_witApi, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -940,14 +1012,14 @@ IL_0009:
 		// Debug.Log($"{TAG}: Interaction started with request ID: " + requestId);
 		il2cpp_codegen_runtime_class_init_inline(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields*)il2cpp_codegen_static_fields_for(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var))->___TAG_3;
-		String_t* L_2 = ___requestId0;
+		String_t* L_2 = ___0_requestId;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteral170F949C810F0DA1E46A996A5C5802B69D03A77A, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
 		// Debug.Log($"{TAG}: WitApi: " + witApi);
 		String_t* L_4 = ((VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields*)il2cpp_codegen_static_fields_for(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var))->___TAG_3;
-		String_t* L_5 = ___witApi1;
+		String_t* L_5 = ___1_witApi;
 		String_t* L_6;
 		L_6 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_4, _stringLiteralE338BB882FA65CF026BABFFF08FF94C251A54C10, L_5, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
@@ -1030,7 +1102,7 @@ IL_0009:
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionEndFailure(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionEndFailure_mBF0953BD4D37F241EE5EF3B6F957BB8C7C624283 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___errorMessage0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionEndFailure_mBF0953BD4D37F241EE5EF3B6F957BB8C7C624283 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1061,7 +1133,7 @@ IL_0009:
 		// Debug.Log($"{TAG}: Interaction finished with error: " + errorMessage);
 		il2cpp_codegen_runtime_class_init_inline(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields*)il2cpp_codegen_static_fields_for(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var))->___TAG_3;
-		String_t* L_2 = ___errorMessage0;
+		String_t* L_2 = ___0_errorMessage;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteral471A865BF06498DAA6A4F4C89DA2A4E75FFDA704, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -1081,7 +1153,7 @@ IL_0009:
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogInteractionPoint(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___interactionPoint0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_interactionPoint, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1114,7 +1186,7 @@ IL_0009:
 		// Debug.Log($"{TAG}: Interaction point: " + interactionPoint);
 		il2cpp_codegen_runtime_class_init_inline(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_StaticFields*)il2cpp_codegen_static_fields_for(VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B_il2cpp_TypeInfo_var))->___TAG_3;
-		String_t* L_2 = ___interactionPoint0;
+		String_t* L_2 = ___0_interactionPoint;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteralCFC31EB8349667189A760F7E309FFF77B74CB0CF, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -1131,7 +1203,7 @@ IL_0009:
 		ArrayElementTypeCheck (L_7, _stringLiteral1168E92C164109D6220480DEDA987085B2A21155);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral1168E92C164109D6220480DEDA987085B2A21155);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
-		String_t* L_9 = ___interactionPoint0;
+		String_t* L_9 = ___0_interactionPoint;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_9);
@@ -1156,7 +1228,7 @@ IL_0009:
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKConsoleLoggerImpl::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9 (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1197,7 +1269,7 @@ IL_0009:
 		ArrayElementTypeCheck (L_4, _stringLiteral35EA32AF7F3CC00F7A2F8300CCA6EC5F301F4ABA);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteral35EA32AF7F3CC00F7A2F8300CCA6EC5F301F4ABA);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
-		String_t* L_6 = ___annotationKey0;
+		String_t* L_6 = ___0_annotationKey;
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_6);
@@ -1206,7 +1278,7 @@ IL_0009:
 		ArrayElementTypeCheck (L_7, _stringLiteral5295380188F75D696383F8BDB2147F0053791372);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteral5295380188F75D696383F8BDB2147F0053791372);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
-		String_t* L_9 = ___annotationValue1;
+		String_t* L_9 = ___1_annotationValue;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_9);
@@ -1252,11 +1324,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl__cctor_m67035F
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding__ctor_m427F08E3C3B787F1446089A7D7C8F532B4AEEDCF (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___loggerInstance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding__ctor_m427F08E3C3B787F1446089A7D7C8F532B4AEEDCF (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_loggerInstance, const RuntimeMethod* method) 
 {
 	{
 		// public VoiceSDKLoggerBinding(AndroidJavaObject loggerInstance) : base(loggerInstance) {}
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___loggerInstance0;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_loggerInstance;
 		BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20(__this, L_0, NULL);
 		// public VoiceSDKLoggerBinding(AndroidJavaObject loggerInstance) : base(loggerInstance) {}
 		return;
@@ -1286,7 +1358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_Connect_m8E3EBF537
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionStart(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStart_m644168734AD3E9C5167D85AB69A569544A2851F5 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___requestId0, String_t* ___startTime1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStart_m644168734AD3E9C5167D85AB69A569544A2851F5 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_requestId, String_t* ___1_startTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1300,12 +1372,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStar
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___requestId0;
+		String_t* L_3 = ___0_requestId;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		String_t* L_5 = ___startTime1;
+		String_t* L_5 = ___1_startTime;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
@@ -1316,7 +1388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionStar
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionEndSuccess(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndSuccess_m260A40D66E795A24917FDFFE7657DB86181BD76A (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___endTime0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndSuccess_m260A40D66E795A24917FDFFE7657DB86181BD76A (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_endTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1330,7 +1402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndS
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___endTime0;
+		String_t* L_3 = ___0_endTime;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -1341,7 +1413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndS
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionEndFailure(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndFailure_m78BD1AA57102DEC964B9B62BB81DBB689B452105 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___endTime0, String_t* ___errorMessage1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndFailure_m78BD1AA57102DEC964B9B62BB81DBB689B452105 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_endTime, String_t* ___1_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1355,12 +1427,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndF
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___endTime0;
+		String_t* L_3 = ___0_endTime;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		String_t* L_5 = ___errorMessage1;
+		String_t* L_5 = ___1_errorMessage;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
@@ -1371,7 +1443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionEndF
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogInteractionPoint(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoint_m985D32FFD45C1E718216D16DC10E293F7C86A8BD (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___interactionPoint0, String_t* ___time1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoint_m985D32FFD45C1E718216D16DC10E293F7C86A8BD (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_interactionPoint, String_t* ___1_time, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1385,12 +1457,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoin
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___interactionPoint0;
+		String_t* L_3 = ___0_interactionPoint;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		String_t* L_5 = ___time1;
+		String_t* L_5 = ___1_time;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
@@ -1401,7 +1473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogInteractionPoin
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92543C05D4F520B53A848DC51FEE6AA139E8722 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92543C05D4F520B53A848DC51FEE6AA139E8722 (VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1415,12 +1487,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKLoggerBinding_LogAnnotation_mC92
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___annotationKey0;
+		String_t* L_3 = ___0_annotationKey;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		String_t* L_5 = ___annotationValue1;
+		String_t* L_5 = ___1_annotationValue;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_5);
@@ -1448,11 +1520,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKPlatformLoggerImpl_get_IsUsingPl
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::set_IsUsingPlatformIntegration(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_IsUsingPlatformIntegration_mFB3D98D346BEF82595EDD3667716E003C0FA9A93 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_IsUsingPlatformIntegration_mFB3D98D346BEF82595EDD3667716E003C0FA9A93 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsUsingPlatformIntegration { get; set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsUsingPlatformIntegrationU3Ek__BackingField_3 = L_0;
 		return;
 	}
@@ -1467,11 +1539,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VoiceSDKPlatformLoggerImpl_get_WitA
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::set_WitApplication(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_WitApplication_m7F975934ED58B9277DB05E965C06F983DD59DD7B (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_WitApplication_m7F975934ED58B9277DB05E965C06F983DD59DD7B (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public string WitApplication { get; set; }
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CWitApplicationU3Ek__BackingField_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWitApplicationU3Ek__BackingField_4), (void*)L_0);
 		return;
@@ -1490,12 +1562,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKPlatformLoggerImpl_get_ShouldLog
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::set_ShouldLogToConsole(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_ShouldLogToConsole_m18C0A8AB3136039D65ED8570E7582031C9652A96 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_set_ShouldLogToConsole_m18C0A8AB3136039D65ED8570E7582031C9652A96 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => consoleLoggerImpl.ShouldLogToConsole = value;
 		VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* L_0 = __this->___consoleLoggerImpl_5;
-		bool L_1 = ___value0;
+		bool L_1 = ___0_value;
 		NullCheck(L_0);
 		VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726_inline(L_0, L_1, NULL);
 		return;
@@ -1527,7 +1599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl__ctor_mB98388
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_Connect_mD33CC2FED6D720DBAF1BECEF6CBAB9BAA6F4CE81 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___version0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_Connect_mD33CC2FED6D720DBAF1BECEF6CBAB9BAA6F4CE81 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_version, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1539,7 +1611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_Connect_mD33C
 	}
 	{
 		// base.Connect(version);
-		String_t* L_0 = ___version0;
+		String_t* L_0 = ___0_version;
 		BaseAndroidConnectionImpl_1_Connect_m82BA1BB4C5B25E261A8BEB09C465A02320B53EF7(__this, L_0, BaseAndroidConnectionImpl_1_Connect_m82BA1BB4C5B25E261A8BEB09C465A02320B53EF7_RuntimeMethod_var);
 		// service.Connect();
 		VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* L_1 = ((BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*)__this)->___service_1;
@@ -1575,7 +1647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_Disconnect_m7
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::LogInteractionStart(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionStart_m2947187631C618999B245B6E667B167F61EBE06F (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___requestId0, String_t* ___witApi1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionStart_m2947187631C618999B245B6E667B167F61EBE06F (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_requestId, String_t* ___1_witApi, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1591,13 +1663,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 	{
 		// consoleLoggerImpl.LogInteractionStart(requestId, witApi);
 		VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* L_0 = __this->___consoleLoggerImpl_5;
-		String_t* L_1 = ___requestId0;
-		String_t* L_2 = ___witApi1;
+		String_t* L_1 = ___0_requestId;
+		String_t* L_2 = ___1_witApi;
 		NullCheck(L_0);
 		VoiceSDKConsoleLoggerImpl_LogInteractionStart_m26108DBD0704DE28B70DA663566069CF1297B50D(L_0, L_1, L_2, NULL);
 		// service.LogInteractionStart(requestId, DateTimeUtility.ElapsedMilliseconds.ToString());
 		VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* L_3 = ((BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*)__this)->___service_1;
-		String_t* L_4 = ___requestId0;
+		String_t* L_4 = ___0_requestId;
 		int64_t L_5;
 		L_5 = DateTimeUtility_get_ElapsedMilliseconds_mFCCD79CB27652B45BB76D679824C381809226602(NULL);
 		V_0 = L_5;
@@ -1613,7 +1685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 		L_8 = Boolean_ToString_m6646C8026B1DF381A1EE8CD13549175E9703CC63((&V_1), NULL);
 		VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307(__this, _stringLiteral8C858BB06D6D0443DE549972EA0C014786ABB840, L_8, NULL);
 		// LogAnnotation("witApi", witApi);
-		String_t* L_9 = ___witApi1;
+		String_t* L_9 = ___1_witApi;
 		VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307(__this, _stringLiteralB8A0F56E513A4FAE7E7A82D7F0975DD55EAB604A, L_9, NULL);
 		// LogAnnotation("witAppId", WitApplication);
 		String_t* L_10;
@@ -1650,13 +1722,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::LogInteractionEndFailure(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionEndFailure_mC7941231510EA62A197472A197F76F6F7FEDD755 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___errorMessage0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionEndFailure_mC7941231510EA62A197472A197F76F6F7FEDD755 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_errorMessage, const RuntimeMethod* method) 
 {
 	int64_t V_0 = 0;
 	{
 		// consoleLoggerImpl.LogInteractionEndFailure(errorMessage);
 		VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* L_0 = __this->___consoleLoggerImpl_5;
-		String_t* L_1 = ___errorMessage0;
+		String_t* L_1 = ___0_errorMessage;
 		NullCheck(L_0);
 		VoiceSDKConsoleLoggerImpl_LogInteractionEndFailure_mBF0953BD4D37F241EE5EF3B6F957BB8C7C624283(L_0, L_1, NULL);
 		// service.LogInteractionEndFailure(DateTimeUtility.ElapsedMilliseconds.ToString(), errorMessage);
@@ -1666,7 +1738,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 		V_0 = L_3;
 		String_t* L_4;
 		L_4 = Int64_ToString_m284E4E55662818E38654309A41C2B07CD436F36B((&V_0), NULL);
-		String_t* L_5 = ___errorMessage0;
+		String_t* L_5 = ___0_errorMessage;
 		NullCheck(L_2);
 		VoiceSDKLoggerBinding_LogInteractionEndFailure_m78BD1AA57102DEC964B9B62BB81DBB689B452105(L_2, L_4, L_5, NULL);
 		// }
@@ -1674,18 +1746,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::LogInteractionPoint(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionPoint_m53EC1674A66CC8956C8B215F42A92749683E150A (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___interactionPoint0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractionPoint_m53EC1674A66CC8956C8B215F42A92749683E150A (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_interactionPoint, const RuntimeMethod* method) 
 {
 	int64_t V_0 = 0;
 	{
 		// consoleLoggerImpl.LogInteractionPoint(interactionPoint);
 		VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* L_0 = __this->___consoleLoggerImpl_5;
-		String_t* L_1 = ___interactionPoint0;
+		String_t* L_1 = ___0_interactionPoint;
 		NullCheck(L_0);
 		VoiceSDKConsoleLoggerImpl_LogInteractionPoint_mEE073AF2DA38C14A4C3175BB161D131D6514B185(L_0, L_1, NULL);
 		// service.LogInteractionPoint(interactionPoint, DateTimeUtility.ElapsedMilliseconds.ToString());
 		VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* L_2 = ((BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*)__this)->___service_1;
-		String_t* L_3 = ___interactionPoint0;
+		String_t* L_3 = ___0_interactionPoint;
 		int64_t L_4;
 		L_4 = DateTimeUtility_get_ElapsedMilliseconds_mFCCD79CB27652B45BB76D679824C381809226602(NULL);
 		V_0 = L_4;
@@ -1698,19 +1770,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogInteractio
 	}
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::LogAnnotation(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___annotationKey0, String_t* ___annotationValue1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl_LogAnnotation_m444D68A273B832F9C5D1D522F0DA544E08AB1307 (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, String_t* ___0_annotationKey, String_t* ___1_annotationValue, const RuntimeMethod* method) 
 {
 	{
 		// consoleLoggerImpl.LogAnnotation(annotationKey, annotationValue);
 		VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* L_0 = __this->___consoleLoggerImpl_5;
-		String_t* L_1 = ___annotationKey0;
-		String_t* L_2 = ___annotationValue1;
+		String_t* L_1 = ___0_annotationKey;
+		String_t* L_2 = ___1_annotationValue;
 		NullCheck(L_0);
 		VoiceSDKConsoleLoggerImpl_LogAnnotation_m10806011D78726CEC0FA7888D2C21279FC7230C9(L_0, L_1, L_2, NULL);
 		// service.LogAnnotation(annotationKey, annotationValue);
 		VoiceSDKLoggerBinding_t598AF60F0F768523822B787A1E3123212A27D759* L_3 = ((BaseAndroidConnectionImpl_1_tB843327F5F7A38DC3005ED10F716728EF7135C09*)__this)->___service_1;
-		String_t* L_4 = ___annotationKey0;
-		String_t* L_5 = ___annotationValue1;
+		String_t* L_4 = ___0_annotationKey;
+		String_t* L_5 = ___1_annotationValue;
 		NullCheck(L_3);
 		VoiceSDKLoggerBinding_LogAnnotation_mC92543C05D4F520B53A848DC51FEE6AA139E8722(L_3, L_4, L_5, NULL);
 		// }
@@ -1736,11 +1808,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* VoiceSDKConsoleLoggerIm
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726_inline (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void VoiceSDKConsoleLoggerImpl_set_ShouldLogToConsole_m5AED016486F14274253E0B46362531EFECDD5726_inline (VoiceSDKConsoleLoggerImpl_tD830A3FDBCDEFAA68417E5F31BFB7B875818F59B* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool ShouldLogToConsole { get; set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CShouldLogToConsoleU3Ek__BackingField_2 = L_0;
 		return;
 	}

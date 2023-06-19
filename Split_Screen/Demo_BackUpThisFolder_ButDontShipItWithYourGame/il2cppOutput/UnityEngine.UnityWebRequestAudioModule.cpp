@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -78,7 +77,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t8F678E72BB773092FE617E99B35968715F8BFE45 
 {
 };
-struct Il2CppArrayBounds;
 
 // System.String
 struct String_t  : public RuntimeObject
@@ -87,12 +85,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // UnityEngine.Networking.UnityWebRequestMultimedia
@@ -117,54 +109,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
 	// System.Boolean System.Uri::m_iriParsing
 	bool ___m_iriParsing_22;
-};
-
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	// System.String System.Uri::UriSchemeFile
-	String_t* ___UriSchemeFile_0;
-	// System.String System.Uri::UriSchemeFtp
-	String_t* ___UriSchemeFtp_1;
-	// System.String System.Uri::UriSchemeGopher
-	String_t* ___UriSchemeGopher_2;
-	// System.String System.Uri::UriSchemeHttp
-	String_t* ___UriSchemeHttp_3;
-	// System.String System.Uri::UriSchemeHttps
-	String_t* ___UriSchemeHttps_4;
-	// System.String System.Uri::UriSchemeWs
-	String_t* ___UriSchemeWs_5;
-	// System.String System.Uri::UriSchemeWss
-	String_t* ___UriSchemeWss_6;
-	// System.String System.Uri::UriSchemeMailto
-	String_t* ___UriSchemeMailto_7;
-	// System.String System.Uri::UriSchemeNews
-	String_t* ___UriSchemeNews_8;
-	// System.String System.Uri::UriSchemeNntp
-	String_t* ___UriSchemeNntp_9;
-	// System.String System.Uri::UriSchemeNetTcp
-	String_t* ___UriSchemeNetTcp_10;
-	// System.String System.Uri::UriSchemeNetPipe
-	String_t* ___UriSchemeNetPipe_11;
-	// System.String System.Uri::SchemeDelimiter
-	String_t* ___SchemeDelimiter_12;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_23;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_24;
-	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_25;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_26;
-	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_27;
-	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_29;
-	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_30;
-	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
-	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
 };
 
 // System.ValueType
@@ -198,25 +142,11 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.IntPtr
 struct IntPtr_t 
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // System.Void
@@ -301,12 +231,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -353,12 +277,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -468,38 +386,188 @@ struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com
 struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
+
+// <Module>
+
+// <Module>
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// UnityEngine.Networking.UnityWebRequestMultimedia
+
+// UnityEngine.Networking.UnityWebRequestMultimedia
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	// System.String System.Uri::UriSchemeFile
+	String_t* ___UriSchemeFile_0;
+	// System.String System.Uri::UriSchemeFtp
+	String_t* ___UriSchemeFtp_1;
+	// System.String System.Uri::UriSchemeGopher
+	String_t* ___UriSchemeGopher_2;
+	// System.String System.Uri::UriSchemeHttp
+	String_t* ___UriSchemeHttp_3;
+	// System.String System.Uri::UriSchemeHttps
+	String_t* ___UriSchemeHttps_4;
+	// System.String System.Uri::UriSchemeWs
+	String_t* ___UriSchemeWs_5;
+	// System.String System.Uri::UriSchemeWss
+	String_t* ___UriSchemeWss_6;
+	// System.String System.Uri::UriSchemeMailto
+	String_t* ___UriSchemeMailto_7;
+	// System.String System.Uri::UriSchemeNews
+	String_t* ___UriSchemeNews_8;
+	// System.String System.Uri::UriSchemeNntp
+	String_t* ___UriSchemeNntp_9;
+	// System.String System.Uri::UriSchemeNetTcp
+	String_t* ___UriSchemeNetTcp_10;
+	// System.String System.Uri::UriSchemeNetPipe
+	String_t* ___UriSchemeNetPipe_11;
+	// System.String System.Uri::SchemeDelimiter
+	String_t* ___SchemeDelimiter_12;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
+	bool ___s_ConfigInitialized_23;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
+	bool ___s_ConfigInitializing_24;
+	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
+	int32_t ___s_IdnScope_25;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
+	bool ___s_IriParsing_26;
+	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
+	bool ___useDotNetRelativeOrAbsolute_27;
+	// System.Boolean System.Uri::IsWindowsFileSystem
+	bool ___IsWindowsFileSystem_29;
+	// System.Object System.Uri::s_initLock
+	RuntimeObject* ___s_initLock_30;
+	// System.Char[] System.Uri::HexLowerChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
+	// System.Char[] System.Uri::_WSchars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+};
+
+// System.Uri
+
+// System.ValueType
+
+// System.ValueType
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// Unity.Collections.NativeArray`1<System.Byte>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.Networking.CertificateHandler
+
+// UnityEngine.Networking.CertificateHandler
+
+// UnityEngine.Networking.DownloadHandler
+
+// UnityEngine.Networking.DownloadHandler
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.Networking.UploadHandler
+
+// UnityEngine.Networking.UploadHandler
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Networking.DownloadHandlerAudioClip
+
+// UnityEngine.Networking.DownloadHandlerAudioClip
+
+// System.SystemException
+
+// System.SystemException
+
+// UnityEngine.Networking.UnityWebRequest
+
+// UnityEngine.Networking.UnityWebRequest
+
+// System.NotSupportedException
+
+// System.NotSupportedException
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
 
 
 // T UnityEngine.Networking.DownloadHandler::GetCheckedDownloader<System.Object>(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DownloadHandler_GetCheckedDownloader_TisRuntimeObject_mCD8E86885B6919DF07A065A18370EA15F37D0211_gshared (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___www0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DownloadHandler_GetCheckedDownloader_TisRuntimeObject_mCD8E86885B6919DF07A065A18370EA15F37D0211_gshared (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_www, const RuntimeMethod* method) ;
 
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::.ctor(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___url0, int32_t ___audioType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___0_url, int32_t ___1_audioType, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.UnityWebRequest::.ctor(System.String,System.String,UnityEngine.Networking.DownloadHandler,UnityEngine.Networking.UploadHandler)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest__ctor_m3798CB7D0BE685F2520AF1BBF83B523BBDD7980A (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___url0, String_t* ___method1, DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___downloadHandler2, UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___uploadHandler3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityWebRequest__ctor_m3798CB7D0BE685F2520AF1BBF83B523BBDD7980A (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, String_t* ___0_url, String_t* ___1_method, DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___2_downloadHandler, UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6* ___3_uploadHandler, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.Networking.DownloadHandlerAudioClip::Create(UnityEngine.Networking.DownloadHandlerAudioClip,System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* ___obj0, String_t* ___url1, int32_t ___audioType2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* ___0_obj, String_t* ___1_url, int32_t ___2_audioType, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandler::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::InternalCreateAudioClip(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___url0, int32_t ___audioType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___0_url, int32_t ___1_audioType, const RuntimeMethod* method) ;
 // System.String System.Uri::get_AbsoluteUri()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Uri_get_AbsoluteUri_m080934F4F2E2160EBEABDF00F8B6D59888EA63AE (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, const RuntimeMethod* method) ;
 // Unity.Collections.NativeArray`1<System.Byte> UnityEngine.Networking.DownloadHandler::InternalGetNativeArray(UnityEngine.Networking.DownloadHandler,Unity.Collections.NativeArray`1<System.Byte>&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF DownloadHandler_InternalGetNativeArray_mE622083BC3893B43BC8E7C467A1895664C3B6B89 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___dh0, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___nativeArray1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF DownloadHandler_InternalGetNativeArray_mE622083BC3893B43BC8E7C467A1895664C3B6B89 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* ___0_dh, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___1_nativeArray, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandler::DisposeNativeArray(Unity.Collections.NativeArray`1<System.Byte>&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandler_DisposeNativeArray_m96514980A0A48921D17C059CAC2CC0CDA27B2398 (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___data0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandler_DisposeNativeArray_m96514980A0A48921D17C059CAC2CC0CDA27B2398 (NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF* ___0_data, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Networking.DownloadHandler::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandler_Dispose_mD5D4CCF0C2DFF1CB57C9B3A0EF4213ECB9F8F607 (DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* __this, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, String_t* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // T UnityEngine.Networking.DownloadHandler::GetCheckedDownloader<UnityEngine.Networking.DownloadHandlerAudioClip>(UnityEngine.Networking.UnityWebRequest)
-inline DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_m3456936EBD08B92CF62DF1D4F1E835D517AC77C6 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___www0, const RuntimeMethod* method)
+inline DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_m3456936EBD08B92CF62DF1D4F1E835D517AC77C6 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_www, const RuntimeMethod* method)
 {
-	return ((  DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* (*) (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))DownloadHandler_GetCheckedDownloader_TisRuntimeObject_mCD8E86885B6919DF07A065A18370EA15F37D0211_gshared)(___www0, method);
+	return ((  DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* (*) (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F*, const RuntimeMethod*))DownloadHandler_GetCheckedDownloader_TisRuntimeObject_mCD8E86885B6919DF07A065A18370EA15F37D0211_gshared)(___0_www, method);
 }
 // UnityEngine.AudioClip UnityEngine.Networking.DownloadHandlerAudioClip::get_audioClip()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DownloadHandlerAudioClip_get_audioClip_mBBA8B1C847780D3442649A0E52C822471F87C262 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, const RuntimeMethod* method) ;
@@ -517,7 +585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestMultimedia::GetAudioClip(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (String_t* ___uri0, int32_t ___audioType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* UnityWebRequestMultimedia_GetAudioClip_mADB031D0B0B718A0459E69114922128C35846F7B (String_t* ___0_uri, int32_t ___1_audioType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -529,9 +597,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UnityWebRequest_t6233B8E22992FC2364A831C1ACB0
 	}
 	UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* V_0 = NULL;
 	{
-		String_t* L_0 = ___uri0;
-		String_t* L_1 = ___uri0;
-		int32_t L_2 = ___audioType1;
+		String_t* L_0 = ___0_uri;
+		String_t* L_1 = ___0_uri;
+		int32_t L_2 = ___1_audioType;
 		DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* L_3 = (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC*)il2cpp_codegen_object_new(DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F(L_3, L_1, L_2, NULL);
@@ -599,21 +667,21 @@ IL2CPP_EXTERN_C void DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD9
 {
 }
 // System.IntPtr UnityEngine.Networking.DownloadHandlerAudioClip::Create(UnityEngine.Networking.DownloadHandlerAudioClip,System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* ___obj0, String_t* ___url1, int32_t ___audioType2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* ___0_obj, String_t* ___1_url, int32_t ___2_audioType, const RuntimeMethod* method) 
 {
 	typedef intptr_t (*DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71_ftn) (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC*, String_t*, int32_t);
 	static DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerAudioClip::Create(UnityEngine.Networking.DownloadHandlerAudioClip,System.String,UnityEngine.AudioType)");
-	intptr_t icallRetVal = _il2cpp_icall_func(___obj0, ___url1, ___audioType2);
+	intptr_t icallRetVal = _il2cpp_icall_func(___0_obj, ___1_url, ___2_audioType);
 	return icallRetVal;
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::InternalCreateAudioClip(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___url0, int32_t ___audioType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___0_url, int32_t ___1_audioType, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___url0;
-		int32_t L_1 = ___audioType1;
+		String_t* L_0 = ___0_url;
+		int32_t L_1 = ___1_audioType;
 		intptr_t L_2;
 		L_2 = DownloadHandlerAudioClip_Create_mF088040A27BB328CB057563702E95B57418F1B71(__this, L_0, L_1, NULL);
 		((DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB*)__this)->___m_Ptr_0 = L_2;
@@ -621,26 +689,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_InternalCreateA
 	}
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::.ctor(System.String,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___url0, int32_t ___audioType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mB8C00870FDA938440C2E89BCAC682E636641B61F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, String_t* ___0_url, int32_t ___1_audioType, const RuntimeMethod* method) 
 {
 	{
 		DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496(__this, NULL);
-		String_t* L_0 = ___url0;
-		int32_t L_1 = ___audioType1;
+		String_t* L_0 = ___0_url;
+		int32_t L_1 = ___1_audioType;
 		DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098(__this, L_0, L_1, NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::.ctor(System.Uri,UnityEngine.AudioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, int32_t ___audioType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip__ctor_mFF61AA21FD2F3655A0E5DE811467FD7A2426592F (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, int32_t ___1_audioType, const RuntimeMethod* method) 
 {
 	{
 		DownloadHandler__ctor_m833275AC5FCAC0BFB4F2D5C1C0C7FD76416CE496(__this, NULL);
-		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___uri0;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___0_uri;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = Uri_get_AbsoluteUri_m080934F4F2E2160EBEABDF00F8B6D59888EA63AE(L_0, NULL);
-		int32_t L_2 = ___audioType1;
+		int32_t L_2 = ___1_audioType;
 		DownloadHandlerAudioClip_InternalCreateAudioClip_m789B76138CF7B91F510EE1936A63A07C08975098(__this, L_1, L_2, NULL);
 		return;
 	}
@@ -695,25 +763,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 	return icallRetVal;
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::set_streamAudio(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30_ftn) (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC*, bool);
 	static DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (DownloadHandlerAudioClip_set_streamAudio_mD760F3FC0A37AE1DD889DDA0B3C0B39504B23E30_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerAudioClip::set_streamAudio(System.Boolean)");
-	_il2cpp_icall_func(__this, ___value0);
+	_il2cpp_icall_func(__this, ___0_value);
 }
 // System.Void UnityEngine.Networking.DownloadHandlerAudioClip::set_compressed(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5 (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (*DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5_ftn) (DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC*, bool);
 	static DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (DownloadHandlerAudioClip_set_compressed_m212FF53AE2E93AC9029E459101F95E51155359A5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Networking.DownloadHandlerAudioClip::set_compressed(System.Boolean)");
-	_il2cpp_icall_func(__this, ___value0);
+	_il2cpp_icall_func(__this, ___0_value);
 }
 // UnityEngine.AudioClip UnityEngine.Networking.DownloadHandlerAudioClip::GetContent(UnityEngine.Networking.UnityWebRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___www0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* DownloadHandlerAudioClip_GetContent_mF38CB6EDB5CE453D7C2A783560BCBEA924FA2EC9 (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* ___0_www, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -723,7 +791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 	}
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
 	{
-		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___www0;
+		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_0 = ___0_www;
 		DownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC* L_1;
 		L_1 = DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_m3456936EBD08B92CF62DF1D4F1E835D517AC77C6(L_0, DownloadHandler_GetCheckedDownloader_TisDownloadHandlerAudioClip_t11D829901BD9F3137CBB5D7BEA99FEAD976E56AC_m3456936EBD08B92CF62DF1D4F1E835D517AC77C6_RuntimeMethod_var);
 		NullCheck(L_1);

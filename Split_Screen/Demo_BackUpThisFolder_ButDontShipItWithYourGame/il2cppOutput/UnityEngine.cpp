@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -28,7 +27,10 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t853A105E2E1595E463CC860AFEE0FB13A177A12C 
 {
 };
-struct Il2CppArrayBounds;
+
+// <Module>
+
+// <Module>
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

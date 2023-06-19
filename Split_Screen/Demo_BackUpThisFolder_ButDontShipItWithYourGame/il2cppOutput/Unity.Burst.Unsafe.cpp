@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -34,7 +33,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_tF47F9AD17E4C851F27F94EF9A1FB29A52BA6B8A8 
 {
 };
-struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -94,6 +92,42 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+
+// <Module>
+
+// <Module>
+
+// System.Attribute
+
+// System.Attribute
+
+// Unity.Burst.Unsafe
+
+// Unity.Burst.Unsafe
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Byte
+
+// System.Byte
+
+// System.Runtime.CompilerServices.IsReadOnlyAttribute
+
+// System.Runtime.CompilerServices.IsReadOnlyAttribute
+
+// System.Runtime.Versioning.NonVersionableAttribute
+
+// System.Runtime.Versioning.NonVersionableAttribute
+
+// System.UInt32
+
+// System.UInt32
+
+// System.Void
+
+// System.Void
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -116,89 +150,89 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Unity.Burst.Unsafe::CopyBlock(System.Void*,System.Void*,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mEE549E5B722DBA08465F585E64B08C6F0851C63A (void* ___destination0, void* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mEE549E5B722DBA08465F585E64B08C6F0851C63A (void* ___0_destination, void* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		void* L_0 = ___destination0;
-		void* L_1 = ___source1;
-		uint32_t L_2 = ___byteCount2;
+		void* L_0 = ___0_destination;
+		void* L_1 = ___1_source;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memcpy(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::CopyBlock(System.Byte&,System.Byte&,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mB2F0061CE4AC8B365EA84000AB91A07EC0688CFB (uint8_t* ___destination0, uint8_t* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlock_mB2F0061CE4AC8B365EA84000AB91A07EC0688CFB (uint8_t* ___0_destination, uint8_t* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		uint8_t* L_0 = ___destination0;
-		uint8_t* L_1 = ___source1;
-		uint32_t L_2 = ___byteCount2;
+		uint8_t* L_0 = ___0_destination;
+		uint8_t* L_1 = ___1_source;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memcpy(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Void*,System.Void*,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mA98259D4AD22A90DC7F39A97ECCF621E891613F3 (void* ___destination0, void* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_mA98259D4AD22A90DC7F39A97ECCF621E891613F3 (void* ___0_destination, void* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		void* L_0 = ___destination0;
-		void* L_1 = ___source1;
-		uint32_t L_2 = ___byteCount2;
+		void* L_0 = ___0_destination;
+		void* L_1 = ___1_source;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memcpy(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::CopyBlockUnaligned(System.Byte&,System.Byte&,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_m98682FA9FBBC2E6A5D4CD90EAC1D02E4E5F7B1BA (uint8_t* ___destination0, uint8_t* ___source1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_CopyBlockUnaligned_m98682FA9FBBC2E6A5D4CD90EAC1D02E4E5F7B1BA (uint8_t* ___0_destination, uint8_t* ___1_source, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		uint8_t* L_0 = ___destination0;
-		uint8_t* L_1 = ___source1;
-		uint32_t L_2 = ___byteCount2;
+		uint8_t* L_0 = ___0_destination;
+		uint8_t* L_1 = ___1_source;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memcpy(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::InitBlock(System.Void*,System.Byte,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_mA585B84FCBCAAC1BB9050AE53969FF1AF0EBD369 (void* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_mA585B84FCBCAAC1BB9050AE53969FF1AF0EBD369 (void* ___0_startAddress, uint8_t ___1_value, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		void* L_0 = ___startAddress0;
-		uint8_t L_1 = ___value1;
-		uint32_t L_2 = ___byteCount2;
+		void* L_0 = ___0_startAddress;
+		uint8_t L_1 = ___1_value;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memset(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::InitBlock(System.Byte&,System.Byte,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m9632C2B0D7D0ECC88CA7398C83BE8EBD151E81D9 (uint8_t* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlock_m9632C2B0D7D0ECC88CA7398C83BE8EBD151E81D9 (uint8_t* ___0_startAddress, uint8_t ___1_value, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		uint8_t* L_0 = ___startAddress0;
-		uint8_t L_1 = ___value1;
-		uint32_t L_2 = ___byteCount2;
+		uint8_t* L_0 = ___0_startAddress;
+		uint8_t L_1 = ___1_value;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memset(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Void*,System.Byte,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m88E390D0E318E19F7680301AD5D3810DE69CD9DE (void* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m88E390D0E318E19F7680301AD5D3810DE69CD9DE (void* ___0_startAddress, uint8_t ___1_value, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		void* L_0 = ___startAddress0;
-		uint8_t L_1 = ___value1;
-		uint32_t L_2 = ___byteCount2;
+		void* L_0 = ___0_startAddress;
+		uint8_t L_1 = ___1_value;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memset(L_0, L_1, L_2);
 		return;
 	}
 }
 // System.Void Unity.Burst.Unsafe::InitBlockUnaligned(System.Byte&,System.Byte,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m617B4B62CFE8A1E30DE4B9F0AC6BF9CAB113D94A (uint8_t* ___startAddress0, uint8_t ___value1, uint32_t ___byteCount2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Unsafe_InitBlockUnaligned_m617B4B62CFE8A1E30DE4B9F0AC6BF9CAB113D94A (uint8_t* ___0_startAddress, uint8_t ___1_value, uint32_t ___2_byteCount, const RuntimeMethod* method) 
 {
 	{
-		uint8_t* L_0 = ___startAddress0;
-		uint8_t L_1 = ___value1;
-		uint32_t L_2 = ___byteCount2;
+		uint8_t* L_0 = ___0_startAddress;
+		uint8_t L_1 = ___1_value;
+		uint32_t L_2 = ___2_byteCount;
 		il2cpp_codegen_memset(L_0, L_1, L_2);
 		return;
 	}

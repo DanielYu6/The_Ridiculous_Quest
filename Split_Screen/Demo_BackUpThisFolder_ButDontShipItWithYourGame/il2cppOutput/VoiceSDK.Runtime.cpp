@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -575,12 +574,6 @@ struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeO
 {
 };
 
-struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
-{
-	// T[] System.EmptyArray`1::Value
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
-};
-
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
 struct KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A  : public RuntimeObject
 {
@@ -597,27 +590,10 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public Run
 	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
 };
 
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
-	bool ___enableDebugPrints_0;
-};
-
 // Oculus.Voice.AppBuiltIns
 struct AppBuiltIns_tC1F47D2993C2AB7C0BCDDECF93AC44865AE9745E  : public RuntimeObject
 {
 };
-
-struct AppBuiltIns_tC1F47D2993C2AB7C0BCDDECF93AC44865AE9745E_StaticFields
-{
-	// System.String Oculus.Voice.AppBuiltIns::builtInPrefix
-	String_t* ___builtInPrefix_0;
-	// System.String Oculus.Voice.AppBuiltIns::modelName
-	String_t* ___modelName_1;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>> Oculus.Voice.AppBuiltIns::apps
-	Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904* ___apps_2;
-};
-struct Il2CppArrayBounds;
 
 // Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
 struct BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01  : public RuntimeObject
@@ -647,12 +623,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // UnityEngine.Events.UnityEventBase
@@ -788,33 +758,11 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.DateTime
 struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
 {
 	// System.UInt64 System.DateTime::_dateData
 	uint64_t ____dateData_46;
-};
-
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
 };
 
 // System.Int32
@@ -829,12 +777,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // System.Single
@@ -952,14 +894,6 @@ struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D  : public Runt
 	intptr_t ___proxyObject_1;
 };
 
-struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
-{
-	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
-	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
-	intptr_t ___s_HashCodeMethodID_3;
-};
-
 // System.Delegate
 struct Delegate_t  : public RuntimeObject
 {
@@ -1030,12 +964,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -1131,22 +1059,6 @@ struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6  : public RuntimeObj
 	CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* ____performer_59;
 	// System.Collections.Concurrent.ConcurrentQueue`1<System.Action> Facebook.WitAi.WitRequest::_mainThreadCallbacks
 	ConcurrentQueue_1_tC8B0BCCEA7ED64CA00454B9EB2F35771723A00D3* ____mainThreadCallbacks_60;
-};
-
-struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6_StaticFields
-{
-	// Facebook.WitAi.WitRequest/PreSendRequestDelegate Facebook.WitAi.WitRequest::onPreSendRequest
-	PreSendRequestDelegate_t8DAF536AB45C30AE57A5BEE4701E62E6B5878E0B* ___onPreSendRequest_41;
-	// System.String Facebook.WitAi.WitRequest::_operatingSystem
-	String_t* ____operatingSystem_54;
-	// System.String Facebook.WitAi.WitRequest::_deviceModel
-	String_t* ____deviceModel_55;
-	// System.String Facebook.WitAi.WitRequest::_appIdentifier
-	String_t* ____appIdentifier_56;
-	// System.String Facebook.WitAi.WitRequest::_unityVersion
-	String_t* ____unityVersion_57;
-	// System.Func`1<System.String> Facebook.WitAi.WitRequest::OnProvideCustomUserAgent
-	Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___OnProvideCustomUserAgent_58;
 };
 
 // Facebook.WitAi.Events.WitRequestCreatedEvent
@@ -1321,6 +1233,326 @@ struct Wit_t7582060C53BB0428697BD46A2E58C7A814907503  : public VoiceService_t632
 	// Facebook.WitAi.WitService Facebook.WitAi.Wit::witService
 	WitService_t12972001C1AF54DF78DF79100D6D8059B104E27F* ___witService_9;
 };
+
+// <Module>
+
+// <Module>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Bindings.Android.VoiceSDKBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Bindings.Android.VoiceSDKBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	// T[] System.EmptyArray`1::Value
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
+};
+
+// System.EmptyArray`1<System.Object>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+};
+
+// UnityEngine.AndroidJavaObject
+
+// Oculus.Voice.AppBuiltIns
+struct AppBuiltIns_tC1F47D2993C2AB7C0BCDDECF93AC44865AE9745E_StaticFields
+{
+	// System.String Oculus.Voice.AppBuiltIns::builtInPrefix
+	String_t* ___builtInPrefix_0;
+	// System.String Oculus.Voice.AppBuiltIns::modelName
+	String_t* ___modelName_1;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>> Oculus.Voice.AppBuiltIns::apps
+	Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904* ___apps_2;
+};
+
+// Oculus.Voice.AppBuiltIns
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Facebook.WitAi.Events.EventRegistry
+
+// Facebook.WitAi.Events.EventRegistry
+
+// Oculus.VoiceSDK.Utilities.MicPermissionsManager
+
+// Oculus.VoiceSDK.Utilities.MicPermissionsManager
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// UnityEngine.Events.UnityEventBase
+
+// UnityEngine.Events.UnityEventBase
+
+// System.ValueType
+
+// System.ValueType
+
+// Oculus.Voice.Bindings.Android.VoiceSDKConfigBinding
+
+// Oculus.Voice.Bindings.Android.VoiceSDKConfigBinding
+
+// Facebook.WitAi.Configuration.WitRequestOptions
+
+// Facebook.WitAi.Configuration.WitRequestOptions
+
+// Facebook.WitAi.Lib.WitResponseNode
+
+// Facebook.WitAi.Lib.WitResponseNode
+
+// Facebook.WitAi.Configuration.WitRuntimeConfiguration
+
+// Facebook.WitAi.Configuration.WitRuntimeConfiguration
+
+// UnityEngine.Events.UnityEvent`1<System.Single>
+
+// UnityEngine.Events.UnityEvent`1<System.Single>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Configuration.WitRequestOptions>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Configuration.WitRequestOptions>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Single
+
+// System.Single
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Events.UnityEvent
+
+// Facebook.WitAi.Events.VoiceEvents
+
+// Facebook.WitAi.Events.VoiceEvents
+
+// Oculus.Voice.Bindings.Android.VoiceSDKBinding
+
+// Oculus.Voice.Bindings.Android.VoiceSDKBinding
+
+// Oculus.Voice.Bindings.Android.VoiceSDKImpl
+
+// Oculus.Voice.Bindings.Android.VoiceSDKImpl
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.AndroidJavaProxy
+struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
+{
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
+	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
+	intptr_t ___s_HashCodeMethodID_3;
+};
+
+// UnityEngine.AndroidJavaProxy
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// Facebook.WitAi.Events.WitErrorEvent
+
+// Facebook.WitAi.Events.WitErrorEvent
+
+// Facebook.WitAi.Events.WitMicLevelChangedEvent
+
+// Facebook.WitAi.Events.WitMicLevelChangedEvent
+
+// Facebook.WitAi.WitRequest
+struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6_StaticFields
+{
+	// Facebook.WitAi.WitRequest/PreSendRequestDelegate Facebook.WitAi.WitRequest::onPreSendRequest
+	PreSendRequestDelegate_t8DAF536AB45C30AE57A5BEE4701E62E6B5878E0B* ___onPreSendRequest_41;
+	// System.String Facebook.WitAi.WitRequest::_operatingSystem
+	String_t* ____operatingSystem_54;
+	// System.String Facebook.WitAi.WitRequest::_deviceModel
+	String_t* ____deviceModel_55;
+	// System.String Facebook.WitAi.WitRequest::_appIdentifier
+	String_t* ____appIdentifier_56;
+	// System.String Facebook.WitAi.WitRequest::_unityVersion
+	String_t* ____unityVersion_57;
+	// System.Func`1<System.String> Facebook.WitAi.WitRequest::OnProvideCustomUserAgent
+	Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___OnProvideCustomUserAgent_58;
+};
+
+// Facebook.WitAi.WitRequest
+
+// Facebook.WitAi.Events.WitRequestCreatedEvent
+
+// Facebook.WitAi.Events.WitRequestCreatedEvent
+
+// Facebook.WitAi.Events.WitRequestOptionsEvent
+
+// Facebook.WitAi.Events.WitRequestOptionsEvent
+
+// Facebook.WitAi.Events.WitResponseEvent
+
+// Facebook.WitAi.Events.WitResponseEvent
+
+// Facebook.WitAi.Events.WitTranscriptionEvent
+
+// Facebook.WitAi.Events.WitTranscriptionEvent
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.ScriptableObject
+
+// Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding
+
+// Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// System.Action
+
+// System.Action
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Events.UnityAction
+
+// UnityEngine.Events.UnityAction
+
+// Facebook.WitAi.Data.Configuration.WitConfiguration
+
+// Facebook.WitAi.Data.Configuration.WitConfiguration
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// Facebook.WitAi.VoiceService
+
+// Facebook.WitAi.VoiceService
+
+// Oculus.Voice.AppVoiceExperience
+
+// Oculus.Voice.AppVoiceExperience
+
+// Facebook.WitAi.Wit
+
+// Facebook.WitAi.Wit
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1401,56 +1633,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_tB45A861D090B15129521119AE48ED3
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KeyCollection_get_Count_mB870EAF2A8DC8A4EE35A3C2D14DE5EFBB5BE5EDD_gshared (KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::CopyTo(TKey[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyCollection_CopyTo_mDC23F0CB0A5EC478C97C22F1FD23809F1FF19F1F_gshared (KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, int32_t ___index1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KeyCollection_CopyTo_mDC23F0CB0A5EC478C97C22F1FD23809F1FF19F1F_gshared (KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* __this, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, int32_t ___1_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Object>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, RuntimeObject* ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, RuntimeObject* ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Single>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, float ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, float ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Int32>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, int32_t ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, int32_t ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Boolean>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, bool ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, bool ___1_val, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___className0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_className, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___version0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_version, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Disconnect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::Invoke(T0,T1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Android.Permission::HasUserAuthorizedPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___permission0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___0_permission, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Android.Permission::RequestUserPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___permission0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___0_permission, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>::get_Keys()
@@ -1464,9 +1696,9 @@ inline int32_t KeyCollection_get_Count_m4091EB97339FC86B2770A513C1BB6EEBB9E8FAFD
 	return ((  int32_t (*) (KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A*, const RuntimeMethod*))KeyCollection_get_Count_mB870EAF2A8DC8A4EE35A3C2D14DE5EFBB5BE5EDD_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>::CopyTo(TKey[],System.Int32)
-inline void KeyCollection_CopyTo_m2DEA1FFA96F37A6F52C3D47D69E60F1B1C7E8B50 (KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___array0, int32_t ___index1, const RuntimeMethod* method)
+inline void KeyCollection_CopyTo_m2DEA1FFA96F37A6F52C3D47D69E60F1B1C7E8B50 (KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_array, int32_t ___1_index, const RuntimeMethod* method)
 {
-	((  void (*) (KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, int32_t, const RuntimeMethod*))KeyCollection_CopyTo_mDC23F0CB0A5EC478C97C22F1FD23809F1FF19F1F_gshared)(__this, ___array0, ___index1, method);
+	((  void (*) (KeyCollection_t5AE2380F1F0B36CFA57AEFE1A47C70858AD5947A*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, int32_t, const RuntimeMethod*))KeyCollection_CopyTo_mDC23F0CB0A5EC478C97C22F1FD23809F1FF19F1F_gshared)(__this, ___0_array, ___1_index, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>::.ctor()
 inline void Dictionary_2__ctor_m03F1779EF814C87DAC772538D4038FF44863D7E4 (Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904* __this, const RuntimeMethod* method)
@@ -1479,25 +1711,25 @@ inline void Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052 (Dictio
 	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(TKey,TValue)
-inline void Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>>::Add(TKey,TValue)
-inline void Dictionary_2_Add_m02B48855F06F281C2FAE48FE6799F154B8DCDBC8 (Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904* __this, String_t* ___key0, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_Add_m02B48855F06F281C2FAE48FE6799F154B8DCDBC8 (Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904* __this, String_t* ___0_key, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904*, String_t*, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_tB6CE3B793B413BC658CEFEF1339D0C1E2DE28904*, String_t*, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.AppVoiceExperience::get_HasPlatformIntegrations()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppVoiceExperience_get_HasPlatformIntegrations_mC13C22A105847FA22FD88995434D40766EB16CC2 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.AppVoiceExperience::InitVoiceSDK()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_InitVoiceSDK_m32D292065C10F12806D615E70A52C3DE51A623B5 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.AppVoiceExperience::get_UsePlatformIntegrations()
@@ -1505,17 +1737,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AppVoiceExperience_get_UsePl
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl__ctor_mB98388D0B9F59FF41DA4D886AF2BE550F914E2DF (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::.ctor(Facebook.WitAi.IVoiceService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl__ctor_m35A929C24F4C90801C14C885F347C2011F4F6348 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___baseVoiceService0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl__ctor_m35A929C24F4C90801C14C885F347C2011F4F6348 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___0_baseVoiceService, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // Facebook.WitAi.Configuration.WitRuntimeConfiguration Oculus.Voice.AppVoiceExperience::get_RuntimeConfiguration()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* AppVoiceExperience_get_RuntimeConfiguration_mA230CDCD1DD79CDB5228FFB0A412EA7E43F232C0_inline (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::SetRuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_SetRuntimeConfiguration_mC0918FA50EF8775A49012EC7819253349C796ECD (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_SetRuntimeConfiguration_mC0918FA50EF8775A49012EC7819253349C796ECD (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_configuration, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Bindings.Android.VoiceSDKImpl::get_PlatformSupportsWit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKImpl_get_PlatformSupportsWit_m372E01C4FEBDC063566D099A673EAFC2702A197E (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.Wit::set_RuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Wit_set_RuntimeConfiguration_m1A5350CFD57C6598E99C034CC77994B07952DDAA_inline (Wit_t7582060C53BB0428697BD46A2E58C7A814907503* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Wit_set_RuntimeConfiguration_m1A5350CFD57C6598E99C034CC77994B07952DDAA_inline (Wit_t7582060C53BB0428697BD46A2E58C7A814907503* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_value, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.AppVoiceExperience::RevertToWitUnity()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_RevertToWitUnity_m346BC3947D7A11513EFB5124475AABAD5346D7C5 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.Data.Configuration.WitConfiguration::get_WitApplicationId()
@@ -1530,7 +1762,7 @@ inline Wit_t7582060C53BB0428697BD46A2E58C7A814907503* Component_GetComponent_Tis
 	return ((  Wit_t7582060C53BB0428697BD46A2E58C7A814907503* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<Facebook.WitAi.Wit>()
@@ -1539,7 +1771,7 @@ inline Wit_t7582060C53BB0428697BD46A2E58C7A814907503* GameObject_AddComponent_Ti
 	return ((  Wit_t7582060C53BB0428697BD46A2E58C7A814907503* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
 // System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.VoiceService::OnEnable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService_OnEnable_m45113C6A16417666B5A8D216EF60EB110060A7DC (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, const RuntimeMethod* method) ;
 // System.Boolean Oculus.VoiceSDK.Utilities.MicPermissionsManager::HasMicPermission()
@@ -1547,102 +1779,102 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicPermissionsManager_HasMicPermission_m
 // System.Void Oculus.VoiceSDK.Utilities.MicPermissionsManager::RequestMicPermission()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicPermissionsManager_RequestMicPermission_m3A160569AF344AA1190A33AECBA95CA3BDD9132A (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mF4F621DB3C8F308CF78411309EDFD1334CF9CE75 (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mF4F621DB3C8F308CF78411309EDFD1334CF9CE75 (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_mAAD4F26F685871E030131375B05060E33216E0C3 (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_mAAD4F26F685871E030131375B05060E33216E0C3 (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___0_call, method);
 }
 // System.Void Facebook.WitAi.VoiceService::OnDisable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService_OnDisable_m55A0DD84AA15D007D6393765F6F34E7C18BCEDE3 (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m696D0B92F65BCDA59D7C1EEA56EF4B017BFE607B (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m696D0B92F65BCDA59D7C1EEA56EF4B017BFE607B (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent::RemoveListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___0_call, method);
 }
 // System.Boolean Oculus.Voice.AppVoiceExperience::get_Initialized()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppVoiceExperience_get_Initialized_m97ED7179C4F41C4595B0047A0EC983B5EC186DFA (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.Lib.WitResponseNode::op_Inequality(Facebook.WitAi.Lib.WitResponseNode,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Inequality_mAD708D798FF435194C7037FC79662F705AC9ED7E (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___a0, RuntimeObject* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Inequality_mAD708D798FF435194C7037FC79662F705AC9ED7E (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_a, RuntimeObject* ___1_b, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.VoiceService::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService__ctor_m2BF0D5D8F2123B0921676DC30B533F0F2AE3994C (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseServiceBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
 inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
 {
 	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
 }
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.String Facebook.WitAi.Configuration.WitRequestOptions::ToJsonString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitRequestOptions_ToJsonString_m79E2B66D64BD70F8175AE998F9FD4EE9DA5D9737 (WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Call(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKConfigBinding::.ctor(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConfigBinding__ctor_m32A41B2A486F2E0315E1BDC636B53782723E8E66 (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___config0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConfigBinding__ctor_m32A41B2A486F2E0315E1BDC636B53782723E8E66 (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_config, const RuntimeMethod* method) ;
 // UnityEngine.AndroidJavaObject Oculus.Voice.Bindings.Android.VoiceSDKConfigBinding::ToJavaObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* VoiceSDKConfigBinding_ToJavaObject_m861460742482EB29DF6B5BB913D5C55EFD17A4BA (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::.ctor(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___className0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_className, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.String>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisString_t_mC45E99DE5239B327CDD9B412DEADE7EA827797DE (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, String_t* ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisString_t_mC45E99DE5239B327CDD9B412DEADE7EA827797DE (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, String_t* ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, String_t*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, String_t*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<UnityEngine.AndroidJavaObject>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mB31B4CD1FC5DFAABED4F3B6287A47C6A062C4BB2 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mB31B4CD1FC5DFAABED4F3B6287A47C6A062C4BB2 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Single>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, float ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, float ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, float, const RuntimeMethod*))AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, float, const RuntimeMethod*))AndroidJavaObject_Set_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_mBFF5C549692C48861BC5397B09E7CB34767F40B5_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Int32>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, int32_t ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, int32_t ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, int32_t, const RuntimeMethod*))AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, int32_t, const RuntimeMethod*))AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Boolean>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, bool ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, bool ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, bool, const RuntimeMethod*))AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, bool, const RuntimeMethod*))AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Bindings.Android.VoiceSDKBinding>::.ctor(System.String)
-inline void BaseAndroidConnectionImpl_1__ctor_mF468E5CB91C72482F571B497B147F08542E8CC80 (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF* __this, String_t* ___className0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1__ctor_mF468E5CB91C72482F571B497B147F08542E8CC80 (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF* __this, String_t* ___0_className, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___className0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___0_className, method);
 }
 // System.Boolean Oculus.Voice.Bindings.Android.VoiceSDKBinding::get_PlatformSupportsWit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKBinding_get_PlatformSupportsWit_m19DB6531CDA2434ADABE06C5310FA94A370C5F18 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, const RuntimeMethod* method) ;
@@ -1653,18 +1885,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKBinding_get_IsRequestActive_mB32
 // System.Boolean Oculus.Voice.Bindings.Android.VoiceSDKBinding::get_MicActive()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKBinding_get_MicActive_m9489251FE1B2A59DE39FA58F94C95C8628F56219 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::SetRuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_m2E5B706733A4D5A33D3167E388D7FC68B95565AF (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_m2E5B706733A4D5A33D3167E388D7FC68B95565AF (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_configuration, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Bindings.Android.VoiceSDKBinding>::Connect(System.String)
-inline void BaseAndroidConnectionImpl_1_Connect_m98AC713280FE00772A276E37AC3442A77B465CEC (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF* __this, String_t* ___version0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1_Connect_m98AC713280FE00772A276E37AC3442A77B465CEC (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF* __this, String_t* ___0_version, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___version0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___0_version, method);
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::.ctor(Facebook.WitAi.IVoiceService,Oculus.Voice.Bindings.Android.IVCBindingEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A5936A160886D928B31D81F39C77513765D (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, RuntimeObject* ___voiceService0, RuntimeObject* ___bindingEvents1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A5936A160886D928B31D81F39C77513765D (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, RuntimeObject* ___0_voiceService, RuntimeObject* ___1_bindingEvents, const RuntimeMethod* method) ;
 // Facebook.WitAi.Events.VoiceEvents Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::get_VoiceEvents()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* VoiceSDKListenerBinding_get_VoiceEvents_m71FCB3CCE85DC611F18E05D1CB21FC8CD828B329 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::SetListener(Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetListener_mECA88A4F2258C2C48FBB5B245222EC4E42A2FBB5 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* ___listener0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetListener_mECA88A4F2258C2C48FBB5B245222EC4E42A2FBB5 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* ___0_listener, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Connect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Connect_m98EB7BC47E670145423665DB7E2A23BB84BB05AF (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Bindings.Android.VoiceSDKBinding>::Disconnect()
@@ -1673,59 +1905,59 @@ inline void BaseAndroidConnectionImpl_1_Disconnect_mA5F161E6B61246B5919266A3C4A1
 	((  void (*) (BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared)(__this, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Configuration.WitRequestOptions>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED (UnityEvent_1_t1AF040B2AD528722FB8E4086468EBB1F6221F86E* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED (UnityEvent_1_t1AF040B2AD528722FB8E4086468EBB1F6221F86E* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t1AF040B2AD528722FB8E4086468EBB1F6221F86E*, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_t1AF040B2AD528722FB8E4086468EBB1F6221F86E*, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Activate(System.String,Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA843825751801970A35069ED94B34216 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, String_t* ___text0, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA843825751801970A35069ED94B34216 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, String_t* ___0_text, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___1_options, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Activate(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D993E540774768B88FD8E79A84A (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D993E540774768B88FD8E79A84A (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::ActivateImmediately(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_ActivateImmediately_m473FE539750900CED4AC7999E13FD4FBFC67D90F (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_ActivateImmediately_m473FE539750900CED4AC7999E13FD4FBFC67D90F (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Deactivate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Deactivate_mB0F3CE4FF5E8579CEAC78F717250E951B5DEEF71 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___javaInterface0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___0_javaInterface, const RuntimeMethod* method) ;
 // Facebook.WitAi.Lib.WitResponseNode Facebook.WitAi.Lib.WitResponseJson::Parse(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* WitResponseJson_Parse_m1098DB73BCAE6641AC19432128B5AAA2D4032540 (String_t* ___aJSON0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* WitResponseJson_Parse_m1098DB73BCAE6641AC19432128B5AAA2D4032540 (String_t* ___0_aJSON, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>::Invoke(T0)
-inline void UnityEvent_1_Invoke_m3EFA705FA21918CEB5E6451B5CD2092894C5655F (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_m3EFA705FA21918CEB5E6451B5CD2092894C5655F (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Boolean Facebook.WitAi.WitResultUtilities::HasResponse(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResultUtilities_HasResponse_mCC55568C00A312D39BCE1E9043851C689473A7A1 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___witResponse0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResultUtilities_HasResponse_mCC55568C00A312D39BCE1E9043851C689473A7A1 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_witResponse, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645 (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, String_t* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645 (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, String_t* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, float, const RuntimeMethod*))UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, float, const RuntimeMethod*))UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared)(__this, ___0_arg0, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mF0C82AA7629611920EF105131F8849B61974E9EA (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mF0C82AA7629611920EF105131F8849B61974E9EA (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // Facebook.WitAi.Events.WitTranscriptionEvent Facebook.WitAi.Events.VoiceEvents::get_OnPartialTranscription()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitTranscriptionEvent_t46F45C5FE99C833DFE345D2255587E22A1ABE32E* VoiceEvents_get_OnPartialTranscription_m9EE42862E01DA8C6319C4853689753E5E2CC4F10_inline (VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // Facebook.WitAi.Events.WitTranscriptionEvent Facebook.WitAi.Events.VoiceEvents::get_OnFullTranscription()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitTranscriptionEvent_t46F45C5FE99C833DFE345D2255587E22A1ABE32E* VoiceEvents_get_OnFullTranscription_m03ED3515BF8736C1F47C04A1AB6AB33DAC084474_inline (VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2332,11 +2564,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t74ABC500731591BA8D99
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::set_RuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_RuntimeConfiguration_m84616707444D78F225D0A9E3D03E4D0CA22AB0DA (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_RuntimeConfiguration_m84616707444D78F225D0A9E3D03E4D0CA22AB0DA (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => witRuntimeConfiguration = value;
-		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___value0;
+		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___0_value;
 		__this->___witRuntimeConfiguration_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witRuntimeConfiguration_8), (void*)L_0);
 		return;
@@ -2352,7 +2584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppVoiceExperience_get_Initialized_m97ED
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::add_OnInitialized(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_add_OnInitialized_mC2B8CACF8362D1AEE7515A8EB9A2812E1F52312D (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_add_OnInitialized_mC2B8CACF8362D1AEE7515A8EB9A2812E1F52312D (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2373,7 +2605,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2395,7 +2627,7 @@ IL_0007:
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::remove_OnInitialized(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_remove_OnInitialized_mEBE79F6EB2DCA1CB336E7AF7D41FEAB233610B9E (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_remove_OnInitialized_mEBE79F6EB2DCA1CB336E7AF7D41FEAB233610B9E (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2416,7 +2648,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2516,7 +2748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppVoiceExperience_get_Transcr
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::set_TranscriptionProvider(Facebook.WitAi.Interfaces.ITranscriptionProvider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_TranscriptionProvider_mBE2061B4AA36620BC198CE2D0438B79E23A7429A (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_TranscriptionProvider_mBE2061B4AA36620BC198CE2D0438B79E23A7429A (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2527,7 +2759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_TranscriptionProv
 	{
 		// set => voiceServiceImpl.TranscriptionProvider = value;
 		RuntimeObject* L_0 = __this->___voiceServiceImpl_12;
-		RuntimeObject* L_1 = ___value0;
+		RuntimeObject* L_1 = ___0_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(6 /* System.Void Facebook.WitAi.IVoiceService::set_TranscriptionProvider(Facebook.WitAi.Interfaces.ITranscriptionProvider) */, IVoiceService_t01DAFEF167D1E0F15D70823D1305A2316BBF1180_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
@@ -2634,7 +2866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppVoiceExperience_get_UsePlatformIntegr
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::set_UsePlatformIntegrations(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_UsePlatformIntegrations_m3D8CCAC60558252702847ACDD0E664D66403F7D9 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_UsePlatformIntegrations_m3D8CCAC60558252702847ACDD0E664D66403F7D9 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2649,7 +2881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_UsePlatformIntegr
 	{
 		// if (usePlatformServices != value || HasPlatformIntegrations != value)
 		bool L_0 = __this->___usePlatformServices_9;
-		bool L_1 = ___value0;
+		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
 			goto IL_0012;
@@ -2658,7 +2890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_UsePlatformIntegr
 	{
 		bool L_2;
 		L_2 = AppVoiceExperience_get_HasPlatformIntegrations_mC13C22A105847FA22FD88995434D40766EB16CC2(__this, NULL);
-		bool L_3 = ___value0;
+		bool L_3 = ___0_value;
 		if ((((int32_t)L_2) == ((int32_t)L_3)))
 		{
 			goto IL_0042;
@@ -2668,7 +2900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_set_UsePlatformIntegr
 IL_0012:
 	{
 		// usePlatformServices = value;
-		bool L_4 = ___value0;
+		bool L_4 = ___0_value;
 		__this->___usePlatformServices_9 = L_4;
 		// Debug.Log($"{(usePlatformServices ? "Enabling" : "Disabling")} platform integration.");
 		bool L_5 = __this->___usePlatformServices_9;
@@ -2704,7 +2936,7 @@ IL_0042:
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::Activate(System.String,Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m082404E6A18565D726D450578611AA954C14477B (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, String_t* ___text0, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m082404E6A18565D726D450578611AA954C14477B (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, String_t* ___0_text, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___1_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2717,15 +2949,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m082404E6A18
 	{
 		// voiceSDKLoggerImpl.LogInteractionStart(options.requestID, "message");
 		RuntimeObject* L_0 = __this->___voiceSDKLoggerImpl_13;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___options1;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___1_options;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___requestID_3;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(6 /* System.Void Oculus.Voice.Core.Bindings.Interfaces.IVoiceSDKLogger::LogInteractionStart(System.String,System.String) */, IVoiceSDKLogger_t8A0710A01D6E9FAA8D2FFE4190C3BD848CA655C0_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteralD559C6D97E819D8E4EF7ACDC34C4E8D3DD314964);
 		// voiceServiceImpl.Activate(text, options);
 		RuntimeObject* L_3 = __this->___voiceServiceImpl_12;
-		String_t* L_4 = ___text0;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___options1;
+		String_t* L_4 = ___0_text;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___1_options;
 		NullCheck(L_3);
 		InterfaceActionInvoker2< String_t*, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* >::Invoke(7 /* System.Void Facebook.WitAi.IVoiceService::Activate(System.String,Facebook.WitAi.Configuration.WitRequestOptions) */, IVoiceService_t01DAFEF167D1E0F15D70823D1305A2316BBF1180_il2cpp_TypeInfo_var, L_3, L_4, L_5);
 		// }
@@ -2733,7 +2965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m082404E6A18
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::Activate(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m58B58668F005D2406B6BBDC0093A76A176854528 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m58B58668F005D2406B6BBDC0093A76A176854528 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2746,14 +2978,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m58B58668F00
 	{
 		// voiceSDKLoggerImpl.LogInteractionStart(options.requestID, "speech");
 		RuntimeObject* L_0 = __this->___voiceSDKLoggerImpl_13;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___0_options;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___requestID_3;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(6 /* System.Void Oculus.Voice.Core.Bindings.Interfaces.IVoiceSDKLogger::LogInteractionStart(System.String,System.String) */, IVoiceSDKLogger_t8A0710A01D6E9FAA8D2FFE4190C3BD848CA655C0_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
 		// voiceServiceImpl.Activate(options);
 		RuntimeObject* L_3 = __this->___voiceServiceImpl_12;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___0_options;
 		NullCheck(L_3);
 		InterfaceActionInvoker1< WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* >::Invoke(8 /* System.Void Facebook.WitAi.IVoiceService::Activate(Facebook.WitAi.Configuration.WitRequestOptions) */, IVoiceService_t01DAFEF167D1E0F15D70823D1305A2316BBF1180_il2cpp_TypeInfo_var, L_3, L_4);
 		// }
@@ -2761,7 +2993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_Activate_m58B58668F00
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::ActivateImmediately(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_ActivateImmediately_m7DED575C54D423110492A13A869B5F479A356F0A (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_ActivateImmediately_m7DED575C54D423110492A13A869B5F479A356F0A (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2774,14 +3006,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_ActivateImmediately_m
 	{
 		// voiceSDKLoggerImpl.LogInteractionStart(options.requestID, "speech");
 		RuntimeObject* L_0 = __this->___voiceSDKLoggerImpl_13;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_1 = ___0_options;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___requestID_3;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(6 /* System.Void Oculus.Voice.Core.Bindings.Interfaces.IVoiceSDKLogger::LogInteractionStart(System.String,System.String) */, IVoiceSDKLogger_t8A0710A01D6E9FAA8D2FFE4190C3BD848CA655C0_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
 		// voiceServiceImpl.ActivateImmediately(options);
 		RuntimeObject* L_3 = __this->___voiceServiceImpl_12;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___0_options;
 		NullCheck(L_3);
 		InterfaceActionInvoker1< WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* >::Invoke(9 /* System.Void Facebook.WitAi.IVoiceService::ActivateImmediately(Facebook.WitAi.Configuration.WitRequestOptions) */, IVoiceService_t01DAFEF167D1E0F15D70823D1305A2316BBF1180_il2cpp_TypeInfo_var, L_3, L_4);
 		// }
@@ -3618,11 +3850,11 @@ IL_00f1:
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::OnApplicationFocus(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnApplicationFocus_m8F49805779857F88CDCB53E78730EE1EC4DABDE9 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, bool ___hasFocus0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnApplicationFocus_m8F49805779857F88CDCB53E78730EE1EC4DABDE9 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, bool ___0_hasFocus, const RuntimeMethod* method) 
 {
 	{
 		// if (hasFocus && !Initialized)
-		bool L_0 = ___hasFocus0;
+		bool L_0 = ___0_hasFocus;
 		if (!L_0)
 		{
 			goto IL_0018;
@@ -3657,7 +3889,7 @@ IL_0018:
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::OnWitResponseListener(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnWitResponseListener_m8CDF4F647CE7EF232D552580A56F1F53FC4A3D14 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___witResponseNode0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnWitResponseListener_m8CDF4F647CE7EF232D552580A56F1F53FC4A3D14 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_witResponseNode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3682,7 +3914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnWitResponseListener
 	WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* G_B9_0 = NULL;
 	{
 		// var tokens = witResponseNode?["speech"]?["tokens"];
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_0 = ___witResponseNode0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_0 = ___0_witResponseNode;
 		if (L_0)
 		{
 			goto IL_0006;
@@ -3695,7 +3927,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnWitResponseListener
 
 IL_0006:
 	{
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1 = ___witResponseNode0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1 = ___0_witResponseNode;
 		NullCheck(L_1);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_2;
 		L_2 = VirtualFuncInvoker1< WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, String_t* >::Invoke(7 /* Facebook.WitAi.Lib.WitResponseNode Facebook.WitAi.Lib.WitResponseNode::get_Item(System.String) */, L_1, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
@@ -3740,7 +3972,7 @@ IL_0022:
 		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 Facebook.WitAi.Lib.WitResponseNode::get_Count() */, L_7);
 		V_1 = L_8;
 		// string speechLength = witResponseNode["speech"]["tokens"][speechTokensLength - 1]?["end"]?.Value;
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_9 = ___witResponseNode0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_9 = ___0_witResponseNode;
 		NullCheck(L_9);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_10;
 		L_10 = VirtualFuncInvoker1< WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, String_t* >::Invoke(7 /* Facebook.WitAi.Lib.WitResponseNode Facebook.WitAi.Lib.WitResponseNode::get_Item(System.String) */, L_9, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
@@ -3830,7 +4062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnAborted_mEF5B1C8A49
 	}
 }
 // System.Void Oculus.Voice.AppVoiceExperience::OnError(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnError_m3F57C8B6C9EF71552DEFC1B24119CB0EC3038CE5 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, String_t* ___errorType0, String_t* ___errorMessage1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnError_m3F57C8B6C9EF71552DEFC1B24119CB0EC3038CE5 (AppVoiceExperience_t73F120132FB3DCEDD1AD48085A8A8D77419E60EF* __this, String_t* ___0_errorType, String_t* ___1_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3842,8 +4074,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_OnError_m3F57C8B6C9EF
 	{
 		// voiceSDKLoggerImpl.LogInteractionEndFailure($"{errorType}:{errorMessage}");
 		RuntimeObject* L_0 = __this->___voiceSDKLoggerImpl_13;
-		String_t* L_1 = ___errorType0;
-		String_t* L_2 = ___errorMessage1;
+		String_t* L_1 = ___0_errorType;
+		String_t* L_2 = ___1_errorMessage;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_2, NULL);
 		NullCheck(L_0);
@@ -3944,11 +4176,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppVoiceExperience_U3CInitVoiceSDKU3Eb__
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding__ctor_m3001B3D10803F447B38489ABE06384CB11F7D65C (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding__ctor_m3001B3D10803F447B38489ABE06384CB11F7D65C (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) 
 {
 	{
 		// public VoiceSDKBinding(AndroidJavaObject sdkInstance) : base(sdkInstance)
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___sdkInstance0;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_sdkInstance;
 		BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20(__this, L_0, NULL);
 		// }
 		return;
@@ -4043,7 +4275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKBinding_get_PlatformSupportsWit_
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Activate(System.String,Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA843825751801970A35069ED94B34216 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, String_t* ___text0, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA843825751801970A35069ED94B34216 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, String_t* ___0_text, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___1_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4057,12 +4289,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA84382
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		String_t* L_3 = ___text0;
+		String_t* L_3 = ___0_text;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_2;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___options1;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___1_options;
 		NullCheck(L_5);
 		String_t* L_6;
 		L_6 = WitRequestOptions_ToJsonString_m79E2B66D64BD70F8175AE998F9FD4EE9DA5D9737(L_5, NULL);
@@ -4076,7 +4308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_mCEF14E1BA84382
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::Activate(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D993E540774768B88FD8E79A84A (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D993E540774768B88FD8E79A84A (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4090,7 +4322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_3 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_3 = ___0_options;
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = WitRequestOptions_ToJsonString_m79E2B66D64BD70F8175AE998F9FD4EE9DA5D9737(L_3, NULL);
@@ -4104,7 +4336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Activate_m4683EC76B9A56D
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::ActivateImmediately(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_ActivateImmediately_m473FE539750900CED4AC7999E13FD4FBFC67D90F (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___options0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_ActivateImmediately_m473FE539750900CED4AC7999E13FD4FBFC67D90F (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4118,7 +4350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_ActivateImmediately_m473
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_3 = ___options0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_3 = ___0_options;
 		NullCheck(L_3);
 		String_t* L_4;
 		L_4 = WitRequestOptions_ToJsonString_m79E2B66D64BD70F8175AE998F9FD4EE9DA5D9737(L_3, NULL);
@@ -4174,7 +4406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_DeactivateAndAbortReques
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::SetRuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_m2E5B706733A4D5A33D3167E388D7FC68B95565AF (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___configuration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_m2E5B706733A4D5A33D3167E388D7FC68B95565AF (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_configuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4189,7 +4421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_3 = ___configuration0;
+		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_3 = ___0_configuration;
 		VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* L_4 = (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB*)il2cpp_codegen_object_new(VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
 		VoiceSDKConfigBinding__ctor_m32A41B2A486F2E0315E1BDC636B53782723E8E66(L_4, L_3, NULL);
@@ -4206,7 +4438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetRuntimeConfiguration_
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKBinding::SetListener(Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetListener_mECA88A4F2258C2C48FBB5B245222EC4E42A2FBB5 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* ___listener0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetListener_mECA88A4F2258C2C48FBB5B245222EC4E42A2FBB5 (VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* __this, VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* ___0_listener, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4220,7 +4452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_SetListener_mECA88A4F225
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* L_3 = ___listener0;
+		VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* L_3 = ___0_listener;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -4262,13 +4494,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKBinding_Connect_m98EB7BC47E67014
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKConfigBinding::.ctor(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConfigBinding__ctor_m32A41B2A486F2E0315E1BDC636B53782723E8E66 (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___config0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKConfigBinding__ctor_m32A41B2A486F2E0315E1BDC636B53782723E8E66 (VoiceSDKConfigBinding_t63C6CC95097F3A3384FB2132417E196693144DBB* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_config, const RuntimeMethod* method) 
 {
 	{
 		// public VoiceSDKConfigBinding(WitRuntimeConfiguration config)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// configuration = config;
-		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___config0;
+		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___0_config;
 		__this->___configuration_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___configuration_0), (void*)L_0);
 		// }
@@ -4417,7 +4649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2B
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::.ctor(Facebook.WitAi.IVoiceService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl__ctor_m35A929C24F4C90801C14C885F347C2011F4F6348 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___baseVoiceService0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl__ctor_m35A929C24F4C90801C14C885F347C2011F4F6348 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___0_baseVoiceService, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4433,7 +4665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl__ctor_m35A929C24F4C90801C14
 		//     "com.oculus.assistant.api.unity.immersivevoicecommands.UnityIVCServiceFragment")
 		BaseAndroidConnectionImpl_1__ctor_mF468E5CB91C72482F571B497B147F08542E8CC80(__this, _stringLiteral9198612C1E03878B69FB53EDEFD1E20C986857B4, BaseAndroidConnectionImpl_1__ctor_mF468E5CB91C72482F571B497B147F08542E8CC80_RuntimeMethod_var);
 		// _baseVoiceService = baseVoiceService;
-		RuntimeObject* L_0 = ___baseVoiceService0;
+		RuntimeObject* L_0 = ___0_baseVoiceService;
 		__this->____baseVoiceService_5 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseVoiceService_5), (void*)L_0);
 		// }
@@ -4513,12 +4745,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VoiceSDKImpl_get_MicActive_mDADE398985B2
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::SetRuntimeConfiguration(Facebook.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_SetRuntimeConfiguration_mC0918FA50EF8775A49012EC7819253349C796ECD (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___configuration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_SetRuntimeConfiguration_mC0918FA50EF8775A49012EC7819253349C796ECD (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_configuration, const RuntimeMethod* method) 
 {
 	{
 		// service.SetRuntimeConfiguration(configuration);
 		VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* L_0 = ((BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*)__this)->___service_1;
-		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_1 = ___configuration0;
+		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_1 = ___0_configuration;
 		NullCheck(L_0);
 		VoiceSDKBinding_SetRuntimeConfiguration_m2E5B706733A4D5A33D3167E388D7FC68B95565AF(L_0, L_1, NULL);
 		// }
@@ -4535,18 +4767,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* VoiceSDKImpl_get_Transcription
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::set_TranscriptionProvider(Facebook.WitAi.Interfaces.ITranscriptionProvider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_set_TranscriptionProvider_m2BAF91D1F24E1EF79E521ED09C995F36FEB2E72C (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_set_TranscriptionProvider_m2BAF91D1F24E1EF79E521ED09C995F36FEB2E72C (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public ITranscriptionProvider TranscriptionProvider { get; set; }
-		RuntimeObject* L_0 = ___value0;
+		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTranscriptionProviderU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTranscriptionProviderU3Ek__BackingField_8), (void*)L_0);
 		return;
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Connect_m492C4ABE14DBCF5C3B89C11AFEB5FCE1CA524398 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___version0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Connect_m492C4ABE14DBCF5C3B89C11AFEB5FCE1CA524398 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___0_version, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4567,7 +4799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Connect_m492C4ABE14DBCF5C3B
 	String_t* G_B3_1 = NULL;
 	{
 		// base.Connect(version);
-		String_t* L_0 = ___version0;
+		String_t* L_0 = ___0_version;
 		BaseAndroidConnectionImpl_1_Connect_m98AC713280FE00772A276E37AC3442A77B465CEC(__this, L_0, BaseAndroidConnectionImpl_1_Connect_m98AC713280FE00772A276E37AC3442A77B465CEC_RuntimeMethod_var);
 		// eventBinding = new VoiceSDKListenerBinding(this, this);
 		VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* L_1 = (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4*)il2cpp_codegen_object_new(VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4_il2cpp_TypeInfo_var);
@@ -4682,7 +4914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_OnStoppedListening_mA1756BD
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::Activate(System.String,Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Activate_m9798F3239FE38F6986296A126C2099A7C9AAFD2D (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___text0, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___requestOptions1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Activate_m9798F3239FE38F6986296A126C2099A7C9AAFD2D (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___0_text, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___1_requestOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4714,7 +4946,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Activate_m9798F3239FE38F698
 
 IL_0016:
 	{
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___requestOptions1;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_4 = ___1_requestOptions;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED(G_B2_0, L_4, UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED_RuntimeMethod_var);
 	}
@@ -4723,8 +4955,8 @@ IL_001c:
 	{
 		// service.Activate(text, requestOptions);
 		VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* L_5 = ((BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*)__this)->___service_1;
-		String_t* L_6 = ___text0;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___requestOptions1;
+		String_t* L_6 = ___0_text;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___1_requestOptions;
 		NullCheck(L_5);
 		VoiceSDKBinding_Activate_mCEF14E1BA843825751801970A35069ED94B34216(L_5, L_6, L_7, NULL);
 		// }
@@ -4732,7 +4964,7 @@ IL_001c:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::Activate(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Activate_m8EEEAD91E9D26043C3605EB27BF3FD4D404E374D (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_Activate_m8EEEAD91E9D26043C3605EB27BF3FD4D404E374D (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4780,7 +5012,7 @@ IL_0009:
 
 IL_0026:
 	{
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___requestOptions0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___0_requestOptions;
 		NullCheck(G_B4_0);
 		UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED(G_B4_0, L_5, UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED_RuntimeMethod_var);
 	}
@@ -4789,7 +5021,7 @@ IL_002c:
 	{
 		// service.Activate(requestOptions);
 		VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* L_6 = ((BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*)__this)->___service_1;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___requestOptions0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___0_requestOptions;
 		NullCheck(L_6);
 		VoiceSDKBinding_Activate_m4683EC76B9A56D993E540774768B88FD8E79A84A(L_6, L_7, NULL);
 		// }
@@ -4797,7 +5029,7 @@ IL_002c:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::ActivateImmediately(Facebook.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_ActivateImmediately_m33C638C6440CEFCBB28345FF1625C4BB6EEBFFA7 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_ActivateImmediately_m33C638C6440CEFCBB28345FF1625C4BB6EEBFFA7 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4845,7 +5077,7 @@ IL_0009:
 
 IL_0026:
 	{
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___requestOptions0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_5 = ___0_requestOptions;
 		NullCheck(G_B4_0);
 		UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED(G_B4_0, L_5, UnityEvent_1_Invoke_mA5A319C987D35C924AD1B9A42747A288545061ED_RuntimeMethod_var);
 	}
@@ -4854,7 +5086,7 @@ IL_002c:
 	{
 		// service.ActivateImmediately(requestOptions);
 		VoiceSDKBinding_tA9F9337E1F9969F81CDA14A71BE69D5E9A48FCF1* L_6 = ((BaseAndroidConnectionImpl_1_tFA27FD159EEF37A733DA17D57174F130D689DFAF*)__this)->___service_1;
-		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___requestOptions0;
+		WitRequestOptions_tDF3C29A7F96FE1E43F5143DB6C6E96869BD4AB49* L_7 = ___0_requestOptions;
 		NullCheck(L_6);
 		VoiceSDKBinding_ActivateImmediately_m473FE539750900CED4AC7999E13FD4FBFC67D90F(L_6, L_7, NULL);
 		// }
@@ -4890,7 +5122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_DeactivateAndAbortRequest_m
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::OnServiceNotAvailable(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_OnServiceNotAvailable_m238DC4A14BA880DF4ED69D9BFF6773B349A92821 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___error0, String_t* ___message1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_OnServiceNotAvailable_m238DC4A14BA880DF4ED69D9BFF6773B349A92821 (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, String_t* ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
@@ -4940,7 +5172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKImpl::set_VoiceEvents(Facebook.WitAi.Events.VoiceEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_set_VoiceEvents_m7263658123858DE492903346E3F12454304C37EE (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_set_VoiceEvents_m7263658123858DE492903346E3F12454304C37EE (VoiceSDKImpl_t1DBC3014F4C111EF0C536D8DA5C3E10639D0F40A* __this, VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4951,7 +5183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKImpl_set_VoiceEvents_m7263658123
 	{
 		// set => _baseVoiceService.VoiceEvents = value;
 		RuntimeObject* L_0 = __this->____baseVoiceService_5;
-		VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* L_1 = ___value0;
+		VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* L_1 = ___0_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* >::Invoke(4 /* System.Void Facebook.WitAi.IVoiceService::set_VoiceEvents(Facebook.WitAi.Events.VoiceEvents) */, IVoiceService_t01DAFEF167D1E0F15D70823D1305A2316BBF1180_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
@@ -4984,7 +5216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::.ctor(Facebook.WitAi.IVoiceService,Oculus.Voice.Bindings.Android.IVCBindingEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A5936A160886D928B31D81F39C77513765D (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, RuntimeObject* ___voiceService0, RuntimeObject* ___bindingEvents1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A5936A160886D928B31D81F39C77513765D (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, RuntimeObject* ___0_voiceService, RuntimeObject* ___1_bindingEvents, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4999,11 +5231,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A593
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral52CCE57FBBB435D24E1DD8F182FA0BDA2750C166, NULL);
 		// _voiceService = voiceService;
-		RuntimeObject* L_0 = ___voiceService0;
+		RuntimeObject* L_0 = ___0_voiceService;
 		__this->____voiceService_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____voiceService_4), (void*)L_0);
 		// _bindingEvents = bindingEvents;
-		RuntimeObject* L_1 = ___bindingEvents1;
+		RuntimeObject* L_1 = ___1_bindingEvents;
 		__this->____bindingEvents_5 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____bindingEvents_5), (void*)L_1);
 		// }
@@ -5011,7 +5243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding__ctor_m31AD9A593
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onResponse(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onResponse_mCD954E5E2AF77EC1AE5C0B3D55C9A76BD6F8EFE8 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___responseJson0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onResponse_mCD954E5E2AF77EC1AE5C0B3D55C9A76BD6F8EFE8 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_responseJson, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5024,7 +5256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onResponse_mCD95
 	WitResponseEvent_t5DEE4CFA5D09DD8C6293E1D41EF6A9ACBDD2CFDD* G_B2_0 = NULL;
 	{
 		// WitResponseNode responseData = WitResponseJson.Parse(responseJson);
-		String_t* L_0 = ___responseJson0;
+		String_t* L_0 = ___0_responseJson;
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1;
 		L_1 = WitResponseJson_Parse_m1098DB73BCAE6641AC19432128B5AAA2D4032540(L_0, NULL);
 		V_0 = L_1;
@@ -5069,7 +5301,7 @@ IL_0026:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onPartialResponse(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialResponse_m14C71A04CFE12D0FFDB9CB276F0C86B8C82CA447 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___responseJson0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialResponse_m14C71A04CFE12D0FFDB9CB276F0C86B8C82CA447 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_responseJson, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5082,7 +5314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialRespons
 	WitResponseEvent_t5DEE4CFA5D09DD8C6293E1D41EF6A9ACBDD2CFDD* G_B3_0 = NULL;
 	{
 		// WitResponseNode responseData = WitResponseJson.Parse(responseJson);
-		String_t* L_0 = ___responseJson0;
+		String_t* L_0 = ___0_responseJson;
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1;
 		L_1 = WitResponseJson_Parse_m1098DB73BCAE6641AC19432128B5AAA2D4032540(L_0, NULL);
 		V_0 = L_1;
@@ -5136,7 +5368,7 @@ IL_002e:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onError(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onError_m4F8174D0631069422F374E3CF898F9CE466741B0 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___error0, String_t* ___message1, String_t* ___errorBody2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onError_m4F8174D0631069422F374E3CF898F9CE466741B0 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_error, String_t* ___1_message, String_t* ___2_errorBody, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5166,8 +5398,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onError_m4F8174D
 
 IL_0010:
 	{
-		String_t* L_3 = ___error0;
-		String_t* L_4 = ___message1;
+		String_t* L_3 = ___0_error;
+		String_t* L_4 = ___1_message;
 		NullCheck(G_B2_0);
 		UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645(G_B2_0, L_3, L_4, UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645_RuntimeMethod_var);
 		// }
@@ -5237,7 +5469,7 @@ IL_0010:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onMicLevelChanged(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onMicLevelChanged_m43C06324CBCBD1C2692A9C72DB61113A0040999B (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, float ___level0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onMicLevelChanged_m43C06324CBCBD1C2692A9C72DB61113A0040999B (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, float ___0_level, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5267,7 +5499,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onMicLevelChange
 
 IL_0010:
 	{
-		float L_3 = ___level0;
+		float L_3 = ___0_level;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(G_B2_0, L_3, UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
 		// }
@@ -5343,7 +5575,7 @@ IL_0010:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onStoppedListening(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onStoppedListening_m32C92667EF3FD0350B528898375ED90B37A1CCE6 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, int32_t ___reason0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onStoppedListening_m32C92667EF3FD0350B528898375ED90B37A1CCE6 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, int32_t ___0_reason, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B2_0 = NULL;
@@ -5381,7 +5613,7 @@ IL_0011:
 IL_0016:
 	{
 		// switch((StoppedListeningReason)reason){
-		int32_t L_3 = ___reason0;
+		int32_t L_3 = ___0_reason;
 		V_0 = L_3;
 		int32_t L_4 = V_0;
 		switch (L_4)
@@ -5556,7 +5788,7 @@ IL_0010:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onPartialTranscription(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialTranscription_mBFD041B8FBC8A77436A557355259313BEAF5BFA9 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___transcription0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialTranscription_mBFD041B8FBC8A77436A557355259313BEAF5BFA9 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5587,7 +5819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onPartialTranscr
 
 IL_0010:
 	{
-		String_t* L_3 = ___transcription0;
+		String_t* L_3 = ___0_transcription;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B2_0, L_3, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
 		// }
@@ -5595,7 +5827,7 @@ IL_0010:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onFullTranscription(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onFullTranscription_mCAFD20DB9F2788E0279048D6B8EFD67BA893A7D6 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___transcription0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onFullTranscription_mCAFD20DB9F2788E0279048D6B8EFD67BA893A7D6 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5626,7 +5858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onFullTranscript
 
 IL_0010:
 	{
-		String_t* L_3 = ___transcription0;
+		String_t* L_3 = ___0_transcription;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B2_0, L_3, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
 		// }
@@ -5634,7 +5866,7 @@ IL_0010:
 	}
 }
 // System.Void Oculus.Voice.Bindings.Android.VoiceSDKListenerBinding::onServiceNotAvailable(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onServiceNotAvailable_mC60311EA03923B7E893C71665737A3FDCF20B336 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___error0, String_t* ___message1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onServiceNotAvailable_mC60311EA03923B7E893C71665737A3FDCF20B336 (VoiceSDKListenerBinding_t30997F28BDBC1D5E0513252605FC518F84D42BB4* __this, String_t* ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5647,16 +5879,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKListenerBinding_onServiceNotAvai
 	}
 	{
 		// Debug.LogWarning($"Platform service is not available: {error} - {message}");
-		String_t* L_0 = ___error0;
-		String_t* L_1 = ___message1;
+		String_t* L_0 = ___0_error;
+		String_t* L_1 = ___1_message;
 		String_t* L_2;
 		L_2 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralDD6C5540AB43FA5EAE750894E23E2E250DD5E7B1, L_0, _stringLiteral960E5E7F211EFF3243DF14EDD1901DC9EF314D62, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_2, NULL);
 		// _bindingEvents.OnServiceNotAvailable(error, message);
 		RuntimeObject* L_3 = __this->____bindingEvents_5;
-		String_t* L_4 = ___error0;
-		String_t* L_5 = ___message1;
+		String_t* L_4 = ___0_error;
+		String_t* L_5 = ___1_message;
 		NullCheck(L_3);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(0 /* System.Void Oculus.Voice.Bindings.Android.IVCBindingEvents::OnServiceNotAvailable(System.String,System.String) */, IVCBindingEvents_tCAE3B3E0378C6B68FF50642AB9BBF4851AD1A5C4_il2cpp_TypeInfo_var, L_3, L_4, L_5);
 		// }
@@ -5682,11 +5914,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t74ABC500
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Wit_set_RuntimeConfiguration_m1A5350CFD57C6598E99C034CC77994B07952DDAA_inline (Wit_t7582060C53BB0428697BD46A2E58C7A814907503* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Wit_set_RuntimeConfiguration_m1A5350CFD57C6598E99C034CC77994B07952DDAA_inline (Wit_t7582060C53BB0428697BD46A2E58C7A814907503* __this, WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => witRuntimeConfiguration = value;
-		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___value0;
+		WitRuntimeConfiguration_t74ABC500731591BA8D99A1C88E1821020551D3B3* L_0 = ___0_value;
 		__this->___witRuntimeConfiguration_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witRuntimeConfiguration_8), (void*)L_0);
 		return;

@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -40,7 +39,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t92C3B3ACEAE1C49A8F7C0315B94ECA080F434A75 
 {
 };
-struct Il2CppArrayBounds;
 
 // System.String
 struct String_t  : public RuntimeObject
@@ -49,12 +47,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -77,25 +69,11 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.IntPtr
 struct IntPtr_t 
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // UnityEngine.Quaternion
@@ -109,12 +87,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___z_2;
 	// System.Single UnityEngine.Quaternion::w
 	float ___w_3;
-};
-
-struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
-{
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
 };
 
 // System.Single
@@ -140,26 +112,6 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___y_1;
 };
 
-struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
-{
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
-};
-
 // UnityEngine.Vector3
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
 {
@@ -169,30 +121,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___y_3;
 	// System.Single UnityEngine.Vector3::z
 	float ___z_4;
-};
-
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
 };
 
 // System.Void
@@ -245,12 +173,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -310,17 +232,158 @@ struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143  : public Scripta
 	bool ___internalFieldsUpdated_14;
 };
 
+// UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
+struct ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7  : public OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143
+{
+};
+
+// <Module>
+
+// <Module>
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+};
+
+// UnityEngine.Quaternion
+
+// System.Single
+
+// System.Single
+
+// System.UInt64
+
+// System.UInt64
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrQuaternionf
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrQuaternionf
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrVector2f
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrVector2f
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrVector3f
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrVector3f
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrPosef
+
+// UnityEngine.XR.OpenXR.NativeTypes.XrPosef
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.ScriptableObject
+
+// UnityEngine.XR.OpenXR.Features.OpenXRFeature
 struct OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143_StaticFields
 {
 	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRFeature::<requiredFeatureFailed>k__BackingField
 	bool ___U3CrequiredFeatureFailedU3Ek__BackingField_6;
 };
 
-// UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
-struct ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7  : public OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143
-{
-};
+// UnityEngine.XR.OpenXR.Features.OpenXRFeature
 
+// UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
 struct ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields
 {
 	// System.UInt64 UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrInstance
@@ -328,6 +391,8 @@ struct ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_St
 	// System.UInt64 UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSession
 	uint64_t ___xrSession_18;
 };
+
+// UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -335,49 +400,49 @@ struct ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_St
 
 
 // System.Boolean UnityEngine.XR.OpenXR.OpenXRRuntime::IsExtensionEnabled(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5 (String_t* ___extensionName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5 (String_t* ___0_extensionName, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.XR.OpenXR.Features.OpenXRFeature::get_xrGetInstanceProcAddr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C (const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::initialize(System.IntPtr,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197 (intptr_t ___xrGetInstanceProcAddr0, uint64_t ___xrInstance1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197 (intptr_t ___0_xrGetInstanceProcAddr, uint64_t ___1_xrInstance, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.OpenXRFeature::OnInstanceDestroy(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnInstanceDestroy_m6F4662B4A824FB8CC0E43BE43C701BC20CF661CD (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___xrInstance0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnInstanceDestroy_m6F4662B4A824FB8CC0E43BE43C701BC20CF661CD (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.OpenXRFeature::OnSessionCreate(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnSessionCreate_m1687421C2B4816BF3A572AE9C74F183A3108F8F6 (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___xrSession0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnSessionCreate_m1687421C2B4816BF3A572AE9C74F183A3108F8F6 (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.OpenXRFeature::OnSessionDestroy(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnSessionDestroy_m342B36001F94E8DD461A229683FECFE4552AC48B (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___xrSession0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature_OnSessionDestroy_m342B36001F94E8DD461A229683FECFE4552AC48B (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) ;
 // System.UInt64 UnityEngine.XR.OpenXR.Features.OpenXRFeature::GetCurrentInteractionProfile(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRFeature_GetCurrentInteractionProfile_m1BB3E1B5A7BAEE217631F6FF54DEE7A2B3AB0B4D (String_t* ___userPath0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRFeature_GetCurrentInteractionProfile_m1BB3E1B5A7BAEE217631F6FF54DEE7A2B3AB0B4D (String_t* ___0_userPath, const RuntimeMethod* method) ;
 // System.UInt64 UnityEngine.XR.OpenXR.Features.OpenXRFeature::StringToPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD (String_t* ___str0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD (String_t* ___0_str, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceActiveEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54 (uint64_t ___xrSession0, uint64_t ___interactionProfile1, uint64_t ___topLevelPath2, bool ___isActive3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54 (uint64_t ___0_xrSession, uint64_t ___1_interactionProfile, uint64_t ___2_topLevelPath, bool ___3_isActive, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateBoolEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___state3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_state, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateFloatEXT(System.UInt64,System.UInt64,System.UInt64,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, float ___state3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, float ___3_state, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.NativeTypes.XrVector2f::.ctor(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrVector2f__ctor_m51B575C8D2A82F268115665EA11EA19F94626D12 (XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrVector2f__ctor_m51B575C8D2A82F268115665EA11EA19F94626D12 (XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateVector2fEXT(System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrVector2f)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m5473879B1B7DC220B1605535E11DE5B7D0C1024C (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___state3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m5473879B1B7DC220B1605535E11DE5B7D0C1024C (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___3_state, const RuntimeMethod* method) ;
 // System.UInt64 UnityEngine.XR.OpenXR.Features.OpenXRFeature::GetCurrentAppSpace()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t OpenXRFeature_GetCurrentAppSpace_m5675C9A791C8BADCF0C9152D1DE17A7B681AEF6B (const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.NativeTypes.XrPosef::.ctor(UnityEngine.Vector3,UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrPosef__ctor_m94BB8C6A2509884C414CD9145C43B8566F44A5B8 (XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___vec30, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___quaternion1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrPosef__ctor_m94BB8C6A2509884C414CD9145C43B8566F44A5B8 (XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vec3, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_quaternion, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceLocationEXT(System.UInt64,System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrPosef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, uint64_t ___space3, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___pose4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, uint64_t ___3_space, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___4_pose, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.NativeTypes.XrVector3f::.ctor(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrVector3f__ctor_mB3C25EDC634180520CE65E7926952976E469CBC6 (XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrVector3f__ctor_mB3C25EDC634180520CE65E7926952976E469CBC6 (XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(System.Single,UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___d0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceVelocityUNITY(System.UInt64,System.UInt64,System.UInt64,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___linearValid3, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___linear4, bool ___angularValid5, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___angular6, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_linearValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___4_linear, bool ___5_angularValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___6_angular, const RuntimeMethod* method) ;
 // System.Void UnityEngine.XR.OpenXR.Features.OpenXRFeature::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_m120460E34ECC22ED2DB96797A6DCB5C870E78852 (OpenXRFeature_tC2F8F480D62C277B2ECDD605F64E45053CD85143* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL script_initialize(intptr_t, uint64_t);
 #endif
@@ -413,7 +478,7 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL script_xrSetInputDeviceVelocityUNITY(uint64
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::OnInstanceCreate(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___instance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceCreate_m2FE4E5849C89EB442F5B56B7D3A62FFC7A3833FB (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_instance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -444,7 +509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_OnInstanceC
 IL_0018:
 	{
 		// xrInstance = instance;
-		uint64_t L_1 = ___instance0;
+		uint64_t L_1 = ___0_instance;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_17 = L_1;
 		// xrSession = 0ul;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18 = ((int64_t)0);
@@ -458,7 +523,7 @@ IL_0018:
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::OnInstanceDestroy(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___xrInstance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceDestroy_m96D8F96B35E8B653A502EB0DF784399E4136A12A (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -468,7 +533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceD
 	}
 	{
 		// base.OnInstanceDestroy(xrInstance);
-		uint64_t L_0 = ___xrInstance0;
+		uint64_t L_0 = ___0_xrInstance;
 		OpenXRFeature_OnInstanceDestroy_m6F4662B4A824FB8CC0E43BE43C701BC20CF661CD(__this, L_0, NULL);
 		// ConformanceAutomationFeature.xrInstance = 0ul;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrInstance_17 = ((int64_t)0);
@@ -477,7 +542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceD
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::OnSessionCreate(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___xrSessionId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCreate_m2979BF91B65F60D1B0C00F1B65B26B894E8F6BAF (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrSessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -487,7 +552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCr
 	}
 	{
 		// ConformanceAutomationFeature.xrSession = xrSessionId;
-		uint64_t L_0 = ___xrSessionId0;
+		uint64_t L_0 = ___0_xrSessionId;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18 = L_0;
 		// base.OnSessionCreate(xrSession);
 		uint64_t L_1 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
@@ -497,7 +562,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCr
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::OnSessionDestroy(System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724 (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___xrSessionId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDestroy_mC7E3A6C106E0079A0AE636DF7B419A9FBA609724 (ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7* __this, uint64_t ___0_xrSessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -507,7 +572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDe
 	}
 	{
 		// base.OnSessionDestroy(xrSessionId);
-		uint64_t L_0 = ___xrSessionId0;
+		uint64_t L_0 = ___0_xrSessionId;
 		OpenXRFeature_OnSessionDestroy_m342B36001F94E8DD461A229683FECFE4552AC48B(__this, L_0, NULL);
 		// ConformanceAutomationFeature.xrSession = 0ul;
 		((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18 = ((int64_t)0);
@@ -516,7 +581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDe
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetActive(System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetActive_mF4A84EFAC4CCD4611ED8353E5F475DB6A0F76D12 (String_t* ___interactionProfile0, String_t* ___topLevelPath1, bool ___isActive2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetActive_mF4A84EFAC4CCD4611ED8353E5F475DB6A0F76D12 (String_t* ___0_interactionProfile, String_t* ___1_topLevelPath, bool ___2_isActive, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -531,20 +596,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(topLevelPath),
 		//     isActive);
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___interactionProfile0;
+		String_t* L_1 = ___0_interactionProfile;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_GetCurrentInteractionProfile_m1BB3E1B5A7BAEE217631F6FF54DEE7A2B3AB0B4D(L_1, NULL);
-		String_t* L_3 = ___topLevelPath1;
+		String_t* L_3 = ___1_topLevelPath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
-		bool L_5 = ___isActive2;
+		bool L_5 = ___2_isActive;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54(L_0, L_2, L_4, L_5, NULL);
 		return L_6;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetBool(System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetBool_mAF080AEA6BA9F2178272DE6C3BAF16F6AA3BC1C8 (String_t* ___topLevelPath0, String_t* ___inputSourcePath1, bool ___state2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetBool_mAF080AEA6BA9F2178272DE6C3BAF16F6AA3BC1C8 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, bool ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -559,20 +624,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     state);
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___topLevelPath0;
+		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_1, NULL);
-		String_t* L_3 = ___inputSourcePath1;
+		String_t* L_3 = ___1_inputSourcePath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
-		bool L_5 = ___state2;
+		bool L_5 = ___2_state;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777(L_0, L_2, L_4, L_5, NULL);
 		return L_6;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetFloat(System.String,System.String,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetFloat_mD2EF304BE3B2B677541F451A787DDB1C6EBEE31F (String_t* ___topLevelPath0, String_t* ___inputSourcePath1, float ___state2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetFloat_mD2EF304BE3B2B677541F451A787DDB1C6EBEE31F (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, float ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -587,20 +652,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     state);
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___topLevelPath0;
+		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_1, NULL);
-		String_t* L_3 = ___inputSourcePath1;
+		String_t* L_3 = ___1_inputSourcePath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
-		float L_5 = ___state2;
+		float L_5 = ___2_state;
 		bool L_6;
 		L_6 = ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765(L_0, L_2, L_4, L_5, NULL);
 		return L_6;
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetVec2(System.String,System.String,UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVec2_mCC5BE5AD298944496AC6F1049CEE313375D3F972 (String_t* ___topLevelPath0, String_t* ___inputSourcePath1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___state2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVec2_mCC5BE5AD298944496AC6F1049CEE313375D3F972 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_state, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -615,13 +680,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     new XrVector2f(state));
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___topLevelPath0;
+		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_1, NULL);
-		String_t* L_3 = ___inputSourcePath1;
+		String_t* L_3 = ___1_inputSourcePath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___state2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___2_state;
 		XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		XrVector2f__ctor_m51B575C8D2A82F268115665EA11EA19F94626D12((&L_6), L_5, /*hidden argument*/NULL);
@@ -631,7 +696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetPose(System.String,System.String,UnityEngine.Vector3,UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetPose_m2C22B6572470A8D652AD54793EB45E798101FA27 (String_t* ___topLevelPath0, String_t* ___inputSourcePath1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___orientation3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetPose_m2C22B6572470A8D652AD54793EB45E798101FA27 (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___3_orientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -647,16 +712,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     GetCurrentAppSpace(),
 		//     new XrPosef(position, orientation));
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___topLevelPath0;
+		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_1, NULL);
-		String_t* L_3 = ___inputSourcePath1;
+		String_t* L_3 = ___1_inputSourcePath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
 		uint64_t L_5;
 		L_5 = OpenXRFeature_GetCurrentAppSpace_m5675C9A791C8BADCF0C9152D1DE17A7B681AEF6B(NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___position2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = ___orientation3;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___2_position;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7 = ___3_orientation;
 		XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 L_8;
 		memset((&L_8), 0, sizeof(L_8));
 		XrPosef__ctor_m94BB8C6A2509884C414CD9145C43B8566F44A5B8((&L_8), L_6, L_7, /*hidden argument*/NULL);
@@ -666,7 +731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	}
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::ConformanceAutomationSetVelocity(System.String,System.String,System.Boolean,UnityEngine.Vector3,System.Boolean,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m6FFAFFF40B684DDE72403D9D4CAFF4F16F46A42C (String_t* ___topLevelPath0, String_t* ___inputSourcePath1, bool ___linearValid2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___linear3, bool ___angularValid4, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___angular5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_ConformanceAutomationSetVelocity_m6FFAFFF40B684DDE72403D9D4CAFF4F16F46A42C (String_t* ___0_topLevelPath, String_t* ___1_inputSourcePath, bool ___2_linearValid, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___3_linear, bool ___4_angularValid, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___5_angular, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -685,19 +750,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     new XrVector3f(-1.0f * angular) // Angular velocity is multiplied by -1 in the OpenXR plugin so it must be negated here as well
 		// );
 		uint64_t L_0 = ((ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t0C2E5D391DBCC81F1B86F2D7E34719B7D292BFF7_il2cpp_TypeInfo_var))->___xrSession_18;
-		String_t* L_1 = ___topLevelPath0;
+		String_t* L_1 = ___0_topLevelPath;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_1, NULL);
-		String_t* L_3 = ___inputSourcePath1;
+		String_t* L_3 = ___1_inputSourcePath;
 		uint64_t L_4;
 		L_4 = OpenXRFeature_StringToPath_m42F1B25E454A454D3F9B0D8E2269DD60189B2ECD(L_3, NULL);
-		bool L_5 = ___linearValid2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___linear3;
+		bool L_5 = ___2_linearValid;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___3_linear;
 		XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A L_7;
 		memset((&L_7), 0, sizeof(L_7));
 		XrVector3f__ctor_mB3C25EDC634180520CE65E7926952976E469CBC6((&L_7), L_6, /*hidden argument*/NULL);
-		bool L_8 = ___angularValid4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___angular5;
+		bool L_8 = ___4_angularValid;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___5_angular;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((-1.0f), L_9, NULL);
 		XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A L_11;
@@ -709,7 +774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 	}
 }
 // System.Void UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::initialize(System.IntPtr,System.UInt64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197 (intptr_t ___xrGetInstanceProcAddr0, uint64_t ___xrInstance1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_m1B315C43D35E283CCFEAF84FBC98B64B55B27197 (intptr_t ___0_xrGetInstanceProcAddr, uint64_t ___1_xrInstance, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (intptr_t, uint64_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -724,14 +789,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_initialize_
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	reinterpret_cast<PInvokeFunc>(script_initialize)(___xrGetInstanceProcAddr0, ___xrInstance1);
+	reinterpret_cast<PInvokeFunc>(script_initialize)(___0_xrGetInstanceProcAddr, ___1_xrInstance);
 	#else
-	il2cppPInvokeFunc(___xrGetInstanceProcAddr0, ___xrInstance1);
+	il2cppPInvokeFunc(___0_xrGetInstanceProcAddr, ___1_xrInstance);
 	#endif
 
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceActiveEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54 (uint64_t ___xrSession0, uint64_t ___interactionProfile1, uint64_t ___topLevelPath2, bool ___isActive3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceActiveEXT_mCA351F487857A2CC4C2F98078BE2BFEBB19E5D54 (uint64_t ___0_xrSession, uint64_t ___1_interactionProfile, uint64_t ___2_topLevelPath, bool ___3_isActive, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -746,15 +811,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceActiveEXT)(___xrSession0, ___interactionProfile1, ___topLevelPath2, static_cast<int32_t>(___isActive3));
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceActiveEXT)(___0_xrSession, ___1_interactionProfile, ___2_topLevelPath, static_cast<int32_t>(___3_isActive));
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___interactionProfile1, ___topLevelPath2, static_cast<int32_t>(___isActive3));
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_interactionProfile, ___2_topLevelPath, static_cast<int32_t>(___3_isActive));
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateBoolEXT(System.UInt64,System.UInt64,System.UInt64,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___state3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateBoolEXT_m4A825E828EA07831112EC159CDCCE4AC11C86777 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_state, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -769,15 +834,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateBoolEXT)(___xrSession0, ___topLevelPath1, ___inputSourcePath2, static_cast<int32_t>(___state3));
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateBoolEXT)(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, static_cast<int32_t>(___3_state));
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___topLevelPath1, ___inputSourcePath2, static_cast<int32_t>(___state3));
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, static_cast<int32_t>(___3_state));
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateFloatEXT(System.UInt64,System.UInt64,System.UInt64,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, float ___state3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateFloatEXT_mCDF3171C55122EDEA62C1E93904F0F231BB11765 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, float ___3_state, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, float);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -792,15 +857,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateFloatEXT)(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___state3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateFloatEXT)(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_state);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___state3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_state);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceStateVector2fEXT(System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrVector2f)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m5473879B1B7DC220B1605535E11DE5B7D0C1024C (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___state3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceStateVector2fEXT_m5473879B1B7DC220B1605535E11DE5B7D0C1024C (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188 ___3_state, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, XrVector2f_t347E48BCFE5F37AFA86233510BC67C246F868188);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -815,15 +880,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateVector2fEXT)(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___state3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceStateVector2fEXT)(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_state);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___state3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_state);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceLocationEXT(System.UInt64,System.UInt64,System.UInt64,System.UInt64,UnityEngine.XR.OpenXR.NativeTypes.XrPosef)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, uint64_t ___space3, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___pose4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceLocationEXT_m205D504F56533E790B6F2CEA8702FB5EF997ADC9 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, uint64_t ___3_space, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0 ___4_pose, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, uint64_t, XrPosef_t30CFD88924941CAA7DB413CD1AFF423530A90DD0);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -838,15 +903,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceLocationEXT)(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___space3, ___pose4);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceLocationEXT)(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_space, ___4_pose);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___topLevelPath1, ___inputSourcePath2, ___space3, ___pose4);
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, ___3_space, ___4_pose);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSetInputDeviceVelocityUNITY(System.UInt64,System.UInt64,System.UInt64,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f,System.Boolean,UnityEngine.XR.OpenXR.NativeTypes.XrVector3f)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (uint64_t ___xrSession0, uint64_t ___topLevelPath1, uint64_t ___inputSourcePath2, bool ___linearValid3, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___linear4, bool ___angularValid5, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___angular6, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputDeviceVelocityUNITY_m840F7BCC7FE9D2F2560A70DD16FA0F1BA1B04490 (uint64_t ___0_xrSession, uint64_t ___1_topLevelPath, uint64_t ___2_inputSourcePath, bool ___3_linearValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___4_linear, bool ___5_angularValid, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A ___6_angular, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint64_t, uint64_t, uint64_t, int32_t, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A, int32_t, XrVector3f_t63DECBA2AFC7771B19C164A533925A5E20386F2A);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
@@ -861,9 +926,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_xrSetInputD
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_ConformanceAutomationExt_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceVelocityUNITY)(___xrSession0, ___topLevelPath1, ___inputSourcePath2, static_cast<int32_t>(___linearValid3), ___linear4, static_cast<int32_t>(___angularValid5), ___angular6);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(script_xrSetInputDeviceVelocityUNITY)(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, static_cast<int32_t>(___3_linearValid), ___4_linear, static_cast<int32_t>(___5_angularValid), ___6_angular);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___xrSession0, ___topLevelPath1, ___inputSourcePath2, static_cast<int32_t>(___linearValid3), ___linear4, static_cast<int32_t>(___angularValid5), ___angular6);
+	int32_t returnValue = il2cppPInvokeFunc(___0_xrSession, ___1_topLevelPath, ___2_inputSourcePath, static_cast<int32_t>(___3_linearValid), ___4_linear, static_cast<int32_t>(___5_angularValid), ___6_angular);
 	#endif
 
 	return static_cast<bool>(returnValue);
@@ -879,20 +944,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature__ctor_mD56E
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___d0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline (float ___0_d, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_a, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___1_a;
 		float L_1 = L_0.___x_2;
-		float L_2 = ___d0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___a1;
+		float L_2 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_a;
 		float L_4 = L_3.___y_3;
-		float L_5 = ___d0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a1;
+		float L_5 = ___0_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_a;
 		float L_7 = L_6.___z_4;
-		float L_8 = ___d0;
+		float L_8 = ___0_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
@@ -906,14 +971,14 @@ IL_0021:
 		return L_10;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_2 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_3 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_4 = L_2;
 		return;
 	}

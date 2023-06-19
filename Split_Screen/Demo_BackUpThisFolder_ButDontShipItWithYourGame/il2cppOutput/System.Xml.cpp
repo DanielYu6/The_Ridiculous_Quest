@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -29,7 +28,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t4791F64F4B6411D4D033A002CAD365D597AA2451 
 {
 };
-struct Il2CppArrayBounds;
 
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
@@ -54,16 +52,6 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD  : public RuntimeObje
 {
 };
 
-struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
-{
-	// System.UInt32 System.Xml.XmlReader::IsTextualNodeBitmap
-	uint32_t ___IsTextualNodeBitmap_0;
-	// System.UInt32 System.Xml.XmlReader::CanReadContentAsBitmap
-	uint32_t ___CanReadContentAsBitmap_1;
-	// System.UInt32 System.Xml.XmlReader::HasValueBitmap
-	uint32_t ___HasValueBitmap_2;
-};
-
 // System.UInt32
 struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
 {
@@ -82,6 +70,39 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
+
+// <Module>
+
+// <Module>
+
+// System.ValueType
+
+// System.ValueType
+
+// System.Xml.XmlNode
+
+// System.Xml.XmlNode
+
+// System.Xml.XmlReader
+struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
+{
+	// System.UInt32 System.Xml.XmlReader::IsTextualNodeBitmap
+	uint32_t ___IsTextualNodeBitmap_0;
+	// System.UInt32 System.Xml.XmlReader::CanReadContentAsBitmap
+	uint32_t ___CanReadContentAsBitmap_1;
+	// System.UInt32 System.Xml.XmlReader::HasValueBitmap
+	uint32_t ___HasValueBitmap_2;
+};
+
+// System.Xml.XmlReader
+
+// System.UInt32
+
+// System.UInt32
+
+// System.Void
+
+// System.Void
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

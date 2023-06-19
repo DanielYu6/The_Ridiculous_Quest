@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -394,7 +393,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t75911B81A9A35C1B5DDBD01EB6C1C706EA38E8E4 
 {
 };
-struct Il2CppArrayBounds;
 
 // Facebook.WitAi.Events.EventRegistry
 struct EventRegistry_t99AFB9CB7F3AE036D371CE2385B5708CD93517AD  : public RuntimeObject
@@ -412,12 +410,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // UnityEngine.Events.UnityEventBase
@@ -522,14 +514,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // UnityEngine.Color
 struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
 {
@@ -550,20 +534,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 	uint64_t ____dateData_46;
 };
 
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
 // System.Double
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
@@ -574,12 +544,6 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
-};
-
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
 };
 // Native definition for P/Invoke marshalling of System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
@@ -604,12 +568,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -622,16 +580,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A
 {
 	// System.Int64 System.TimeSpan::_ticks
 	int64_t ____ticks_22;
-};
-
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
 };
 
 // UnityEngine.Events.UnityEvent
@@ -652,30 +600,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___z_4;
 };
 
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
-};
-
 // UnityEngine.Vector4
 struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
 {
@@ -687,18 +611,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3
 	float ___z_3;
 	// System.Single UnityEngine.Vector4::w
 	float ___w_4;
-};
-
-struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
-{
-	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
-	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
-	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
-	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
 };
 
 // Facebook.WitAi.Events.VoiceEvents
@@ -761,7 +673,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
-#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D12_tBD333E65C9ADD95F941A92CAC8E09377CAC5A5C5 
 {
 	union
@@ -775,17 +686,10 @@ struct __StaticArrayInitTypeSizeU3D12_tBD333E65C9ADD95F941A92CAC8E09377CAC5A5C5
 		uint8_t __StaticArrayInitTypeSizeU3D12_tBD333E65C9ADD95F941A92CAC8E09377CAC5A5C5__padding[12];
 	};
 };
-#pragma pack(pop, tp)
 
 // <PrivateImplementationDetails>
 struct U3CPrivateImplementationDetailsU3E_t11952A12A5F19FE838A1B932A72B4645BA5EB797  : public RuntimeObject
 {
-};
-
-struct U3CPrivateImplementationDetailsU3E_t11952A12A5F19FE838A1B932A72B4645BA5EB797_StaticFields
-{
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::FBC2FB414C8563ACAF804065DA6998D2D92E7C966A37DE63A42566708F3E0F70
-	__StaticArrayInitTypeSizeU3D12_tBD333E65C9ADD95F941A92CAC8E09377CAC5A5C5 ___FBC2FB414C8563ACAF804065DA6998D2D92E7C966A37DE63A42566708F3E0F70_0;
 };
 
 // Oculus.Voice.Demo.ColorOverride
@@ -910,12 +814,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -969,12 +867,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -1072,22 +964,6 @@ struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6  : public RuntimeObj
 	CoroutinePerformer_t4817D17E59F38DA4EBE8A6618B780513B4DD0E6B* ____performer_59;
 	// System.Collections.Concurrent.ConcurrentQueue`1<System.Action> Facebook.WitAi.WitRequest::_mainThreadCallbacks
 	ConcurrentQueue_1_tC8B0BCCEA7ED64CA00454B9EB2F35771723A00D3* ____mainThreadCallbacks_60;
-};
-
-struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6_StaticFields
-{
-	// Facebook.WitAi.WitRequest/PreSendRequestDelegate Facebook.WitAi.WitRequest::onPreSendRequest
-	PreSendRequestDelegate_t8DAF536AB45C30AE57A5BEE4701E62E6B5878E0B* ___onPreSendRequest_41;
-	// System.String Facebook.WitAi.WitRequest::_operatingSystem
-	String_t* ____operatingSystem_54;
-	// System.String Facebook.WitAi.WitRequest::_deviceModel
-	String_t* ____deviceModel_55;
-	// System.String Facebook.WitAi.WitRequest::_appIdentifier
-	String_t* ____appIdentifier_56;
-	// System.String Facebook.WitAi.WitRequest::_unityVersion
-	String_t* ____unityVersion_57;
-	// System.Func`1<System.String> Facebook.WitAi.WitRequest::OnProvideCustomUserAgent
-	Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___OnProvideCustomUserAgent_58;
 };
 
 // Facebook.WitAi.Events.WitRequestCreatedEvent
@@ -1263,12 +1139,6 @@ struct Instructions_tC62658EBAF6A7FAD2B89C78C0DB25D5ECC475DE8  : public MonoBeha
 	int32_t ___currentStep_6;
 };
 
-struct Instructions_tC62658EBAF6A7FAD2B89C78C0DB25D5ECC475DE8_StaticFields
-{
-	// System.String[] Oculus.Voice.Demo.UIShapesDemo.Instructions::steps
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___steps_4;
-};
-
 // Oculus.Voice.Demo.InteractionHandler
 struct InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -1399,34 +1269,496 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_t
 	bool ___m_SkipMaterialUpdate_9;
 	// System.Boolean UnityEngine.UI.Graphic::m_RaycastTarget
 	bool ___m_RaycastTarget_10;
+	// System.Boolean UnityEngine.UI.Graphic::m_RaycastTargetCache
+	bool ___m_RaycastTargetCache_11;
 	// UnityEngine.Vector4 UnityEngine.UI.Graphic::m_RaycastPadding
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding_11;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding_12;
 	// UnityEngine.RectTransform UnityEngine.UI.Graphic::m_RectTransform
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform_12;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform_13;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.Graphic::m_CanvasRenderer
-	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer_13;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer_14;
 	// UnityEngine.Canvas UnityEngine.UI.Graphic::m_Canvas
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas_14;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas_15;
 	// System.Boolean UnityEngine.UI.Graphic::m_VertsDirty
-	bool ___m_VertsDirty_15;
+	bool ___m_VertsDirty_16;
 	// System.Boolean UnityEngine.UI.Graphic::m_MaterialDirty
-	bool ___m_MaterialDirty_16;
+	bool ___m_MaterialDirty_17;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyLayoutCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback_17;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback_18;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyVertsCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback_18;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback_19;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyMaterialCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback_19;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback_20;
 	// UnityEngine.Mesh UnityEngine.UI.Graphic::m_CachedMesh
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh_22;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh_23;
 	// UnityEngine.Vector2[] UnityEngine.UI.Graphic::m_CachedUvs
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs_23;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs_24;
 	// UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> UnityEngine.UI.Graphic::m_ColorTweenRunner
-	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner_24;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner_25;
 	// System.Boolean UnityEngine.UI.Graphic::<useLegacyMeshGeneration>k__BackingField
-	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField_25;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField_26;
 };
 
+// UnityEngine.UI.MaskableGraphic
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculateStencil
+	bool ___m_ShouldRecalculateStencil_27;
+	// UnityEngine.Material UnityEngine.UI.MaskableGraphic::m_MaskMaterial
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial_28;
+	// UnityEngine.UI.RectMask2D UnityEngine.UI.MaskableGraphic::m_ParentMask
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask_29;
+	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
+	bool ___m_Maskable_30;
+	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IsMaskingGraphic
+	bool ___m_IsMaskingGraphic_31;
+	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IncludeForMasking
+	bool ___m_IncludeForMasking_32;
+	// UnityEngine.UI.MaskableGraphic/CullStateChangedEvent UnityEngine.UI.MaskableGraphic::m_OnCullStateChanged
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged_33;
+	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculate
+	bool ___m_ShouldRecalculate_34;
+	// System.Int32 UnityEngine.UI.MaskableGraphic::m_StencilValue
+	int32_t ___m_StencilValue_35;
+	// UnityEngine.Vector3[] UnityEngine.UI.MaskableGraphic::m_Corners
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_36;
+};
+
+// UnityEngine.UI.Text
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_37;
+	// System.String UnityEngine.UI.Text::m_Text
+	String_t* ___m_Text_38;
+	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCache
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_39;
+	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCacheForLayout
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_40;
+	// System.Boolean UnityEngine.UI.Text::m_DisableFontTextureRebuiltCallback
+	bool ___m_DisableFontTextureRebuiltCallback_42;
+	// UnityEngine.UIVertex[] UnityEngine.UI.Text::m_TempVerts
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_43;
+};
+
+// <Module>
+
+// <Module>
+
+// Facebook.WitAi.Events.EventRegistry
+
+// Facebook.WitAi.Events.EventRegistry
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// UnityEngine.Events.UnityEventBase
+
+// UnityEngine.Events.UnityEventBase
+
+// System.ValueType
+
+// System.ValueType
+
+// Facebook.WitAi.Data.VoiceSession
+
+// Facebook.WitAi.Data.VoiceSession
+
+// Facebook.WitAi.Data.Intents.WitIntentData
+
+// Facebook.WitAi.Data.Intents.WitIntentData
+
+// Facebook.WitAi.Lib.WitResponseNode
+
+// Facebook.WitAi.Lib.WitResponseNode
+
+// Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass12_0
+
+// Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass12_0
+
+// Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass15_0
+
+// Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass15_0
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// UnityEngine.Color
+
+// UnityEngine.Color
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Double
+
+// System.Double
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+
+// System.Enum
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Single
+
+// System.Single
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// System.TimeSpan
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
+};
+
+// UnityEngine.Vector4
+
+// Facebook.WitAi.Events.VoiceEvents
+
+// Facebook.WitAi.Events.VoiceEvents
+
+// System.Void
+
+// System.Void
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
+
+// <PrivateImplementationDetails>
+struct U3CPrivateImplementationDetailsU3E_t11952A12A5F19FE838A1B932A72B4645BA5EB797_StaticFields
+{
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::FBC2FB414C8563ACAF804065DA6998D2D92E7C966A37DE63A42566708F3E0F70
+	__StaticArrayInitTypeSizeU3D12_tBD333E65C9ADD95F941A92CAC8E09377CAC5A5C5 ___FBC2FB414C8563ACAF804065DA6998D2D92E7C966A37DE63A42566708F3E0F70_0;
+};
+
+// <PrivateImplementationDetails>
+
+// Oculus.Voice.Demo.ColorOverride
+
+// Oculus.Voice.Demo.ColorOverride
+
+// System.Delegate
+
+// System.Delegate
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// UnityEngine.KeyCode
+
+// UnityEngine.KeyCode
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// System.RuntimeFieldHandle
+
+// System.RuntimeFieldHandle
+
+// Facebook.WitAi.Events.WitErrorEvent
+
+// Facebook.WitAi.Events.WitErrorEvent
+
+// Facebook.WitAi.WitRequest
+struct WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6_StaticFields
+{
+	// Facebook.WitAi.WitRequest/PreSendRequestDelegate Facebook.WitAi.WitRequest::onPreSendRequest
+	PreSendRequestDelegate_t8DAF536AB45C30AE57A5BEE4701E62E6B5878E0B* ___onPreSendRequest_41;
+	// System.String Facebook.WitAi.WitRequest::_operatingSystem
+	String_t* ____operatingSystem_54;
+	// System.String Facebook.WitAi.WitRequest::_deviceModel
+	String_t* ____deviceModel_55;
+	// System.String Facebook.WitAi.WitRequest::_appIdentifier
+	String_t* ____appIdentifier_56;
+	// System.String Facebook.WitAi.WitRequest::_unityVersion
+	String_t* ____unityVersion_57;
+	// System.Func`1<System.String> Facebook.WitAi.WitRequest::OnProvideCustomUserAgent
+	Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C* ___OnProvideCustomUserAgent_58;
+};
+
+// Facebook.WitAi.WitRequest
+
+// Facebook.WitAi.Events.WitRequestCreatedEvent
+
+// Facebook.WitAi.Events.WitRequestCreatedEvent
+
+// Facebook.WitAi.Events.WitResponseEvent
+
+// Facebook.WitAi.Events.WitResponseEvent
+
+// Facebook.WitAi.Events.WitTranscriptionEvent
+
+// Facebook.WitAi.Events.WitTranscriptionEvent
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// UnityEngine.Material
+
+// UnityEngine.Material
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// System.SystemException
+
+// System.SystemException
+
+// System.Action`1<System.Object>
+
+// System.Action`1<System.Object>
+
+// System.Action`1<UnityEngine.Renderer>
+
+// System.Action`1<UnityEngine.Renderer>
+
+// System.Action`1<System.String>
+
+// System.Action`1<System.String>
+
+// System.Action`2<System.Object,UnityEngine.Color>
+
+// System.Action`2<System.Object,UnityEngine.Color>
+
+// System.Action`2<UnityEngine.Renderer,UnityEngine.Color>
+
+// System.Action`2<UnityEngine.Renderer,UnityEngine.Color>
+
+// System.Predicate`1<Oculus.Voice.Demo.ColorOverride>
+
+// System.Predicate`1<Oculus.Voice.Demo.ColorOverride>
+
+// System.Predicate`1<UnityEngine.Renderer>
+
+// System.Predicate`1<UnityEngine.Renderer>
+
+// UnityEngine.Events.UnityAction`1<System.String>
+
+// UnityEngine.Events.UnityAction`1<System.String>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.WitRequest>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// System.ArgumentException
+
+// System.ArgumentException
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Renderer
+
+// UnityEngine.Renderer
+
+// UnityEngine.Transform
+
+// UnityEngine.Transform
+
+// UnityEngine.Events.UnityAction
+
+// UnityEngine.Events.UnityAction
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// Oculus.Voice.Demo.ButtonEventWatcher
+
+// Oculus.Voice.Demo.ButtonEventWatcher
+
+// Oculus.Voice.Demo.UIShapesDemo.ColorChanger
+
+// Oculus.Voice.Demo.UIShapesDemo.ColorChanger
+
+// Oculus.Voice.Demo.UIShapesDemo.Instructions
+struct Instructions_tC62658EBAF6A7FAD2B89C78C0DB25D5ECC475DE8_StaticFields
+{
+	// System.String[] Oculus.Voice.Demo.UIShapesDemo.Instructions::steps
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___steps_4;
+};
+
+// Oculus.Voice.Demo.UIShapesDemo.Instructions
+
+// Oculus.Voice.Demo.InteractionHandler
+
+// Oculus.Voice.Demo.InteractionHandler
+
+// Oculus.Voice.Demo.UIShapesDemo.ParallelTranscriptHandler
+
+// Oculus.Voice.Demo.UIShapesDemo.ParallelTranscriptHandler
+
+// Oculus.Voice.Demo.ShortResponseColorHandler
+
+// Oculus.Voice.Demo.ShortResponseColorHandler
+
+// Oculus.Voice.Demo.ShortResponseInstructions
+
+// Oculus.Voice.Demo.ShortResponseInstructions
+
+// Oculus.Voice.Demo.BuiltInDemo.TimerController
+
+// Oculus.Voice.Demo.BuiltInDemo.TimerController
+
+// Oculus.Voice.Demo.BuiltInDemo.TimerDisplay
+
+// Oculus.Voice.Demo.BuiltInDemo.TimerDisplay
+
+// UnityEngine.EventSystems.UIBehaviour
+
+// UnityEngine.EventSystems.UIBehaviour
+
+// Facebook.WitAi.VoiceService
+
+// Facebook.WitAi.VoiceService
+
+// Oculus.Voice.AppVoiceExperience
+
+// Oculus.Voice.AppVoiceExperience
+
+// UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
 {
 	// UnityEngine.Material UnityEngine.UI.Graphic::s_DefaultUI
@@ -1434,58 +1766,25 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
 	// UnityEngine.Texture2D UnityEngine.UI.Graphic::s_WhiteTexture
 	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture_5;
 	// UnityEngine.Mesh UnityEngine.UI.Graphic::s_Mesh
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh_20;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh_21;
 	// UnityEngine.UI.VertexHelper UnityEngine.UI.Graphic::s_VertexHelper
-	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper_21;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper_22;
 };
+
+// UnityEngine.UI.Graphic
 
 // UnityEngine.UI.MaskableGraphic
-struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
-{
-	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculateStencil
-	bool ___m_ShouldRecalculateStencil_26;
-	// UnityEngine.Material UnityEngine.UI.MaskableGraphic::m_MaskMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial_27;
-	// UnityEngine.UI.RectMask2D UnityEngine.UI.MaskableGraphic::m_ParentMask
-	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask_28;
-	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
-	bool ___m_Maskable_29;
-	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IsMaskingGraphic
-	bool ___m_IsMaskingGraphic_30;
-	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IncludeForMasking
-	bool ___m_IncludeForMasking_31;
-	// UnityEngine.UI.MaskableGraphic/CullStateChangedEvent UnityEngine.UI.MaskableGraphic::m_OnCullStateChanged
-	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged_32;
-	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculate
-	bool ___m_ShouldRecalculate_33;
-	// System.Int32 UnityEngine.UI.MaskableGraphic::m_StencilValue
-	int32_t ___m_StencilValue_34;
-	// UnityEngine.Vector3[] UnityEngine.UI.MaskableGraphic::m_Corners
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_35;
-};
+
+// UnityEngine.UI.MaskableGraphic
 
 // UnityEngine.UI.Text
-struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
-{
-	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
-	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_36;
-	// System.String UnityEngine.UI.Text::m_Text
-	String_t* ___m_Text_37;
-	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCache
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_38;
-	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCacheForLayout
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_39;
-	// System.Boolean UnityEngine.UI.Text::m_DisableFontTextureRebuiltCallback
-	bool ___m_DisableFontTextureRebuiltCallback_41;
-	// UnityEngine.UIVertex[] UnityEngine.UI.Text::m_TempVerts
-	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_42;
-};
-
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
 {
 	// UnityEngine.Material UnityEngine.UI.Text::s_DefaultText
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_40;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_41;
 };
+
+// UnityEngine.UI.Text
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1665,207 +1964,207 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 
 
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // T[] UnityEngine.Component::GetComponentsInChildren<System.Object>(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___includeInactive0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Int32 System.Array::FindIndex<System.Object>(T[],System.Predicate`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_FindIndex_TisRuntimeObject_m98C6E76A5791AF4F95160B4CAC3F57FAAC40F474_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___match1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_FindIndex_TisRuntimeObject_m98C6E76A5791AF4F95160B4CAC3F57FAAC40F474_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___1_match, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<Oculus.Voice.Demo.ColorOverride>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2_gshared (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2_gshared (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Int32 System.Array::FindIndex<Oculus.Voice.Demo.ColorOverride>(T[],System.Predicate`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA_gshared (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400* ___array0, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* ___match1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA_gshared (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400* ___0_array, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* ___1_match, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,UnityEngine.Color>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline (Action_2_tA6D2280AF26A98A178E1D2455D1B9A83FADE20C8* __this, RuntimeObject* ___arg10, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline (Action_2_tA6D2280AF26A98A178E1D2455D1B9A83FADE20C8* __this, RuntimeObject* ___0_arg1, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_arg2, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Input::GetKeyUp(UnityEngine.KeyCode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F (int32_t ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F (int32_t ___0_key, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___array0, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___fldHandle1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Facebook.WitAi.WitRequest>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mC68F8A4F3AF384E98233DAD2A98227C4D3C1C9BB (UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mC68F8A4F3AF384E98233DAD2A98227C4D3C1C9BB (UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_mEADECF4FEDE565AC2BB93D8533D084FA1109F13C (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_mEADECF4FEDE565AC2BB93D8533D084FA1109F13C (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // Facebook.WitAi.Events.WitTranscriptionEvent Facebook.WitAi.Events.VoiceEvents::get_OnPartialTranscription()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitTranscriptionEvent_t46F45C5FE99C833DFE345D2255587E22A1ABE32E* VoiceEvents_get_OnPartialTranscription_m9EE42862E01DA8C6319C4853689753E5E2CC4F10_inline (VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71 (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71 (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // Facebook.WitAi.Events.WitTranscriptionEvent Facebook.WitAi.Events.VoiceEvents::get_OnFullTranscription()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitTranscriptionEvent_t46F45C5FE99C833DFE345D2255587E22A1ABE32E* VoiceEvents_get_OnFullTranscription_m03ED3515BF8736C1F47C04A1AB6AB33DAC084474_inline (VoiceEvents_tB9CCDD1C68F3A784600E7932935F705B17B8F1F5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Facebook.WitAi.Lib.WitResponseNode>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mF4F621DB3C8F308CF78411309EDFD1334CF9CE75 (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mF4F621DB3C8F308CF78411309EDFD1334CF9CE75 (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_mAAD4F26F685871E030131375B05060E33216E0C3 (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_mAAD4F26F685871E030131375B05060E33216E0C3 (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`2<System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.WitRequest>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m2099572604C944BAF06FEA15375850095D7539E2 (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m2099572604C944BAF06FEA15375850095D7539E2 (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F* __this, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t238789F4DA2D455190194173EDA6D6473BAC295F*, UnityAction_1_tFDA052B13D3AEF95CD5C98794BB4959CA2A2EFF1*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m580353A1B030A82D1205B9BA94CF3484866C027F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m580353A1B030A82D1205B9BA94CF3484866C027F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent::RemoveListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Facebook.WitAi.Lib.WitResponseNode>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m696D0B92F65BCDA59D7C1EEA56EF4B017BFE607B (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m696D0B92F65BCDA59D7C1EEA56EF4B017BFE607B (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366* __this, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t9B421777BDE1F0A6F551628B06DADBCD02D20366*, UnityAction_1_t709797DCB7374983691CE23694848B9DDB4C4CB8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___0_call, method);
 }
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::OnRequestComplete()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestComplete_m449DD8F1CD8DF80BB257475B402CA05EBFF14567 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.Lib.WitResponseNode::op_Implicit(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitResponseNode_op_Implicit_m143C3C59FB868D3352C8B2A15B059A1A1DC6AE87 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___d0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitResponseNode_op_Implicit_m143C3C59FB868D3352C8B2A15B059A1A1DC6AE87 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_d, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___values0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.InteractionHandler::SetActivation(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_SetActivation_mDEDD01496E934DA04049F4C562B7DDA55E3CC8FE (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, bool ___toActivated0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_SetActivation_mDEDD01496E934DA04049F4C562B7DDA55E3CC8FE (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, bool ___0_toActivated, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.VoiceService::Activate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService_Activate_m3DC058FC647D695E09E699E7EBDE5835FC3294B7 (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T[] UnityEngine.Component::GetComponentsInChildren<UnityEngine.Renderer>(System.Boolean)
-inline RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m28EB00D8747BD14E8E8EC3BFDB9D79F689CB0293 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___includeInactive0, const RuntimeMethod* method)
+inline RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* Component_GetComponentsInChildren_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m28EB00D8747BD14E8E8EC3BFDB9D79F689CB0293 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, bool ___0_includeInactive, const RuntimeMethod* method)
 {
-	return ((  RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared)(__this, ___includeInactive0, method);
+	return ((  RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, bool, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m90734C3A39A158985239CB90DE2F0792F1D99926_gshared)(__this, ___0_includeInactive, method);
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SelectShape(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD4B3D59B2C4A16BB5F0540884F2BDFC7CE2751D6 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, int32_t ___shapeIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD4B3D59B2C4A16BB5F0540884F2BDFC7CE2751D6 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, int32_t ___0_shapeIndex, const RuntimeMethod* method) ;
 // System.Boolean Facebook.WitAi.Lib.WitResponseNode::op_Equality(Facebook.WitAi.Lib.WitResponseNode,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Equality_mD5BCAA7A11FA15F1DC0CC6D0A08E800AC49B7170 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___a0, RuntimeObject* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Equality_mD5BCAA7A11FA15F1DC0CC6D0A08E800AC49B7170 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_a, RuntimeObject* ___1_b, const RuntimeMethod* method) ;
 // Facebook.WitAi.Data.Intents.WitIntentData Facebook.WitAi.WitResultUtilities::GetFirstIntentData(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitIntentData_t6A544591D0035DEADD1FEE4F4598099B2E4436FD* WitResultUtilities_GetFirstIntentData_m316AA16B85560B2ABDE88353B95B6267B1972F19 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___witResponse0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitIntentData_t6A544591D0035DEADD1FEE4F4598099B2E4436FD* WitResultUtilities_GetFirstIntentData_m316AA16B85560B2ABDE88353B95B6267B1972F19 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_witResponse, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String,System.String,System.StringComparison)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___a0, String_t* ___b1, int32_t ___comparisonType2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___0_a, String_t* ___1_b, int32_t ___2_comparisonType, const RuntimeMethod* method) ;
 // System.String Facebook.WitAi.WitResultUtilities::GetFirstEntityValue(Facebook.WitAi.Lib.WitResponseNode,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitResultUtilities_GetFirstEntityValue_m86E5E3EEF5F22ED8A083862C5FB8CD46D6AB22D3 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___witResponse0, String_t* ___name1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WitResultUtilities_GetFirstEntityValue_m86E5E3EEF5F22ED8A083862C5FB8CD46D6AB22D3 (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_witResponse, String_t* ___1_name, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::OnValidateShapeSelect(Facebook.WitAi.Data.VoiceSession,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShapeSelect_m72B5BB464D9C4946BABCCAC30B30D759D14029FA (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___sessionData0, String_t* ___shape1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShapeSelect_m72B5BB464D9C4946BABCCAC30B30D759D14029FA (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___0_sessionData, String_t* ___1_shape, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::OnValidateColorSet(Facebook.WitAi.Data.VoiceSession,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateColorSet_mF3B2056B3BB8B07360522B55BBC0778D908B9E52 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___sessionData0, String_t* ___color1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateColorSet_mF3B2056B3BB8B07360522B55BBC0778D908B9E52 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___0_sessionData, String_t* ___1_color, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler::TryGetShapeIndex(System.String,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetShapeIndex_m84FAA11872A88E92D22FE2E5D52F31D799BC97BF (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___shapeName0, int32_t* ___index1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetShapeIndex_m84FAA11872A88E92D22FE2E5D52F31D799BC97BF (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___0_shapeName, int32_t* ___1_index, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass12_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_mEAC0FC12CAA4A216A148A598208ABDB5B57FA7A1 (U3CU3Ec__DisplayClass12_0_t9CFE5CB278A62A564AD53EE3B07A377174BD17B9* __this, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<UnityEngine.Renderer>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_mE04A2EB2FF42D22A21B3B0E8A14246F719341D64 (Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_mE04A2EB2FF42D22A21B3B0E8A14246F719341D64 (Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Int32 System.Array::FindIndex<UnityEngine.Renderer>(T[],System.Predicate`1<T>)
-inline int32_t Array_FindIndex_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m02D4C9DD97B8BBA4497CE7CF53DC2920106CF2C9 (RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* ___array0, Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA* ___match1, const RuntimeMethod* method)
+inline int32_t Array_FindIndex_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m02D4C9DD97B8BBA4497CE7CF53DC2920106CF2C9 (RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* ___0_array, Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA* ___1_match, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A*, Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA*, const RuntimeMethod*))Array_FindIndex_TisRuntimeObject_m98C6E76A5791AF4F95160B4CAC3F57FAAC40F474_gshared)(___array0, ___match1, method);
+	return ((  int32_t (*) (RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A*, Predicate_1_t2EAE563952B9634E74429D7AD3EAD02C9E7E76DA*, const RuntimeMethod*))Array_FindIndex_TisRuntimeObject_m98C6E76A5791AF4F95160B4CAC3F57FAAC40F474_gshared)(___0_array, ___1_match, method);
 }
 // System.Void System.Action`1<UnityEngine.Renderer>::Invoke(T)
-inline void Action_1_Invoke_mE67B6F0D744284AE2E11D1184F1AF54EFDFDAB28_inline (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___obj0, const RuntimeMethod* method)
+inline void Action_1_Invoke_mE67B6F0D744284AE2E11D1184F1AF54EFDFDAB28_inline (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0*, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___obj0, method);
+	((  void (*) (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0*, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler::TryGetColor(System.String,UnityEngine.Color&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m426F0B5D349C9FE981C8C274DF85E4B2A9CD379E (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___colorName0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___color1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m426F0B5D349C9FE981C8C274DF85E4B2A9CD379E (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___0_colorName, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_color, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SetColor(UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mEE9876B1CC30398EACDD6284ACE4795E885A3213 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___newColor0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mEE9876B1CC30398EACDD6284ACE4795E885A3213 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_newColor, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass15_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m4FDDD5C7458993B666C25823F4CFEF5F44A120B2 (U3CU3Ec__DisplayClass15_0_t2B4FC6DFF47726D3E5D0C7970955FC1B74901D36* __this, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<Oculus.Voice.Demo.ColorOverride>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2 (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2 (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m86F8EE5E688031C258A93C5563E90DFF12103CB2_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Int32 System.Array::FindIndex<Oculus.Voice.Demo.ColorOverride>(T[],System.Predicate`1<T>)
-inline int32_t Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400* ___array0, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* ___match1, const RuntimeMethod* method)
+inline int32_t Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400* ___0_array, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288* ___1_match, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400*, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288*, const RuntimeMethod*))Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA_gshared)(___array0, ___match1, method);
+	return ((  int32_t (*) (ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400*, Predicate_1_tB091F67366A751E123AD41CB21CF2E3E61BB0288*, const RuntimeMethod*))Array_FindIndex_TisColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8_mBCA7C1BB71E425A3A1407E4836A8A48E935ADDAA_gshared)(___0_array, ___1_match, method);
 }
 // System.Boolean UnityEngine.ColorUtility::TryParseHtmlString(System.String,UnityEngine.Color&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D (String_t* ___htmlString0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___color1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D (String_t* ___0_htmlString, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_color, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SetColor(UnityEngine.Renderer,UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___shape0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_shape, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) ;
 // UnityEngine.Material UnityEngine.Renderer::get_material()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_color(UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Action`2<UnityEngine.Renderer,UnityEngine.Color>::Invoke(T1,T2)
-inline void Action_2_Invoke_m5E5D920B1D42303705DCA57F88A702D002852494_inline (Action_2_t4F78E7817C71E8AAA5AACD11CDAA59C7CA20604E* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___arg10, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m5E5D920B1D42303705DCA57F88A702D002852494_inline (Action_2_t4F78E7817C71E8AAA5AACD11CDAA59C7CA20604E* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_arg1, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t4F78E7817C71E8AAA5AACD11CDAA59C7CA20604E*, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, const RuntimeMethod*))Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t4F78E7817C71E8AAA5AACD11CDAA59C7CA20604E*, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, const RuntimeMethod*))Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
@@ -1874,46 +2173,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 // System.String UnityEngine.Object::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<Oculus.Voice.Demo.ShortResponseColorHandler>()
 inline ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* GameObject_GetComponent_TisShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6_mB0F2CEFB2C518CB40CC627289AB4C85E18A7444F (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
 // System.Void Oculus.Voice.Demo.ShortResponseInstructions::ShapeSelected(UnityEngine.Renderer)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_mA8B66FFB637836487434E62526F8B3F9B850B9C9 (ShortResponseInstructions_tB1B1C3883C8A5D9EEEFB39BD56C885551821DB91* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___newShape0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_mA8B66FFB637836487434E62526F8B3F9B850B9C9 (ShortResponseInstructions_tB1B1C3883C8A5D9EEEFB39BD56C885551821DB91* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_newShape, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.Renderer>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m4FA40673099C2B0B6B60E3DBD2671AEDEC2A7E24 (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m4FA40673099C2B0B6B60E3DBD2671AEDEC2A7E24 (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_tC44940B0562C5ADFA6C6CD80984D4A4CFBA1E7A0*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.String System.String::Replace(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
 // System.Void Facebook.WitAi.VoiceService::Activate(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService_Activate_mDF24C37BA32110E82BD55AB90316FAB7247D7BC8 (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, String_t* ___text0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceService_Activate_mDF24C37BA32110E82BD55AB90316FAB7247D7BC8 (VoiceService_t632C41F7156160643165A0D2DAF4EEE6E5F73B99* __this, String_t* ___0_text, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
 inline Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // System.String[] Facebook.WitAi.WitResultUtilities::GetAllEntityValues(Facebook.WitAi.Lib.WitResponseNode,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* WitResultUtilities_GetAllEntityValues_mDEF19D98F132731A02D6F4B039855414CAC2DE4D (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___witResponse0, String_t* ___name1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* WitResultUtilities_GetAllEntityValues_mDEF19D98F132731A02D6F4B039855414CAC2DE4D (WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_witResponse, String_t* ___1_name, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::UpdateColor(System.String[],System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E67FA806470B99E85757F99F0DB (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___colorNames0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___shapes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E67FA806470B99E85757F99F0DB (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_colorNames, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_shapes, const RuntimeMethod* method) ;
 // System.Boolean System.String::op_Equality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::UpdateColorAllShapes(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColorAllShapes_mFA1E98C81941EFB16BBB3316AB86DC2D02779F31 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___colorNames0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColorAllShapes_mFA1E98C81941EFB16BBB3316AB86DC2D02779F31 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_colorNames, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::SetColor(UnityEngine.Transform,UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D918B79B2CCB2600A13D1B195A (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trans0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D918B79B2CCB2600A13D1B195A (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_trans, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Transform::get_childCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.UIShapesDemo.Instructions::UpdateStep()
@@ -1923,23 +2222,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167D
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::OnElapsedTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_OnElapsedTime_m63EC3884396E86DF99059B1983A3435D35C7B912 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::Log(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Log_mE6FE597A0BBEFB0213F0C21FA60C191B71675482 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, String_t* ___msg0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Log_mE6FE597A0BBEFB0213F0C21FA60C191B71675482 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, String_t* ___0_msg, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioSource::PlayClipAtPoint(UnityEngine.AudioClip,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayClipAtPoint_mA78328A70D3F1088B588EF6F811AAD6577F2B7BF (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayClipAtPoint_mA78328A70D3F1088B588EF6F811AAD6577F2B7BF (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Demo.BuiltInDemo.TimerController::ParseTime(System.String[],System.Double&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___entityValues0, double* ___time1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_entityValues, double* ___1_time, const RuntimeMethod* method) ;
 // System.String Oculus.Voice.Demo.BuiltInDemo.TimerController::GetFormattedTimeFromSeconds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TimerController_GetFormattedTimeFromSeconds_m60DD6BC2D15A5C572F1204EE3F8CB71532C14A9A (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Double System.TimeSpan::get_TotalSeconds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalSeconds_mED686E7CECE6A76A7DC38518698B9199DB8CDEA8 (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
 // System.TimeSpan System.TimeSpan::FromSeconds(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F (double ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpan_FromSeconds_m4401B50C0CA831134068595C6AF2F1CA92AAF80F (double ___0_value, const RuntimeMethod* method) ;
 // System.Double System.TimeSpan::get_TotalHours()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalHours_m753DFC812CEC8F9214EF5F9839C5B4A4DB0D2883 (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
 // System.Int32 System.TimeSpan::get_Minutes()
@@ -1949,11 +2248,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeSpan_get_Seconds_m8CA21613DC31BD0
 // System.Int32 System.TimeSpan::get_Milliseconds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TimeSpan_get_Milliseconds_m09D9D6D0033D5FBC62A3C4007CC716A85F4FC8EA (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Boolean System.Double::TryParse(System.String,System.Double&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_TryParse_m60AD55BC181D70F661BC2A2294E66B5466C3C018 (String_t* ___s0, double* ___result1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Double_TryParse_m60AD55BC181D70F661BC2A2294E66B5466C3C018 (String_t* ___0_s, double* ___1_result, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Text>()
 inline Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -2367,7 +2666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnDisable_mC22682403C
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::OnRequestStarted(Facebook.WitAi.WitRequest)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestStarted_m8A98A72F8C51818E027F713B34CCEF11953A412A (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* ___r0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestStarted_m8A98A72F8C51818E027F713B34CCEF11953A412A (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* ___0_r, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2386,7 +2685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestStarted_m8A9
 	}
 	{
 		// if (showJson) r.onRawResponse = (response) => textArea.text = response;
-		WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* L_1 = ___r0;
+		WitRequest_t9EBE9541762EBC83F63DE8E549A47CD273F212A6* L_1 = ___0_r;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)il2cpp_codegen_object_new(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C(L_2, __this, (intptr_t)((void*)InteractionHandler_U3COnRequestStartedU3Eb__9_0_mF3FEBE7EFF2F8FF435379E949AD9687371AF9A44_RuntimeMethod_var), NULL);
@@ -2404,12 +2703,12 @@ IL_001a:
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::OnRequestTranscript(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestTranscript_m7F477E615CA77D6149224F35CFC428ACCACF5BBA (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___transcript0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestTranscript_m7F477E615CA77D6149224F35CFC428ACCACF5BBA (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___0_transcript, const RuntimeMethod* method) 
 {
 	{
 		// textArea.text = transcript;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___textArea_5;
-		String_t* L_1 = ___transcript0;
+		String_t* L_1 = ___0_transcript;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		// }
@@ -2480,7 +2779,7 @@ IL_0019:
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::OnRequestResponse(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestResponse_mD626BC43DF858049ED759E87366889AB3E8804E8 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___response0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestResponse_mD626BC43DF858049ED759E87366889AB3E8804E8 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_response, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2499,7 +2798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestResponse_mD6
 	}
 	{
 		// if (!string.IsNullOrEmpty(response["text"]))
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1 = ___response0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_1 = ___0_response;
 		NullCheck(L_1);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_2;
 		L_2 = VirtualFuncInvoker1< WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, String_t* >::Invoke(7 /* Facebook.WitAi.Lib.WitResponseNode Facebook.WitAi.Lib.WitResponseNode::get_Item(System.String) */, L_1, _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0);
@@ -2515,7 +2814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestResponse_mD6
 	{
 		// textArea.text = "I heard: " + response["text"];
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___textArea_5;
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_6 = ___response0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_6 = ___0_response;
 		NullCheck(L_6);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_7;
 		L_7 = VirtualFuncInvoker1< WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB*, String_t* >::Invoke(7 /* Facebook.WitAi.Lib.WitResponseNode Facebook.WitAi.Lib.WitResponseNode::get_Item(System.String) */, L_6, _stringLiteralBFCC6EE94F1B7AA05A04750903E25F93A7188AE0);
@@ -2546,7 +2845,7 @@ IL_0057:
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::OnRequestError(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestError_m7F5752D6BBFFC01252EE0828A0A32EB0A09F08F2 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___error0, String_t* ___message1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestError_m7F5752D6BBFFC01252EE0828A0A32EB0A09F08F2 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2574,7 +2873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestError_m7F575
 		ArrayElementTypeCheck (L_3, _stringLiteral06055A31D913616225C8AA9808676FAD9AA4549A);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral06055A31D913616225C8AA9808676FAD9AA4549A);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
-		String_t* L_5 = ___error0;
+		String_t* L_5 = ___0_error;
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_5);
@@ -2583,7 +2882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_OnRequestError_m7F575
 		ArrayElementTypeCheck (L_6, _stringLiteralC2ABD53443E87B1D4332B55DE89F3F4C04D71253);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC2ABD53443E87B1D4332B55DE89F3F4C04D71253);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
-		String_t* L_8 = ___message1;
+		String_t* L_8 = ___1_message;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_8);
@@ -2627,12 +2926,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_ToggleActivation_m2E9
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::SetActivation(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_SetActivation_mDEDD01496E934DA04049F4C562B7DDA55E3CC8FE (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, bool ___toActivated0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_SetActivation_mDEDD01496E934DA04049F4C562B7DDA55E3CC8FE (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, bool ___0_toActivated, const RuntimeMethod* method) 
 {
 	{
 		// if (_active != toActivated)
 		bool L_0 = __this->____active_8;
-		bool L_1 = ___toActivated0;
+		bool L_1 = ___0_toActivated;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
 		{
 			goto IL_002f;
@@ -2640,7 +2939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_SetActivation_mDEDD01
 	}
 	{
 		// _active = toActivated;
-		bool L_2 = ___toActivated0;
+		bool L_2 = ___0_toActivated;
 		__this->____active_8 = L_2;
 		// if (_active)
 		bool L_3 = __this->____active_8;
@@ -2689,12 +2988,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler__ctor_m99FCA2EBCC4AC7
 	}
 }
 // System.Void Oculus.Voice.Demo.InteractionHandler::<OnRequestStarted>b__9_0(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_U3COnRequestStartedU3Eb__9_0_mF3FEBE7EFF2F8FF435379E949AD9687371AF9A44 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___response0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionHandler_U3COnRequestStartedU3Eb__9_0_mF3FEBE7EFF2F8FF435379E949AD9687371AF9A44 (InteractionHandler_t15828C462891DE52D1A7017CBD539754CB8B732E* __this, String_t* ___0_response, const RuntimeMethod* method) 
 {
 	{
 		// if (showJson) r.onRawResponse = (response) => textArea.text = response;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___textArea_5;
-		String_t* L_1 = ___response0;
+		String_t* L_1 = ___0_response;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		return;
@@ -2798,7 +3097,7 @@ IL_0020:
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::OnValidatePartialResponse(Facebook.WitAi.Data.VoiceSession)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidatePartialResponse_m6DD57FC8C590FCBE6D78F16DCE39C05C15AC0C37 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___sessionData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidatePartialResponse_m6DD57FC8C590FCBE6D78F16DCE39C05C15AC0C37 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___0_sessionData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2814,14 +3113,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidatePart
 	String_t* V_2 = NULL;
 	{
 		// if (sessionData == null || sessionData.response == null)
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_0 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_0 = ___0_sessionData;
 		if (!L_0)
 		{
 			goto IL_0011;
 		}
 	}
 	{
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_1 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_1 = ___0_sessionData;
 		NullCheck(L_1);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_2 = L_1->___response_1;
 		bool L_3;
@@ -2841,7 +3140,7 @@ IL_0011:
 IL_0012:
 	{
 		// WitIntentData intent = sessionData.response.GetFirstIntentData();
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_4 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_4 = ___0_sessionData;
 		NullCheck(L_4);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_5 = L_4->___response_1;
 		WitIntentData_t6A544591D0035DEADD1FEE4F4598099B2E4436FD* L_6;
@@ -2885,14 +3184,14 @@ IL_002f:
 	}
 	{
 		// string shape = sessionData.response.GetFirstEntityValue("shape:shape");
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_13 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_13 = ___0_sessionData;
 		NullCheck(L_13);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_14 = L_13->___response_1;
 		String_t* L_15;
 		L_15 = WitResultUtilities_GetFirstEntityValue_m86E5E3EEF5F22ED8A083862C5FB8CD46D6AB22D3(L_14, _stringLiteral3DFAD45D6A8DA43B5B1B588751F66ED962320CBC, NULL);
 		V_1 = L_15;
 		// OnValidateShapeSelect(sessionData, shape);
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_16 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_16 = ___0_sessionData;
 		String_t* L_17 = V_1;
 		ShortResponseColorHandler_OnValidateShapeSelect_m72B5BB464D9C4946BABCCAC30B30D759D14029FA(__this, L_16, L_17, NULL);
 		return;
@@ -2913,14 +3212,14 @@ IL_005c:
 	}
 	{
 		// string color = sessionData.response.GetFirstEntityValue("color:color");
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_21 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_21 = ___0_sessionData;
 		NullCheck(L_21);
 		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_22 = L_21->___response_1;
 		String_t* L_23;
 		L_23 = WitResultUtilities_GetFirstEntityValue_m86E5E3EEF5F22ED8A083862C5FB8CD46D6AB22D3(L_22, _stringLiteral982EB241688495C1AF6152F618833411DB4F9B35, NULL);
 		V_2 = L_23;
 		// OnValidateColorSet(sessionData, color);
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_24 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_24 = ___0_sessionData;
 		String_t* L_25 = V_2;
 		ShortResponseColorHandler_OnValidateColorSet_mF3B2056B3BB8B07360522B55BBC0778D908B9E52(__this, L_24, L_25, NULL);
 	}
@@ -2932,7 +3231,7 @@ IL_0088:
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::OnValidateShapeSelect(Facebook.WitAi.Data.VoiceSession,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShapeSelect_m72B5BB464D9C4946BABCCAC30B30D759D14029FA (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___sessionData0, String_t* ___shape1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShapeSelect_m72B5BB464D9C4946BABCCAC30B30D759D14029FA (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___0_sessionData, String_t* ___1_shape, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2944,7 +3243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShap
 	int32_t V_0 = 0;
 	{
 		// if (TryGetShapeIndex(shape, out index))
-		String_t* L_0 = ___shape1;
+		String_t* L_0 = ___1_shape;
 		bool L_1;
 		L_1 = ShortResponseColorHandler_TryGetShapeIndex_m84FAA11872A88E92D22FE2E5D52F31D799BC97BF(__this, L_0, (&V_0), NULL);
 		if (!L_1)
@@ -2954,7 +3253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShap
 	}
 	{
 		// Debug.Log("Shape: " + shape);
-		String_t* L_2 = ___shape1;
+		String_t* L_2 = ___1_shape;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC990E463878E76C160AA7A53DD24AC651B7F8544, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -2963,7 +3262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateShap
 		int32_t L_4 = V_0;
 		ShortResponseColorHandler_SelectShape_mD4B3D59B2C4A16BB5F0540884F2BDFC7CE2751D6(__this, L_4, NULL);
 		// sessionData.validResponse = true;
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_5 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_5 = ___0_sessionData;
 		NullCheck(L_5);
 		L_5->___validResponse_2 = (bool)1;
 	}
@@ -2975,7 +3274,7 @@ IL_0029:
 	}
 }
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler::TryGetShapeIndex(System.String,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetShapeIndex_m84FAA11872A88E92D22FE2E5D52F31D799BC97BF (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___shapeName0, int32_t* ___index1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetShapeIndex_m84FAA11872A88E92D22FE2E5D52F31D799BC97BF (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___0_shapeName, int32_t* ___1_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2997,12 +3296,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetShapeInd
 		U3CU3Ec__DisplayClass12_0__ctor_mEAC0FC12CAA4A216A148A598208ABDB5B57FA7A1(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass12_0_t9CFE5CB278A62A564AD53EE3B07A377174BD17B9* L_1 = V_0;
-		String_t* L_2 = ___shapeName0;
+		String_t* L_2 = ___0_shapeName;
 		NullCheck(L_1);
 		L_1->___shapeName_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___shapeName_0), (void*)L_2);
 		// index = _shapes == null ? -1 : Array.FindIndex(_shapes, (s) => string.Equals(s.gameObject.name, shapeName, StringComparison.CurrentCultureIgnoreCase));
-		int32_t* L_3 = ___index1;
+		int32_t* L_3 = ___1_index;
 		RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* L_4 = __this->____shapes_5;
 		G_B1_0 = L_3;
 		if (!L_4)
@@ -3034,13 +3333,13 @@ IL_0030:
 	{
 		*((int32_t*)G_B3_1) = (int32_t)G_B3_0;
 		// return index != -1;
-		int32_t* L_9 = ___index1;
+		int32_t* L_9 = ___1_index;
 		int32_t L_10 = *((int32_t*)L_9);
 		return (bool)((((int32_t)((((int32_t)L_10) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SelectShape(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD4B3D59B2C4A16BB5F0540884F2BDFC7CE2751D6 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, int32_t ___shapeIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD4B3D59B2C4A16BB5F0540884F2BDFC7CE2751D6 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, int32_t ___0_shapeIndex, const RuntimeMethod* method) 
 {
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* V_0 = NULL;
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B6_0 = NULL;
@@ -3049,7 +3348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD
 	{
 		// if (_shapeSelected != shapeIndex)
 		int32_t L_0 = __this->____shapeSelected_6;
-		int32_t L_1 = ___shapeIndex0;
+		int32_t L_1 = ___0_shapeIndex;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
 		{
 			goto IL_0053;
@@ -3057,7 +3356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SelectShape_mD
 	}
 	{
 		// _shapeSelected = shapeIndex;
-		int32_t L_2 = ___shapeIndex0;
+		int32_t L_2 = ___0_shapeIndex;
 		__this->____shapeSelected_6 = L_2;
 		// Renderer shape = _shapes != null && _shapeSelected >= 0 && _shapeSelected < _shapes.Length
 		//     ? _shapes[_shapeSelected]
@@ -3132,13 +3431,13 @@ IL_0053:
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::OnValidateColorSet(Facebook.WitAi.Data.VoiceSession,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateColorSet_mF3B2056B3BB8B07360522B55BBC0778D908B9E52 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___sessionData0, String_t* ___color1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateColorSet_mF3B2056B3BB8B07360522B55BBC0778D908B9E52 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* ___0_sessionData, String_t* ___1_color, const RuntimeMethod* method) 
 {
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		// if (TryGetColor(color, out c))
-		String_t* L_0 = ___color1;
+		String_t* L_0 = ___1_color;
 		bool L_1;
 		L_1 = ShortResponseColorHandler_TryGetColor_m426F0B5D349C9FE981C8C274DF85E4B2A9CD379E(__this, L_0, (&V_0), NULL);
 		if (!L_1)
@@ -3151,7 +3450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_OnValidateColo
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = V_0;
 		ShortResponseColorHandler_SetColor_mEE9876B1CC30398EACDD6284ACE4795E885A3213(__this, L_2, NULL);
 		// sessionData.validResponse = true;
-		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_3 = ___sessionData0;
+		VoiceSession_t91CD2D9FDE6B8FFF927125FF65929D922D08FE34* L_3 = ___0_sessionData;
 		NullCheck(L_3);
 		L_3->___validResponse_2 = (bool)1;
 	}
@@ -3163,7 +3462,7 @@ IL_0019:
 	}
 }
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler::TryGetColor(System.String,UnityEngine.Color&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m426F0B5D349C9FE981C8C274DF85E4B2A9CD379E (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___colorName0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___color1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m426F0B5D349C9FE981C8C274DF85E4B2A9CD379E (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, String_t* ___0_colorName, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3182,7 +3481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m4
 		U3CU3Ec__DisplayClass15_0__ctor_m4FDDD5C7458993B666C25823F4CFEF5F44A120B2(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass15_0_t2B4FC6DFF47726D3E5D0C7970955FC1B74901D36* L_1 = V_0;
-		String_t* L_2 = ___colorName0;
+		String_t* L_2 = ___0_colorName;
 		NullCheck(L_1);
 		L_1->___colorName_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___colorName_0), (void*)L_2);
@@ -3212,7 +3511,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ShortResponseColorHandler_TryGetColor_m4
 	}
 	{
 		// color = _colorOverride[overrideIndex].color;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_9 = ___color1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_9 = ___1_color;
 		ColorOverrideU5BU5D_tDD9389027A32857CEBB7BB31C6F3E2A24870A400* L_10 = __this->____colorOverride_8;
 		int32_t L_11 = V_1;
 		NullCheck(L_10);
@@ -3228,7 +3527,7 @@ IL_004a:
 		U3CU3Ec__DisplayClass15_0_t2B4FC6DFF47726D3E5D0C7970955FC1B74901D36* L_13 = V_0;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___colorName_0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_15 = ___color1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_15 = ___1_color;
 		bool L_16;
 		L_16 = ColorUtility_TryParseHtmlString_m8E4DF912AF247EE6893655537CDF0FB47BFE563D(L_14, L_15, NULL);
 		if (!L_16)
@@ -3248,7 +3547,7 @@ IL_005a:
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SetColor(UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mEE9876B1CC30398EACDD6284ACE4795E885A3213 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___newColor0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mEE9876B1CC30398EACDD6284ACE4795E885A3213 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_newColor, const RuntimeMethod* method) 
 {
 	RendererU5BU5D_t32FDD782F67917B2291EA4FF242719877440A02A* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -3298,7 +3597,7 @@ IL_002c:
 		V_2 = L_8;
 		// SetColor(shape, newColor);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_9 = V_2;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = ___newColor0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = ___0_newColor;
 		ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018(__this, L_9, L_10, NULL);
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
@@ -3327,14 +3626,14 @@ IL_0043:
 		NullCheck(L_14);
 		int32_t L_16 = L_15;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ___newColor0;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = ___0_newColor;
 		ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018(__this, L_17, L_18, NULL);
 		// }
 		return;
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseColorHandler::SetColor(UnityEngine.Renderer,UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___shape0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F1004DE3B09D3F7D132A328C275743C278018 (ShortResponseColorHandler_tE2F8B50E81543F37EE803194D8E35DAB1C2FF7D6* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_shape, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3346,7 +3645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F
 	Action_2_t4F78E7817C71E8AAA5AACD11CDAA59C7CA20604E* G_B2_0 = NULL;
 	{
 		// if (shape != null)
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___shape0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_shape;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -3357,11 +3656,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F
 	}
 	{
 		// shape.material.color = color;
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = ___shape0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2 = ___0_shape;
 		NullCheck(L_2);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3;
 		L_3 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_2, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___color1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___1_color;
 		NullCheck(L_3);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_3, L_4, NULL);
 		// OnShapeColorChanged?.Invoke(shape, color);
@@ -3380,8 +3679,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseColorHandler_SetColor_mD20F
 
 IL_0020:
 	{
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_7 = ___shape0;
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___color1;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_7 = ___0_shape;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_8 = ___1_color;
 		NullCheck(G_B3_0);
 		Action_2_Invoke_m5E5D920B1D42303705DCA57F88A702D002852494_inline(G_B3_0, L_7, L_8, NULL);
 	}
@@ -3419,11 +3718,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0__ctor_mEAC0FC1
 	}
 }
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass12_0::<TryGetShapeIndex>b__0(UnityEngine.Renderer)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass12_0_U3CTryGetShapeIndexU3Eb__0_mAB76D71702C359D3E8FBC8C80C4BE089B39A1441 (U3CU3Ec__DisplayClass12_0_t9CFE5CB278A62A564AD53EE3B07A377174BD17B9* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___s0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass12_0_U3CTryGetShapeIndexU3Eb__0_mAB76D71702C359D3E8FBC8C80C4BE089B39A1441 (U3CU3Ec__DisplayClass12_0_t9CFE5CB278A62A564AD53EE3B07A377174BD17B9* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_s, const RuntimeMethod* method) 
 {
 	{
 		// index = _shapes == null ? -1 : Array.FindIndex(_shapes, (s) => string.Equals(s.gameObject.name, shapeName, StringComparison.CurrentCultureIgnoreCase));
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___s0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_s;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
@@ -3453,11 +3752,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass15_0__ctor_m4FDDD5C
 	}
 }
 // System.Boolean Oculus.Voice.Demo.ShortResponseColorHandler/<>c__DisplayClass15_0::<TryGetColor>b__0(Oculus.Voice.Demo.ColorOverride)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass15_0_U3CTryGetColorU3Eb__0_m6506CF829834047DB3FD24F077A7652325E5684C (U3CU3Ec__DisplayClass15_0_t2B4FC6DFF47726D3E5D0C7970955FC1B74901D36* __this, ColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8 ___c0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass15_0_U3CTryGetColorU3Eb__0_m6506CF829834047DB3FD24F077A7652325E5684C (U3CU3Ec__DisplayClass15_0_t2B4FC6DFF47726D3E5D0C7970955FC1B74901D36* __this, ColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8 ___0_c, const RuntimeMethod* method) 
 {
 	{
 		// int overrideIndex = Array.FindIndex(_colorOverride, (c) => string.Equals(c.colorID, colorName, StringComparison.CurrentCultureIgnoreCase));
-		ColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8 L_0 = ___c0;
+		ColorOverride_t2C7C1E71F0FF6811037F06ABDA9717D5CCE03FC8 L_0 = ___0_c;
 		String_t* L_1 = L_0.___colorID_0;
 		String_t* L_2 = __this->___colorName_0;
 		bool L_3;
@@ -3557,7 +3856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_OnDisable_m889
 	}
 }
 // System.Void Oculus.Voice.Demo.ShortResponseInstructions::ShapeSelected(UnityEngine.Renderer)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_mA8B66FFB637836487434E62526F8B3F9B850B9C9 (ShortResponseInstructions_tB1B1C3883C8A5D9EEEFB39BD56C885551821DB91* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___newShape0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_mA8B66FFB637836487434E62526F8B3F9B850B9C9 (ShortResponseInstructions_tB1B1C3883C8A5D9EEEFB39BD56C885551821DB91* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_newShape, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3569,7 +3868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_
 	String_t* V_0 = NULL;
 	{
 		// if (newShape == null)
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___newShape0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_newShape;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -3590,7 +3889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShortResponseInstructions_ShapeSelected_
 IL_001b:
 	{
 		// string shapeName = newShape.gameObject.name;
-		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = ___newShape0;
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = ___0_newShape;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
@@ -3705,7 +4004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParallelTranscriptHandler__ctor_m66AEE81
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::SetColor(UnityEngine.Transform,UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D918B79B2CCB2600A13D1B195A (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trans0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D918B79B2CCB2600A13D1B195A (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_trans, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_color, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3715,14 +4014,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D91
 	}
 	{
 		// trans.GetComponent<Renderer>().material.color = color;
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___trans0;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_trans;
 		NullCheck(L_0);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1;
 		L_1 = Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8(L_0, Component_GetComponent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_mC91ACC92AD57CA6CA00991DAF1DB3830BCE07AF8_RuntimeMethod_var);
 		NullCheck(L_1);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2;
 		L_2 = Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656(L_1, NULL);
-		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___color1;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_color;
 		NullCheck(L_2);
 		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_2, L_3, NULL);
 		// }
@@ -3730,7 +4029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_SetColor_mBDD898B549D463D91
 	}
 }
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::UpdateColor(Facebook.WitAi.Lib.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_mEA72134864B15FD84CBE03FB7929A3304D0F7520 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___commandResult0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_mEA72134864B15FD84CBE03FB7929A3304D0F7520 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* ___0_commandResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3743,12 +4042,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_mEA72134864B15F
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* V_1 = NULL;
 	{
 		// string[] colorNames = commandResult.GetAllEntityValues("color:color");
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_0 = ___commandResult0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_0 = ___0_commandResult;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1;
 		L_1 = WitResultUtilities_GetAllEntityValues_mDEF19D98F132731A02D6F4B039855414CAC2DE4D(L_0, _stringLiteral982EB241688495C1AF6152F618833411DB4F9B35, NULL);
 		V_0 = L_1;
 		// string[] shapes = commandResult.GetAllEntityValues("shape:shape");
-		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_2 = ___commandResult0;
+		WitResponseNode_tACC149B056FE33C54D55A5EAB653A77902617DBB* L_2 = ___0_commandResult;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3;
 		L_3 = WitResultUtilities_GetAllEntityValues_mDEF19D98F132731A02D6F4B039855414CAC2DE4D(L_2, _stringLiteral3DFAD45D6A8DA43B5B1B588751F66ED962320CBC, NULL);
 		V_1 = L_3;
@@ -3761,7 +4060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_mEA72134864B15F
 	}
 }
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::UpdateColor(System.String[],System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E67FA806470B99E85757F99F0DB (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___colorNames0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___shapes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E67FA806470B99E85757F99F0DB (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_colorNames, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_shapes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3776,7 +4075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_3 = NULL;
 	{
 		// if (shapes.Length != 0 && colorNames.Length != shapes.Length)
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___shapes1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___1_shapes;
 		NullCheck(L_0);
 		if (!(((RuntimeArray*)L_0)->max_length))
 		{
@@ -3784,9 +4083,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E
 		}
 	}
 	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___0_colorNames;
 		NullCheck(L_1);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___shapes1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___1_shapes;
 		NullCheck(L_2);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))) == ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
 		{
@@ -3801,7 +4100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColor_m2CB9085C4CBA7E
 IL_000d:
 	{
 		// if (shapes.Length == 0 || shapes[0] == "color"){
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___shapes1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___1_shapes;
 		NullCheck(L_3);
 		if (!(((RuntimeArray*)L_3)->max_length))
 		{
@@ -3809,7 +4108,7 @@ IL_000d:
 		}
 	}
 	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___shapes1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___1_shapes;
 		NullCheck(L_4);
 		int32_t L_5 = 0;
 		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
@@ -3824,7 +4123,7 @@ IL_000d:
 IL_0020:
 	{
 		// UpdateColorAllShapes(colorNames);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___0_colorNames;
 		ColorChanger_UpdateColorAllShapes_mFA1E98C81941EFB16BBB3316AB86DC2D02779F31(__this, L_8, NULL);
 		// return;
 		return;
@@ -3840,7 +4139,7 @@ IL_0028:
 IL_002c:
 	{
 		// if (!ColorUtility.TryParseHtmlString(colorNames[entity], out var color)) return;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___0_colorNames;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
@@ -3876,7 +4175,7 @@ IL_003d:
 		V_3 = L_16;
 		// if (String.Equals(shapes[entity], child.name,
 		//         StringComparison.CurrentCultureIgnoreCase))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___shapes1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = ___1_shapes;
 		int32_t L_18 = V_0;
 		NullCheck(L_17);
 		int32_t L_19 = L_18;
@@ -3934,7 +4233,7 @@ IL_007b:
 	{
 		// for(var entity = 0; entity < colorNames.Length; entity++)
 		int32_t L_31 = V_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = ___0_colorNames;
 		NullCheck(L_32);
 		if ((((int32_t)L_31) < ((int32_t)((int32_t)(((RuntimeArray*)L_32)->max_length)))))
 		{
@@ -3947,7 +4246,7 @@ IL_007b:
 	}
 }
 // System.Void Oculus.Voice.Demo.UIShapesDemo.ColorChanger::UpdateColorAllShapes(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColorAllShapes_mFA1E98C81941EFB16BBB3316AB86DC2D02779F31 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___colorNames0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColorAllShapes_mFA1E98C81941EFB16BBB3316AB86DC2D02779F31 (ColorChanger_t6CDA4BE49F59B53175456527AF84DA5CBF953C1E* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_colorNames, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -3965,7 +4264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorChanger_UpdateColorAllShapes_mFA1E9
 IL_0006:
 	{
 		// if (!ColorUtility.TryParseHtmlString(colorNames[entity], out var color)) return;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_colorNames;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		int32_t L_2 = L_1;
@@ -3990,7 +4289,7 @@ IL_0013:
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = Transform_get_childCount_mE9C29C702AB662CC540CA053EDE48BDAFA35B4B0(L_5, NULL);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___0_colorNames;
 		NullCheck(L_7);
 		int32_t L_8 = V_1;
 		V_3 = ((int32_t)il2cpp_codegen_multiply(((int32_t)(L_6/((int32_t)(((RuntimeArray*)L_7)->max_length)))), ((int32_t)il2cpp_codegen_add(L_8, 1))));
@@ -4033,7 +4332,7 @@ IL_0048:
 	{
 		// for(var entity = 0; entity < colorNames.Length; entity++)
 		int32_t L_17 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = ___colorNames0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = ___0_colorNames;
 		NullCheck(L_18);
 		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
 		{
@@ -4251,7 +4550,7 @@ IL_003a:
 	}
 }
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::Log(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Log_mE6FE597A0BBEFB0213F0C21FA60C191B71675482 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, String_t* ___msg0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Log_mE6FE597A0BBEFB0213F0C21FA60C191B71675482 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4261,12 +4560,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_Log_mE6FE597A0BBEFB0213F
 	}
 	{
 		// Debug.Log(msg);
-		String_t* L_0 = ___msg0;
+		String_t* L_0 = ___0_msg;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_0, NULL);
 		// logText.text = msg;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_1 = __this->___logText_7;
-		String_t* L_2 = ___msg0;
+		String_t* L_2 = ___0_msg;
 		NullCheck(L_1);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_1, L_2);
 		// }
@@ -4340,7 +4639,7 @@ IL_0014:
 	}
 }
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::CreateTimer(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_CreateTimer_m4582CA7781BF59DCD104030EECD633174E070C55 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___entityValues0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_CreateTimer_m4582CA7781BF59DCD104030EECD633174E070C55 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_entityValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4372,7 +4671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_CreateTimer_m4582CA7781B
 IL_0013:
 	{
 		// if (ParseTime(entityValues, out _time))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___0_entityValues;
 		double* L_2 = (&__this->____time_4);
 		bool L_3;
 		L_3 = TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3(__this, L_1, L_2, NULL);
@@ -4393,7 +4692,7 @@ IL_0013:
 		ArrayElementTypeCheck (L_5, _stringLiteral674D566FF6101DD0EF36AC986DEF66156B7E9A54);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral674D566FF6101DD0EF36AC986DEF66156B7E9A54);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_5;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___0_entityValues;
 		NullCheck(L_7);
 		int32_t L_8 = 0;
 		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
@@ -4405,7 +4704,7 @@ IL_0013:
 		ArrayElementTypeCheck (L_10, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = L_10;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = ___0_entityValues;
 		NullCheck(L_12);
 		int32_t L_13 = 1;
 		String_t* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
@@ -4475,7 +4774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_ResumeTimer_m9AF61E20351
 	}
 }
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::SubtractTimeTimer(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_SubtractTimeTimer_m3BFEDB1F5F45E556FB4A268C870B28C988308CEC (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___entityValues0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_SubtractTimeTimer_m3BFEDB1F5F45E556FB4A268C870B28C988308CEC (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_entityValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4506,7 +4805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_SubtractTimeTimer_m3BFED
 IL_0014:
 	{
 		// if (ParseTime(entityValues, out var time))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___0_entityValues;
 		bool L_2;
 		L_2 = TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3(__this, L_1, (&V_0), NULL);
 		if (!L_2)
@@ -4516,11 +4815,11 @@ IL_0014:
 	}
 	{
 		// var msg = $"{entityValues[0]} {entityValues[1]}(s) were subtracted from the timer.";
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___0_entityValues;
 		NullCheck(L_3);
 		int32_t L_4 = 0;
 		String_t* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ___0_entityValues;
 		NullCheck(L_6);
 		int32_t L_7 = 1;
 		String_t* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
@@ -4565,7 +4864,7 @@ IL_0073:
 	}
 }
 // System.Void Oculus.Voice.Demo.BuiltInDemo.TimerController::AddTimeToTimer(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_AddTimeToTimer_m025F8A2C0EFF94F5BB7E5A57EFC23D2605600EA0 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___entityValues0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_AddTimeToTimer_m025F8A2C0EFF94F5BB7E5A57EFC23D2605600EA0 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_entityValues, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4596,7 +4895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimerController_AddTimeToTimer_m025F8A2C
 IL_0014:
 	{
 		// if (ParseTime(entityValues, out var time))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___0_entityValues;
 		bool L_2;
 		L_2 = TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3(__this, L_1, (&V_0), NULL);
 		if (!L_2)
@@ -4610,11 +4909,11 @@ IL_0014:
 		double L_4 = V_0;
 		__this->____time_4 = ((double)il2cpp_codegen_add(L_3, L_4));
 		// var msg = $"{entityValues[0]} {entityValues[1]}(s) were added to the timer.";
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = ___0_entityValues;
 		NullCheck(L_5);
 		int32_t L_6 = 0;
 		String_t* L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___0_entityValues;
 		NullCheck(L_8);
 		int32_t L_9 = 1;
 		String_t* L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
@@ -4735,7 +5034,7 @@ IL_0037:
 	}
 }
 // System.Boolean Oculus.Voice.Demo.BuiltInDemo.TimerController::ParseTime(System.String[],System.Double&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___entityValues0, double* ___time1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A667F5E1BB40494445A6AEBB85A3 (TimerController_t0FB861D29C95254301A99447879F8DD59515B291* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_entityValues, double* ___1_time, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4747,11 +5046,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A
 	String_t* V_0 = NULL;
 	{
 		// time = _time;
-		double* L_0 = ___time1;
+		double* L_0 = ___1_time;
 		double L_1 = __this->____time_4;
 		*((double*)L_0) = (double)L_1;
 		// if (entityValues.Length > 0 && double.TryParse(entityValues[0], out time))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_entityValues;
 		NullCheck(L_2);
 		if (!(((RuntimeArray*)L_2)->max_length))
 		{
@@ -4759,11 +5058,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A
 		}
 	}
 	{
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___0_entityValues;
 		NullCheck(L_3);
 		int32_t L_4 = 0;
 		String_t* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
-		double* L_6 = ___time1;
+		double* L_6 = ___1_time;
 		bool L_7;
 		L_7 = Double_TryParse_m60AD55BC181D70F661BC2A2294E66B5466C3C018(L_5, L_6, NULL);
 		if (!L_7)
@@ -4773,7 +5072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A
 	}
 	{
 		// if (entityValues.Length < 2)
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___0_entityValues;
 		NullCheck(L_8);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length))) >= ((int32_t)2)))
 		{
@@ -4791,7 +5090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimerController_ParseTime_m5A4D39AD5CA5A
 IL_0028:
 	{
 		// if (!string.IsNullOrEmpty(entityValues[1]))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = ___0_entityValues;
 		NullCheck(L_10);
 		int32_t L_11 = 1;
 		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
@@ -4804,7 +5103,7 @@ IL_0028:
 	}
 	{
 		// switch (entityValues[1])
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___entityValues0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___0_entityValues;
 		NullCheck(L_14);
 		int32_t L_15 = 1;
 		String_t* L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
@@ -4833,8 +5132,8 @@ IL_0028:
 IL_0052:
 	{
 		// time *= 60;
-		double* L_21 = ___time1;
-		double* L_22 = ___time1;
+		double* L_21 = ___1_time;
+		double* L_22 = ___1_time;
 		double L_23 = *((double*)L_22);
 		*((double*)L_21) = (double)((double)il2cpp_codegen_multiply(L_23, (60.0)));
 		// break;
@@ -4844,8 +5143,8 @@ IL_0052:
 IL_0062:
 	{
 		// time *= 60 * 60;
-		double* L_24 = ___time1;
-		double* L_25 = ___time1;
+		double* L_24 = ___1_time;
+		double* L_25 = ___1_time;
 		double L_26 = *((double*)L_25);
 		*((double*)L_24) = (double)((double)il2cpp_codegen_multiply(L_26, (3600.0)));
 	}
@@ -4978,13 +5277,13 @@ IL_0009:
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline (Action_2_tA6D2280AF26A98A178E1D2455D1B9A83FADE20C8* __this, RuntimeObject* ___arg10, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m89E01046D1A3D559DC775C3D573C844C7188EBBF_gshared_inline (Action_2_tA6D2280AF26A98A178E1D2455D1B9A83FADE20C8* __this, RuntimeObject* ___0_arg1, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
