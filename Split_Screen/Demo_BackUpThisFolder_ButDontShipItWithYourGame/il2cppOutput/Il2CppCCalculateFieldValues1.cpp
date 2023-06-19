@@ -8244,6 +8244,17 @@ struct ContextAwareResult_t3CCEE7D0B6510492A4EE1A2F828BDDF012ADBFDA  : public La
 	uint8_t ____flags_11;
 };
 
+// UnityEngine.ContextMenu
+struct ContextMenu_tAD34D12FC1C28194486FB5BF28B5954D0814E8EF  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String UnityEngine.ContextMenu::menuItem
+	String_t* ___menuItem_0;
+	// System.Boolean UnityEngine.ContextMenu::validate
+	bool ___validate_1;
+	// System.Int32 UnityEngine.ContextMenu::priority
+	int32_t ___priority_2;
+};
+
 // UnityEngine.Rendering.CoreCameraValues
 struct CoreCameraValues_t5BD0108A962D53208E8523BA29AFFA9F9A295F1F 
 {
@@ -34691,6 +34702,10 @@ struct CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED_StaticFields
 
 // System.Net.ContextAwareResult
 
+// UnityEngine.ContextMenu
+
+// UnityEngine.ContextMenu
+
 // UnityEngine.Rendering.CoreCameraValues
 
 // UnityEngine.Rendering.CoreCameraValues
@@ -46157,6 +46172,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5483[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5484[3] = 
 {
 	static_cast<int32_t>(offsetof(CreateAssetMenuAttribute_tDF668493A973633E6641C8FD2673DAE205126E9E, ___U3CmenuNameU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(CreateAssetMenuAttribute_tDF668493A973633E6641C8FD2673DAE205126E9E, ___U3CfileNameU3Ek__BackingField_1)),static_cast<int32_t>(offsetof(CreateAssetMenuAttribute_tDF668493A973633E6641C8FD2673DAE205126E9E, ___U3CorderU3Ek__BackingField_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5485[3] = 
+{
+	static_cast<int32_t>(offsetof(ContextMenu_tAD34D12FC1C28194486FB5BF28B5954D0814E8EF, ___menuItem_0)),static_cast<int32_t>(offsetof(ContextMenu_tAD34D12FC1C28194486FB5BF28B5954D0814E8EF, ___validate_1)),static_cast<int32_t>(offsetof(ContextMenu_tAD34D12FC1C28194486FB5BF28B5954D0814E8EF, ___priority_2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5489[3] = 
 {
 	static_cast<int32_t>(offsetof(HelpURLAttribute_tC499F826613B34E001AEAE5D42BA2B3AD365E91D, ___m_Url_0)),static_cast<int32_t>(offsetof(HelpURLAttribute_tC499F826613B34E001AEAE5D42BA2B3AD365E91D, ___m_Dispatcher_1)),static_cast<int32_t>(offsetof(HelpURLAttribute_tC499F826613B34E001AEAE5D42BA2B3AD365E91D, ___m_DispatchingFieldName_2)),};
